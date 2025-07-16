@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfideta_site=self.webpackChunkfideta_site||[]).push([[858],{5516:e=>{e.exports=JSON.parse('{"name":"docusaurus-plugin-content-blog","id":"default"}')}}]);
