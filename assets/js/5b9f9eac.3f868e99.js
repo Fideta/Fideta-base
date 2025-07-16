@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfideta_site=self.webpackChunkfideta_site||[]).push([[673],{9901:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/Fideta-base/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

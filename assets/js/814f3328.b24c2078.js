@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfideta_site=self.webpackChunkfideta_site||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Le commencement","permalink":"/Fideta-base/blog/2025/07/13/le-commencement","unlisted":false,"date":"2025-07-13T00:00:00.000Z"}]}')}}]);
