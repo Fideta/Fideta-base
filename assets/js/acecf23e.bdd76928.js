@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfideta_site=self.webpackChunkfideta_site||[]).push([[903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/Fideta-base/blog","blogTitle":"Blog","authorsListPath":"/Fideta-base/blog/authors"}')}}]);
