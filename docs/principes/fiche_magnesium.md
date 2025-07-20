@@ -5,7 +5,7 @@
 
 ---
 
-## 🟡 Note globale : **C**  
+## Avis global :  
 Le magnésium est **efficace pour corriger une carence avérée**, mais ces situations sont **rares** et souvent **médicalisées**. Les compléments en vente libre visent des usages (crampes, stress, fatigue…) **non validés scientifiquement**, ce qui limite leur pertinence réelle.
 
 ---

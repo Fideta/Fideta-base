@@ -23,7 +23,14 @@ Cela signifie que les résultats d’un **essai clinique contrôlé** ont plus d
 
 ## Notation de A à F
 
-Fideta attribue une note globale à chaque complément selon les preuves disponibles, leur qualité, leur cohérence, et les éventuels **risques pour la santé**.
+Fideta attribue à chaque complément une **note globale**, fondée sur :
+
+- la **qualité des preuves scientifiques disponibles**  
+- leur **cohérence entre études**  
+- et les **éventuels risques pour la santé**
+
+> 🔍 **Les notes sont attribuées par indication** : un ingrédient peut être efficace dans un contexte précis… et inutile dans un autre.  
+> Seule une **dangerosité avérée** entraîne une exclusion générale (note **F**).
 
 | **Note** | **Couleur**     | **Description**                                                                                      | **Exemple**                                |
 |----------|------------------|------------------------------------------------------------------------------------------------------|--------------------------------------------|
@@ -35,7 +42,7 @@ Fideta attribue une note globale à chaque complément selon les preuves disponi
 | ☠️ **F** | Noir            | Produit à éviter : risques connus, effets secondaires graves ou inefficacité démontrée              | **Garcinia cambogia** pour la perte de poids |
 
 > ℹ️ **Important** : une mauvaise note ne signifie pas toujours "dangereux", mais peut simplement indiquer **l'absence de bénéfices démontrés**.  
-> La note **F**, en revanche, alerte sur un **risque établi** pour la santé.
+> La note **F**, en revanche, alerte sur un **risque établi ou inacceptable** pour la santé.
 
 ---
 

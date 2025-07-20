@@ -14,17 +14,18 @@
 
 ## 📦 Composition et analyse
 
-| Ingrédient                  | Quantité (pour 2 comprimés) | Commentaire évaluation Fideta                      |
-|----------------------------|------------------------------|----------------------------------------------------|
-| Magnésium marin (Hypro-Ri® Mag) | 300 mg magnésium élément     | Forme principalement à base d’oxyde : très faible biodisponibilité. Aucun bénéfice prouvé chez sujets non carencés. |
-| Vitamine B6                | 2 mg (143 % VNR)             | Dose utile, cofacteur pertinent mais redondant si alimentation correcte. |
-| Taurine                    | 180 mg                       | Aucune preuve d’efficacité dans ce contexte. Usage cosmétique sans soutien scientifique. |
+| Ingrédient                      | Quantité (pour 2 comprimés) | Commentaire Fideta                                                         |
+|--------------------------------|------------------------------|----------------------------------------------------------------------------|
+| [Magnésium marin (Hypro-Ri® Mag)](/docs/principes/fiche_magnesium) | 300 mg magnésium élément     | Majoritairement sous forme d’oxyde : biodisponibilité très faible. Forme “vectorisée” non validée. 
+| [Vitamine B6](/docs/principes/fiche_vitamine_b6)              | 2 mg (143 % VNR)             | Pertinente en cofacteur, mais rarement nécessaire avec une alimentation équilibrée, aucun effet démontré pour l'absorption du magnésium |
+| [Taurine](/docs/principes/fiche_taurine)                        | 180 mg                       | Aucun effet démontré dans ce contexte.                   |
+
 
 ---
 
 ## 🎯 Pertinence scientifique
 
-| Fonction ciblée     | Effet revendiqué            | Niveau de preuve | Commentaire |
+| Fonction ciblée     | Effet attendu            | Niveau de preuve | Commentaire |
 |---------------------|-----------------------------|------------------|-------------|
 | Fatigue             | Réduction de la fatigue     | ❌ Non justifié  | Valide uniquement en cas de carence confirmée |
 | Système nerveux     | Fonctionnement normal       | ❌ Non justifié  | Allégation autorisée mais inapplicable au grand public |
@@ -52,9 +53,9 @@
 
 | Critère     | Note | Commentaire                                                       |
 |-------------|------|-------------------------------------------------------------------|
-| Efficacité  | E    | Inutile sans carence, forme mal absorbée                          |
-| Sécurité    | B    | Tolérance correcte si absence de pathologie                       |
-| Qualité     | C    | Technologie propriétaire non validée chez l'humain, marketing flou              |
+| Efficacité  |     | Inutile sans carence, forme mal absorbée                          |
+| Sécurité    | B 🟢   | Tolérance correcte si absence de pathologie                       |
+| Qualité     | C 🟡   | Technologie propriétaire non validée chez l'humain, marketing flou              |
 
 ---
 

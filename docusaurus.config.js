@@ -1,18 +1,18 @@
 // @ts-check
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Fideta',
   tagline: 'Compléments alimentaires décodés par la science, pas par le marketing',
-  favicon: 'img/fidetaicon.ico',
+  favicon: 'img/fidetaico.ico',
 
   future: {
     v4: true,
   },
 
-  url: 'https://fideta.github.io',
-  baseUrl: '/Fideta-base/',
+  url: 'https://fideta.fr',
+  baseUrl: '/',
 
   organizationName: 'Fideta',
   projectName: 'Fideta-base',
@@ -32,7 +32,6 @@ const config = {
       {
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/Fideta/Fideta-base/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -83,7 +82,16 @@ const config = {
           label: 'Qui suis-je',
           position: 'left',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          to: '/blog',
+          label: 'Blog',
+          position: 'left',
+        },
+        {
+          to: '/search',
+          label: '🔍 Rechercher',
+          position: 'right',
+        },
         {
           href: 'https://github.com/Fideta/Fideta-base',
           label: 'GitHub',
@@ -137,6 +145,25 @@ const config = {
       darkTheme: prismThemes.dracula,
     },
   },
+
+  // ➕ Scripts externes : Pagefind + Google Analytics
+  scripts: [
+    {
+      src: '/pagefind-loader.js',
+      async: true,
+    },
+    {
+    src: '/ga.js',
+  },
+  {
+    src: '/pagefind-loader.js',
+    async: true,
+  },
+  ],
+
+  stylesheets: [
+    '/pagefind/pagefind-ui.css',
+  ],
 };
 
 export default config;
