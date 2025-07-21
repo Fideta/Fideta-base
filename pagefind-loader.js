@@ -20,14 +20,23 @@ window.addEventListener('DOMContentLoaded', () => {
         search_label: 'Recherche',
         search_button_text: 'Rechercher',
         aria_search_label: 'Recherche sur le site',
-        total_results: '{count} résultat(s)',
+        total_results: 'Résultat(s)',
         results_for: 'Résultats pour “{query}”',
         no_results_for: 'Aucun résultat pour “{query}”',
         load_more: 'Charger plus de résultats',
         page_label: 'Page',
         result_found: '1 résultat trouvé',
-        results_found: '{count} résultats trouvés',
+        results_found: 'Résultats trouvés',
       },
+    });
+
+    // ✅ Tracking GA4 des recherches utilisateur
+    document.addEventListener('input', function (e) {
+      if (e.target.matches('input[data-pagefind-search]')) {
+        gtag?.('event', 'search', {
+          search_term: e.target.value,
+        });
+      }
     });
   });
 });
