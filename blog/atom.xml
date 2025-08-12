@@ -6,7 +6,7 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://fideta.fr/blog"/>
     <subtitle>Fideta Blog</subtitle>
-    <icon>https://fideta.fr/img/fidetaico.ico</icon>
+    <icon>https://fideta.fr/img/favico.ico</icon>
     <entry>
         <title type="html"><![CDATA[Le commencement]]></title>
         <id>https://fideta.fr/blog/le-commencement</id>
