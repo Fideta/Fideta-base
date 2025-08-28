@@ -7,7 +7,7 @@ synonyms: ["Papaver rhoeas", "Poppy red", "Corn poppy"]
 slug: /principes/coquelicot
 ---
 
-# Coquelicot test
+# Coquelicot
 
 **Nom scientifique** : *Papaver rhoeas* L.  
 **Partie utilisée** : Pétales (*Papaveris rhoeados flos*)  
@@ -92,4 +92,5 @@ La plante contient des alcaloïdes isoquinoléiques en faible quantité. Si les 
 7. Gambaro V. *Analysis of contaminated extracts of *P. rhoeas* with *P. bracteatum* (thébaïne).* Planta Med. 2012.  
 
 ---
+
 
