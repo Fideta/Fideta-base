@@ -1,11 +1,12 @@
 // @ts-check
 import { themes as prismThemes } from 'prism-react-renderer';
+import path from 'path';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Fideta',
   tagline: 'Compléments alimentaires décodés par la science, pas par le marketing',
-  favicon: 'img/fidetaico.ico',
+  favicon: 'img/favico.ico', // garde ton .ico principal
 
   future: {
     v4: true,
@@ -51,8 +52,41 @@ const config = {
     ],
   ],
 
+  // ✅ Google Analytics 4
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-HHB456PQGJ',
+        anonymizeIP: true,
+      },
+    ],
+    path.resolve(__dirname, 'plugins/principes-frontmatter'),
+    path.resolve(__dirname, 'plugins/produits-frontmatter'),
+  ],
+
   themeConfig: {
+    // Image par défaut pour Open Graph & Twitter
     image: 'img/fideta-social-card.png',
+    metadata: [
+      {
+        name: 'description',
+        content:
+          'Analyse indépendante des compléments alimentaires, basée sur le consensus scientifique. Fiches détaillées, preuves et recommandations.',
+      },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:site_name', content: 'Fideta' },
+      { property: 'og:url', content: 'https://fideta.fr' },
+      { property: 'og:image', content: 'https://fideta.fr/img/fideta-social-card.png' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:title', content: 'Fideta' },
+      {
+        name: 'twitter:description',
+        content:
+          'Analyse indépendante des compléments alimentaires, basée sur le consensus scientifique.',
+      },
+      { name: 'twitter:image', content: 'https://fideta.fr/img/fideta-social-card.png' },
+    ],
     navbar: {
       title: 'Fideta',
       logo: {
@@ -60,43 +94,14 @@ const config = {
         src: 'img/logofideta.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'principesSidebar',
-          position: 'left',
-          label: 'Principes actifs',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'produitsSidebar',
-          position: 'left',
-          label: 'Produits analysés',
-        },
-        {
-          to: '/docs/methodologie',
-          label: 'Méthodologie',
-          position: 'left',
-        },
-        {
-          to: '/docs/qui-sommes-nous',
-          label: 'Qui suis-je',
-          position: 'left',
-        },
-        {
-          to: '/blog',
-          label: 'Blog',
-          position: 'left',
-        },
-        {
-          to: '/search',
-          label: '🔍 Rechercher',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/Fideta/Fideta-base',
-          label: 'GitHub',
-          position: 'right',
-        },
+        { to: '/principes-actifs', label: 'Principes actifs', position: 'left' },
+        { to: '/produits', label: 'Produits analysés', position: 'left' },
+        { to: '/docs/methodologie', label: 'Méthodologie', position: 'left' },
+        { to: '/docs/qui-sommes-nous', label: 'Qui sommes-nous', position: 'left' },
+        { to: '/blog', label: 'Actu', position: 'left' },
+        { to: '/scan', label: 'Scanner', position: 'right', className: 'fab-scan' },
+        { to: '/search', label: '🔍 Rechercher', position: 'right' },
+        { to: '/contact', label: 'Nous contacter', position: 'right' },
       ],
     },
     footer: {
@@ -104,37 +109,20 @@ const config = {
       links: [
         {
           title: 'Fideta',
-          items: [
-            {
-              label: 'Méthodologie',
-              to: '/docs/methodologie',
-            },
-          ],
+          items: [{ label: 'Méthodologie', to: '/docs/methodologie' }],
         },
         {
           title: 'Community',
           items: [
-            {
-              label: 'Linkedin',
-              href: 'https://www.linkedin.com/company/fideta-app/',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/Fideta_app',
-            },
+            { label: 'Linkedin', href: 'https://www.linkedin.com/company/fideta-app/' },
+            { label: 'X', href: 'https://x.com/Fideta_app' },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/Fideta/Fideta-base',
-            },
+            { label: 'Actu', to: '/blog' },
+            { label: 'Nous contacter', to: '/contact' },
           ],
         },
       ],
@@ -146,24 +134,12 @@ const config = {
     },
   },
 
-  // ➕ Scripts externes : Pagefind + Google Analytics
   scripts: [
-    {
-      src: '/pagefind-loader.js',
-      async: true,
-    },
-    {
-    src: '/ga.js',
-  },
-  {
-    src: '/pagefind-loader.js',
-    async: true,
-  },
+    { src: '/pagefind-loader.js', async: true },
+    { src: '/auto-table-labels.js', defer: true },
   ],
 
-  stylesheets: [
-    '/pagefind/pagefind-ui.css',
-  ],
+  stylesheets: ['/pagefind/pagefind-ui.css'],
 };
 
 export default config;

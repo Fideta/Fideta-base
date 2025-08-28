@@ -1,62 +1,202 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/* =========================================================
+   FIDETA — CSS global + Fiches produits (rail fixe à gauche)
+   ========================================================= */
 
-/* You can override the default Infima variables here. */
-:root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+/* ---------- Palette & tokens globaux ---------- */
+:root{
+  --ifm-color-primary:#2e8555;
+  --ifm-color-primary-dark:#29784c;
+  --ifm-color-primary-darker:#277148;
+  --ifm-color-primary-darkest:#205d3b;
+  --ifm-color-primary-light:#33925d;
+  --ifm-color-primary-lighter:#359962;
+  --ifm-color-primary-lightest:#3cad6e;
+
+  --ifm-code-font-size:95%;
+  --docusaurus-highlighted-code-line-bg:rgba(0,0,0,0.1);
+
+  --guide-bg:#F4F9F5;
+  --card-bg:#FFFFFF;
+  --card-border:#E6ECE6;
+  --card-shadow:0 10px 26px rgba(0,0,0,.05);
+
+  --text-muted:#64706A;
+  --title:#2F7550;
+
+  --table-head:#EEF1F3;
+
+  /* Layout produits (valeurs par défaut, surchargées en desktop plus bas) */
+  --rail-left:12px;
+  --rail-width:300px;
+  --rail-gap:8px;
+  --nav-top:96px;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+[data-theme='dark']{
+  --ifm-color-primary:#25c2a0;
+  --ifm-color-primary-dark:#21af90;
+  --ifm-color-primary-darker:#1fa588;
+  --ifm-color-primary-darkest:#1a8870;
+  --ifm-color-primary-light:#29d5b0;
+  --ifm-color-primary-lighter:#32d8b4;
+  --ifm-color-primary-lightest:#4fddbf;
+
+  --docusaurus-highlighted-code-line-bg:rgba(0,0,0,.35);
+
+  --guide-bg:#0F1512;
+  --card-bg:#111418;
+  --card-border:#1F252B;
+  --card-shadow:0 10px 26px rgba(0,0,0,.55);
+
+  --text-muted:#9AA6A0;
+  --title:#7EE2B8;
+
+  --table-head:#1B2227;
 }
 
-/* Justification du texte des pages Markdown */
-.markdown p {
-  text-align: justify;
+/* ---------- Boutons & liens ---------- */
+.button.button--primary,
+.btn.btn--primary,
+.theme-btn.theme-btn--primary{
+  background:var(--ifm-color-primary) !important;
+  border-color:var(--ifm-color-primary) !important;
+  color:#fff !important;
+}
+.button.button--primary:hover,
+.btn.btn--primary:hover,
+.theme-btn.theme-btn--primary:hover{
+  background:var(--ifm-color-primary-dark) !important;
+  border-color:var(--ifm-color-primary-dark) !important;
+}
+a{ color:var(--ifm-color-primary); }
+a:hover{ color:var(--ifm-color-primary-dark); }
+
+/* ---------- Markdown global ---------- */
+.markdown{
+  width:100%;
+  max-width:95ch;
+  margin:0 auto;
+  padding:1rem 2rem;
+  font-size:17px;
+  line-height:1.7;
+}
+.markdown p,.markdown li{ text-align:justify; }
+.markdown h1,.markdown h2,.markdown h3{ margin-top:2rem; font-weight:600; }
+.markdown table{ width:100%; }
+.markdown th,.markdown td{ vertical-align:top; }
+
+/* ---------- Tables responsive ---------- */
+@media (max-width:768px){
+  .theme-table-container table,
+  .theme-table-container thead,
+  .theme-table-container tbody,
+  .theme-table-container th,
+  .theme-table-container td,
+  .theme-table-container tr{ display:block; width:100%; }
+  .theme-table-container thead{ display:none; }
+  .theme-table-container tr{
+    margin-bottom:1rem;
+    border:1px solid var(--card-border);
+    padding:.75rem;
+    border-radius:10px;
+    background:var(--card-bg);
+    box-shadow:var(--card-shadow);
+  }
+  .theme-table-container td{ padding:.25rem .5rem; position:relative; }
+  .theme-table-container td::before{
+    content:attr(data-label);
+    font-weight:600;
+    display:block;
+    margin-bottom:.25rem;
+    color:var(--text-muted);
+  }
+}
+/* ===== NAVBAR : texte noir (base/visited), vert au survol/focus ===== */
+.navbar :is(.navbar__link, .dropdown__link, a) {
+  color: #000;
+}
+.navbar :is(.navbar__link, .dropdown__link, a):visited {
+  color: #000;
+}
+.navbar :is(.navbar__link, .dropdown__link, a):is(:hover, :focus-visible, :active) {
+  color: var(--ifm-color-primary);
 }
 
-.markdown li {
-  text-align: justify;
+/* ===== BANDEAU BAS (footer/announcement) : texte blanc, vert au survol ===== */
+.footer,
+.footer :is(a, .footer__link),
+.announcementBar,
+.announcementBar a,
+.bottom-banner,
+.bottom-banner a{
+  color: #fff;
+}
+.footer :is(a, .footer__link):is(:hover, :focus-visible, :active),
+.announcementBar a:is(:hover, :focus-visible, :active),
+.bottom-banner a:is(:hover, :focus-visible, :active){
+  color: var(--ifm-color-primary);
 }
 
-/* ✅ Amélioration de la lisibilité du contenu Markdown */
-.markdown {
-  width: 100%;
-  max-width: 95ch; /* ch = largeur moyenne de caractère */
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1rem 2rem;
-  font-size: 17px;
-  line-height: 1.7;
+/* Les icônes suivent la couleur du texte */
+.navbar :is(a, .navbar__link, .dropdown__link) svg,
+.footer :is(a, .footer__link) svg,
+.announcementBar a svg,
+.bottom-banner a svg{
+  color: currentColor;
+  fill: currentColor;
+}
+/* ===== Navbar : lien actif toujours VERT (desktop, mobile, dropdown) ===== */
+.navbar :is(.navbar__link--active, a[aria-current="page"]),
+.navbar .dropdown__link--active,
+.navbar :is(.menu__link--active, .menu__link[aria-current="page"]) {
+  color: var(--ifm-color-primary) !important;
 }
 
-.markdown p,
-.markdown li {
-  text-align: justify;
+/* Même couleur au survol/focus quand actif */
+.navbar :is(.navbar__link--active, a[aria-current="page"]):is(:hover, :focus-visible),
+.navbar .dropdown__link--active:is(:hover, :focus-visible),
+.navbar :is(.menu__link--active, .menu__link[aria-current="page"]):is(:hover, :focus-visible){
+  color: var(--ifm-color-primary) !important;
 }
+/* FAB "Scanner" — s'applique au lien de navbar qui a className: 'fab-scan' */
+.navbar .fab-scan {
+  position: fixed;            /* flottant au-dessus du contenu */
+  right: calc(env(safe-area-inset-right, 0px) + 16px); /* bas-droite */
+  left: auto;
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 16px);
+  transform: none;            /* plus de translateX */
+  z-index: 2147483647;
 
-.markdown h1,
-.markdown h2,
-.markdown h3 {
-  margin-top: 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 12px 18px;         /* taille inchangée */
+  border-radius: 999px;
+  background: var(--ifm-color-primary);
+  color: #fff !important;
+  text-decoration: none !important;
   font-weight: 600;
+  box-shadow: 0 10px 24px rgba(0,0,0,.18);
+  -webkit-tap-highlight-color: transparent;
+  white-space: nowrap;        /* évite le retour à la ligne */
+  touch-action: manipulation; /* meilleur tap sur mobile */
+}
+
+/* Press feedback (sans translateX) */
+.navbar .fab-scan:active {
+  transform: scale(.98);
+}
+
+/* Icône (si tu n’utilises pas l’emoji dans le label) */
+.navbar .fab-scan::before {
+  content: "📷";
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-right: 8px;
+}
+
+/* Mobile uniquement */
+@media (min-width: 997px){
+  .navbar .fab-scan { display: none; }
 }

@@ -15,9 +15,14 @@
   },
   "dependencies": {
     "@docusaurus/core": "3.8.1",
+    "@docusaurus/plugin-google-gtag": "^3.8.1",
+    "@docusaurus/plugin-sitemap": "^3.8.1",
     "@docusaurus/preset-classic": "3.8.1",
     "@mdx-js/react": "^3.0.0",
+    "@zxing/browser": "^0.1.5",
+    "@zxing/library": "^0.21.3",
     "clsx": "^2.0.0",
+    "gray-matter": "^4.0.3",
     "prism-react-renderer": "^2.3.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"

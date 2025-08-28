@@ -32,14 +32,17 @@ Fideta attribue à chaque complément une **note globale**, fondée sur :
 > 🔍 **Les notes sont attribuées par indication** : un ingrédient peut être efficace dans un contexte précis… et inutile dans un autre.  
 > Seule une **dangerosité avérée** entraîne une exclusion générale (note **F**).
 
-| **Note** | **Couleur**     | **Description**                                                                                      | **Exemple**                                |
-|----------|------------------|------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| ✅ **A** | Vert foncé      | Preuve établie : essais cliniques de haute qualité, méta-analyses solides, résultats cohérents       | **Vitamine D** pour prévenir une carence   |
-| 🟢 **B** | Vert clair      | Preuve probable : études comparatives sérieuses mais limitées (taille, durée…)                      | **Mélatonine** pour les troubles du sommeil |
-| 🟡 **C** | Orange clair    | Preuve modérée : données intéressantes mais encore fragmentaires ou issues d'études moins robustes   | **Magnésium** pour l’anxiété               |
-| 🟠 **D** | Orange foncé    | Preuve faible : résultats contradictoires, études à biais ou échantillons très limités              | **Ashwagandha** pour le stress             |
-| 🔴 **E** | Rouge           | Aucune preuve sérieuse : uniquement des hypothèses, études sur animaux ou effets supposés           | **Chlorophylle** pour la "détox"           |
-| ☠️ **F** | Noir            | Produit à éviter : risques connus, effets secondaires graves ou inefficacité démontrée              | **Garcinia cambogia** pour la perte de poids |
+### 🔬 Niveaux de preuve scientifique (ingrédients actifs)
+
+| Note     | Description | Critères scientifiques |
+|----------|-------------|------------------------|
+| ✅ A     | **Preuve solide** | Plusieurs essais cliniques robustes, méta-analyses cohérentes, reproductibilité démontrée. |
+| 🟢 B     | **Preuve probable** | Études cliniques sérieuses mais limitées en taille/durée ; résultats globalement positifs. |
+| 🟡 C     | **Preuve modérée** | Petits essais cliniques positifs, tendance encourageante mais puissance ou reproductibilité insuffisante. |
+| 🟠 D     | **Preuve faible** | Résultats contradictoires ou méthodologie fragile (observations, non randomisées, biais importants). |
+| 🔴 E     | **Pas de preuve convaincante** | Quelques études humaines isolées, anciennes ou non reproduites. Vide clinique partiel. |
+| ⚫ F     | **Inefficacité démontrée OU absence d’étude** | Soit plusieurs essais robustes montrent une absence d’effet, soit aucune étude clinique humaine (uniquement in vitro/animales, extrapolations). |
+| ☠️       | **Disqualifié** | Danger avéré : toxicité, interactions graves, dose toxique, substance interdite. |
 
 > ℹ️ **Important** : une mauvaise note ne signifie pas toujours "dangereux", mais peut simplement indiquer **l'absence de bénéfices démontrés**.  
 > La note **F**, en revanche, alerte sur un **risque établi ou inacceptable** pour la santé.
@@ -87,20 +90,27 @@ Les produits non disqualifiés sont ensuite analysés selon plusieurs critères 
 Chacun de ces critères influence le score final.  
 La **pondération exacte n’est pas rendue publique** pour éviter les stratégies d’optimisation artificielle par les marques.
 
+👉 **Règle importante :** la note attribuée au produit correspond toujours à **l’indication mise en avant par le fabricant (implicite ou explicite)**.  
+- Un ingrédient peut être noté **A dans un contexte précis** (ex. carence) mais **F dans un autre** (ex. usage “anti-fatigue”).  
+- Le produit hérite de la note correspondant à l’usage marketing qu’il revendique, et non au meilleur contexte théorique.
+
 ### 🟢 Score et équivalence A–F
 
-Pour simplifier la lecture, le score sur 100 est **traduit en note alphabétique** :
+Pour simplifier la lecture, le score sur 100 est **traduit en note alphabétique**, avec une cohérence stricte entre score et catégorie :
 
-| Score sur 100 | Note associée |
-|---------------|----------------|
-| 90–100        | ✅ A            |
-| 75–89         | 🟢 B            |
-| 60–74         | 🟡 C            |
-| 45–59         | 🟠 D            |
-| 30–44         | 🔴 E            |
-| 0–29          | ☠️ F            |
+| Score       | Note     | Commentaire Fideta |
+|-------------|----------|--------------------|
+| **90–100**  | ✅ A     | **Preuve solide** – efficacité démontrée par essais robustes, usage recommandé *uniquement dans le contexte prouvé*. |
+| **75–89**   | 🟢 B     | **Preuve probable** – résultats encourageants et cohérents, usage envisageable mais encore limité. |
+| **60–74**   | 🟡 C     | **Preuve modérée** – petits essais positifs, tendance encourageante mais reproductibilité insuffisante. |
+| **45–59**   | 🟠 D     | **Preuve faible** – données contradictoires ou méthodologiquement fragiles, usage non justifié. |
+| **30–44**   | 🔴 E     | **Pas de preuve convaincante** – une ou quelques études humaines isolées mais non reproduites, vide clinique partiel. |
+| **1–29**    | ⚫ F     | **Inefficacité démontrée OU absence totale d’étude clinique** – soit plusieurs essais robustes négatifs, soit uniquement données in vitro/animales ou extrapolations marketing. |
+| **0**       | ☠️ Disqualifié | **Danger avéré** – produit interdit ou toxique (toxicité, interactions graves, dose inacceptable). |
 
-Cette double lecture (chiffrée + alphabétique) permet à la fois **la nuance** et **la lisibilité**.
+---
+
+Cette double lecture (score chiffré + lettre) permet de conserver **la nuance scientifique** tout en offrant une **lecture simple et lisible** pour le public.
 
 ---
 

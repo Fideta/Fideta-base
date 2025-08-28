@@ -1,0 +1,83 @@
+---
+title: "Formag"
+image: /img/produits/formag.jpg
+categories: ["Magnésium", "Fatigue"]
+synopsis: "Complément alimentaire à base de magnésium."
+ean: [3401597192302 , 3401547456652] 
+---
+
+# 💊 Formag  
+**Marque / Laboratoire :** PiLeJe  
+**Catégorie :** Minéral – Magnésium  
+
+---
+
+## 🔴 Note Fideta : **E** – Score : **38/100** 
+
+> **Pertinence faible**  
+> Ce complément respecte les allégations autorisées, mais les données scientifiques actuelles ne justifient pas son usage généralisé contre la fatigue.  
+> L’intérêt clinique du magnésium dans ce contexte n’est démontré que chez les personnes carencées, ce qui est rare dans la population générale.  
+> **En l’état des connaissances, l’utilisation de ce produit en dehors d’un déficit avéré présente une pertinence limitée.**
+
+---
+
+## 📦 Composition et analyse
+
+| Ingrédient | Quantité (pour 2 comprimés) | Commentaire Fideta |
+|------------|-----------------------------|--------------------|
+| [Magnésium marin (Hypro-Ri® Mag)](/docs/principes/magnesium) | 300 mg magnésium élément | Majoritairement sous forme d’oxyde : Faible biodisponibilité. La “vectorisation” Hypro-Ri® n’est pas appuyée par des données cliniques solides. |
+| [Vitamine B6 | 2 mg (143 % VNR)](/docs/principes/vitamine_b6) | Pertinente en cofacteur, mais rarement nécessaire avec une alimentation équilibrée, aucun effet démontré pour l'absorption du magnésium |
+| [Taurine](/docs/principes/taurine) | 180 mg | Absence de preuve d’efficacité dans ce contexte (fatigue, stress). |
+
+---
+
+## 🎯 Pertinence scientifique
+
+| Fonction ciblée   | Effet attendu                     | Niveau de preuve | Commentaire |
+|-------------------|-----------------------------------|------------------|-------------|
+| **Carence avérée** | Correction de la carence          | ✅ A    | Efficace pour normaliser les taux de magnésium chez les personnes présentant une carence confirmée par bilan médical. |
+| **Fatigue**       | Réduction de la fatigue           | ⚫ F | Amélioration possible uniquement si la fatigue est liée à une carence en magnésium. Aucun effet démontré chez les sujets avec statut normal. |
+| **Système nerveux** | Maintien du fonctionnement normal | ⚫ F | Allégation réglementaire autorisée, mais absence de bénéfice démontré chez les personnes non carencées. |
+
+
+---
+
+## ⚠️ Sécurité et précautions
+
+- **Effets secondaires :** possibles troubles digestifs si sensibilité au magnésium (effet laxatif).  
+- **Contre-indications :** insuffisance rénale (mentionnée par le fabricant).  
+- **Interactions :** prudence avec antibiotiques ou médicaments à base de fer/calcium.  
+- **Dose maximale recommandée :** 350 mg/j de magnésium élément (EFSA).  
+
+---
+
+## 🧪 Forme et qualité
+
+- **Forme galénique :** Comprimé  
+- **Type de magnésium :** Oxyde + “vectorisation” Hypro-Ri® (non étudiée indépendamment et seulement chez l'animal)  
+- **Certifications :** Aucune mention BIO, GMP ou label qualité indépendant  
+
+---
+
+## 📊 Résumé des évaluations
+
+| Critère | Note | Commentaire |
+|---------|------|-------------|
+| Efficacité | 🔴 E | Intérêt limité sans carence. Forme peu absorbée. |
+| Sécurité | 🟢 B | Tolérance correcte si absence de pathologie |
+| Qualité | 🟡 C | Technologie propriétaire non validée chez l'humain cliniquement |
+
+---
+
+## 📚 Références scientifiques
+
+1. EFSA (2012) – _Scientific opinion on health claims related to magnesium_.  
+2. Garrison SR et al. (2020) – _Magnesium for skeletal muscle cramps_, Cochrane Review.  
+3. ANSES (2021) – _Références nutritionnelles pour la population française_.  
+4. Office of Dietary Supplements, NIH – _Magnesium Fact Sheet_.  
+
+---
+
+## 🛡️ Avertissement légal
+Cette fiche est fondée sur la méthodologie Fideta, qui repose sur les données scientifiques disponibles et une hiérarchie des niveaux de preuve.  
+Elle n’a pas de visée médicale ou thérapeutique, ne constitue pas un avis professionnel individualisé, et ne remplace pas une consultation avec un professionnel de santé.

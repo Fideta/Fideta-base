@@ -1,23 +1,275 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
+/* src/pages/index.module.css */
+
+/* ====== Styles existants (desktop/tablette) ====== */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+  background-color: #f4f9f5;
+  padding: 2rem 1rem 1.5rem;
+  text-align: left;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+.heroContent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Option 2 : élargir sur très grands écrans */
+@media screen and (min-width: 1600px) {
+  .heroContent {
+    max-width: 90%;
   }
+}
+
+.heroText {
+  flex: 1;
+  min-width: 360px;
+  max-width: 600px;
+  text-align: justify;
+}
+
+.heroText h1 {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #1b5e20;
+  margin-bottom: 1.2rem;
+}
+
+.heroText p {
+  font-size: 1.25rem;
+  color: #333;
+  margin-bottom: 2rem;
 }
 
 .buttons {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  .buttons {
+    flex-wrap: nowrap;
+  }
+}
+
+.buttons :global(.button) {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  font-size: 1.25rem !important;
+  padding: 1.2rem 2.4rem !important;
+  border-radius: 10px !important;
+  font-weight: 700 !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  flex: 1 1 auto;
+  max-width: 300px;
+}
+
+.buttons :global(.button):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.heroImage {
+  flex: 1;
+  text-align: center;
+}
+
+.heroImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.fullBackground {
+  background-color: #f4f9f5;
+  padding-bottom: 3rem;
+}
+
+.cardSection {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  padding: 1.5rem 0 3rem;
+}
+
+.card {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card h3 {
+  color: #1b5e20;
+  margin-bottom: 1rem;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.card li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.tagList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tag {
+  background-color: #e8f5e9;
+  color: #1b5e20;
+  padding: 0.4rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Boutons populaires cliquables */
+.tagButton {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: #e8f5e9;
+  border-radius: 20px;
+  color: #1b5e20;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.tagButton:hover {
+  background-color: #c8e6c9;
+  transform: translateY(-2px);
+}
+
+.tagButton:active {
+  background-color: #a5d6a7;
+  transform: translateY(0);
+}
+
+
+/* ====== Améliorations Mobile-First (≤ 767px) ======
+   -> N’affectent PAS le rendu PC
+==================================================== */
+@media (max-width: 767px) {
+
+  .heroBanner {
+    padding: 1.25rem 1rem 1rem;
+  }
+
+  .heroContent {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .heroText {
+    min-width: 0;         /* annule le min-width:360px */
+    max-width: none;
+    text-align: left;     /* plus confortable à la lecture mobile */
+  }
+
+  .heroText h1 {
+    font-size: 1.9rem;    /* était 2.8rem */
+    line-height: 1.25;
+    letter-spacing: -0.012em;
+    margin-bottom: 0.75rem;
+  }
+
+  .heroText p {
+    font-size: 1rem;      /* était 1.25rem */
+    margin-bottom: 1rem;
+  }
+
+  .buttons {
+    gap: 0.75rem;
+  }
+
+  .buttons :global(.button) {
+    width: 100%;
+    max-width: none;
+    font-size: 1.05rem !important;
+    padding: 0.95rem 1rem !important; /* tap target ≥44px */
+    border-radius: 12px !important;
+  }
+
+  .heroImage {
+    order: 2;             /* image après le texte */
+    margin-top: 0.25rem;
+  }
+
+  .heroImage img {
+    width: 88%;
+    max-width: 420px;
+  }
+
+  .fullBackground {
+    padding-bottom: 2rem;
+  }
+
+  .cardSection {
+    grid-template-columns: 1fr;   /* cartes empilées */
+    gap: 0.9rem;
+    padding: 1rem 0 2rem;
+  }
+
+  .card {
+    padding: 1rem;
+    border-radius: 14px;
+  }
+
+  .card h3 {
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .card li {
+    font-size: 0.95rem;
+  }
+
+  .tagList {
+    gap: 0.4rem;
+  }
+
+  .tag,
+  .tagButton {
+    font-size: 0.85rem;
+    padding: 0.45rem 0.75rem;
+  }
+}
+/* Dans la section CTA de la home, le bouton secondaire = texte noir (base/visited), vert au survol */
+.buttons :global(.button--secondary){
+  color: #000;
+  
+}
+.buttons :global(.button--secondary:visited){
+  color: #000;
+}
+.buttons :global(.button--secondary:hover),
+.buttons :global(.button--secondary:focus-visible),
+.buttons :global(.button--secondary:active){
+  color: var(--ifm-color-primary);
+}
+
+/* Icônes éventuelles dans le bouton */
+.buttons :global(.button--secondary) svg{
+  color: currentColor;
+  fill: currentColor;
 }
