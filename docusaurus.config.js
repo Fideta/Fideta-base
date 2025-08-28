@@ -14,6 +14,7 @@ const config = {
 
   url: 'https://fideta.fr',
   baseUrl: '/',
+  trailingSlash: false,
 
   organizationName: 'Fideta',
   projectName: 'Fideta-base',
