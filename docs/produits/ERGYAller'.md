@@ -5,12 +5,20 @@ categories: ["Allergies", "Phytothérapie", "Immunité"]
 synopsis: "Complément alimentaire à base de quercétine, cassis et ortie."
 ean: 3664524001751
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>ERGYAlleR’</h1>
+    <p style={{margin:0}}>
+      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
+      <strong>Catégorie :</strong> Mixte (extraits végétaux + oligoéléments + vitamine)
 
-# 💊 ERGYAlleR’
+    </p>
+  </div>
 
-**Marque / Laboratoire :** Nutergia  
-**Catégorie :** Mixte (extraits végétaux + oligoéléments + vitamine)
-
+<div className="product-hero__packshot">
+    <img src="/img/produits/ERGYAller'.jpg" alt="ERGYAlleR’ - Nutergia" loading="eager" />
+  </div>
+</div>
 ---
 
 ## ⚫ Note Fideta : F – Score : 20/100  
