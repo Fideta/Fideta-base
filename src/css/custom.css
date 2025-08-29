@@ -200,3 +200,24 @@ a:hover{ color:var(--ifm-color-primary-dark); }
 @media (min-width: 997px){
   .navbar .fab-scan { display: none; }
 }
+
+.product-hero__packshot{
+  flex: 0 0 auto;
+  width: clamp(140px, 28vw, 220px);
+  aspect-ratio: 1/1;      /* carré invisible pour standardiser */
+  background: transparent; 
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+  border-radius: 0;       /* garde 0 si tu ne veux AUCUN arrondi */
+  overflow: hidden;       /* évite les débordements de l'image */
+}
+.product-hero__packshot > img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;    /* pas de déformation */
+  display: block;
+  border: 0;
+  box-shadow: none;
+  background: transparent;
+}
