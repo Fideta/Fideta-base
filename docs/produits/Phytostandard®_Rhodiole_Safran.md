@@ -4,12 +4,21 @@ image: /img/produits/Phytostandard_Rhodiole_Safran.jpg
 categories: ["Humeur", "Stress"]
 synopsis: "Association de Rhodiola rosea et Crocus sativus, commercialisée comme soutien de l’adaptation au stress et de l’équilibre émotionnel."
 ean: 3401529507631
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Rhodiole Safran</h1>
+    <p style={{margin:0}}>
+      <strong>Marque / Laboratoire :</strong> Pileje<br/>
+      <strong>Catégorie :</strong> Plantes
+    </p>
+  </div>
 
-# 🌿 Rhodiole Safran  
-**Marque / Laboratoire :** PiLeJe  
-**Catégorie :** Plante adaptogène + extrait de safran (complément alimentaire)  
-
+<div className="product-hero__packshot">
+    <img src="/img/produits/Phytostandard_Rhodiole_Safran.jpg" alt="Phytostandard Rhodiole Safran - Pileje" loading="eager" />
+  </div>
+</div>
 ---
 
 ## 🟡 Note Fideta : **C** – Score : **68/100**
