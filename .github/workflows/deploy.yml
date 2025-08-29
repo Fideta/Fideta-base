@@ -33,34 +33,25 @@ jobs:
       - name: Build Docusaurus
         run: npm run build
 
-      - name: Inspect build (pre-index)
+      - name: Sanity check: HTML exists
         run: |
-          echo "== HTML candidates =="
-          find build -type f -name "*.html" | head -n 50 || true
+          echo "== Count HTML files in build =="
+          find build -type f -name "*.html" | wc -l
+          echo "== First few HTML files =="
+          find build -type f -name "*.html" | head -n 30
 
       - name: Pagefind version
         run: npx -y pagefind@1.3.0 --version
 
-      # Tentative 1 : sortie dans build/pagefind
+      # ✅ écriture explicite dans build/pagefind + FR + logs verbeux
       - name: Generate Pagefind index (FR → build/pagefind)
         run: |
-          npx -y pagefind@1.3.0 --site build --force-language fr --output-subdir pagefind --verbose || true
-
-      # Si manifest absent, retente sans output-subdir (par défaut _pagefind)
-      - name: Retry Pagefind (default output _pagefind) if needed
-        run: |
-          if [ ! -f build/pagefind/manifest.json ]; then
-            echo "First attempt didn't create build/pagefind; retrying with default output..."
-            npx -y pagefind@1.3.0 --site build --force-language fr --verbose || true
-          fi
-
-      # Si _pagefind existe mais pas pagefind, on renomme pour harmoniser
-      - name: Normalize index dir to build/pagefind
-        run: |
-          if [ -d build/_pagefind ] && [ ! -d build/pagefind ]; then
-            mv build/_pagefind build/pagefind
-            echo "Moved build/_pagefind -> build/pagefind"
-          fi
+          npx -y pagefind@1.3.0 \
+            --site build \
+            --force-language fr \
+            --glob "**/*.{html}" \
+            --output-path "$GITHUB_WORKSPACE/build/pagefind" \
+            --verbose
 
       - name: Show Pagefind output
         run: |
