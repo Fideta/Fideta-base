@@ -33,9 +33,13 @@ jobs:
       - name: Build Docusaurus
         run: npm run build
 
-      - name: Generate Pagefind index
+      - name: Generate Pagefind index (FR)
         run: npx -y pagefind --site build --force-language fr
-
+        
+      - name: Show Pagefind manifest stats
+        run: |
+          node -e "const fs=require('fs');const p='./build/pagefind/manifest.json';if(fs.existsSync(p)){const j=JSON.parse(fs.readFileSync(p,'utf8'));console.log('Pagefind pages:', j.pages, 'languages:', Object.keys(j.languages||{}));} else {console.error('No manifest.json'); process.exit(1)}"
+      
       - name: Assert Pagefind index exists
         run: test -d build/pagefind && echo "Pagefind OK" || (echo "Missing Pagefind index" && exit 1)
 
