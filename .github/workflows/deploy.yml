@@ -34,7 +34,7 @@ jobs:
         run: npm run build
 
       - name: Generate Pagefind index
-        run: npx -y pagefind --site build
+        run: npx -y pagefind --site build --force-language fr
 
       - name: Assert Pagefind index exists
         run: test -d build/pagefind && echo "Pagefind OK" || (echo "Missing Pagefind index" && exit 1)
