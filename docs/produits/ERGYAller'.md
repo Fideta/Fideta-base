@@ -3,7 +3,7 @@ title: "ERGYAller"
 image: /img/produits/ERGYAller'.jpg
 categories: ["Allergies", "Phytothérapie", "Immunité"]
 synopsis: "Complément alimentaire à base de quercétine, cassis et ortie."
-ean: 
+ean: 3664524001751
 ---
 
 # 💊 ERGYAlleR’
