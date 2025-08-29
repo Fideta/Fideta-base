@@ -4,6 +4,7 @@ image: /img/produits/SpasMAG.jpg
 categories: ["Magnésium", "Système nerveux"]
 synopsis: "Médicament OTC à base de sulfate de magnésium et de levure"
 ean: 3400932369096
+hide_title: true
 ---
 <div className="product-hero">
   <div className="product-hero__titlewrap">
