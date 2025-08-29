@@ -10,7 +10,7 @@ if (!fs.existsSync(buildDir)) {
   process.exit(1);
 }
 
-// 1) Lister les HTML (diagnostic)
+// Liste rapide des HTML (diagnostic)
 function listHtml(dir) {
   const out = [];
   const stack = [dir];
@@ -32,7 +32,7 @@ if (htmlFiles.length === 0) {
   process.exit(1);
 }
 
-// 2) Indexation via l’API Node
+// Indexation via l’API Node
 const { createIndex } = await import("pagefind");
 const { index } = await createIndex({ forceLanguage: process.env.PAGEFIND_FORCE_LANGUAGE || "fr" });
 const { page_count, errors } = await index.addDirectory({
@@ -45,12 +45,16 @@ if (errors?.length) {
 }
 console.log(`🔎 Pages ajoutées: ${page_count}`);
 
-// 3) Écrire l’index (tentative directe dans build/pagefind)
+// Écrit l'index dans build/pagefind
 fs.mkdirSync(targetDir, { recursive: true });
 await index.writeFiles({ outputPath: targetDir });
 
-// 4) Chercher le manifest n'importe où sous build/ (pagefind ou _pagefind)
-function findManifest(root) {
+// ---- Vérification : Pagefind >=1.2 utilise "pagefind-entry.json"
+const entryPath = path.join(targetDir, "pagefind-entry.json");
+const legacyManifest = path.join(targetDir, "manifest.json");
+
+// Si ni l'un ni l'autre → cherche ailleurs sous build/ puis reloge
+function findFile(root, names = ["pagefind-entry.json", "manifest.json"]) {
   let found = null;
   (function walk(dir) {
     for (const name of fs.readdirSync(dir)) {
@@ -60,8 +64,7 @@ function findManifest(root) {
         if (name === "node_modules" || name.startsWith(".")) continue;
         walk(p);
         if (found) return;
-      } else if (st.isFile() && name === "manifest.json") {
-        // On garde seulement si le chemin contient /pagefind/ ou /_pagefind/
+      } else if (st.isFile() && names.includes(name)) {
         if (p.includes(`${path.sep}pagefind${path.sep}`) || p.includes(`${path.sep}_pagefind${path.sep}`)) {
           found = p;
           return;
@@ -72,26 +75,16 @@ function findManifest(root) {
   return found;
 }
 
-let manifestPath = path.join(targetDir, "manifest.json");
-if (!fs.existsSync(manifestPath)) {
-  console.warn("ℹ️ manifest.json absent dans build/pagefind, recherche sous build/ …");
-  const found = findManifest(buildDir);
+if (!fs.existsSync(entryPath) && !fs.existsSync(legacyManifest)) {
+  console.warn("ℹ️ Fichiers d’index non trouvés dans build/pagefind, recherche sous build/ …");
+  const found = findFile(buildDir);
   if (found) {
-    const srcDir = path.dirname(found); // dossier qui contient manifest.json
+    const srcDir = path.dirname(found);
     console.log(`↪️ Index trouvé dans: ${srcDir}`);
-
-    // Cas fréquent: build/pagefind/pagefind/* → on remonte au premier "pagefind" du chemin
-    const parts = srcDir.split(path.sep);
-    const lastIdx = parts.lastIndexOf("pagefind");
-    const firstIdx = parts.indexOf("pagefind");
-    const baseDir = path.join(...parts.slice(0, lastIdx + 1)); // jusqu'au dernier "pagefind"
-    const realSrcDir = firstIdx !== lastIdx ? path.join(...parts.slice(0, lastIdx + 1)) : srcDir;
-
-    // On déplace/copier-colle dans build/pagefind
     try {
       if (fs.existsSync(targetDir)) fs.rmSync(targetDir, { recursive: true, force: true });
-      fs.renameSync(realSrcDir, targetDir);
-      console.log(`✅ Déplacé ${realSrcDir} → ${targetDir}`);
+      fs.renameSync(srcDir, targetDir);
+      console.log(`✅ Déplacé ${srcDir} → ${targetDir}`);
     } catch (e) {
       console.warn("⚠️ renameSync a échoué, copie récursive…", e);
       function copyDir(src, dest) {
@@ -104,22 +97,17 @@ if (!fs.existsSync(manifestPath)) {
           else fs.copyFileSync(s, d);
         }
       }
-      copyDir(realSrcDir, targetDir);
-      console.log(`✅ Copié ${realSrcDir} → ${targetDir}`);
+      copyDir(srcDir, targetDir);
+      console.log(`✅ Copié ${srcDir} → ${targetDir}`);
     }
-    manifestPath = path.join(targetDir, "manifest.json");
   }
 }
 
-// 5) Vérification finale + résumé
-if (!fs.existsSync(manifestPath)) {
-  console.error("❌ Manifest toujours absent:", manifestPath);
-  console.error("📁 Sous-dossiers build/:", fs.readdirSync(buildDir));
-  if (fs.existsSync(targetDir)) {
-    console.error("📁 Contenu build/pagefind:", fs.readdirSync(targetDir));
-  }
+// Vérif finale (accepte nouveau ou ancien format)
+if (!fs.existsSync(entryPath) && !fs.existsSync(legacyManifest)) {
+  console.error("❌ Index introuvable dans build/pagefind (ni pagefind-entry.json ni manifest.json).");
+  console.error("📁 Contenu build/pagefind:", fs.existsSync(targetDir) ? fs.readdirSync(targetDir) : "(absent)");
   process.exit(1);
 }
-const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
-const langs = Object.keys(manifest.languages || {});
-console.log(`✅ Index prêt: ${manifestPath} • pages=${manifest.pages} • langues=[${langs.join(", ") || "—"}]`);
+
+console.log("✅ Index prêt dans build/pagefind :", fs.readdirSync(targetDir));
