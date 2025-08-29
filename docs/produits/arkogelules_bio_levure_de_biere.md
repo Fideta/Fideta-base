@@ -6,16 +6,18 @@ synopsis: "Complément alimentaire BIO à base de levure de bière revivifiable 
 ean: [3578835500585 , 3578835500530]
 hide_title: true
 ---
-<div style={{display:'flex',alignItems:'center',justifyContent:'space-between',gap:'1rem',margin:'0.5rem 0 1.25rem'}}>
-  <div style={{minWidth:0}}>
-    <h1 style={{margin:0}}>Arkogélules® BIO Levure de Bière</h1>
-    <p style={{margin:0}}><strong>Marque / Laboratoire :</strong> Arkopharma<br/><strong>Catégorie :</strong> Levure (micro-organisme / source de nutriments)</p>
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}> Arkogélules® BIO Levure de Bière</h1>
+    <p style={{margin:0}}>
+      <strong>Marque / Laboratoire :</strong> Arkopharma<br/>
+      <strong>Catégorie :</strong> Levure (micro-organisme / source de nutriments)
+    </p>
   </div>
-  <img
-    src="/img/produits/arkogelules_levure_biere.jpg"
-    alt="Arkogélules® BIO Levure de Bière"
-    style={{objectFit:'contain', maxWidth:'32%', minWidth:'160px', height:'auto'}}
-  />
+
+<div className="product-hero__packshot">
+    <img src="/img/produits/arkogelules_levure_biere.jpg" alt="Arkogélules® BIO Levure de Bière" loading="eager" />
+  </div>
 </div>
 ---
 
