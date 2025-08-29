@@ -33,19 +33,34 @@ jobs:
       - name: Build Docusaurus
         run: npm run build
 
-      - name: Show build dir (pre-index)
+      - name: Inspect build (pre-index)
         run: |
-          echo "== ls build (level 1) =="
-          ls -la build || true
-          echo "== tree build (level 2) =="
-          find build -maxdepth 2 -type d -print
+          echo "== HTML candidates =="
+          find build -type f -name "*.html" | head -n 50 || true
 
       - name: Pagefind version
         run: npx -y pagefind@1.3.0 --version
 
-      - name: Generate Pagefind index (FR, explicit output)
+      # Tentative 1 : sortie dans build/pagefind
+      - name: Generate Pagefind index (FR → build/pagefind)
         run: |
-          npx -y pagefind@1.3.0 --site build --output-subdir pagefind --force-language fr --verbose
+          npx -y pagefind@1.3.0 --site build --force-language fr --output-subdir pagefind --verbose || true
+
+      # Si manifest absent, retente sans output-subdir (par défaut _pagefind)
+      - name: Retry Pagefind (default output _pagefind) if needed
+        run: |
+          if [ ! -f build/pagefind/manifest.json ]; then
+            echo "First attempt didn't create build/pagefind; retrying with default output..."
+            npx -y pagefind@1.3.0 --site build --force-language fr --verbose || true
+          fi
+
+      # Si _pagefind existe mais pas pagefind, on renomme pour harmoniser
+      - name: Normalize index dir to build/pagefind
+        run: |
+          if [ -d build/_pagefind ] && [ ! -d build/pagefind ]; then
+            mv build/_pagefind build/pagefind
+            echo "Moved build/_pagefind -> build/pagefind"
+          fi
 
       - name: Show Pagefind output
         run: |
@@ -53,7 +68,7 @@ jobs:
           ls -la build/pagefind || true
           echo "== manifest head =="
           if [ -f build/pagefind/manifest.json ]; then
-            head -c 2000 build/pagefind/manifest.json | sed 's/}/}\n/g'
+            head -c 1500 build/pagefind/manifest.json | sed 's/}/}\n/g'
           else
             echo "manifest.json missing"
           fi
