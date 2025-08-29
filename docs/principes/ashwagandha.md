@@ -1,17 +1,25 @@
 ---
 title: Ashwagandha
-icon: 🌿
 categories: ["Plantes"]
 synopsis: "Plante adaptogène ayurvédique, preuves solides sur stress/anxiété, effets modestes sur sommeil ; données exploratoires et signaux de sécurité à surveiller."
 synonyms: ["Ashwagandha", "Withania somnifera", "Ginseng indien"]
 slug: /principes/ashwagandha
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Ashwagandha</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> *Withania somnifera* (L.) Dunal<br/>
+      <strong>**Partie utilisée** :</strong> Racine (préférable) 
+      <strong>****Origine**** :</strong> Inde, Moyen-Orient, Afrique, Méditerranée
+    </p>
+  </div>
 
-# Ashwagandha
-
-**Nom scientifique** : *Withania somnifera* (L.) Dunal  
-**Partie utilisée** : Racine (préférable)  
-**Origine** : Inde, Moyen-Orient, Afrique, Méditerranée  
+<div className="product-hero__packshot">
+    <img src="/img/principes/Ashwagandha.jpg" alt="Ashwagandha" loading="eager" />
+  </div>
+</div>
 
 ---
 
