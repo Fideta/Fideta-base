@@ -1,5 +1,6 @@
 ---
 title: Ashwagandha
+image: /img/principes/Ashwagandha.jpg
 categories: ["Plantes"]
 synopsis: "Plante adaptogène ayurvédique, preuves solides sur stress/anxiété, effets modestes sur sommeil ; données exploratoires et signaux de sécurité à surveiller."
 synonyms: ["Ashwagandha", "Withania somnifera", "Ginseng indien"]
