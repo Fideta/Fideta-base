@@ -201,23 +201,42 @@ a:hover{ color:var(--ifm-color-primary-dark); }
   .navbar .fab-scan { display: none; }
 }
 
+.product-hero{
+  display:flex;
+  flex-direction: row !important;   /* reste en ligne */
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+  margin:0.5rem 0 1.25rem;
+}
+
+/* Réserve un espace fixe (mais responsive) à l'image */
 .product-hero__packshot{
-  flex: 0 0 auto;
+  flex:0 0 auto;
   width: clamp(140px, 28vw, 220px);
-  aspect-ratio: 1/1;      /* carré invisible pour standardiser */
-  background: transparent; 
-  border: 0;
-  outline: 0;
-  box-shadow: none;
-  border-radius: 0;       /* garde 0 si tu ne veux AUCUN arrondi */
-  overflow: hidden;       /* évite les débordements de l'image */
-}
-.product-hero__packshot > img{
-  width: 100%;
-  height: 100%;
-  object-fit: contain;    /* pas de déformation */
-  display: block;
-  border: 0;
-  box-shadow: none;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
   background: transparent;
+  border: 0;
 }
+
+/* Laisse le texte occuper le reste */
+.product-hero__titlewrap{
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.product-hero__packshot > img{
+  width:100%;
+  height:100%;
+  object-fit: contain;
+  display:block;
+  border:0;
+  background:transparent;
+}
+
+/* (Optionnel) même sur mobile, on force la ligne */
+@media (max-width: 700px){
+  .product-hero{ flex-direction: row !important; }
+}
+
