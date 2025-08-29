@@ -4,14 +4,21 @@ image: /img/produits/Azeol_ALR_Flash.jpg
 categories: ["Immunité", "Phytothérapie", "Zinc"]
 synopsis: "Complément alimentaire à base de plantain, cassis et zinc."
 ean: 3701145690503
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Azeol ALR Flash</h1>
+    <p style={{margin:0}}>
+      <strong>Marque / Laboratoire :</strong> Pileje<br/>
+      <strong>Catégorie :</strong> Mixte (extraits végétaux + minéral)
+    </p>
+  </div>
 
----
-# Azéol ALR Flash
-
-**Marque / Laboratoire** : Pileje  
-**Catégorie** : Mixte (extraits végétaux + minéral)
-
+<div className="product-hero__packshot">
+    <img src="/img/produits/Azeol_ALR_Flash.jpg" alt="Azeol ALR Flash - Pileje" loading="eager" />
+  </div>
+</div>
 ---
 
 ## ⚫ Note Fideta : F – Score : 20/100  
