@@ -2,7 +2,7 @@ name: Deploy Docusaurus + Pagefind to GitHub Pages
 
 on:
   push:
-    branches: [ sources ]
+    branches: [sources]
   workflow_dispatch:
 
 permissions:
@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 jobs:
@@ -24,8 +24,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: 20
-          cache: npm
+          node-version: '20'
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm install
@@ -33,41 +33,8 @@ jobs:
       - name: Build Docusaurus
         run: npm run build
 
-      - name: Sanity check: HTML exists
-        run: |
-          echo "== Count HTML files in build =="
-          find build -type f -name "*.html" | wc -l
-          echo "== First few HTML files =="
-          find build -type f -name "*.html" | head -n 30
-
-      - name: Pagefind version
-        run: npx -y pagefind@1.3.0 --version
-
-      # ✅ écriture explicite dans build/pagefind + FR + logs verbeux
-      - name: Generate Pagefind index (FR → build/pagefind)
-        run: |
-          npx -y pagefind@1.3.0 \
-            --site build \
-            --force-language fr \
-            --glob "**/*.{html}" \
-            --output-path "$GITHUB_WORKSPACE/build/pagefind" \
-            --verbose
-
-      - name: Show Pagefind output
-        run: |
-          echo "== ls build/pagefind =="
-          ls -la build/pagefind || true
-          echo "== manifest head =="
-          if [ -f build/pagefind/manifest.json ]; then
-            head -c 1500 build/pagefind/manifest.json | sed 's/}/}\n/g'
-          else
-            echo "manifest.json missing"
-          fi
-
-      - name: Assert Pagefind index exists
-        run: |
-          test -f build/pagefind/manifest.json || (echo "❌ Missing build/pagefind/manifest.json" && exit 1)
-          node -e "const fs=require('fs');const j=JSON.parse(fs.readFileSync('build/pagefind/manifest.json','utf8'));console.log('✅ Pagefind pages:', j.pages, 'languages:', Object.keys(j.languages||{}));"
+      - name: Generate Pagefind index (Node API)
+        run: node scripts/pagefind-index.mjs
 
       - name: Upload artifact (build/)
         uses: actions/upload-pages-artifact@v3
