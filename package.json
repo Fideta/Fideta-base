@@ -31,6 +31,7 @@
     "@docusaurus/module-type-aliases": "3.8.1",
     "@docusaurus/types": "3.8.1",
     "gh-pages": "^6.3.0"
+    "@pagefind/default-ui": "^1.0.0"
   },
   "browserslist": {
     "production": [
