@@ -5,11 +5,19 @@ categories: ["Magnésium", "Système nerveux"]
 synopsis: "Médicament OTC à base de sulfate de magnésium et de levure"
 ean: 3400932369096
 ---
-# 💊 SpasMAG (gélules)  
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>SpasMAG (Gélules)</h1>
+    <p style={{margin:0}}>
+      <strong>Marque / Laboratoire :</strong>GRIMBERG (FR)<br/>
+      <strong>Catégorie :</strong> Minéral + levure (médicament **OTC** en France, non un complément alimentaire)
+    </p>
+  </div>
 
-**Marque / Laboratoire** : Laboratoires GRIMBERG (FR)  
-**Catégorie** : Minéral + levure (médicament **OTC** en France, non un complément alimentaire)
-
+<div className="product-hero__packshot">
+    <img src="/img/produits/SpasMAG.jpg" alt="SpasMAG - GRIMBERG" loading="eager" />
+  </div>
+</div>
 ---
 
 ## **☠️ Note Fideta :** **Disqualifié – Score : 0/100**
