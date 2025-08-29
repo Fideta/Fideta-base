@@ -7,15 +7,17 @@ import "@pagefind/default-ui/css/ui.css";
 
 export default function SearchPage() {
   const ref = useRef(null);
+
+  // liens corrects en prod (fideta.fr) et si un jour tu changes de baseUrl
   const baseUrl = useBaseUrl("/");
-  const bundlePath = useBaseUrl("pagefind/"); // désormais garanti par la CI
+  const bundlePath = useBaseUrl("pagefind/"); // l’index que la CI vient de produire
 
   useEffect(() => {
     if (!ref.current) return;
     const ui = new PagefindUI({
       element: ref.current,
-      bundlePath,
-      baseUrl,
+      bundlePath,      // <= IMPORTANT
+      baseUrl,         // <= IMPORTANT
       showSubResults: true,
       showImages: true,
       debounceTimeoutMs: 250,
