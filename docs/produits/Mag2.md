@@ -4,12 +4,21 @@ image: /img/produits/Mag2.jpg
 categories: ["Magnésium", "Énergie"]
 synopsis: "Complément alimentaire à base de magnésium."
 ean: 3614810005611
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Mag 2</h1>
+    <p style={{margin:0}}>
+      <strong>Marque / Laboratoire :</strong> Cooper<br/>
+      <strong>Catégorie :</strong> Mixte (Minéral + Vitamines)
+    </p>
+  </div>
 
-# 💊 Mag 2  
-**Marque / Laboratoire** : Non spécifié  
-**Catégorie** : Mixte (Minéral + Vitamines)
-
+<div className="product-hero__packshot">
+    <img src="/img/produits/Mag2.jpg" alt="Mag 2 - Cooper" loading="eager" />
+  </div>
+</div>
 ---
 
 ## 🔴 Note Fideta : E – Score : 35/100
