@@ -8,7 +8,7 @@ hide_title: true
 ---
 <div className="product-hero">
   <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}> VITAMINE C 500 mg ***(sachet sans eau)***</h1>
+    <h1 style={{margin:0}}> VITAMINE C 500 mg (sachet sans eau)</h1>
     <p style={{margin:0}}>
       <strong>Marque / Laboratoire :</strong> UPSA<br/>
       <strong>Catégorie :</strong> Vitamine hydrosoluble – Acide ascorbique (ascorbate de sodium + acide ascorbique)
