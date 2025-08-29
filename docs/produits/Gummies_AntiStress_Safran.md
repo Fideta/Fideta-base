@@ -4,12 +4,21 @@ image: /img/produits/Gummies_AntiStress_Safran.jpg
 categories: ["Stress"]
 synopsis: "Gummies sans sucre à base de safran titré et vitamines B, présentés comme anti-stress et favorisant la détente."
 ean: 3770010539360 
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Gummies Anti-Stress au Safran</h1>
+    <p style={{margin:0}}>
+      <strong>Marque / Laboratoire :</strong> Naali<br/>
+      <strong>Catégorie :</strong> Plante ([Safran](/docs/principes/safran)) + Vitamines hydrosolubles ([B3](/docs/principes/vitamine_b3), [B6](/docs/principes/vitamine_b6), [B9](/docs/principes/vitamine_b9), [B12](/docs/principes/vitamine_b12))
+    </p>
+  </div>
 
-# 💊 Gummies Anti-Stress au Safran  
-**Marque / Laboratoire :** Naali  
-**Catégorie :** Plante ([Safran](/docs/principes/safran)) + Vitamines hydrosolubles ([B3](/docs/principes/vitamine_b3), [B6](/docs/principes/vitamine_b6), [B9](/docs/principes/vitamine_b9), [B12](/docs/principes/vitamine_b12))  
-
+<div className="product-hero__packshot">
+    <img src="/img/produits/Gummies_AntiStress_Safran.jpg" alt="Azeol Gummies Anti-Stress au Safran - Naali" loading="eager" />
+  </div>
+</div>
 ---
 
 ## 🟠 Note Fideta : **D** – Score : **42/100**  
