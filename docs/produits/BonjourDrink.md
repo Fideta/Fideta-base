@@ -4,12 +4,21 @@ image: /img/produits/BonjourDrink.jpg
 categories: ["Énergie", "Cognition", "Stress"]
 synopsis: "Boisson instantanée à base d’extraits concentrés de champignons adaptogènes (Lion’s Mane, Cordyceps, Chaga) et caféine. Positionnée comme alternative au café, promet énergie stable, concentration, digestion apaisée et soutien immunitaire."
 ean: [0883990231148]
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Bonjour – Boisson aux champignons</h1>
+    <p style={{margin:0}}>
+      <strong>Marque / Laboratoire :</strong> Bonjour Drink (France)<br/>
+      <strong>Catégorie :</strong> Mélange de champignons adaptogènes + caféine (boisson fonctionnelle)
+    </p>
+  </div>
 
-# 💊 Bonjour – Boisson aux champignons (Lion’s Mane, Cordyceps, Chaga)  
-**Marque / Laboratoire :** Bonjour Drink (France)  
-**Catégorie :** Mélange de champignons adaptogènes + caféine (boisson fonctionnelle)  
-
+<div className="product-hero__packshot">
+    <img src="/img/produits/BonjourDrink.jpg" alt="Bonjour – Boisson aux champignons" loading="eager" />
+  </div>
+</div>
 ---
 
 ## ☠️ Note Fideta : **Disqualifié – Score : 0/100**  
