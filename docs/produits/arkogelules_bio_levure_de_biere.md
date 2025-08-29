@@ -4,13 +4,19 @@ image: /img/produits/arkogelules_levure_biere.jpg
 categories: ["Beauté", "Cheveux", "Ongles", "Complément alimentaire"]
 synopsis: "Complément alimentaire BIO à base de levure de bière revivifiable ; bénéfices cheveux/ongles non démontrés cliniquement."
 ean: [3578835500585 , 3578835500530]
+hide_title: true
 ---
-
-# 💊 Levure de Bière BIO
-
-**Marque / Laboratoire :** Arkopharma  
-**Catégorie :** Levure (micro-organisme / source de nutriments)
-
+<div style={{display:'flex',alignItems:'center',justifyContent:'space-between',gap:'1rem',margin:'0.5rem 0 1.25rem'}}>
+  <div style={{minWidth:0}}>
+    <h1 style={{margin:0}}>Formag</h1>
+    <p style={{margin:0}}><strong>Marque / Laboratoire :</strong> Arkopharma<br/><strong>Catégorie :</strong> Levure (micro-organisme / source de nutriments)</p>
+  </div>
+  <img
+    src="/img/produits/arkogelules_levure_biere.jpg"
+    alt="Arkogélules® BIO Levure de Bière"
+    style={{objectFit:'contain', maxWidth:'32%', minWidth:'160px', height:'auto'}}
+  />
+</div>
 ---
 
 ## ⚫ Note Fideta : F – Score : 13/100
