@@ -33,15 +33,35 @@ jobs:
       - name: Build Docusaurus
         run: npm run build
 
-      - name: Generate Pagefind index (FR)
-        run: npx -y pagefind --site build --force-language fr
-        
-      - name: Show Pagefind manifest stats
+      - name: Show build dir (pre-index)
         run: |
-          node -e "const fs=require('fs');const p='./build/pagefind/manifest.json';if(fs.existsSync(p)){const j=JSON.parse(fs.readFileSync(p,'utf8'));console.log('Pagefind pages:', j.pages, 'languages:', Object.keys(j.languages||{}));} else {console.error('No manifest.json'); process.exit(1)}"
-      
+          echo "== ls build (level 1) =="
+          ls -la build || true
+          echo "== tree build (level 2) =="
+          find build -maxdepth 2 -type d -print
+
+      - name: Pagefind version
+        run: npx -y pagefind@1.3.0 --version
+
+      - name: Generate Pagefind index (FR, explicit output)
+        run: |
+          npx -y pagefind@1.3.0 --site build --output-subdir pagefind --force-language fr --verbose
+
+      - name: Show Pagefind output
+        run: |
+          echo "== ls build/pagefind =="
+          ls -la build/pagefind || true
+          echo "== manifest head =="
+          if [ -f build/pagefind/manifest.json ]; then
+            head -c 2000 build/pagefind/manifest.json | sed 's/}/}\n/g'
+          else
+            echo "manifest.json missing"
+          fi
+
       - name: Assert Pagefind index exists
-        run: test -d build/pagefind && echo "Pagefind OK" || (echo "Missing Pagefind index" && exit 1)
+        run: |
+          test -f build/pagefind/manifest.json || (echo "❌ Missing build/pagefind/manifest.json" && exit 1)
+          node -e "const fs=require('fs');const j=JSON.parse(fs.readFileSync('build/pagefind/manifest.json','utf8'));console.log('✅ Pagefind pages:', j.pages, 'languages:', Object.keys(j.languages||{}));"
 
       - name: Upload artifact (build/)
         uses: actions/upload-pages-artifact@v3
