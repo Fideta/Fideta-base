@@ -14,6 +14,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids"
   },
+  
   "dependencies": {
     "@docusaurus/core": "3.8.1",
     "@docusaurus/plugin-google-gtag": "^3.8.1",
@@ -28,12 +29,14 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
+  
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.8.1",
     "@docusaurus/types": "3.8.1",
     "gh-pages": "^6.3.0",
     "@pagefind/default-ui": "^1.0.0"
   },
+  
   "browserslist": {
     "production": [
       ">0.5%",
