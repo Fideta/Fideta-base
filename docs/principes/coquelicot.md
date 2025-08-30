@@ -1,18 +1,26 @@
 ---
 title: Coquelicot
-icon: 🌺
+image: /img/principes/Coquelicot.jpg
 categories: ["Plantes"]
 synopsis: "Usage traditionnel pour la toux et le sommeil."
 synonyms: ["Papaver rhoeas", "Poppy red", "Corn poppy"]
 slug: /principes/coquelicot
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Collagène</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> *Papaver rhoeas* L.<br/>
+      <strong>**Partie utilisée** :</strong> Pétales (*Papaveris rhoeados flos*) 
+      <strong>****Origine**** :</strong> Europe, bassin méditerranéen
+    </p>
+  </div>
 
-# Coquelicot
-
-**Nom scientifique** : *Papaver rhoeas* L.  
-**Partie utilisée** : Pétales (*Papaveris rhoeados flos*)  
-**Origine** : Europe, bassin méditerranéen  
-
+<div className="product-hero__packshot">
+    <img src="/img/principes/Coquelicot.jpg" alt="Coquelicot" loading="eager" />
+  </div>
+</div>
 ---
 
 ## Avis global  
@@ -92,6 +100,7 @@ La plante contient des alcaloïdes isoquinoléiques en faible quantité. Si les 
 7. Gambaro V. *Analysis of contaminated extracts of *P. rhoeas* with *P. bracteatum* (thébaïne).* Planta Med. 2012.  
 
 ---
+
 
 
 
