@@ -19,7 +19,7 @@ hide_title: true
   </div>
 
 <div className="product-hero__packshot">
-    <img src="/img/principes/Collagène.jpg" alt="Collagène" loading="eager" />
+    <img src="/img/principes/Collagene.jpg" alt="Collagène" loading="eager" />
   </div>
 </div>
 ---
