@@ -9,7 +9,7 @@ hide_title: true
 ---
 <div className="product-hero">
   <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Collagène</h1>
+    <h1 style={{margin:0}}>Coquelicot</h1>
     <p style={{margin:0}}>
       <strong>**Nom scientifique**:</strong> *Papaver rhoeas* L.<br/>
       <strong>**Partie utilisée** :</strong> Pétales (*Papaveris rhoeados flos*) 
@@ -100,6 +100,7 @@ La plante contient des alcaloïdes isoquinoléiques en faible quantité. Si les 
 7. Gambaro V. *Analysis of contaminated extracts of *P. rhoeas* with *P. bracteatum* (thébaïne).* Planta Med. 2012.  
 
 ---
+
 
 
 
