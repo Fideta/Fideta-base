@@ -1,17 +1,26 @@
 ---
 title: Chaga
-icon: 🍄
+image: /img/principes/Chaga.jpg
 categories: ["Champignons"]
 synopsis: "Champignon médicinal traditionnel, mais aucune preuve clinique d’efficacité et signaux de toxicité rénale liés à sa teneur en oxalates."
 synonyms: ["Chaga", "Inonotus obliquus", "Polypore du bouleau"]
 slug: /principes/chaga
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Cassis</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> *Inonotus obliquus*<br/>
+      <strong>**Partie utilisée** :</strong> sclérote (conk), corps fructifère 
+      <strong>****Origine**** :</strong> hampignon parasite du bouleau, zones boréales (Russie, Scandinavie, Canada)
+    </p>
+  </div>
 
-# Chaga 
-
-**Nom scientifique** : *Inonotus obliquus*  
-**Partie utilisée** : sclérote (conk), corps fructifère  
-**Origine** : Champignon parasite du bouleau, zones boréales (Russie, Scandinavie, Canada)
+<div className="product-hero__packshot">
+    <img src="/img/principes/Chaga.jpg" alt="Chaga" loading="eager" />
+  </div>
+</div>
 
 ---
 
