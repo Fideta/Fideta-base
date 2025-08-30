@@ -1,18 +1,27 @@
 ---
 title: Collagène
-icon: 🧬
+image: /img/principes/Collagène.jpg
 categories: ["Protéines"]
 synopsis: "Protéine de soutien, preuves modérées pour la beauté de la peau."
 synonyms: ["Collagène"]
 popular: true
 slug: /principes/collagène
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Collagène</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> Peptides de collagène hydrolysé (types I et III principalement)<br/>
+      <strong>**Partie utilisée** :</strong> peaux, os ou cartilages d’origine animale 
+      <strong>****Origine**** :</strong> bovine, porcine, marine ou aviaire
+    </p>
+  </div>
 
-# Collagène  
-**Nom scientifique :** peptides de collagène hydrolysé (types I et III principalement)  
-**Partie utilisée :** peaux, os ou cartilages d’origine animale  
-**Origine :** bovine, porcine, marine ou aviaire  
-
+<div className="product-hero__packshot">
+    <img src="/img/principes/Collagène.jpg" alt="Collagène" loading="eager" />
+  </div>
+</div>
 ---
 
 ## 🧾 Avis global  
