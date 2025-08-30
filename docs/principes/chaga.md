@@ -9,7 +9,7 @@ hide_title: true
 ---
 <div className="product-hero">
   <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Cassis</h1>
+    <h1 style={{margin:0}}>Chrome</h1>
     <p style={{margin:0}}>
       <strong>**Nom scientifique**:</strong> *Inonotus obliquus*<br/>
       <strong>**Partie utilisée** :</strong> sclérote (conk), corps fructifère 
