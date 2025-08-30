@@ -1,17 +1,26 @@
 ---
 title: Chrome
-icon: ⚛
+image: /img/principes/Chrome.jpg
 categories: ["Minéraux"]
 synopsis: "Oligo-élément, effets modestes sur l’HbA1c mais non pertinents cliniquement, pas de bénéfice établi sur la glycémie ou les lipides."
 synonyms: ["Chromium", "Chrome trivalent", "Cr³⁺", "Picolinate de chrome"]
 slug: /principes/chrome
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Chrome</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> Chromium (formes courantes : picolinate, chlorure, levure enrichie)<br/>
+      <strong>**Partie utilisée** :</strong> minéral — **Extrait :** non applicable 
+      <strong>****Origine**** :</strong> minéral (géologique, synthétique, ou levures enrichies)
+    </p>
+  </div>
 
-# Chrome  
-*Nom scientifique :* _Chromium (formes courantes : picolinate, chlorure, levure enrichie)_  
-**Partie utilisée :** minéral — **Extrait :** non applicable  
-**Origine :** minéral (géologique, synthétique, ou levures enrichies)
-
+<div className="product-hero__packshot">
+    <img src="/img/principes/Chrome.jpg" alt="Chrome" loading="eager" />
+  </div>
+</div>
 ---
 
 ## Avis global :  
