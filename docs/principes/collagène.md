@@ -1,6 +1,6 @@
 ---
 title: Collagène
-image: /img/principes/Collagène.jpg
+image: /img/principes/Collagene.jpg
 categories: ["Protéines"]
 synopsis: "Protéine de soutien, preuves modérées pour la beauté de la peau."
 synonyms: ["Collagène"]
