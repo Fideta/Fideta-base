@@ -1,27 +1,27 @@
 ---
-title: Ginseng
-image: /img/principes/Ginseng.jpg
-categories: ["Plantes"]
-synopsis: "Effet modeste et transitoire sur la fatigue, données faibles pour glycémie, dysfonction érectile et infections ; pas de preuve pour cognition ou performance."
-synonyms: ["Panax ginseng C.A. Meyer", "Ginseng asiatique", "Ginseng rouge", "Ginseng blanc"]
-popular: true
-slug: /principes/ginseng
+title: Lacticaseibacillus rhamnosus
+image: /img/principes/lacticaseibacillus_rhamnosus.jpg
+categories: ["Probiotiques"]
+synopsis: "Probiotique aux preuves variables pour la santé digestive."
+synonyms: ["Lactobacillus rhamnosus"]
+slug: /principes/lacticaseibacillus_rhamnosus
 hide_title: true
 ---
 <div className="product-hero">
   <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Ginseng</h1>
+    <h1 style={{margin:0}}>Lacticaseibacillus rhamnosus</h1>
     <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> *Panax ginseng* C.A. Meyer<br/>
-      <strong>**Partie utilisée** :</strong> racine (Radix) – “blanche” (séchée) ou “rouge” (étuvée)   
-      <strong>****Origine**** :</strong> Asie de l’Est (Chine, Corée) ; cultures mondiales
+      <strong>**Nom scientifique**:</strong> Lacticaseibacillus rhamnosus (ex. Lactobacillus rhamnosus)<br/>
+      <strong>**Partie utilisée** :</strong> souche bactérienne vivante (probiotique)   
+      <strong>****Origine**** :</strong> flore intestinale humaine ou produits laitiers fermentés
 	  </p>
   </div>
 
 <div className="product-hero__packshot">
-    <img src="/img/principes/Ginseng.jpg" alt="Fer" loading="eager" />
+    <img src="/img/principes/lacticaseibacillus_rhamnosus.jpg" alt="Lacticaseibacillus rhamnosus" loading="eager" />
   </div>
 </div>
+
 ---
 
 ## Avis global :  
