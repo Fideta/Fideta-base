@@ -1,17 +1,26 @@
 ---
 title: Vitamine B2
-icon: 💊
+image: /img/principes/vitamine_b2.jpg
 categories: ["Vitamines"]
 synopsis: "Vitamine hydrosoluble, preuve établie pour la prévention des migraines à forte dose."
 synonyms: ["Riboflavine"]
 slug: /principes/vitamine_b2
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Vitamine B2</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> Riboflavine<br/>
+      <strong>**Partie utilisée** :</strong> vitamine hydrosoluble   
+      <strong>****Origine**** :</strong> synthèse ou sources alimentaires (produits laitiers, viande, œufs, légumes verts, céréales enrichies)
+	  </p>
+  </div>
 
-# Vitamine B2  
-**Nom scientifique :** Riboflavine  
-**Partie utilisée :** vitamine hydrosoluble — Extrait : non applicable  
-**Origine :** synthèse ou sources alimentaires (produits laitiers, viande, œufs, légumes verts, céréales enrichies)
-
+<div className="product-hero__packshot">
+    <img src="/img/principes/vitamine_b2.jpg" alt="Vitamine B2" loading="eager" />
+  </div>
+</div>
 ---
 
 ## Avis global :  
