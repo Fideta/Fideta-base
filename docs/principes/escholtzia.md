@@ -1,17 +1,27 @@
 ---
 title: Escholtzia
-icon: 🌼
+image: /img/principes/Eschscholzia.jpg
 categories: ["Plantes"]
 synopsis: "Aucune preuve clinique en monothérapie (sommeil, anxiété). Un essai combiné avec aubépine et magnésium montre un effet modeste mais non attribuable. Signalements de confusion et hallucinations (nutrivigilance)."
 synonyms: ["Eschscholzia californica", "Pavot de Californie"]
 slug: /principes/escholtzia
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Escholtzia</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> **Eschscholzia californica* Cham.<br/>
+      <strong>**Partie utilisée** :</strong> parties aériennes (herba) 
+      <strong>****Origine**** :</strong> Amérique du Nord
+	  </p>
+  </div>
 
-# Escholtzia (Pavot de Californie)
+<div className="product-hero__packshot">
+    <img src="/img/principes/Eschscholzia.jpg" alt="Escholtzia californica" loading="eager" />
+  </div>
+</div>
 
-**Nom scientifique** : *Eschscholzia californica* Cham.  
-**Partie utilisée** : parties aériennes (herba)  
-**Origine** : Amérique du Nord ; usage médicinal traditionnel reconnu en Europe (HMPC/EMA)  
 
 ---
 
