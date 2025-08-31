@@ -1,19 +1,28 @@
 ---
 title: Shilajit
-icon: 💊
+image: /img/principes/shilajit.jpg
 categories: ["Substances naturelles"]
 synopsis: "Résine minéro-organique ; preuves humaines limitées, signaux faibles sur fertilité masculine, testostérone, performance et santé osseuse."
 synonyms: ["Mumiyo", "Mumie", "Asphaltum punjabianum"]
 popular: false
 slug: /principes/shilajit
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Shilajit</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> non applicable (complexe phytominéral)<br/>
+      <strong>**Partie utilisée** :</strong> résine naturelle purifiée<br/>
+      <strong>****Origine**** :</strong> exsudat de roches montagneuses (Himalaya, Caucase, Altaï…), riche en composés organo-minéraux<br/>  
 
-# Shilajit
+    </p>
+  </div>
 
-**Nom scientifique** : non applicable (complexe phytominéral)  
-**Partie utilisée** : résine naturelle purifiée  
-**Origine** : exsudat de roches montagneuses (Himalaya, Caucase, Altaï…), riche en composés organo-minéraux  
-
+<div className="product-hero__packshot">
+    <img src="/img/principes/shilajit.jpg" alt="Shilajit" loading="eager" />
+  </div>
+</div>
 ---
 
 ## Avis global
