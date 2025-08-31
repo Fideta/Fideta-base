@@ -12,8 +12,8 @@ hide_title: true
     <h1 style={{margin:0}}>Psyllium</h1>
     <p style={{margin:0}}>
       <strong>**Nom scientifique**:</strong> Plantago ovata_ Forssk. (psyllium blond) / _Plantago psyllium_ L. (psyllium brun)<br/>
-      <strong>**Partie utilisée** :</strong> tégument (enveloppe de la graine) — **Extrait :** poudre brute
-      <strong>****Origine**** :</strong> Inde / Pakistan (blond) ; bassin méditerranéen (brun)
+      <strong>**Partie utilisée** :</strong> tégument (enveloppe de la graine) — **Extrait :** poudre brute<br/>
+      <strong>****Origine**** :</strong> Inde / Pakistan (blond) ; bassin méditerranéen (brun)<br/>
     </p>
   </div>
 
