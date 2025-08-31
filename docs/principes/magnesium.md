@@ -1,18 +1,27 @@
 ---
 title: Magnésium
-icon: ⚛
+image: /img/principes/magnesium.jpg
 categories: ["Minéraux"]
 synopsis: "Minéral essentiel, preuves solides pour la prévention des carences."
 synonyms: ["Magnésium, Mg"]
 popular: true
 slug: /principes/magnesium
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Magnésium</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> Magnesium (divers sels : citrate, bisglycinate, oxyde…)<br/>
+      <strong>**Partie utilisée** :</strong> minéral
+      <strong>****Origine**** :</strong> divers (eaux, roches, aliments)
+    </p>
+  </div>
 
-# Magnésium  
-*Nom scientifique :* _Magnesium (divers sels : citrate, bisglycinate, oxyde…)_  
-**Partie utilisée :** minéral — **Extrait :** non applicable  
-**Origine :** divers (eaux, roches, aliments)
-
+<div className="product-hero__packshot">
+    <img src="/img/principes/magnesium.jpg" alt="Magnesium" loading="eager" />
+  </div>
+</div>
 ---
 
 ## Avis global :  
