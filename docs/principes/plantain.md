@@ -1,17 +1,26 @@
 ---
 title: Plantain
-icon: 🍃
+image: /img/principes/plantain.jpg
 categories: ["Plantes"]
 synopsis: "Plante riche en mucilages, preuves limitées pour apaiser les voies respiratoires."
 synonyms: ["Plantago major, Plantago lanceolata"]
 slug: /principes/plantain
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Plantain</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> *Plantago major* L. (et *Plantago lanceolata* parfois utilisé)<br/>
+      <strong>**Partie utilisée** :</strong> feuilles fraîches ou sèches ; gel ou extrait aqueux/alcoolique
+      <strong>****Origine**** :</strong> cosmopolite, feuilles largement utilisées en Europe, Asie et Amérique du Nord
+    </p>
+  </div>
 
-# Plantain
-
-**Nom scientifique** : *Plantago major* L. (et *Plantago lanceolata* parfois utilisé)  
-**Partie utilisée** : feuilles fraîches ou sèches ; gel ou extrait aqueux/alcoolique ; graines (pour psyllium)  
-**Origine** : cosmopolite, feuilles largement utilisées en Europe, Asie et Amérique du Nord  
+<div className="product-hero__packshot">
+    <img src="/img/principes/passiflore.jpg" alt="Passiflore" loading="eager" />
+  </div>
+</div>
 
 ---
 
