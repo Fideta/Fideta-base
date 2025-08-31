@@ -13,8 +13,8 @@ hide_title: true
     <h1 style={{margin:0}}>Passiflore</h1>
     <p style={{margin:0}}>
       <strong>**Nom scientifique**:</strong> Passiflora incarnata L<br/>
-      <strong>**Partie utilisée** :</strong> Parties aériennes (feuilles, tiges, fleurs)
-      <strong>****Origine**** :</strong> Amériques (aujourd’hui cultivée en Europe)
+      <strong>**Partie utilisée** :</strong> Parties aériennes (feuilles, tiges, fleurs)<br/>
+      <strong>****Origine**** :</strong> Amériques (aujourd’hui cultivée en Europe)<br/>
     </p>
   </div>
 
