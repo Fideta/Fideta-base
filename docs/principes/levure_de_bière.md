@@ -1,11 +1,11 @@
 ---
 title: Levure de bière
-image: /img/principes/levure_de_bière.jpg
+image: /img/principes/levure_de_biere.jpg
 categories: ["Bactérie"]
 synopsis: "Source naturelle de vitamines B et minéraux, mais bénéfices cliniques spécifiques non démontrés."
 synonyms: ["Saccharomyces cerevisiae", "Brewer’s yeast"]
 popular: true
-slug: /principes/levure_de_bière
+slug: /principes/levure_de_biere
 hide_title: true
 ---
 <div className="product-hero">
@@ -19,7 +19,7 @@ hide_title: true
   </div>
 
 <div className="product-hero__packshot">
-    <img src="/img/principes/levure_de_bière.jpg" alt="Saccharomyces cerevisiae" loading="eager" />
+    <img src="/img/principes/levure_de_biere.jpg" alt="Saccharomyces cerevisiae" loading="eager" />
   </div>
 </div>
 ---
