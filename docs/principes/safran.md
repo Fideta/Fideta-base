@@ -1,19 +1,28 @@
 ---
 title: Safran
-icon: 🌸
+image: /img/principes/safran.jpg
 categories: ["Plantes"]
 synopsis: "Extrait de stigmates, preuves cliniques probables pour la dépression légère à modérée."
 synonyms: ["Crocus sativus L."]
 popular: true
 slug: /principes/safran
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Safran</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> Crocus sativus L.<br/>
+      <strong>**Partie utilisée** :</strong> Stigmates (fils rouges du pistil)<br/>
+      <strong>****Origine**** :</strong> Plante herbacée vivace (Iridaceae), cultivée principalement en Iran, Espagne, Maroc, Inde<br/>  
 
-# Safran
+    </p>
+  </div>
 
-**Nom scientifique** : *Crocus sativus L.*  
-**Partie utilisée** : stigmates (fils rouges du pistil)  
-**Origine** : plante herbacée vivace (Iridaceae), cultivée principalement en Iran, Espagne, Maroc, Inde  
-
+<div className="product-hero__packshot">
+    <img src="/img/principes/safran.jpg" alt="Crocus sativus" loading="eager" />
+  </div>
+</div>
 ---
 
 ## Avis global
