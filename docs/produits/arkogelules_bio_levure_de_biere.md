@@ -35,7 +35,7 @@ La souche utilisée (levure **revivifiable** *Saccharomyces cerevisiae*) **n’a
 
 | Ingrédient                                                    | Quantité (3 gélules) | Commentaire Fideta                                                                                                                                                                                                                  |
 | ------------------------------------------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Levure de bière BIO revivifiable (*Saccharomyces cerevisiae*)](/docs/principes/levure_de_bière) | 1335 mg              | Aliment riche en vitamines B et minéraux. La forme « revivifiable » n’a pas démontré d’effet probiotique significatif dans les essais cliniques. Les bénéfices cosmétiques (cheveux/ongles) ne sont pas confirmés par la recherche. |
+| [Levure de bière BIO revivifiable (*Saccharomyces cerevisiae*)](/docs/principes/levure_de_biere) | 1335 mg              | Aliment riche en vitamines B et minéraux. La forme « revivifiable » n’a pas démontré d’effet probiotique significatif dans les essais cliniques. Les bénéfices cosmétiques (cheveux/ongles) ne sont pas confirmés par la recherche. |
 
 > **Posologie fabricant** : Adultes 3 gélules/jour ; 13–18 ans 2/j ; 6–12 ans 1/j, au cours du repas.
 
