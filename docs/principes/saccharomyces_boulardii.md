@@ -1,17 +1,27 @@
 ---
 title: Saccharomyces boulardii
-icon: 🦠
+image: /img/principes/saccharomyces_boulardii.jpg
 categories: ["Probiotiques"]
 synopsis: "Probiotique, preuves solides pour prévenir certaines diarrhées."
 synonyms: ["Saccharomyces boulardii"]
 slug: /principes/saccharomyces_boulardii
+hide_title: true
 ---
-# Saccharomyces boulardii
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Saccharomyces boulardii</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> Saccharomyces boulardii CNCM I-745<br/>
+      <strong>**Partie utilisée** :</strong> Levure vivante (probiotique)<br/>
+      <strong>****Origine**** :</strong> Isolée initialement de la peau de fruits tropicaux (litchi, mangoustan), souche spécifique sélectionnée pour ses effets probiotiques<br/>  
 
-**Nom scientifique** : *Saccharomyces boulardii CNCM I-745*  
-**Partie utilisée** : Levure vivante (probiotique)  
-**Origine** : Isolée initialement de la peau de fruits tropicaux (litchi, mangoustan), souche spécifique sélectionnée pour ses effets probiotiques  
+    </p>
+  </div>
 
+<div className="product-hero__packshot">
+    <img src="/img/principes/saccharomyces_boulardii.jpg" alt="Saccharomyces boulardii" loading="eager" />
+  </div>
+</div>
 ---
 
 ## Avis global
