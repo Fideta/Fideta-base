@@ -13,8 +13,8 @@ hide_title: true
     <h1 style={{margin:0}}>Mélatonine</h1>
     <p style={{margin:0}}>
       <strong>**Nom scientifique**:</strong> N‑acétyl‑5‑méthoxytryptamine<br/>
-      <strong>**Partie utilisée** :</strong> Synthèse endogène ou complément synthétique
-      <strong>****Origine**** :</strong> Hormone naturellement produite par la glande pinéale; disponible sous forme de complément synthétique.
+      <strong>**Partie utilisée** :</strong> Synthèse endogène ou complément synthétique<br/>
+      <strong>****Origine**** :</strong> Hormone naturellement produite par la glande pinéale; disponible sous forme de complément synthétique.<br/>
     </p>
   </div>
 
