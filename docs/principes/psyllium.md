@@ -1,17 +1,26 @@
 ---
 title: Psyllium (Ispaghul)
-icon: 🌿
+image: /img/principes/psyllium.jpg
 categories: ["Fibres alimentaires" , "Plantes"]
 synopsis: "Fibre soluble à l’efficacité établie pour la constipation et la réduction modeste du LDL-cholestérol."
 synonyms: ["Plantago ovata", "Ispaghula", "Psyllium husk", "Tégument de psyllium", "Psyllium blond", "Psyllium brun"]
 slug: /principes/psyllium
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Psyllium</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> Plantago ovata_ Forssk. (psyllium blond) / _Plantago psyllium_ L. (psyllium brun)<br/>
+      <strong>**Partie utilisée** :</strong> tégument (enveloppe de la graine) — **Extrait :** poudre brute
+      <strong>****Origine**** :</strong> Inde / Pakistan (blond) ; bassin méditerranéen (brun)
+    </p>
+  </div>
 
-# Psyllium  
-*Nom scientifique :* _Plantago ovata_ Forssk. (psyllium blond) / _Plantago psyllium_ L. (psyllium brun)  
-**Partie utilisée :** tégument (enveloppe de la graine) — **Extrait :** poudre brute  
-**Origine :** Inde / Pakistan (blond) ; bassin méditerranéen (brun)  
-
+<div className="product-hero__packshot">
+    <img src="/img/principes/psyllium.jpg" alt="Psyllium" loading="eager" />
+  </div>
+</div>
 ---
 
 ## Avis global :  
