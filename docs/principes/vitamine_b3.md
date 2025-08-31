@@ -1,17 +1,26 @@
 ---
 title: Vitamine B3
-icon: 💊
+image: /img/principes/vitamine_b3.jpg
 categories: ["Vitamines"]
 synopsis: "Nutriment essentiel, traitement établi des carences ; bénéfices additionnels non démontrés en complémentation courante."
 synonyms: ["Niacine", "Nicotinamide", "Niacinamide", "Nicotinamide riboside (NR)", "Nicotinamide mononucléotide (NMN)"]
 slug: /principes/vitamine_b3
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Vitamine B3</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> Niacine (acide nicotinique), Nicotinamide (niacinamide) ; vitamères apparentés : Nicotinamide riboside (NR), Nicotinamide mononucléotide (NMN)<br/>
+      <strong>**Partie utilisée** :</strong> Vitamine hydrosoluble de synthèse   
+      <strong>****Origine**** :</strong> Nutriment essentiel ; apports exprimés en « équivalents niacine » (EN). Références nutritionnelles et UL fixés par EFSA/SCF.
+	  </p>
+  </div>
 
-# Vitamine B3 
-**Nom scientifique :** Niacine (acide nicotinique), Nicotinamide (niacinamide) ; vitamères apparentés : Nicotinamide riboside (NR), Nicotinamide mononucléotide (NMN)  
-**Partie utilisée :** — (vitamine hydrosoluble de synthèse)  
-**Origine :** Nutriment essentiel ; apports exprimés en « équivalents niacine » (EN). Références nutritionnelles et UL fixés par EFSA/SCF.  
-
+<div className="product-hero__packshot">
+    <img src="/img/principes/vitamine_b3.jpg" alt="Vitamine B3" loading="eager" />
+  </div>
+</div>
 ---
 
 ## Avis global :  
