@@ -18,7 +18,7 @@ hide_title: true
   </div>
 
 <div className="product-hero__packshot">
-    <img src="/img/principes/passiflore.jpg" alt="Passiflore" loading="eager" />
+    <img src="/img/principes/plantain.jpg" alt="Passiflore" loading="eager" />
   </div>
 </div>
 
