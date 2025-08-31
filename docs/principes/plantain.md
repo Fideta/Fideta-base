@@ -12,8 +12,8 @@ hide_title: true
     <h1 style={{margin:0}}>Plantain</h1>
     <p style={{margin:0}}>
       <strong>**Nom scientifique**:</strong> *Plantago major* L. (et *Plantago lanceolata* parfois utilisé)<br/>
-      <strong>**Partie utilisée** :</strong> feuilles fraîches ou sèches ; gel ou extrait aqueux/alcoolique
-      <strong>****Origine**** :</strong> cosmopolite, feuilles largement utilisées en Europe, Asie et Amérique du Nord
+      <strong>**Partie utilisée** :</strong> feuilles fraîches ou sèches ; gel ou extrait aqueux/alcoolique<br/>
+      <strong>****Origine**** :</strong> cosmopolite, feuilles largement utilisées en Europe, Asie et Amérique du Nord<br/>
     </p>
   </div>
 
