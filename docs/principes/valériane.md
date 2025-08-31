@@ -1,17 +1,27 @@
 ---
 title: Valériane
-icon: 🌿
+image: /img/principes/valeriane.jpg
 categories: ["Plantes"]
 synopsis: "Plante sédative, preuves modérées pour améliorer le sommeil."
 synonyms: ["Valeriana officinalis"]
 slug: /principes/valériane
+hide_title: true
 ---
-# Valériane
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Valériane</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> Valeriana officinalis<br/>
+      <strong>**Partie utilisée** :</strong> Racine (rhizome) <br/>
+      <strong>****Origine**** :</strong> Europe et Asie tempérées<br/>  
 
-**Nom scientifique** : *Valeriana officinalis*  
-**Partie utilisée** : Racine (rhizome)  
-**Origine** : Europe et Asie tempérées
+    </p>
+  </div>
 
+<div className="product-hero__packshot">
+    <img src="/img/principes/valeriane.jpg" alt="Valériane" loading="eager" />
+  </div>
+</div>
 ---
 
 ## 🧠 Avis global
