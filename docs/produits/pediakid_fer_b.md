@@ -45,7 +45,7 @@ En résumé, ce produit ne couvre que les VNR sans efficacité thérapeutique, s
 | [**Vitamine B3**](/docs/principes/vitamine_b3)                | 16 mg (100 % AR) | Pas d’effet clinique additionnel. |
 | [**Vitamine B5**](/docs/principes/vitamine_b5)                | 6 mg (100 % AR)  | Carences rares ; aucune preuve d’efficacité dans les usages revendiqués. |
 | [**Vitamine B6**](/docs/principes/vitamine_b6)                | 1,4 mg (100 % AR)| Pas de bénéfice additionnel hors déficit. |
-| [**Biotine (B8)**](/docs/principes/vitamine_b8)               | 50 µg (100 % AR) | Pas d’intérêt clinique établi. |
+| [**Biotine (B8)**](/docs/principes/vitamine_b7)               | 50 µg (100 % AR) | Pas d’intérêt clinique établi. |
 | [**Folate (B9)**](/docs/principes/vitamine_b9)                | 200 µg (100 % AR)| Peut masquer une carence B12 non corrigée. |
 | [**Vitamine B12**](/docs/principes/vitamine_b12)               | 2,5 µg (100 % AR)| Sûre et utile en cas d’apport insuffisant (végétalisme strict). Inutile hors déficit. |
 | **Fibres d’acacia (Fibregum™)**                               | 3,6 g            | Dose trop faible pour effet prébiotique (effet démontré ≥10 g/j). |
