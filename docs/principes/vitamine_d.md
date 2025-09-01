@@ -1,17 +1,27 @@
 ---
 title: Vitamine D
-icon: ☀️
+image: /img/principes/vitamine_d.jpg
 categories: ["Vitamines"]
 synopsis: "Essentielle à la santé osseuse, preuves solides pour prévenir le rachitisme."
 synonyms: ["Cholécalciférol, Ergocalciférol"]
 popular: true
 slug: /principes/vitamine_d
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Vitamine D</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> Cholécalciférol (D₃), Ergocalciférol (D₂) <br/>
+      <strong>**Partie utilisée** :</strong> substance pure ou extraite de fruits <br/> 
+      <strong>****Origine**** :</strong> synthèse cutanée (UVB) ou extraite de lanoline, lichen (D₃), levures (D₂) <br/>
+	  </p>
+  </div>
 
-# Vitamine D  
-**Nom scientifique :** _Cholécalciférol (D₃), Ergocalciférol (D₂)_  
-**Partie utilisée :** prohormone — **Extrait :** non applicable  
-**Origine :** synthèse cutanée (UVB) ou extraite de lanoline, lichen (D₃), levures (D₂)
+<div className="product-hero__packshot">
+    <img src="/img/principes/vitamine_d.jpg" alt="Vitamine D" loading="eager" />
+  </div>
+</div>
 
 ---
 
