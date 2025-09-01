@@ -1,18 +1,27 @@
 ---
 title: Zinc
-icon: ⚛
+image: /img/principes/zinc.jpg
 categories: ["Minéraux"]
 synopsis: "Oligo-élément essentiel, preuves solides pour la fonction immunitaire.."
 synonyms: ["Zincum"]
 popular: true
 slug: /principes/zinc
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Zinc</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> *Zinc* (divers sels : picolinate, bisglycinate, gluconate, sulfate…)<br/>
+      <strong>**Partie utilisée** :</strong> minéral <br/> 
+      <strong>****Origine**** :</strong> roches, eaux, aliments (viande, fruits de mer, graines) <br/>
+	  </p>
+  </div>
 
-# Zinc
-
-**Nom scientifique** : *Zinc* (divers sels : picolinate, bisglycinate, gluconate, sulfate…)  
-**Partie utilisée** : minéral — **Extrait** : non applicable  
-**Origine** : roches, eaux, aliments (viande, fruits de mer, graines)
+<div className="product-hero__packshot">
+    <img src="/img/principes/vitamine_d.jpg" alt="Vitamine D" loading="eager" />
+  </div>
+</div>
 
 ---
 
