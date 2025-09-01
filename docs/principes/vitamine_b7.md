@@ -18,7 +18,7 @@ hide_title: true
   </div>
 
 <div className="product-hero__packshot">
-    <img src="/img/principes/vitamine_b7.jpg" alt="Vitamine B6" loading="eager" />
+    <img src="/img/principes/vitamine_b7.jpg" alt="Vitamine B7" loading="eager" />
   </div>
 </div>
   
