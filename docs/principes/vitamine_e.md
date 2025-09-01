@@ -1,17 +1,26 @@
 ---
 title: Vitamine E
-icon: 🫒
+image: /img/principes/vitamine_e.jpg
 categories: ["Vitamines"]
 synopsis: "Antioxydant liposoluble, efficace uniquement en cas de carence documentée."
 synonyms: ["Tocophérols", "Tocotriénols"]
 slug: /principes/vitamine_e
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Vitamine E</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> Tocophérols et tocotriénols <br/>
+      <strong>**Partie utilisée** :</strong> composé liposoluble  <br/> 
+      <strong>****Origine**** :</strong> huiles végétales (tournesol, soja, blé…), ou synthèse chimique (dl-α-tocophérol) <br/>
+	  </p>
+  </div>
 
-# Vitamine E  
-*Nom scientifique :* _Tocophérols et tocotriénols_  
-**Partie utilisée :** composé liposoluble  
-**Origine :** huiles végétales (tournesol, soja, blé…), ou synthèse chimique (dl-α-tocophérol)  
-
+<div className="product-hero__packshot">
+    <img src="/img/principes/vitamine_e.jpg" alt="Vitamine E" loading="eager" />
+  </div>
+</div>
 ---
 
 ## Avis global :  
