@@ -1,6 +1,6 @@
 ---
 title: Vitamine C
-image: /img/principes/vitamine_C.jpg
+image: /img/principes/vitamine_c.jpg
 categories: ["Vitamines"]
 synopsis: "Antioxydant essentiel, preuves solides pour prévenir le scorbut."
 synonyms: ["Acide ascorbique"]
