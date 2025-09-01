@@ -3,7 +3,7 @@ title: "Fer 14 mg – Granions"
 image: /img/produits/fer_granions.jpg
 categories: ["Énergie", "Fatigue"]
 synopsis: "Supplément de fer bisglycinate (14 mg) avec vitamines B2, B9 et B12."
-ean: 37760155212495
+ean: 3760155212495
 hide_title: true
 ---
 <div className="product-hero">
