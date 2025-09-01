@@ -1,17 +1,27 @@
 ---
 title: Vitamine B7
-icon: 💊
+image: /img/principes/vitamine_b7.jpg
 categories: ["Vitamines"]
 synopsis: "Cofacteur enzymatique essentiel, preuves solides uniquement en cas de carence ; allégations EFSA validées mais peu soutenues cliniquement hors déficit."
 synonyms: ["Biotine", "Vitamine H", "Vitamine B8"]
 slug: /principes/vitamine_b7
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Vitamine B7</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> Biotine (vitamine B7, vitamine H, parfois appelée B8 en France)  <br/>
+      <strong>**Partie utilisée** :</strong> vitamine hydrosoluble, coenzyme <br/> 
+      <strong>****Origine**** :</strong> Apports alimentaires (jaune d’œuf, foie, levure, soja, avoine, champignons…) et synthèse partielle par la flore intestinale. <br/>
+	  </p>
+  </div>
 
-# Vitamine B7 (Biotine)
-
-**Nom scientifique :** Biotine (vitamine B7, vitamine H, parfois appelée B8 en France)  
-**Partie utilisée :** Non applicable (vitamine hydrosoluble, coenzyme)  
-**Origine :** Apports alimentaires (jaune d’œuf, foie, levure, soja, avoine, champignons…) et synthèse partielle par la flore intestinale.  
+<div className="product-hero__packshot">
+    <img src="/img/principes/vitamine_b7.jpg" alt="Vitamine B6" loading="eager" />
+  </div>
+</div>
+  
 
 ---
 
