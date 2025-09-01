@@ -19,7 +19,7 @@ hide_title: true
   </div>
 
 <div className="product-hero__packshot">
-    <img src="/img/principes/vitamine_d.jpg" alt="Vitamine D" loading="eager" />
+    <img src="/img/principes/zinc.jpg" alt="Zinc" loading="eager" />
   </div>
 </div>
 
