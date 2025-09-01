@@ -1,17 +1,26 @@
 ---
 title: Vitamine B9
-icon: 💊
+image: /img/principes/vitamine_b9.jpg
 categories: ["Vitamines"]
 synopsis: "Essentielle à la synthèse de l’ADN et à la méthylation, preuves établies en prévention des anomalies du tube neural et correction des carences ; bénéfices non confirmés hors déficit."
 synonyms: ["Acide folique", "Folates"]
 slug: /principes/vitamine_b9
+hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Vitamine B7</h1>
+    <p style={{margin:0}}>
+      <strong>**Nom scientifique**:</strong> Acide ptéroylmonoglutamique (forme synthétique) / Folates (formes naturelles)    <br/>
+      <strong>**Partie utilisée** :</strong> vitamine hydrosoluble <br/> 
+      <strong>****Origine**** :</strong> Alimentation (légumineuses, légumes verts, foie, céréales enrichies) et synthèse chimique (suppléments). <br/>
+	  </p>
+  </div>
 
-# Vitamine B9 (Acide folique, Folates)
-
-**Nom scientifique :** Acide ptéroylmonoglutamique (forme synthétique) / Folates (formes naturelles)  
-**Partie utilisée :** Non applicable (vitamine hydrosoluble)  
-**Origine :** Alimentation (légumineuses, légumes verts, foie, céréales enrichies) et synthèse chimique (suppléments).  
+<div className="product-hero__packshot">
+    <img src="/img/principes/vitamine_b9.jpg" alt="Vitamine B9" loading="eager" />
+  </div>
+</div>
 
 ---
 
