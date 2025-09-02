@@ -1,7 +1,7 @@
 ---
 title: Mélisse
 image: /img/principes/melisse.jpg
-categories: ["Plante"]
+categories: ["Plantes"]
 synopsis: "Plante calmante traditionnelle, preuves modérées pour l’anxiété, le sommeil et certains troubles associés."
 synonyms: ["Melissa officinalis", "Baume mélisse", "Citronnelle (européenne)"]
 popular: true
@@ -99,3 +99,4 @@ Globalement bien tolérée, elle est déconseillée pendant la grossesse et l’
 ## 🛡️ Note légale  
 Cette fiche est issue d’une analyse critique des données humaines disponibles.  
 Elle ne constitue ni un avis médical ni une recommandation personnalisée. Pour toute décision de santé, consultez un professionnel.
+
