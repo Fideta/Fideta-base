@@ -1,6 +1,6 @@
 ---
 title: Cuivre
-image: /img/principes/Cuivre.jpg
+image: /img/principes/cuivre.jpg
 categories: ["Minéraux"]
 synopsis: "Oligo-élément essentiel, utile en correction ou prévention de carence, sans bénéfice démontré hors déficit."
 synonyms: ["Cu", "Cuivre élémentaire", "Cuprum"]
@@ -18,7 +18,7 @@ hide_title: true
   </div>
 
 <div className="product-hero__packshot">
-    <img src="/img/principes/Cuivre.jpg" alt="Cuivre" loading="eager" />
+    <img src="/img/principes/cuivre.jpg" alt="Cuivre" loading="eager" />
   </div>
 </div>
 ---
@@ -99,3 +99,4 @@ Conclusion : le cuivre en complément n’est utile **que sur déficit avéré o
 - Kessler H et al., Arch Neurol (2008) – Cuivre 8 mg/j, Alzheimer  
 
 ---
+
