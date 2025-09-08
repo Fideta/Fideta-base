@@ -1,7 +1,7 @@
 ---
 title: "Arkogélules® BIO Passiflore"
 image: /img/produits/arkogelules_passiflore.jpg
-categories: ["Plante", "Sommeil", "Anxiété"]
+categories: ["Plantes", "Sommeil", "Anxiété"]
 synopsis: "Poudre de passiflore (1120 mg/j) en gélules végétales BIO, efficacité clinique limitée aux extraits standardisés, usage traditionnel seulement."
 ean: [3578835503159 , 3578835503166]
 hide_title: true
@@ -105,3 +105,4 @@ Enfin, les **autorités (EMA/HMPC)** classent la passiflore en **usage tradition
 ## 🛡️ Note légale
 
 Cette fiche est établie à partir d’une revue critique des données scientifiques disponibles à la date d’analyse. Elle ne tient pas compte de données internes non publiées des laboratoires. Elle **ne constitue pas un avis médical** ni une recommandation personnalisée. Pour toute décision de santé (diagnostic, supplémentation, interactions médicamenteuses), **consultez un professionnel de santé**.
+
