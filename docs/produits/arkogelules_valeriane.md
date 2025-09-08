@@ -1,7 +1,7 @@
 ---
 title: "Arkogélules® Valériane"
 image: /img/produits/arkogelules_valeriane.jpg
-categories: ["Sommeil", "Anxiété", "Plante médicinale"]
+categories: ["Sommeil", "Anxiété", "Plantes"]
 synopsis: "Médicament traditionnel à base de poudre de racine de valériane pour troubles mineurs du sommeil et nervosité légère."
 ean: [3400933119997 , 3400933643980]
 hide_title: true
