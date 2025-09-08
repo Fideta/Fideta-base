@@ -46,7 +46,7 @@ Enfin, les **autorités (EMA/HMPC)** classent la passiflore en **usage tradition
 
 | Ingrédient | Quantité (pour 4 gélules) | Commentaire Fideta |
 | ----------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Poudre (totum intégral) de parties aériennes de **Passiflora incarnata** BIO | **1120 mg/j** | Forme « poudre de plante » (non extrait) ; essais cliniques positifs surtout avec **extraits hydroéthanoliques standardisés**. L’**équivalence dose/actifs** avec la poudre n’est **pas établie** → **pertinence limitée**. |
+| [Poudre (totum intégral) de parties aériennes de **Passiflora incarnata** BIO](/docs/principes/passiflore) | **1120 mg/j** | Forme « poudre de plante » (non extrait) ; essais cliniques positifs surtout avec **extraits hydroéthanoliques standardisés**. L’**équivalence dose/actifs** avec la poudre n’est **pas établie** → **pertinence limitée**. |
 | Flavones totaux | **≈ 14 mg/j** | **Titration faible et variable**; l’absence de DER/titrage précis complique la **reproductibilité** et la **comparabilité** aux études. |
 
 ---
@@ -105,4 +105,5 @@ Enfin, les **autorités (EMA/HMPC)** classent la passiflore en **usage tradition
 ## 🛡️ Note légale
 
 Cette fiche est établie à partir d’une revue critique des données scientifiques disponibles à la date d’analyse. Elle ne tient pas compte de données internes non publiées des laboratoires. Elle **ne constitue pas un avis médical** ni une recommandation personnalisée. Pour toute décision de santé (diagnostic, supplémentation, interactions médicamenteuses), **consultez un professionnel de santé**.
+
 
