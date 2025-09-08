@@ -1,7 +1,7 @@
 ---
 title: "Arkogélules® BIO Levure de Bière"
 image: /img/produits/arkogelules_levure_biere.jpg
-categories: ["Beauté", "Cheveux", "Ongles", "Complément alimentaire"]
+categories: ["Beauté", "Cheveux", "Ongles"]
 synopsis: "Complément alimentaire BIO à base de levure de bière revivifiable ; bénéfices cheveux/ongles non démontrés cliniquement."
 ean: [3578835500585 , 3578835500530]
 hide_title: true
