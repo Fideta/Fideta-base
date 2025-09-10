@@ -44,8 +44,8 @@ En résumé, le guarana présente bien un **effet stimulant documenté vs placeb
 | Vigilance / attention | Amélioration du temps de réaction vs placebo dans plusieurs petits RCT ; effet non constant et non retrouvé dans l’essai 2024 | 🟡 C | 37,5–300 mg extrait (effets ponctuels) ; 500 mg (~130 mg caféine) : nul |
 | Performances cognitives après effort | Résultats inconsistants, signal positif dans un petit essai, négatif dans d’autres | 🟠 D | 500 mg guarana vs 100 mg caféine : aucun bénéfice après effort (Talik 2024) |
 | Fatigue liée à la chimiothérapie | Résultats contradictoires selon les essais | 🟠 D | 50 mg 2×/j (positif, 2011) ; essais ultérieurs négatifs avec extraits purifiés |
-| Humeur / anxiété | Globalement pas de différence vs placebo | 🔴 E | 350 mg 3×/j (négatif) ; 500 mg (~130 mg caféine) : nul |
-| Gestion du poids | Non démontré | 🔴 E | EFSA : allégations rejetées, absence d’essais probants |
+| Humeur / anxiété | Globalement pas de différence vs placebo | ⚫ F | 350 mg 3×/j (négatif) ; 500 mg (~130 mg caféine) : nul |
+| Gestion du poids | Non démontré | ⚫ F | EFSA : allégations rejetées, absence d’essais probants |
 
 ---
 
@@ -111,3 +111,4 @@ En résumé, le guarana présente bien un **effet stimulant documenté vs placeb
 15. Healy DP et al. (1989) – *Ciprofloxacin–caffeine interaction*. Antimicrob Agents Chemother. → Ralentissement clairance caféine.  
 
 ---
+
