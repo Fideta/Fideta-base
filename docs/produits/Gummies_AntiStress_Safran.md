@@ -21,7 +21,7 @@ hide_title: true
 </div>
 ---
 
-## 🟠 Note Fideta : **D** – Score : **42/100**  
+## 🟠 Note Fideta : **D** – Score : **45/100**  
 >**Preuve limitée et extrapolée**  
 >Ce produit contient 30 mg/j de [safran](/docs/principes/safran) (2 % safranal, 5 % crocine), dose utilisée dans plusieurs essais cliniques.  
 >Les résultats sont encourageants dans la **dépression légère à modérée**, avec un effet comparable à certains antidépresseurs de référence (fluoxétine, imipramine) dans des essais de petite taille.  
