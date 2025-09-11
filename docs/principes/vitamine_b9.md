@@ -9,7 +9,7 @@ hide_title: true
 ---
 <div className="product-hero">
   <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Vitamine B7</h1>
+    <h1 style={{margin:0}}>Vitamine B9</h1>
     <p style={{margin:0}}>
       <strong>**Nom scientifique**:</strong> Acide ptéroylmonoglutamique (forme synthétique) / Folates (formes naturelles)    <br/>
       <strong>**Partie utilisée** :</strong> vitamine hydrosoluble <br/> 
