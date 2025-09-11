@@ -45,7 +45,7 @@ Fideta attribue à chaque complément une **note globale**, fondée sur :
 | ☠️       | **Disqualifié** | Danger avéré : toxicité, interactions graves, dose toxique, substance interdite. |
 
 > ℹ️ **Important** : une mauvaise note ne signifie pas toujours "dangereux", mais peut simplement indiquer **l'absence de bénéfices démontrés**.  
-> La note **F**, en revanche, alerte sur un **risque établi ou inacceptable** pour la santé.
+> La note **☠️ Disqualifié**, en revanche, alerte sur un **risque établi ou inacceptable** pour la santé.
 
 ---
 
@@ -74,7 +74,7 @@ Ce score vise à juger la **pertinence réelle** d’un complément dans son con
 
 > Un produit peut être **automatiquement disqualifié (score = 0/100)** si un ou plusieurs éléments suivants sont présents :
 >
-> - Présence d’un **ingrédient noté F** (dangereux ou interdit),
+> - Présence d’un **ingrédient présentant un danger avéré**,
 > - **Dose toxique** ou largement excessive d’un principe actif,
 > - **Substances interdites ou controversées**,
 > - Allégations **trompeuses ou illégales** (ex : “soigne le cancer”),
