@@ -83,7 +83,7 @@ export default function Home() {
                 <h3>Derniers produits analysés</h3>
                 <ul>
                   <li><Link to="/docs/produits/BonjourDrink">Bonjour café</Link> ☕ Remplacer le café : Vraiment ?</li>
-                  <li><Link to="/docs/produits/ERGYAller'">ERGYAller'</Link> 🤯 Adieu les allergies ? </li>
+                  <li><Link to="/docs/produits/azinc_boost">Azinc® Boost</Link> ⚡ Un coup de fouet qui fait du bien ? </li>
                 </ul>
               </div>
 
