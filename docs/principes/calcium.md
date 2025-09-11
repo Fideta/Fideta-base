@@ -45,12 +45,12 @@ Enfin, la qualité des compléments doit être surveillée, car certaines source
 | Fonction ciblée     | Effet revendiqué (population) | Niveau de preuve | Dose étudiée |
 |---------------------|--------------------------------|------------------|--------------|
 | Hypertension de la grossesse / pré-éclampsie | Réduction du risque chez les femmes enceintes à faible apport calcique | ✅ A | 1–2 g/j en prises fractionnées (essais récents explorent < 1 g/j) |
-| Santé osseuse – fractures (adultes vivant à domicile) | Prévention des fractures | 🔘 F | Pas d’efficacité démontrée en prévention primaire |
+| Santé osseuse – fractures (adultes vivant à domicile) | Prévention des fractures | ⚫ F | Pas d’efficacité démontrée en prévention primaire |
 | Santé osseuse – densité minérale osseuse | Augmentation modeste de la DMO | 🟡 C | 500–1200 mg/j ± vit. D |
 | Pression artérielle | Diminution modeste (–1 à –2 mmHg) | 🟡 C | ~1 g/j équivalent |
 | Syndrome prémenstruel | Réduction modeste des symptômes | 🟡 C | 1–1,2 g/j Ca élémentaire |
 | Poids corporel | Diminution faible, non pertinente cliniquement | 🟠 D | 500–1500 mg/j |
-| Énergie / fatigue | Aucune efficacité démontrée | 🔘 F | Non étudié spécifiquement |
+| Énergie / fatigue | Aucune efficacité démontrée | ⚫ F | Non étudié spécifiquement |
 
 ---
 
@@ -96,3 +96,4 @@ Enfin, la qualité des compléments doit être surveillée, car certaines source
 8. Cormick G et al. *Calcium supplementation for overweight/obesity*. Cochrane, 2024.  
 9. NIH ODS Fact Sheet – Calcium, 2025.  
 10. EFSA. *Tolerable Upper Intake Level for calcium*, 2012.  
+
