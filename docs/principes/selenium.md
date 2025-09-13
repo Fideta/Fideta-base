@@ -52,11 +52,11 @@ Conclusion : viser l’**apport alimentaire recommandé (70 µg/j)**, réserver 
 | **Polyarthrite rhumatoïde** | Effet modeste sur la douleur, résultats fragiles | 🟠 D | 100–200 µg/j |
 | **Infertilité masculine** | Amélioration de la motilité des spermatozoïdes (surtout en combinaisons), pas d’effet sur naissances vivantes | 🟠 D | Posologies variables |
 | **Prééclampsie** | Données pilotes contradictoires | 🟠 D | 60–100 µg/j |
-| **Cancers (prostate, global)** | Pas de prévention, signaux de risque chez l’homme | 🔘 F | Inefficace/délétère |
-| **Cardiovasculaire** | Pas d’effet sur lipides ni événements | 🔘 F | Inefficace |
-| **Maladie rénale chronique (dialyse)** | Pas d’effet sur lipides ou inflammation | 🔘 F | Inefficace |
-| **Migraine** | Pas d’effet sur fréquence ni sévérité | 🔘 F | Inefficace |
-| **Vision (cataracte/DMLA)** | Pas d’effet démontré | 🔘 F | Inefficace |
+| **Cancers (prostate, global)** | Pas de prévention, signaux de risque chez l’homme | ⚫ F | Inefficace/délétère |
+| **Cardiovasculaire** | Pas d’effet sur lipides ni événements | ⚫ F | Inefficace |
+| **Maladie rénale chronique (dialyse)** | Pas d’effet sur lipides ou inflammation | ⚫ F | Inefficace |
+| **Migraine** | Pas d’effet sur fréquence ni sévérité | ⚫ F | Inefficace |
+| **Vision (cataracte/DMLA)** | Pas d’effet démontré | ⚫ F | Inefficace |
 
 ---
 
@@ -84,7 +84,7 @@ Conclusion : viser l’**apport alimentaire recommandé (70 µg/j)**, réserver 
 
 | Critère | Note | Commentaire |
 |---|---:|---|
-| **Efficacité** | 🟡–🔘 Variable | Solide en cas de carence et Basedow ; incertain ou absent ailleurs |
+| **Efficacité** |   | Solide en cas de carence et Basedow ; incertain ou absent ailleurs |
 | **Sécurité** | 🟢 | Bonne tolérance aux doses nutritionnelles ; toxicité au-delà de 255 µg/j |
 | **Qualité** | 🟢 | Formes biodisponibles disponibles, importance du contrôle qualité |
 
@@ -102,3 +102,4 @@ Conclusion : viser l’**apport alimentaire recommandé (70 µg/j)**, réserver 
 8. NIH ODS (2025) – Synthèse des formes et sécurité.  
 9. Vidal (2014) – Allégations validées/interdites par EFSA, prudence cancer prostate.  
 10. Examine (2025) – Revue : motilité spermatique (B), inefficacité sur lipides, migraines, dialyse.  
+
