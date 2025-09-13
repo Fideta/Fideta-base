@@ -85,8 +85,8 @@ Conclusion : viser l’**apport alimentaire recommandé (70 µg/j)**, réserver 
 | Critère | Note | Commentaire |
 |---|---:|---|
 | **Efficacité** |   | Solide en cas de carence et Basedow ; incertain ou absent ailleurs |
-| **Sécurité** | 🟢 | Bonne tolérance aux doses nutritionnelles ; toxicité au-delà de 255 µg/j |
-| **Qualité** | 🟢 | Formes biodisponibles disponibles, importance du contrôle qualité |
+| **Sécurité** | 🟢 B | Bonne tolérance aux doses nutritionnelles ; toxicité au-delà de 255 µg/j |
+| **Qualité** | 🟢 B | Formes biodisponibles disponibles, importance du contrôle qualité |
 
 ---
 
@@ -102,4 +102,5 @@ Conclusion : viser l’**apport alimentaire recommandé (70 µg/j)**, réserver 
 8. NIH ODS (2025) – Synthèse des formes et sécurité.  
 9. Vidal (2014) – Allégations validées/interdites par EFSA, prudence cancer prostate.  
 10. Examine (2025) – Revue : motilité spermatique (B), inefficacité sur lipides, migraines, dialyse.  
+
 
