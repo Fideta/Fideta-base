@@ -57,6 +57,7 @@ Conclusion : viser l’**apport alimentaire recommandé (70 µg/j)**, réserver 
 | **Maladie rénale chronique (dialyse)** | Pas d’effet sur lipides ou inflammation | ⚫ F | Inefficace |
 | **Migraine** | Pas d’effet sur fréquence ni sévérité | ⚫ F | Inefficace |
 | **Vision (cataracte/DMLA)** | Pas d’effet démontré | ⚫ F | Inefficace |
+| **Système immunitaire** | Pas d’effet clinique démontré ; seules données indirectes (biomarqueurs) sans traduction en santé | ⚫ F | Inefficace |
 
 ---
 
@@ -102,5 +103,6 @@ Conclusion : viser l’**apport alimentaire recommandé (70 µg/j)**, réserver 
 8. NIH ODS (2025) – Synthèse des formes et sécurité.  
 9. Vidal (2014) – Allégations validées/interdites par EFSA, prudence cancer prostate.  
 10. Examine (2025) – Revue : motilité spermatique (B), inefficacité sur lipides, migraines, dialyse.  
+
 
 
