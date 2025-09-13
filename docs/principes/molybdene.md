@@ -83,7 +83,7 @@ Les différentes sources institutionnelles, Vidal, NIH et EFSA convergent : **su
 
 | Critère     | Note | Commentaire |
 |-------------|------|-------------|
-| Efficacité  | 🔘 F | Aucune indication validée ; seules carences hospitalières justifient une supplémentation. |
+| Efficacité  |      | Aucune indication validée ; seules carences hospitalières justifient une supplémentation. |
 | Sécurité    | 🟢 B | Sûr aux apports nutritionnels ; excès → hyperuricémie, toxicité rare. |
 | Qualité     | 🟢 A | Formes simples et stables ; pas de supériorité démontrée. |
 
@@ -102,3 +102,4 @@ Les différentes sources institutionnelles, Vidal, NIH et EFSA convergent : **su
 9. Seldén AI et al., *Occup Med*, 2005. Cas professionnel, hyperuricémie/goutte-like.  
 10. Momcilović B., 1999. Cas d’intoxication aiguë : hallucinations, épilepsie, dépression.  
 11. Deosthale YG, Gopalan C., *Br J Nutr*, 1974. Excès de Mo et excrétion du cuivre.  
+
