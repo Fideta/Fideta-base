@@ -40,7 +40,7 @@ Le chrome est globalement bien toléré, mais vigilance avec le **picolinate** (
 | Fonction ciblée | Effet revendiqué (population) | Niveau de preuve | Dose testée |
 |-----------------|-------------------------------|------------------|-------------|
 | Glycémie/insuline (DT2) | Baisse de l’HbA1c (effet statistiquement significatif mais **non cliniquement pertinent**) | 🟡 C | 42–1 000 µg/j (effet observé uniquement ≥200 µg/j), 8–24 sem. |
-| Glycémie/insuline (prédiabète / syndrome métabolique) | Amélioration attendue (non démontrée) | 🟠 D | 42–1 000 µg/j, 8–24 sem., **pas d’effet significatif** |
+| Glycémie/insuline (prédiabète / syndrome métabolique) | Amélioration attendue (non démontrée) |⚫ F | 42–1 000 µg/j, 8–24 sem., **pas d’effet significatif** |
 | Poids / composition corporelle (surpoids/obésité) | Perte de poids | 🟠 D | 200–1 000 µg/j, 12–16 sem., **effet moyen −1,1 kg, non pertinent cliniquement** |
 | Lipides sanguins | ↓ TG / ↑ HDL | 🟠 D | 42–1 000 µg/j, 8–24 sem., **pas d’effet reproductible** |
 | SOPK | Amélioration insulino-résistance / BMI | 🟠 D | 200–1 000 µg/j, 8–24 sem., **résultats faibles et hétérogènes** |
@@ -86,3 +86,5 @@ Le chrome est globalement bien toléré, mais vigilance avec le **picolinate** (
 5. EFSA (2010, 2014) – Avis sur sécurité et allégations santé du chrome.  
 6. Commission européenne (2011/320/UE) – Autorisation du picolinate de chrome (≤ 250 µg/j).  
 7. NIH ODS (2022) – _Chromium Fact Sheet for Health Professionals_.  
+8. Cochrane Review (2013) – *Chromium picolinate for overweight/obese adults* (perte de poids faible, non pertinente).  
+9. Vajdi M. et al. (2023) – *Effects of chromium supplementation on lipid profile: umbrella meta-analysis*. Biol Trace Elem Res.  
