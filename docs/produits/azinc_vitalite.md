@@ -3,7 +3,7 @@ title: "Azinc® Vitalité Gélules"
 image: /img/produits/azinc_vitalite.jpg
 categories: ["Énergie", "Vitamines", "Minéraux"]
 synopsis: "Multivitamines + minéraux ; utilité démontrée seulement en cas de carence, bénéfices généraux limités chez l’adulte en bonne santé."
-ean: [3401540148554 , 3401540148493]
+ean: [3401540148554 , 3401540148493 , 3578835502800]
 hide_title: true
 ---
 
@@ -107,3 +107,4 @@ Les données indépendantes récentes ne montrent **pas d’effet consistant des
 ## 🛡️ Note légale
 
 Cette fiche est établie à partir d’une **revue critique** des données scientifiques disponibles à la date d'analyse; Elles ne tiennent pas compte d’éventuelles données internes, non publiées ou confidentielles des laboratoires. Elle **ne constitue pas** un avis médical ni une recommandation personnalisée. Pour toute décision de santé (diagnostic d’une carence, supplémentation, interactions médicamenteuses), **consultez un professionnel de santé**.
+
