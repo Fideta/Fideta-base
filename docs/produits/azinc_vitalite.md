@@ -40,7 +40,7 @@ Les données indépendantes récentes ne montrent **pas d’effet consistant des
 |---|---:|---|
 | [**Vitamine C**](/docs/principes/vitamine_c) | 120 mg (150 % VNR) | Dose correcte ; utile si apports bas, pas de preuve d’effet anti-fatigue en population générale. |
 | **Complexe B** ([B1](/docs/principes/vitamine_b1), [B2](/docs/principes/vitamine_b2), [B3](/docs/principes/vitamine_b3), [B5](/docs/principes/vitamine_b5), [B6](/docs/principes/vitamine_b6), [B8](/docs/principes/vitamine_b7), [B9](/docs/principes/vitamine_b9), [B12](/docs/principes/vitamine_b12)) | 40–300 % VNR | Entretiennent les fonctions normales. Pas de bénéfice clinique hors carence. |
-| **Vitamine A** (via β-carotène) | 800 µg RE (100 % VNR) | ⚠️ Déconseillé aux fumeurs (sur-risque pulmonaire observé dans essais cliniques). |
+| [**Vitamine A** (via β-carotène)](/docs/principes/vitamine_a) | 800 µg RE (100 % VNR) | ⚠️ Déconseillé aux fumeurs (sur-risque pulmonaire observé dans essais cliniques). |
 | [**Vitamine D3**](/docs/principes/vitamine_d) | 5 µg (200 UI) | Apport modeste ; pertinence surtout si déficit documenté. |
 | [**Vitamine E**](/docs/principes/vitamine_e) | 10 mg (83 % VNR) | Pas de bénéfice clinique sur fatigue/énergie. |
 | [**Fer**](/docs/principes/fer) (fumarate) | 8 mg (57 % VNR) | Utile uniquement si carence. Interagit avec lévothyroxine/antibiotiques. |
@@ -107,4 +107,5 @@ Les données indépendantes récentes ne montrent **pas d’effet consistant des
 ## 🛡️ Note légale
 
 Cette fiche est établie à partir d’une **revue critique** des données scientifiques disponibles à la date d'analyse; Elles ne tiennent pas compte d’éventuelles données internes, non publiées ou confidentielles des laboratoires. Elle **ne constitue pas** un avis médical ni une recommandation personnalisée. Pour toute décision de santé (diagnostic d’une carence, supplémentation, interactions médicamenteuses), **consultez un professionnel de santé**.
+
 
