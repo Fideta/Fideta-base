@@ -3,7 +3,7 @@ title: "ERGYNUIT® Sommeil Profond"
 image: /img/produits/ergynuit_sommeil_profond.jpg
 categories: ["Sommeil", "Plantes", "Vitamines", "Minéraux"]
 synopsis: "Formule sans mélatonine (GABA + valériane + coquelicot). Preuves cliniques faibles et contradictoires sur l’efficacité réelle dans les troubles du sommeil."
-ean: [XXXXXXX]
+ean: [3664524001805]
 hide_title: true
 ---
 
@@ -109,4 +109,5 @@ Dans l’ensemble, la littérature actuelle ne permet pas d’affirmer un béné
 ## 🛡️ Note légale
 
 Cette fiche est établie à partir d’une **revue critique** des données scientifiques disponibles à la date d'analyse; Elles ne tiennent pas compte d’éventuelles données internes, non publiées ou confidentielles des laboratoires. Elle **ne constitue pas** un avis médical ni une recommandation personnalisée. Pour toute décision de santé (diagnostic d’une carence, supplémentation, interactions médicamenteuses), **consultez un professionnel de santé**.
+
 
