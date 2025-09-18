@@ -27,7 +27,7 @@ hide_title: true
 
 ### Pertinence faible
 
-ERGYNUIT® Sommeil Profond se présente comme une alternative « sans mélatonine », en associant [**GABA**](/docs/principes/gaba), [**valériane**](/docs/principes/valeriane) et [**coquelicot**](/docs/principes/coquelicot), complétés par [**magnésium**](/docs/principes/magnesium), [**zinc**](/docs/principes/zinc), [**cuivre**](/docs/principes/cuivre) et vitamines [**B6**](/docs/principes/vitamine_b6), [**B9**](/docs/principes/vitamine_b9) et [**B12**](/docs/principes/vitamine_b12).  
+ERGYNUIT® Sommeil Profond se présente comme une alternative « sans mélatonine », en associant [**GABA**](/docs/principes/gaba), [**valériane**](/docs/principes/valériane) et [**coquelicot**](/docs/principes/coquelicot), complétés par [**magnésium**](/docs/principes/magnesium), [**zinc**](/docs/principes/zinc), [**cuivre**](/docs/principes/cuivre) et vitamines [**B6**](/docs/principes/vitamine_b6), [**B9**](/docs/principes/vitamine_b9) et [**B12**](/docs/principes/vitamine_b12).  
 
 L’objectif annoncé est de faciliter l’endormissement, de limiter les réveils nocturnes et d’améliorer la qualité du sommeil grâce à un neurotransmetteur apaisant (GABA), à des plantes sédatives traditionnelles et à des nutriments liés à la régulation nerveuse.  
 
@@ -46,7 +46,7 @@ Dans l’ensemble, la littérature actuelle ne permet pas d’affirmer un béné
 | Ingrédient | Quantité (2 gél.) | Commentaire Fideta |
 |---|---:|---|
 | [**GABA**](/docs/principes/gaba) | 250 mg | Données humaines limitées, bénéfices incertains. Traversée de la barrière hémato-encéphalique non confirmée. |
-| [**Valériane**](/docs/principes/valeriane) (racine, extrait sec) | 300 mg | Usage traditionnel reconnu. Études cliniques contradictoires, effets surtout subjectifs. Dose en dessous des schémas les mieux documentés (400–600 mg). |
+| [**Valériane**](/docs/principes/valériane) (racine, extrait sec) | 300 mg | Usage traditionnel reconnu. Études cliniques contradictoires, effets surtout subjectifs. Dose en dessous des schémas les mieux documentés (400–600 mg). |
 | [**Coquelicot**](/docs/principes/coquelicot) (Papaver rhoeas, extrait) | 20 mg | Aucune étude clinique robuste sur le sommeil ; uniquement usage traditionnel. |
 | [**Magnésium**](/docs/principes/magnesium) | 56 mg (≈15 % VNR) | Peut contribuer en cas de déficit. Efficacité spécifique sur le sommeil non démontrée. |
 | [**Zinc**](/docs/principes/zinc) | 6 mg (≈60 % VNR) | Pas d’effet direct démontré sur le sommeil. UL adulte : 25 mg/j. |
@@ -109,3 +109,4 @@ Dans l’ensemble, la littérature actuelle ne permet pas d’affirmer un béné
 ## 🛡️ Note légale
 
 Cette fiche est établie à partir d’une **revue critique** des données scientifiques disponibles à la date d'analyse; Elles ne tiennent pas compte d’éventuelles données internes, non publiées ou confidentielles des laboratoires. Elle **ne constitue pas** un avis médical ni une recommandation personnalisée. Pour toute décision de santé (diagnostic d’une carence, supplémentation, interactions médicamenteuses), **consultez un professionnel de santé**.
+
