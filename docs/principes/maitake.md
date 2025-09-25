@@ -1,6 +1,6 @@
 ---
 title: Maïtaké
-image: /img/principes/Maitake.jpg
+image: /img/principes/maitake.jpg
 categories: ["Champignons"]
 synopsis: "Champignon comestible traditionnellement utilisé comme tonique et immunostimulant, mais aucune allégation santé n’a été autorisée ; données cliniques limitées et peu concluantes."
 synonyms: ["Maïtaké", "Grifola frondosa"]
@@ -19,7 +19,7 @@ hide_title: true
   </div>
 
   <div className="product-hero__packshot">
-    <img src="/img/principes/Maitake.jpg" alt="Maïtaké" loading="eager" />
+    <img src="/img/principes/maitake.jpg" alt="Maïtaké" loading="eager" />
   </div>
 </div>
 
@@ -78,3 +78,4 @@ En résumé : **aucun bénéfice clinique convaincant** n’est établi à ce jo
 2. Konno S. *Alternative Medicine Review*. 2001 – Études pilotes ouvertes avec la « D-fraction » : modulation immunitaire, données humaines limitées.  
 3. EFSA / Commission européenne. EU Register of Nutrition and Health Claims – refus des allégations « immunité » et « glycémie » (2010–2014).  
 4. Vidal. *Guide des compléments alimentaires*. 2008 – Maïtaké cité comme immunostimulant traditionnel sans preuve clinique solide.  
+
