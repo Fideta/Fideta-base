@@ -105,4 +105,5 @@ Aucune allégation santé n’a été validée par l’EFSA.
 9. EFSA NDA Panel 2010 – Avis scientifique, rejet des allégations santé propolis.  
 10. ANSES 2018 – Alerte sur allergie sévère aux produits de la ruche.
 
-# Dernière MAJ le 27/09/2025  
+### Dernière MAJ le 27/09/2025  
+
