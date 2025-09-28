@@ -44,8 +44,8 @@ En résumé : un ingrédient **plausible mais non confirmé**, à réserver à d
 | Performance d’endurance (sportifs amateurs) | Amélioration légère (1 essai) | 🟠 D | 2 g/j, 12 sem |
 | Performance chez sportifs entraînés | Pas d’amélioration (VO₂max, performance) | ⚫ F | 3 g/j (CS-4), 5 sem |
 | BPCO stable (adjuvant) | Amélioration fonctionnelle et QoL (biais élevés) | 🟠 D | 1,5–3 g/j, 4–12 sem |
-| Oncologie (cancer du poumon, adjuvant) | ↑ réponse tumorale, ↑ KPS, ↓ toxicité chimio/RT (biais élevés) | 🟠 D | ~6 g/j, cures 3–4 cycles |
-| Atteintes rénales (IRC, dialyse, transplantés) | Pas de bénéfice clinique démontré (Cochrane) | 🔴 E | Posologies variables, données insuffisantes |
+| Oncologie (cancer du poumon, adjuvant) | ↑ réponse tumorale, ↑ KPS, ↓ toxicité chimio/RT (biais élevés) | 🔴 E | ~6 g/j, cures 3–4 cycles |
+| Atteintes rénales (IRC, dialyse, transplantés) | Pas de bénéfice clinique démontré (Cochrane) | ⚫ F | Posologies variables, données insuffisantes |
 
 ---
 
@@ -72,7 +72,7 @@ En résumé : un ingrédient **plausible mais non confirmé**, à réserver à d
 
 | Critère    | Note  | Commentaire |
 |------------|-------|-------------|
-| Efficacité |   | Seul l’effet sur l’endurance des sujets âgés/sédentaires atteint 🟡 C ; amateurs, BPCO et oncologie = 🟠 D ; sportifs entraînés = 🔘 F ; rénal = 🔴 E |
+| Efficacité |   | Seul l’effet sur l’endurance des sujets âgés/sédentaires atteint 🟡 C ; amateurs, BPCO et oncologie = 🔴 E ; sportifs entraînés = ⚫ F ; rénal = ⚫ F |
 | Sécurité   | 🟢 B | Tolérance correcte, vigilance saignement et contaminations (arsenic) |
 | Qualité    | 🟠 D | Variabilité élevée, adultérations fréquentes, importance du contrôle analytique |
 
@@ -93,3 +93,7 @@ En résumé : un ingrédient **plausible mais non confirmé**, à réserver à d
 11. Li Y. et al. – *Arsenic species in C. sinensis*. 2019  
 12. Xiao Y. et al. – *Arsenic contamination in wild Cordyceps*. 2021  
 13. Dong C-H., Yao Y-J. – *Authenticité et standardisation de O. sinensis*. J Ind Microbiol Biotechnol. 2011
+
+---
+
+<sub><em>Dernière mise à jour : 28 septembre 2025</em></sub>
