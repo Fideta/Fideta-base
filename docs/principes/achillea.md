@@ -37,7 +37,7 @@ La plante est globalement **sûre** aux doses usuelles, mais peut déclencher de
 ## 🎯 Effets attendus et preuves scientifiques
 
 | Fonction ciblée | Effet revendiqué (population) | Niveau de preuve | Dose efficace (quand disponible) |
-|---|---|---:|---|
+|---|---|:---:|---|
 | Douleurs menstruelles | ↓ douleur dysménorrhée primaire (étudiantes) | 🟡 **C** | Infusion tisane 3 j au début des règles (2 cycles, étude isolée) |
 | Épisiotomie / post-partum | ↓ douleur, irritation (topique) | 🟡 **C** | Onguent appliqué quotidiennement J7–J14 |
 | Vulvovaginal candidose | ↓ prurit/inflammation, pas d’effet qualité de vie | 🟡 **C** | Gel/onguent local 14 j |
@@ -82,10 +82,10 @@ Aucune documentée (EMA).
 ## 📊 Résumé des évaluations
 
 | Critère | Note | Commentaire |
-|---|---:|---|
+|---|:---:|---|
 | **Efficacité** |   | Quelques petits essais positifs (dysménorrhée, topiques, mucite, DT2) ; nombreux usages sans preuve (F) ; essais négatifs. |
-| **Sécurité** | 🟢 | Bonne tolérance générale ; allergie possible ; grossesse/allaitement déconseillés. |
-| **Qualité** | 🟡 | Forte hétérogénéité ; importance des extraits standardisés et conformité Ph. Eur. |
+| **Sécurité** | 🟢 **B** | Bonne tolérance générale ; allergie possible ; grossesse/allaitement déconseillés. |
+| **Qualité** | 🟡 **C** | Forte hétérogénéité ; importance des extraits standardisés et conformité Ph. Eur. |
 
 ---
 
@@ -104,3 +104,4 @@ Aucune documentée (EMA).
 ---
 
 <sub><em>Dernière mise à jour : 29 septembre 2025</em></sub>
+
