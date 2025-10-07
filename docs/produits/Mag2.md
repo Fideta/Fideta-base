@@ -55,7 +55,7 @@ La formulation repose sur des **formes peu biodisponibles** et intègre un excip
 | **Carence avérée** | Correction de la carence          | ✅ A    | Efficace pour normaliser les taux de magnésium chez les personnes présentant une carence confirmée par bilan médical. |
 | **Fatigue**       | Réduction de la fatigue           | 🔴 E | Amélioration possible uniquement si la fatigue est liée à une carence en magnésium. Aucun effet démontré chez les sujets avec statut normal. |
 | **Système nerveux**    | Fonction normale         | ⚫ F  | Allégation réglementaire autorisée, mais absence de bénéfice démontré chez les personnes non carencées. |
-| **Stress / sommeil**   | Relaxation, détente      | ⚫ F  | Allégation réglementaire autorisée, mais absence de bénéfice démontré chez les personnes non carencées. |
+| **Stress / sommeil**   | Relaxation, détente      | 🔴 E  | Allégation réglementaire autorisée, mais absence de bénéfice démontré chez les personnes non carencées. |
 
 ---
 
