@@ -36,7 +36,7 @@ La **mélatonine seule**, en usage ponctuel, reste la seule composante pertinent
 
 | Ingrédient | Dose (2 gélules) | Commentaire Fideta |
 |-------------|------------------:|--------------------|
-| [**Mélatonine**](/docs/principes/mélatonine) (présentée comme « poudre de jus de cerise standardisée ») | 1,9 mg | Dose **efficace** pour **réduire la latence d’endormissement** (≥1 mg, allégation EFSA validée). **Pas de preuve d’effet** sur la qualité du sommeil ou les réveils nocturnes. ⚠️ La cerise apporte naturellement des **microgrammes** de mélatonine (~0,1 µg/dose), soit **plus de 10 000× moins** que la quantité ici : la présence d’une **mélatonine ajoutée** est donc quasi certaine et devrait être clairement mentionnée. |
+| [**Mélatonine**](/docs/principes/mélatonine) (présentée comme « poudre de jus de cerise standardisée ») | 1,9 mg | Dose **efficace** pour **réduire la latence d’endormissement** (≥1 mg, allégation EFSA validée). **Pas de preuve d’effet** sur la qualité du sommeil ou les réveils nocturnes. ⚠️ La cerise apporte naturellement des **microgrammes** de mélatonine (~0,1 µg/dose), soit **plus de 10 000× moins** que la quantité ici : la présence d’une **mélatonine ajoutée** est indiquée sous le terme "poudre de cerise standardiée en mélatonine. |
 | [**Eschscholtzia**](/docs/principes/escholtzia) (*E. californica*, extrait) | 50 mg | **Aucun bénéfice démontré** sur le sommeil. Études anciennes, souvent en association avec d’autres plantes. Signal ANSES : **hallucinations et confusion** avec une formule combinant **mélatonine + eschscholtzia (Novanuit®)**. **À écarter.** |
 | [**Passiflore**](/docs/principes/passiflore) (*P. incarnata*, extrait) | 50 mg | **Preuves limitées et hétérogènes** : petits essais exploratoires sur stress et qualité du sommeil, sans résultats reproductibles. Impact clinique incertain. |
 | [**Magnésium**](/docs/principes/magnesium) (hydroxyde/carbonate + bisglycinate) | 140 mg (37 % VNR) | Peut être utile uniquement en cas d’**apports faibles** ; données cliniques peu convaincantes. La forme **bisglycinate** est bien tolérée mais est ici mélangée à des formes peu disponibles. |
@@ -120,3 +120,4 @@ Pour toute décision de santé, consultez un professionnel.
 ---
 
 <sub><em>Dernière mise à jour : 7 octobre 2025</em></sub>
+
