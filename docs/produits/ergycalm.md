@@ -1,5 +1,5 @@
 ---
-title: "ERGYCALM"
+title: "Ergycalm"
 image: /img/produits/ergycalm.jpg
 categories: ["Sommeil", "Stress", "Phytothérapie"]
 synopsis: "Solution de phytominéraux à base d’aubépine, ballote, mélisse, magnésium et lithothamne, présentée comme favorisant la détente, le sommeil et le bien-être psychique."
@@ -17,7 +17,7 @@ hide_title: true
   </div>
 
   <div className="product-hero__packshot">
-    <img src="/img/produits/ergycalm.jpg" alt="ERGYCALM - Nutergia" loading="eager" />
+    <img src="/img/produits/ergycalm.jpg" alt="Ergycalm - Nutergia" loading="eager" />
   </div>
 </div>
 
@@ -28,7 +28,7 @@ hide_title: true
 **Pertinence clinique très faible**
 
 ERGYCALM associe trois extraits de plantes traditionnellement calmantes (aubépine, ballote, mélisse) à du magnésium et du lithothamne.  
-Le produit est mis en avant pour “**calmer et détendre**”, “**relaxer*” ou “**accompagner l'arrêt du tabac**”. 
+Le produit est mis en avant pour “**calmer et détendre**”, “**relaxer**” ou “**accompagner l'arrêt du tabac**”. 
 La dose équivalente de mélisse (1,12 g) est **inférieure** à celle (≥ 1,5 g de poudre standardisée) ayant montré des effets anxiolytiques modestes dans les essais contrôlés.  
 L’efficacité globale du produit sur le stress, le sommeil ou le sevrage tabagique n’est **pas démontrée** par des études dont le niveau de preuve est robuste.
 
@@ -113,3 +113,4 @@ En cas de stress, d’anxiété, de troubles du sommeil ou de sevrage tabagique,
 ---
 
 <sub><em>Dernière mise à jour : 10 octobre 2025</em></sub>
+
