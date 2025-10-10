@@ -43,7 +43,7 @@ L’efficacité globale du produit sur le stress, le sommeil ou le sevrage tabag
 | [**Ballote** (*Ballota nigra*)](/docs/principes/ballote) | 1 120 mg (équiv. plante sèche) | Usage traditionnel sédatif, **aucune étude clinique randomisée**. Données de sécurité limitées (grossesse/allaitement). |
 | [**Mélisse** (*Melissa officinalis*)](/docs/principes/melisse) | 1 120 mg (équiv. plante sèche) | Effets anxiolytiques démontrés à ≥1,5 g de poudre standardisée riche en acide rosmarinique. Ici, la dose et la forme **sont inférieures et non titrées**, rendant l’effet improbable. |
 | [**Magnésium** (forme non précisée, 30 % VNR)](/docs/principes/magnesium) | 112 mg | Apporte physiologique, mais **aucun bénéfice clinique démontré** sur le stress ou le sommeil chez des sujets non carencés. |
-| [**Lithothamne** (*Phymatolithon calcareum*)] | traces | Source naturelle de minéraux marins. **Aucun effet relaxant ou calmant prouvé**. Dose insuffisante pour un effet neurophysiologique. |
+| [**Lithothamne** (*Phymatolithon calcareum*)](/docs/principes/lithothamne) | traces | Source naturelle de minéraux marins. **Aucun effet relaxant ou calmant prouvé**. Dose insuffisante pour un effet neurophysiologique. |
 
 ---
 
@@ -113,4 +113,5 @@ En cas de stress, d’anxiété, de troubles du sommeil ou de sevrage tabagique,
 ---
 
 <sub><em>Dernière mise à jour : 10 octobre 2025</em></sub>
+
 
