@@ -29,7 +29,7 @@ hide_title: true
 >– Le **Chaga** est le point le plus préoccupant : aucune donnée clinique humaine, et présence documentée d’**oxalates** responsables de cas d’atteintes rénales sévères.  
 >Ces éléments constituent un **critère bloquant** selon la méthodologie Fideta.  
 >L’effet ressenti (énergie, vigilance) provient uniquement de la **caféine**, à faible dose, sans lien avec les champignons.  
-
+>**Élément supplémentaire** : le Cordyceps sinensis est, selon les sources industrielles, une matière première très coûteuse. Compte tenu du positionnement prix du produit et de la fréquence des substitutions commerciales rapportées dans le secteur, on peut se demander si l’espèce présente est bien C. sinensis plutôt que C. militaris, une espèce beaucoup moins coûteuse et facilement cultivable en laboratoire. Nous n’en avons toutefois **aucune preuve formelle**, l'analyse du produit est réalisée en considérant les informations de composition officielle à savoir la présence de Cordyceps sinensis. 
 ---
 
 ## 📦 Composition et analyse  
@@ -58,9 +58,11 @@ Arômes naturels, cacao/céréales selon la recette : uniquement rôle gustatif.
 
 ---
 
-## ⚠️ Sécurité et précautions  
+## ⚠️ Sécurité et précautions
 
-- **Chaga** : signal de néphropathie oxalique (atteinte rénale grave) → critère bloquant.  
+### Effets secondaires / effets indésirables 
+- **Chaga** : signal de néphropathie oxalique (atteinte rénale grave) → critère bloquant.
+
 - **Cordyceps** : manque de recul sur consommation prolongée.  
 - **Lion’s Mane** : bonne tolérance rapportée, mais efficacité absente.  
 - **Caféine (35 mg)** : bien tolérée, équivaut à un thé léger.  
@@ -72,7 +74,7 @@ En l’absence de données publiées sur le **dosage en oxalates** de l’extrai
 ## 🧪 Forme et qualité  
 
 - **Forme galénique :** poudre instantanée aromatisée (café, cacao, original).  
-- **Type/forme des actifs :** extraits concentrés standardisés à 30 % polysaccharides (corps fructifères).  
+- **Type/forme des actifs :** extraits concentrés standardisés à 30 % polysaccharides (corps fructifères), ce standard **ne reflète pas forcément la teneur en bêta-glucanes bioactifs** car les polysaccharides peuvent inclure amidons inactifs venant du substrat de croissance.  
 - **Qualité annoncée :** tests contaminants (pesticides, métaux lourds, OGM), mais absence de données sur oxalates.  
 
 ---
