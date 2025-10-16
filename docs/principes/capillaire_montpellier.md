@@ -1,7 +1,7 @@
 ---
 title: Capillaire de Montpellier
 image: /img/principes/capillaire_montpellier.jpg
-categories: ["Plantes médicinales"]
+categories: ["Plantes"]
 synopsis: "Fougère médicinale traditionnelle utilisée pour les affections respiratoires et la chute des cheveux. Aucune preuve clinique isolée d’efficacité. Une seule étude humaine multi-ingrédients, publiée dans une revue prédatrice, empêche toute conclusion scientifique robuste."
 synonyms: ["Adiantum capillus-veneris", "Capillaire", "Hair fern", "Venus hair fern"]
 slug: /principes/capillaire_montpellier
@@ -97,3 +97,4 @@ Ainsi, **aucune preuve clinique solide** ne soutient l’efficacité de cette pl
 ---
 
 <sub><em>Dernière mise à jour : 16 octobre 2025</em></sub>
+
