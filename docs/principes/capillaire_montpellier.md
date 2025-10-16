@@ -46,7 +46,7 @@ Ainsi, **aucune preuve clinique solide** ne soutient l’efficacité de cette pl
 
 ## ⚠️ Sécurité et précautions  
 
-### Effets secondaires  
+### Effets secondaires / Effets indésirables  
 - Aucun effet indésirable grave connu ; tolérance correcte aux doses traditionnelles (infusions, sirops).  
 - Possibles troubles digestifs mineurs ou réactions allergiques isolées.  
 
@@ -97,4 +97,5 @@ Ainsi, **aucune preuve clinique solide** ne soutient l’efficacité de cette pl
 ---
 
 <sub><em>Dernière mise à jour : 16 octobre 2025</em></sub>
+
 
