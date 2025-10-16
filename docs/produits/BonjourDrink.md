@@ -74,7 +74,7 @@ En l’absence de données publiées sur le **dosage en oxalates** de l’extrai
 ## 🧪 Forme et qualité  
 
 - **Forme galénique :** poudre instantanée aromatisée (café, cacao, original).  
-- **Type/forme des actifs :** extraits concentrés standardisés à 30 % polysaccharides (corps fructifères), ce standard **ne reflète pas forcément la teneur en bêta-glucanes bioactifs** car les polysaccharides peuvent inclure amidons inactifs venant du substrat de croissance.  
+- **Type/forme des actifs :** extraits concentrés standardisés à 30 % polysaccharides (corps fructifères), ce standard **ne reflète pas forcément la teneur en bêta-glucanes bioactifs** car les polysaccharides peuvent inclure des amidons inactifs venant du substrat de croissance.  
 - **Qualité annoncée :** tests contaminants (pesticides, métaux lourds, OGM), mais absence de données sur oxalates.  
 
 ---
