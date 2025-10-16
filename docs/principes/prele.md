@@ -57,7 +57,7 @@ En résumé : la prêle **peut aider à uriner un peu plus**, mais **ne fait pas
 
 ## ⚠️ Sécurité et précautions  
 
-### Effets secondaires  
+### Effets secondaires / Effets indésirables   
 Rares et bénins (troubles digestifs légers, éruptions cutanées).  
 
 ### Contre-indications (EMA)  
@@ -112,3 +112,4 @@ Certaines prêles contiennent une enzyme qui détruit la **vitamine B1** → rar
 ---
 
 <sub><em>Dernière mise à jour : 16 octobre 2025</em></sub>
+
