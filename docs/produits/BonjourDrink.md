@@ -98,4 +98,9 @@ En l’absence de données publiées sur le **dosage en oxalates** de l’extrai
 ---
 
 ## 🛡️ Note légale  
-Cette fiche est établie à partir d’une revue critique des données scientifiques disponibles. Elle ne constitue ni un avis médical ni une recommandation personnalisée. Pour toute décision de santé, consultez un professionnel.  
+Cette fiche est établie à partir d’une revue critique des données scientifiques disponibles à la date d'analyse; Elles ne tiennent pas compte d’éventuelles données internes, non publiées ou confidentielles des laboratoires. Elle ne constitue pas un avis médical ni une recommandation personnalisée. Pour toute décision de santé (diagnostic d’une carence, supplémentation, interactions médicamenteuses), consultez un professionnel de santé.
+
+---
+
+<sub><em>Dernière mise à jour : 16 octobre 2025</em></sub>
+
