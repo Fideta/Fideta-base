@@ -10,7 +10,7 @@ hide_title: true
   <div className="product-hero__titlewrap">
     <h1 style={{margin:0}}>Bonjour – Boisson aux champignons</h1>
     <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Bonjour Drink (France)<br/>
+      <strong>Marque / Laboratoire :</strong> Bonjour Drink / BonjourDrink (France)<br/>
       <strong>Catégorie :</strong> Mélange de champignons adaptogènes + caféine (boisson fonctionnelle)
     </p>
   </div>
