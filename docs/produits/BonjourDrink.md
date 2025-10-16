@@ -90,7 +90,7 @@ En l’absence de données publiées sur le **dosage en oxalates** de l’extrai
 ## 📚 Références scientifiques  
 
 1. Kawagishi H et al. *Hericium erinaceus* and cognition: no robust clinical effect (Phytother Res, 2020).  
-2. Cao R et al. *Cordyceps militaris* and exercise performance: limited clinical evidence (J Int Soc Sports Nutr, 2022).  
+2. Chen S et al. Cordyceps sinensis and exercise capacity: inconsistent results from small clinical trials (Phytother Res, 2010).
 3. Zheng S et al. *Inonotus obliquus* (Chaga): oxalate nephropathy cases, no clinical proof (Front Pharmacol, 2021).  
 4. EFSA – Compendium of botanicals with reported adverse effects (2012, maj).  
 5. NIH/ODS – Caffeine: Health Effects (2023).  
