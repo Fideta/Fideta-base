@@ -104,9 +104,9 @@ Effet démontré uniquement pour **administration concomitante unique**, non cum
 
 | Critère | Note | Commentaire |
 |----------|:----:|-------------|
-| **Efficacité** | 🟠 **D – Preuve faible** | Petits essais positifs sur la biodisponibilité (curcumine, β-carotène) mais non reproduits ; aucun effet clinique démontré. |
-| **Sécurité** | 🟡 **C – Preuve modérée** | Tolérance correcte à court terme mais interactions médicamenteuses significatives ; prudence grossesse et pathologie hépatique. |
-| **Qualité** | 🟢 **B – Preuve probable** | Extraits standardisés disponibles, contrôle qualité essentiel, variabilité selon les fabricants. |
+| **Efficacité** |    | Petits essais positifs sur la biodisponibilité (curcumine, β-carotène) mais non reproduits ; aucun effet clinique démontré. |
+| **Sécurité** | 🟡 **C** | Tolérance correcte à court terme mais interactions médicamenteuses significatives ; prudence grossesse et pathologie hépatique. |
+| **Qualité** | 🟢 **B** | Extraits standardisés disponibles, contrôle qualité essentiel, variabilité selon les fabricants. |
 
 ---
 
@@ -128,3 +128,4 @@ Effet démontré uniquement pour **administration concomitante unique**, non cum
 ---
 
 <sub><em>Dernière mise à jour : 19 octobre 2025</em></sub>
+
