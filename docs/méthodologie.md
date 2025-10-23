@@ -106,7 +106,7 @@ Pour simplifier la lecture, le score sur 100 est **traduit en note alphabétique
 | **45–59**   | 🟠 D     | **Preuve faible** – données contradictoires ou méthodologiquement fragiles, usage non justifié. |
 | **30–44**   | 🔴 E     | **Pas de preuve convaincante** – une ou quelques études humaines isolées mais non reproduites, vide clinique partiel. |
 | **1–29**    | ⚫ F     | **Inefficacité démontrée OU absence totale d’étude clinique** – soit plusieurs essais robustes négatifs, soit uniquement données in vitro/animales ou extrapolations marketing. |
-| **0**       | ☠️ Disqualifié | **Danger avéré** – produit interdit ou toxique (toxicité, interactions graves, dose inacceptable). |
+| **0**       | ☠️ Disqualifié | **Danger avéré ou probable** – produit interdit ou toxique (toxicité, interactions graves, dose inacceptable, signaux d'effets indésirables imputables aux ingrédients). |
 
 ---
 
