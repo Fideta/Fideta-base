@@ -42,7 +42,7 @@ Fideta attribue à chaque complément une **note globale**, fondée sur :
 | 🟠 D     | **Preuve faible** | Résultats contradictoires ou méthodologie fragile (observations, non randomisées, biais importants). |
 | 🔴 E     | **Pas de preuve convaincante** | Quelques études humaines isolées, anciennes ou non reproduites. Vide clinique partiel. |
 | ⚫ F     | **Inefficacité démontrée OU absence d’étude** | Soit plusieurs essais robustes montrent une absence d’effet, soit aucune étude clinique humaine (uniquement in vitro/animales, extrapolations). |
-| ☠️       | **Disqualifié** | Danger avéré : toxicité, interactions graves, dose toxique, substance interdite. |
+| ☠️       | **Disqualifié** | Danger avéré ou probable : toxicité, interactions graves, dose toxique, substance interdite, signaux d'effets indésirables imputables à l'ingrédient. |
 
 > ℹ️ **Important** : une mauvaise note ne signifie pas toujours "dangereux", mais peut simplement indiquer **l'absence de bénéfices démontrés**.  
 > La note **☠️ Disqualifié**, en revanche, alerte sur un **risque établi ou inacceptable** pour la santé.
