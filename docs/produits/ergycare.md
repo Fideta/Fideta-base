@@ -54,7 +54,7 @@ Le risque dépasse ici le bénéfice attendu.
 
 | Fonction étudiée | Effet attendu | Niveau de preuve | Commentaire |
 |------------------|---------------|:--:|---------------|
-| Fonctionnement du système nerveux | Soutien métabolique | ⚫ **F** | Seule la B3 soutient légalement l’allégation ; effet strictement nutritionnel. Curcuma, NAC, brocoli sous-dosés. |
+| Fonctionnement du système nerveux | Soutien métabolique | 🔴 **E** | Seule la B3 soutient légalement l’allégation ; effet strictement nutritionnel. Curcuma, NAC, brocoli sous-dosés. |
 | Protection antioxydante | Réduction du stress oxydatif | 🔴 **E** | Zinc : effet nutritionnel mais pas d'amélioration attendue hors traitement de carence. les autres ingrédients n'ont pas d'effets supplémentaires. |
 | Bon équilibre nerveux | Régulation neurochimique | ⚫ **F** | Données in vitro seulement ; aucun essai humain concluant à ces doses. |
 
@@ -111,3 +111,4 @@ Pour toute décision de santé (carence, supplémentation, interactions), consul
 ---
 
 <sub><em>Dernière mise à jour : 23 octobre 2025</em></sub>
+
