@@ -10,7 +10,7 @@ hide_title: true
 
 <div className="product-hero">
   <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Brocolis</h1>
+    <h1 style={{margin:0}}>Brocoli</h1>
     <p style={{margin:0}}>
       <strong>**Nom scientifique** :</strong> <em>Brassica oleracea</em> var. <em>italica</em><br/>
       <strong>**Partie utilisée** :</strong> inflorescences (têtes), jeunes pousses (germes), extraits standardisés (glucoraphanine ± myrosinase)<br/>
@@ -98,3 +98,4 @@ La **tolérance est excellente**, sans effet sur la thyroïde chez les sujets co
 ---
 
 <sub><em>Dernière mise à jour : 21 octobre 2025</em></sub>
+
