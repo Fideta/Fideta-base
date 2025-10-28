@@ -64,7 +64,7 @@ En pratique, **le produit peut contribuer à un bon statut micronutritionnel**, 
 
 ## ⚠️ Sécurité et précautions  
 
-- **Effets indésirables possibles :** troubles digestifs légers (magnésium), céphalées, nausées rares.  
+- **Effets indésirables / Effets secondaires possibles :** troubles digestifs légers (magnésium), céphalées, nausées rares.  
 - **Contre-indications :**  
   - Polymédication (CYP3A/P-gp : schizandra, interactions pharmacocinétiques avec certaines espèces, principe de précaution)  
   - Insuffisance rénale (magnésium)  
@@ -122,4 +122,5 @@ Pour toute décision de santé (carence, supplémentation, interactions médicam
 ---
 
 <sub><em>Dernière mise à jour : 28 octobre 2025</em></sub>
+
 
