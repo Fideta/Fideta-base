@@ -47,7 +47,7 @@ En pratique, **le produit peut contribuer à un bon statut micronutritionnel**, 
 | [**Zinc (gluconate)**](/docs/principes/zinc) | 6 mg (60% VNR) | Apport modéré et sûr (< UL 25 mg). Interagit avec certains antibiotiques → espacer les prises. |
 | [**Manganèse (sulfate)**](/docs/principes/manganese) | 1 mg (50% VNR) | Apport nutritionnel sans effet spécifique sur le stress. |
 | [**Cuivre (gluconate)**](/docs/principes/cuivre) | 0,6 mg (60% VNR) | Dose physiologique, intérêt clinique nul ici. |
-| **Vitamines [B1](/docs/principes/vitamines_b1), [B2](/docs/principes/vitamines_b2), [B3](/docs/principes/vitamines_b3), [B5](/docs/principes/vitamines_b5), [B6](/docs/principes/vitamines_b6), [B8](/docs/principes/vitamines_b7), [B9](/docs/principes/vitamines_b9) & [C](/docs/principes/vitamines_c)** | 100 % VNR (B8 : 50 µg, B9 : 200 µg, C : 80 mg) | Allégations UE autorisées : soutien des **fonctions psychologiques** et **réduction de la fatigue**. Effet nutritionnel, non thérapeutique. |
+| **Vitamines [B1](/docs/principes/vitamine_b1), [B2](/docs/principes/vitamine_b2), [B3](/docs/principes/vitamine_b3), [B5](/docs/principes/vitamine_b5), [B6](/docs/principes/vitamine_b6), [B8](/docs/principes/vitamine_b7), [B9](/docs/principes/vitamine_b9) & [C](/docs/principes/vitamine_c)** | 100 % VNR (B8 : 50 µg, B9 : 200 µg, C : 80 mg) | Allégations UE autorisées : soutien des **fonctions psychologiques** et **réduction de la fatigue**. Effet nutritionnel, non thérapeutique. |
 
 ---
 
@@ -122,3 +122,4 @@ Pour toute décision de santé (carence, supplémentation, interactions médicam
 ---
 
 <sub><em>Dernière mise à jour : 28 octobre 2025</em></sub>
+
