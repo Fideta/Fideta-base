@@ -14,7 +14,7 @@ hide_title: true
     <p style={{margin:0}}>
       <strong>Nom scientifique :</strong> cannabidiol<br/>
       <strong>Partie utilisée :</strong> sommités fleuries et feuilles de <em>Cannabis sativa L.</em><br/>
-      <strong>Origine :</strong> extrait purifié ou isolat de chanvre industriel (<0,3 % THC)
+      <strong>Origine :</strong> extrait purifié ou isolat de chanvre industriel (< 0,3 % THC)
     </p>
   </div>
 
@@ -102,3 +102,4 @@ Le CBD est classé **« novel food » non autorisé** en Europe ; la vente en Fr
 ---
 
 <sub><em>Dernière mise à jour : 29 octobre 2025</em></sub>
+
