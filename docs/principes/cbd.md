@@ -4,7 +4,7 @@ image: /img/principes/cbd.jpg
 categories: ["Phytocannabinoïdes"]
 synopsis: "Molécule non psychoactive issue du chanvre (*Cannabis sativa L.*). Les preuves solides d’efficacité ne concernent que les épilepsies sévères (Dravet, Lennox-Gastaut, sclérose tubéreuse) à doses pharmaceutiques (10–25 mg/kg/j). Aux doses alimentaires (≤10 mg/j), aucune efficacité clinique démontrée. Sécurité alimentaire non établie (EFSA 2022), signal hépatique et reprotoxicité suspectée (ANSES 2025)."
 synonyms: ["CBD", "Cannabidiolum"]
-slug: /principes/cannabidiol-cbd
+slug: /principes/cbd
 hide_title: true
 ---
 
@@ -102,4 +102,5 @@ Le CBD est classé **« novel food » non autorisé** en Europe ; la vente en Fr
 ---
 
 <sub><em>Dernière mise à jour : 29 octobre 2025</em></sub>
+
 
