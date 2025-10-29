@@ -46,7 +46,7 @@ En pratique : produit **potentiellement sûr à court terme**, mais **non confor
 | Ingrédient | Dose (3 gélules) | Commentaire Fideta |
 |-------------|------------------:|--------------------|
 | [**L-Tryptophane**](/docs/principes/l-tryptophane) | 660 mg (220 mg/gél.) | Précurseur de la sérotonine. Quelques essais anciens, résultats inconstants. **Dépasse la dose maximale ANSES (220 mg/j)**. Risque d’interaction avec ISRS, IMAO, triptans. |
-| [**Rhodiola rosea (extrait non titré)**](/docs/principes/rhodiola) | 99 mg | Adaptogène supposé ; allégations EFSA rejetées. Études positives mais hétérogènes. Dose trop basse pour effet clinique. |
+| [**Rhodiola rosea (extrait non titré)**](/docs/principes/rhodiole) | 99 mg | Adaptogène supposé ; allégations EFSA rejetées. Études positives mais hétérogènes. Dose trop basse pour effet clinique. |
 | [**Inositol**](/docs/principes/inositol) | 150 mg | Doses efficaces dans la littérature : ≥6 g/j. Ici **sous-dosé ×40** → effet nul attendu. |
 | [**Magnésium (oxyde marin)**](/docs/principes/magnesium) | 171 mg (45 % VNR) | Forme peu absorbée ; utile seulement si apports bas. |
 | [**Zinc (gluconate)**](/docs/principes/zinc) | 6 mg (60 % VNR) | Apport physiologique, sans effet spécifique. |
@@ -130,3 +130,4 @@ Pour toute décision de santé (carence, supplémentation, interactions médicam
 ---
 
 <sub><em>Dernière mise à jour : 28 octobre 2025</em></sub>
+
