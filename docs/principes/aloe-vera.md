@@ -56,7 +56,7 @@ L’usage cosmétique et apaisant du gel est sûr, alors que le **latex est déc
 ## ⚠️ Sécurité et précautions  
 
 ### Effets secondaires  
-- **Latex/HAD :** diarrhée, crampes, hypokaliémie → troubles cardiaques possibles ; dépendance au long cours.  
+- **Latex/HAD (HydroxyAnthracene Dérivés ou en anglais Hydroxyanthracene Derivatives, ce sont les principes actifs laxatifs présents dans le latex de l’Aloé vera) :** diarrhée, crampes, hypokaliémie → troubles cardiaques possibles ; dépendance au long cours.  
 - **Gel oral :** généralement bien toléré ; rares **hépatites aiguës** (réversibles).  
 - **Topique :** réactions cutanées allergiques rares.  
 
@@ -120,3 +120,4 @@ L’usage cosmétique et apaisant du gel est sûr, alors que le **latex est déc
 ---
 
 <sub><em>Dernière mise à jour : 31 octobre 2025</em></sub>
+
