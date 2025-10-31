@@ -52,7 +52,7 @@ Les autorités (EFSA, EMA, ANSES) recommandent de ne pas dépasser **100 mg/j d�
 
 ## ⚠️ Sécurité et précautions  
 
-### Effets secondaires / Effets indésirables  
+### Effets secondaires  
 - **Dose-dépendants (glycyrrhizine)** : HTA, hypokaliémie, rétention hydrosodée, fatigue, crampes.  
 - Cas isolés de **rhabdomyolyse hypokaliémique** (consommations excessives prolongées).  
 
@@ -114,4 +114,3 @@ Privilégier les extraits **standardisés et déglycyrrhizinés** pour un usage 
 ---
 
 <sub><em>Dernière mise à jour : 31 octobre 2025</em></sub>
-
