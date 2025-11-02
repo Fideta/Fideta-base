@@ -102,8 +102,8 @@ Cette situation constitue une **tolérance de fait**, sans conformité juridique
 1. **Ontawong A. et al.** *A randomized controlled clinical trial examining the effects of Cordyceps militaris beverage on the immune response in healthy adults.* *Scientific Reports.* 2024; 14:7994. DOI:10.1038/s41598-024-58742-z.  
 2. **Nakamura A. et al.** *Effect of the Administration of Cordyceps militaris Mycelium Extract on Blood Markers for Anemia in Long-Distance Runners.* *Nutrients.* 2024; 16(12):1835. DOI:10.3390/nu16121835.  
 3. **Zhou J. et al.** *Efficacy and Safety of Cordyceps militaris as an Adjuvant to Duloxetine in the Treatment of Insomnia in Patients With Depression: A 6-week DB-RPCT.* *Front Psychiatry.* 2021; 12:754921. DOI:10.3389/fpsyt.2021.754921.  
-4. **NIH LiverTox Database.** “Cordyceps.” U.S. National Library of Medicine, updated 2025. <https://www.ncbi.nlm.nih.gov/books/NBK603853/>  
-5. **European Commission Novel Food Catalogue.** “Cordyceps militaris (mycelium & fruiting body).” Updated May 2025. <https://food.ec.europa.eu/safety/novel-food/catalogue_en>  
+4. **NIH LiverTox Database.** “Cordyceps.” U.S. National Library of Medicine, updated 2025.
+5. **European Commission Novel Food Catalogue.** “Cordyceps militaris (mycelium & fruiting body).” Updated May 2025.
 6. **RASFF Portal (Rapid Alert System for Food and Feed).** Notifications 2023–2025 concernant *Cordyceps militaris* non autorisé — absence de risque sanitaire identifié.  
 7. **Liu Y. et al.** *Cordycepin: a bioactive compound from Cordyceps militaris with potential therapeutic applications.* *Front Pharmacol.* 2024; 15:1342056. (revue clinique et pharmacocinétique humaine).  
 8. **Paterson RRM.** *Cordyceps – a traditional Chinese medicine and another fungal therapeutic biofactory?* *Phytochemistry.* 2020; 174:112331.  
@@ -112,3 +112,4 @@ Cette situation constitue une **tolérance de fait**, sans conformité juridique
 ---
 
 <sub><em>Dernière mise à jour : 2 novembre 2025</em></sub>
+
