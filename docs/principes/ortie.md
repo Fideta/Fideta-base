@@ -49,7 +49,7 @@ Aucun effet hormonal validé ni indication reconnue pour les femmes.
 | **Symptômes urinaires liés à l’HBP** | Amélioration des symptômes urinaires modérés chez l’homme | 🟡 **C** | Racine : 240–720 mg/j d’extrait sec (DER 5.4–8.3:1, éthanol 20%) |
 | **Allergie saisonnière** | Diminution modeste des symptômes nasaux | 🟠 **D** | Feuille lyophilisée 150–300 mg/j, 1–4 semaines |
 | **Glycémie (diabète de type 2)** | Baisse modeste de la glycémie à jeun | 🟠 **D** | Feuille : 100–500 mg, 2–3×/jour |
-| **Effet diurétique** | Soutien traditionnel sans preuve clinique | 🔴 **E** | Feuille en infusion, 2–3 tasses/jour. **Aucune preuve clinique moderne robuste validant cet usage traditionnel.** |
+| **Effet diurétique** | Usage traditionnel, augmente le flux urinaire de manière générale. | 🔴 **E** | Feuille en infusion, 2–3 tasses/jour. **Aucune preuve clinique moderne robuste validant cet usage traditionnel.** |
 
 ---
 
@@ -121,3 +121,4 @@ Aucune allégation santé autorisée en Union Européenne.
 8. **Schöttner M.** *Planta Med.* 1997 – Données in vitro sur la liaison à la SHBG.  
 9. **Int J Mol Sci.* 2020;21(21):8191 – Revue sur la SHBG et SOPK.*
 ---
+
