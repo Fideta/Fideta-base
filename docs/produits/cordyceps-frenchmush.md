@@ -25,7 +25,7 @@ hide_title: true
 
 ## ☠️ Note Fideta : Disqualifié – Score : 0/100  
 
-### 🧩 Avis global  
+### Avis global  
 
 Le **Cordyceps de French Mush** est un complément alimentaire à base d’**extrait de mycélium biologique**, proposé en **gélules végétales**.  
 Chaque dose journalière (2 gélules) apporte **800 mg d’extrait standardisé à 15 % de polysaccharides (β-glucanes)** et **0,6 % de cordycépine**, censés favoriser la **vitalité et la performance**.  
@@ -63,7 +63,7 @@ Le produit apparaît donc **scientifiquement non crédible** et **réglementaire
 | Fonction ciblée | Effet attendu | Niveau de preuve | Commentaire |
 |------------------|---------------|:--:|---------------|
 | **Performance / énergie** | ↑ VO₂max, ↓ fatigue | 🟠 **D** | Quelques petites études humaines, résultats **hétérogènes/contradictoires** et méthodo limitée → pas de gain de performance confirmé. |
-| **Récupération musculaire** | ↓ inflammation post-exercice | 🟡 **C** | Petits essais positifs sur **biomarqueurs** (n < 20) ; **signal** intéressant mais sans traduction clinique ni reproductibilité. |
+| **Récupération musculaire** | ↓ inflammation post-exercice |  🔴 **E**| Petits essais positifs sur **biomarqueurs** (n < 20) ; **signal** intéressant mais sans traduction clinique ni reproductibilité. |
 | **Immunité** | Modulation cytokines / activité NK | 🔴 **E** | **Études pilotes humaines** de courte durée, effets modestes et non reproduits → **pas de preuve convaincante**. |
 | **Autres allégations (vitalité, libido, bien-être)** | — | ⚫ **F** | **Aucune étude clinique humaine** spécifique ou essais négatifs → classement **F**. |
 
@@ -135,3 +135,4 @@ Elle ne constitue pas un avis médical et n’engage pas la responsabilité de s
 ---
 
 <sub><em>Dernière mise à jour : 3 Novembre 2025</em></sub>
+
