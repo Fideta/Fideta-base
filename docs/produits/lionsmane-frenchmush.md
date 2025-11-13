@@ -63,7 +63,7 @@ L’efficacité est donc **non démontrée** selon la littérature disponible.
 | **Sommeil** | ↑ qualité du sommeil | ⚫ **F** | Aucune preuve clinique solide. |
 | **Immunité / microbiote** | Modulation immunitaire / microbiote | ⚫ **F** | Aucun essai humain robuste. |
 | **“Neuroprotection” / NGF** | Stimulation NGF | ⚫ **F** | Effets observés **uniquement in vitro / animaux**. |
-| **La Monica 2023 (Nutrients)** (adultes sains) | Extrait “Nordic Lion’s Mane” (fournisseur commun selon marque) | **1 g (prise aiguë)** | Amélioration modeste de quelques paramètres à 1–2 h | FM = 0,8 g/j **usage chronique**, effet aigu non transposable |
+
 ---
 
 ### 🔬 Comparaison étude par étude vs French Mush  
@@ -77,6 +77,7 @@ L’efficacité est donc **non démontrée** selon la littérature disponible.
 | **Li 2020** (Alzheimer débutant) | Mycélium enrichi en erinacine A | **1,05 g/j** | Signaux cognitifs modestes | FM = sporophore sans erinacines → **non comparable** |
 | **Nagano 2010** (péri-ménopause) | Poudre de sporophore (cookies) | **2 g/j** | Baisse anxiété/dépression | FM = 0,8 g/j → dose insuffisante |
 | **Vigna 2019** (obésité + anxiété)** | 80 % mycélium + 20 % sporophore | **550 mg/j** | Amélioration humeur/sommeil | FM ≠ produit ≠ population → non transposable |
+| **La Monica 2023 (Nutrients)** (adultes sains) | Extrait “Nordic Lion’s Mane” (fournisseur commun selon marque) | **1 g (prise aiguë)** | Amélioration modeste de quelques paramètres à 1–2 h | FM = 0,8 g/j **usage chronique** mis en avant pour tous les jours, effet aigu non transposable |
 
 > **Conclusion globale :**  
 > Aucune étude clinique ne correspond au profil du produit French Mush.  
@@ -142,5 +143,6 @@ Elle ne constitue pas un avis médical ni une recommandation personnalisée.
 Pour toute décision de santé, consultez un professionnel.
 
 ---
+
 
 <sub><em>Dernière mise à jour : 13 novembre 2025</em></sub>
