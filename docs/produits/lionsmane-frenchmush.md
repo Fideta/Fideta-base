@@ -36,7 +36,7 @@ Cependant, les **données cliniques humaines** montrent :
 1. **Aucune efficacité chez les adultes sains**, même à des doses bien plus élevées (1,8 g/j d’extrait ou 10 g/j de poudre).  
 2. Les signaux positifs observés concernent des **populations malades** (MCI, Alzheimer débutant, anxiété ménopausique), avec **d’autres produits** et **des doses plus fortes** (2–3 g/j ou mycélium enrichi en erinacine A).  
 3. **Une étude indépendante (La Monica et al., 2023)** a évalué un extrait de fruiting body similaire à celui utilisé par French Mush (“Nordic Lion’s Mane”). **À la dose de 1 g en prise unique**, de petits effets cognitifs aigus ont été observés (amélioration modeste de la vitesse de réaction). Cependant ces **effets ponctuels**, limités à 60–120 min après ingestion, **ne sont pas transposables à l’usage quotidien du produit French Mush (800 mg/j).**  
-4. Le dosage (**0,8 g/j**) est **insuffisant pour reproduire les protocoles positifs**, et aucune donnée ne permet d’affirmer une équivalence clinique.
+4. Le dosage (**0,8 g/j**) est **insuffisant pour correspondre aux protocoles positifs**, et aucune donnée ne permet d’affirmer une équivalence clinique.
 
 L’efficacité est donc **non démontrée** selon la littérature disponible.
 
@@ -146,3 +146,4 @@ Pour toute décision de santé, consultez un professionnel.
 
 
 <sub><em>Dernière mise à jour : 13 novembre 2025</em></sub>
+
