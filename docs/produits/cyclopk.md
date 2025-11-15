@@ -113,9 +113,9 @@ Posologie d’attaque : **3 gélules/jour** (doses ci-dessous pour 3 gélules).
 
 | Critère | Note | Commentaire |
 |--------|------|-------------|
-| **Efficacité** | 🔴 | Actifs sous-dosés vs études, aucune étude CycloPK. Impact clinique faible. |
-| **Sécurité** | 🟡 | Micronutriments sûrs ; risque théorique avec saw palmetto + houblon. |
-| **Qualité** | 🟡 | Bonne galénique, mais manque de titrage et transparence, absence d’essais. |
+| **Efficacité** | ⚫ **F** | Actifs sous-dosés vs études, aucune étude CycloPK. Impact clinique faible. |
+| **Sécurité** | 🟡 **C**| Micronutriments sûrs ; risque théorique avec saw palmetto + houblon. |
+| **Qualité** | 🟡 **C** | Bonne galénique, mais manque de titrage et transparence, absence d’essais. |
 
 ---
 
@@ -141,4 +141,5 @@ Cette fiche est établie à partir d’une revue critique des données scientifi
 
 ---
 
-<sub><em>Dernière mise à jour : 3 Novembre 2025</em></sub>
+<sub><em>Dernière mise à jour : 15 Novembre 2025</em></sub>
+
