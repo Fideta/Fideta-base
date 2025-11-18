@@ -18,7 +18,7 @@ hide_title: true
   </div>
 
   <div className="product-hero__packshot">
-    <img src="/img/produits/hydratis-peche.jpg" alt="Hydratis - Saveur Pêche" loading="eager" />
+    <img src="/img/produits/hydratis.jpg" alt="Hydratis® Pastilles" loading="eager" />
   </div>
 </div>
 
@@ -165,3 +165,4 @@ Cette fiche repose sur une analyse critique des données scientifiques disponibl
 Elle ne constitue pas un avis médical ni une recommandation personnalisée.  
 
 <sub><em>Dernière mise à jour : 18 Novembre 2025</em></sub>
+
