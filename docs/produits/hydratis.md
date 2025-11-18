@@ -10,7 +10,7 @@ hide_title: true
 
 <div className="product-hero">
   <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Hydratis® Pastilles – Saveur Pêche</h1>
+    <h1 style={{margin:0}}>Hydratis® Pastilles</h1>
     <p style={{margin:0}}>
       <strong>Marque / Laboratoire :</strong> Hydratis<br/>
       <strong>Catégorie :</strong> Électrolytes & Minéraux
@@ -165,4 +165,5 @@ Cette fiche repose sur une analyse critique des données scientifiques disponibl
 Elle ne constitue pas un avis médical ni une recommandation personnalisée.  
 
 <sub><em>Dernière mise à jour : 18 Novembre 2025</em></sub>
+
 
