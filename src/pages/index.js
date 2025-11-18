@@ -82,8 +82,8 @@ export default function Home() {
               <div className={styles.card}>
                 <h3>Derniers produits analysés</h3>
                 <ul>
-                  <li><Link to="/docs/produits/BonjourDrink">Bonjour café</Link> ☕ Remplacer le café : Vraiment ?</li>
-                  <li><Link to="/docs/produits/azinc_boost">Azinc® Boost</Link> ⚡ Un coup de fouet qui fait du bien ? </li>
+                  <li><Link to="/docs/produits/hydratis">Hydratis®</Link> 💧 “Hydratation ++” : une promesse… très diluée.</li>
+                  <li><Link to="/docs/produits/BonjourDrink">Bonjour Drink</Link> ☕ Remplacer le café : Vraiment ? </li>
                 </ul>
               </div>
 
