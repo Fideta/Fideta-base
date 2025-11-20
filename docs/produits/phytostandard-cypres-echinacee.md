@@ -59,6 +59,7 @@ Ainsi, si la démarche botanique est encadrée, la **pertinence clinique reste d
 | **Usage aigu (6–8 comprimés/j sur 5 jours)** | Soutien rapide | 🔴 **E** | La logique “cure courte” existe dans certaines études d’échinacée, mais les doses de ce produit restent largement inférieures à celles étudiées. |
 
 > Aucun essai clinique chez l’humain n’étant disponible pour le cyprès, la pertinence scientifique ne peut être appréciée qu’à partir des données existantes sur l’échinacée, sans préjuger d’un effet propre au cyprès.
+> 
 > Ces fonctions sont issues des usages décrits dans la littérature scientifique et ne constituent pas des allégations du fabricant, dont la page produit ne mentionne pas d’indication particulière.
 ---
 
@@ -122,3 +123,4 @@ Cette fiche est fondée sur une revue critique des données scientifiques dispon
 Elle ne constitue pas un avis médical et ne remplace pas une consultation professionnelle.
 
 <sub><em>Dernière mise à jour : 20 novembre 2025</em></sub>
+
