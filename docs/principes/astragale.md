@@ -15,6 +15,7 @@ hide_title: true
       <strong>**Nom scientifique**:</strong> *Astragalus membranaceus*<br/>
       <strong>**Partie utilisée** :</strong> racine (Radix Astragali)  
       <strong>****Origine**** :</strong> Chine, Mongolie (plante majeure en Médecine Traditionnelle Chinoise — MTC)
+      </p>
   </div>
 
 <div className="product-hero__packshot">
@@ -121,4 +122,5 @@ La **sécurité** est généralement bonne chez l’adulte sain, mais les **inte
 6. de Jaeger C et al. **Astragalus-based supplement and telomere length** (RCT négatif). *Nutrients*.  
 7. Sécurité / interactions : Memorial Sloan Kettering Cancer Center – Astragalus monograph.  
 8. NCCIH (NIH) – Astragalus Fact Sheet.  
+
 
