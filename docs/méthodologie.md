@@ -41,7 +41,7 @@ Fideta attribue à chaque complément une **note globale**, fondée sur :
 | 🟡 C     | **Preuve modérée** | Petits essais cliniques positifs, tendance encourageante mais puissance ou reproductibilité insuffisante. |
 | 🟠 D     | **Preuve faible** | Résultats contradictoires ou méthodologie fragile (observations, non randomisées, biais importants). |
 | 🔴 E     | **Pas de preuve convaincante** | Quelques études humaines isolées, anciennes ou non reproduites. Vide clinique partiel. |
-| ⚫ F     | **Inefficacité démontrée OU absence d’étude** | Soit plusieurs essais robustes montrent une absence d’effet, soit aucune étude clinique humaine (uniquement in vitro/animales, extrapolations). |
+| ⚫ F     | **Inefficacité démontrée OU absence de preuve clinique** | Plusieurs essais cliniques robustes montrent une absence d’effet, ou une étude unique mais négative, ou aucune étude clinique humaine (données uniquement in vitro/animales ou extrapolations). |
 | ☠️       | **Disqualifié** | Danger avéré ou probable : toxicité, interactions graves, dose toxique, substance interdite, signaux d'effets indésirables imputables à l'ingrédient. |
 
 > ℹ️ **Important** : une mauvaise note ne signifie pas toujours "dangereux", mais peut simplement indiquer **l'absence de bénéfices démontrés**.  
@@ -105,7 +105,7 @@ Pour simplifier la lecture, le score sur 100 est **traduit en note alphabétique
 | **60–74**   | 🟡 C     | **Preuve modérée** – petits essais positifs, tendance encourageante mais reproductibilité insuffisante. |
 | **45–59**   | 🟠 D     | **Preuve faible** – données contradictoires ou méthodologiquement fragiles, usage non justifié. |
 | **30–44**   | 🔴 E     | **Pas de preuve convaincante** – une ou quelques études humaines isolées mais non reproduites, vide clinique partiel. |
-| **1–29**    | ⚫ F     | **Inefficacité démontrée OU absence totale d’étude clinique** – soit plusieurs essais robustes négatifs, soit uniquement données in vitro/animales ou extrapolations marketing. |
+| **1–29**    | ⚫ F     | **Inefficacité démontrée OU absence de preuve clinique** – Plusieurs essais cliniques robustes montrent une absence d’effet, ou une étude unique mais négative, ou aucune étude clinique humaine (données uniquement in vitro/animales ou extrapolations) |
 | **0**       | ☠️ Disqualifié | **Danger avéré ou probable** – produit interdit ou toxique (toxicité, interactions graves, dose inacceptable, signaux d'effets indésirables imputables aux ingrédients). |
 
 ---
