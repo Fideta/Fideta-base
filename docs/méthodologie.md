@@ -34,15 +34,17 @@ Fideta attribue à chaque complément une **note globale**, fondée sur :
 
 ### 🔬 Niveaux de preuve scientifique (ingrédients actifs)
 
-| Note     | Description | Critères scientifiques |
-|----------|-------------|------------------------|
-| ✅ A     | **Preuve solide** | Plusieurs essais cliniques robustes, méta-analyses cohérentes, reproductibilité démontrée. |
-| 🟢 B     | **Preuve probable** | Études cliniques sérieuses mais limitées en taille/durée ; résultats globalement positifs. |
-| 🟡 C     | **Preuve modérée** | Petits essais cliniques positifs, tendance encourageante mais puissance ou reproductibilité insuffisante. |
-| 🟠 D     | **Preuve faible** | Résultats contradictoires ou méthodologie fragile (observations, non randomisées, biais importants). |
-| 🔴 E     | **Pas de preuve convaincante** | Quelques études humaines isolées, anciennes ou non reproduites. Vide clinique partiel. |
-| ⚫ F     | **Inefficacité démontrée OU absence de preuve clinique** | Plusieurs essais cliniques robustes montrent une absence d’effet, ou une étude unique mais négative, ou aucune étude clinique humaine (données uniquement in vitro/animales ou extrapolations). |
-| ☠️       | **Disqualifié** | Danger avéré ou probable : toxicité, interactions graves, dose toxique, substance interdite, signaux d'effets indésirables imputables à l'ingrédient. |
+# 🔬 Niveaux de preuve scientifique (ingrédients actifs) – Fideta (version stricte EBM)
+
+| Note | Description | Critères scientifiques |
+|------|-------------|------------------------|
+| **✅ A — Preuve solide** | Effet démontré | Plusieurs essais cliniques robustes (RCT bien conduites), cohérents entre eux, souvent appuyés par méta-analyses. Forte reproductibilité et biais faibles. |
+| **🟢 B — Preuve probable** | Effet crédible | RCT de bonne qualité mais limitées en nombre, taille ou durée. Résultats globalement positifs et plausibilité biologique forte. Reproductibilité partielle. |
+| **🟡 C — Preuve modérée** | Indices faibles mais plausibles | Au moins une étude humaine **acceptable** (randomisée ou contrôlée correctement) montrant un effet modeste mais cohérent. Résultats encourageants mais puissance ou reproduction insuffisantes. |
+| **🟠 D — Preuve faible** | Indices très fragiles | Données humaines faibles : petites études, non randomisées, méthodologie insuffisante, biais élevés. Un signal léger peut exister mais la fiabilité est faible. |
+| **🔴 E — Pas de preuve convaincante** | Données incomplètes | Quelques études humaines isolées, anciennes ou non reproduites. Trop de lacunes pour suggérer un effet réel. Vide clinique partiel. |
+| **⚫ F — Inefficacité démontrée OU absence de preuve clinique** | Pas d’effet ou pas de preuve | Plusieurs essais robustes montrent **absence d’effet**, **ou** étude humaine unique mais négative, **ou** aucune étude clinique humaine (seulement in vitro/animal). Les données faibles ou mal faites ne sont **pas considérées comme probantes**. |
+| **☠️ Disqualifié — Danger** | Risque établi | Toxicité démontrée, interactions graves, substance interdite, dose toxique, ou effets indésirables crédiblement imputables à l’ingrédient. |
 
 > ℹ️ **Important** : une mauvaise note ne signifie pas toujours "dangereux", mais peut simplement indiquer **l'absence de bénéfices démontrés**.  
 > La note **☠️ Disqualifié**, en revanche, alerte sur un **risque établi ou inacceptable** pour la santé.
@@ -100,13 +102,14 @@ Pour simplifier la lecture, le score sur 100 est **traduit en note alphabétique
 
 | Score       | Note     | Commentaire Fideta |
 |-------------|----------|--------------------|
-| **90–100**  | ✅ A     | **Preuve solide** – efficacité démontrée par essais robustes, usage recommandé *uniquement dans le contexte prouvé*. |
-| **75–89**   | 🟢 B     | **Preuve probable** – résultats encourageants et cohérents, usage envisageable mais encore limité. |
-| **60–74**   | 🟡 C     | **Preuve modérée** – petits essais positifs, tendance encourageante mais reproductibilité insuffisante. |
-| **45–59**   | 🟠 D     | **Preuve faible** – données contradictoires ou méthodologiquement fragiles, usage non justifié. |
-| **30–44**   | 🔴 E     | **Pas de preuve convaincante** – une ou quelques études humaines isolées mais non reproduites, vide clinique partiel. |
-| **1–29**    | ⚫ F     | **Inefficacité démontrée OU absence de preuve clinique** – Plusieurs essais cliniques robustes montrent une absence d’effet, ou une étude unique mais négative, ou aucune étude clinique humaine (données uniquement in vitro/animales ou extrapolations) |
-| **0**       | ☠️ Disqualifié | **Danger avéré ou probable** – produit interdit ou toxique (toxicité, interactions graves, dose inacceptable, signaux d'effets indésirables imputables aux ingrédients). |
+| **90–100**  | ✅ A     | **Preuve solide** – Formulation contenant un ou plusieurs ingrédients notés A ou B, avec essais cliniques robustes sur *le produit final* ou des équivalents, résultats cohérents et reproductibles. Efficacité clairement démontrée. |
+| **75–89**   | 🟢 B     | **Preuve probable** – Données cliniques sérieuses (sur le produit ou ingrédients équivalents), mais encore limitées en nombre, taille ou durée. Résultats majoritairement positifs. Usage pertinent dans le contexte prouvé. |
+| **60–74**   | 🟡 C     | **Preuve modérée** – Indices cliniques plausibles : au moins une étude acceptable ou des données cohérentes sur les ingrédients, mais puissance statistique ou reproductibilité insuffisantes. Efficacité possible mais non confirmée. |
+| **45–59**   | 🟠 D     | **Preuve faible** – Données humaines fragiles, petites études, méthodologie insuffisante ou risques de biais élevés. Quelques signaux légers mais non fiables. Bénéfice incertain, usage non recommandé. |
+| **30–44**   | 🔴 E     | **Pas de preuve convaincante** – Études humaines isolées, anciennes ou non reproduites. Données trop incomplètes pour soutenir l’efficacité du produit. Vide clinique partiel. |
+| **1–29**    | ⚫ F     | **Inefficacité démontrée OU absence de preuve clinique** – Essais humains robustes montrant une **absence d’effet**, ou étude unique mais négative, ou **absence totale d’étude clinique** sur le produit ou les ingrédients clés. Les données faibles ou mal faites ne sont pas prises en compte. |
+| **0**       | ☠️ Disqualifié | **Danger avéré ou probable** – Produit contenant un ingrédient à risque (toxicité, interactions graves), formulation interdite ou doses problématiques. Risque inacceptable pour la santé. |
+
 
 ---
 
