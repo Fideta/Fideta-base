@@ -134,3 +134,7 @@ Un produit marqué uniquement “*B. longum*” n’a **aucune preuve interprét
 11. **EFSA BIOHAZ Panel.** *QPS list update – Bifidobacterium longum.* EFSA Journal, 2020 & maj.  
     → Confirme le statut QPS (présomption de sécurité).
 
+---
+<sub><em>Dernière mise à jour : 22 Novembre 2025</em></sub>
+
+
