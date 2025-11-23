@@ -127,3 +127,8 @@ Un produit marqué simplement “*Lactobacillus helveticus*” sans numéro de s
 8. EFSA NDA Panel. *Rejection of Evolus® / IPP-VPP health claims.*, 2008.  
 9. Costa RL. et al. *Probiotic-associated infections review.* BMC Complement Med, 2018.  
 10. EFSA BIOHAZ Panel. *QPS list update – L. helveticus.*, 2019–2024.
+
+---
+
+<sub><em>Dernière mise à jour : 22 novembre 2025</em></sub>
+
