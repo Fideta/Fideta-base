@@ -7,7 +7,7 @@ import styles from "./principes-actifs.module.css";
 
 const ALL_CATEGORIES = [
   "Tous", "Vitamines", "Minéraux", "Acides gras", "Plantes",
-  "Protéines", "Acides aminés", "Neuro-hormone", "Champignons"
+  "Protéines", "Acides aminés", "Probiotiques", "Champignons"
 ];
 
 export default function PrincipesActifsPage() {
