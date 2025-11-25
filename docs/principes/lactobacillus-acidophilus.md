@@ -9,11 +9,20 @@ slug: /principes/lactobacillus-acidophilus
 hide_title: true
 ---
 
-# Lactobacillus acidophilus
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Lactobacillus acidophilus</h1>
+    <p style={{margin:0}}>
+      <strong>Nom scientifique :</strong> <em>*Lactobacillus acidophilus*</em><br/>
+      <strong>Partie utilisée :</strong> souches bactériennes spécifiques, vivantes (probiotiques) ou fragments issus de fermentation (postbiotiques)<br/>
+      <strong>Origine :</strong> bactérie lactique du microbiote humain et des laits fermentés
+    </p>
+  </div>
 
-**Nom scientifique :** *Lactobacillus acidophilus*  
-**Partie utilisée :** micro-organisme vivant lyophilisé  
-**Origine :** bactérie lactique du microbiote humain et des laits fermentés
+  <div className="product-hero__packshot">
+      <img src="/img/principes/lactobacillus-acidophilus.jpg" alt="Lactobacillus acidophilus" loading="eager" />
+  </div>
+</div>
 
 ---
 
@@ -103,3 +112,4 @@ Sécurité excellente. Efficacité modérée mais tangible pour le digestif et l
 10. EFSA BIOHAZ Panel. *Update on QPS list (Lactobacillus species).* EFSA Journal.
 
 <sub><em>Dernière mise à jour : 24 novembre 2025</em></sub>
+
