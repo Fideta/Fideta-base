@@ -54,11 +54,11 @@ Aucune allégation probiotique n’est autorisée en Europe, et aucun essai clin
 
 | Ingrédient / Souche | Quantité / gélule | Commentaire Fideta |
 |---------------------|------------------:|--------------------|
-| **Bifidobacterium lactis LA303** | Inclus dans les 10⁹ UFC | Données précliniques (IL-10, barrière) ; aucune étude clinique isolée. |
-| **B. animalis subsp. lactis LA304** | Inclus | Souche fréquente chez PiLeJe ; essais humains uniquement dans des mélanges différents. |
-| **Lactobacillus acidophilus LA201** | Inclus | Souche présente dans des mélanges ayant quelques données cliniques ; pas d’essai propre. |
-| **L. plantarum LA301** | Inclus | Données précliniques solides ; aucune étude clinique isolée. |
-| **L. salivarius LA302** | Inclus | Profil anti-inflammatoire démontré in vitro et en modèles murins ; pas d’essai clinique robuste. |
+| **[Bifidobacterium lactis](/docs/principes/bifidobacterium-lactis) LA303** | Inclus dans les 10⁹ UFC | Données précliniques (IL-10, barrière) ; aucune étude clinique isolée. |
+| **[BBifidobacterium animalis subsp. lactis](/docs/principes/bifidobacterium-lactis) LA304** | Inclus | Souche fréquente chez PiLeJe ; essais humains uniquement dans des mélanges différents. |
+| **[Lactobacillus acidophilus](/docs/principes/lactobacillus-acidophilus) LA201** | Inclus | Souche présente dans des mélanges ayant quelques données cliniques ; pas d’essai propre. |
+| **[Lactiplantibacillus plantarum](/docs/principes/lactiplantibacillus-plantarum) LA301** | Inclus | Données précliniques solides ; aucune étude clinique isolée. |
+| **[Ligilactobacillus salivarius](/docs/principes/ligilactobacillus-salivarius) LA302** | Inclus | Profil anti-inflammatoire démontré in vitro et en modèles murins ; pas d’essai clinique robuste. |
 | **Total ferments lactiques** | 10 × 10⁹ UFC | Répartition exacte par souche non précisée sur la boîte (uniquement en publication interne). |
 | Excipients (amidon de maïs, enveloppe végétale, acides gras) | — | Sans impact clinique particulier. |
 
@@ -140,3 +140,4 @@ Pour toute décision concernant votre santé, consultez un professionnel.
 ---
 
 <sub><em>Dernière mise à jour : 25 novembre 2025</em></sub>
+
