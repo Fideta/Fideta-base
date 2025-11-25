@@ -9,11 +9,20 @@ slug: /principes/lactiplantibacillus-plantarum
 hide_title: true
 ---
 
-# Lactiplantibacillus plantarum
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Lactiplantibacillus plantarum</h1>
+    <p style={{margin:0}}>
+      <strong>Nom scientifique :</strong> <em>*Lactiplantibacillus plantarum* (ex-*Lactobacillus plantarum*) </em><br/>
+      <strong>Partie utilisée :</strong> micro-organisme vivant ou inactivé (postbiotique), lyophilisé  <br/>
+      <strong>Origine :</strong>bactérie lactique du microbiote humain et des aliments fermentés (légumes lactofermentés, céréales, produits laitiers)
+    </p>
+  </div>
 
-**Nom scientifique :** *Lactiplantibacillus plantarum* (ex-*Lactobacillus plantarum*)  
-**Partie utilisée :** micro-organisme vivant ou inactivé (postbiotique), lyophilisé  
-**Origine :** bactérie lactique du microbiote humain et des aliments fermentés (légumes lactofermentés, céréales, produits laitiers)
+  <div className="product-hero__packshot">
+      <img src="/img/principes/Streptococcus-thermophilus.jpg" alt="Streptococcus thermophilus" loading="eager" />
+  </div>
+</div>
 
 ---
 
@@ -119,3 +128,4 @@ Espèce sûre, mais efficacité **non généralisable**. S’appuyer exclusiveme
 ---
 
 <sub><em>Dernière mise à jour : 24 novembre 2025</em></sub>
+
