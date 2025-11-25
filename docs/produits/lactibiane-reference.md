@@ -65,6 +65,8 @@ Les souches utilisées appartiennent à des **espèces généralement considér�
 | **Douleur abdominale (critère secondaire)** | ↓ douleur | ⚫ **F** | Différence faible, non reproduite, non corrigée → non probante. |
 | **Ballonnements / confort digestif** | Amélioration | ⚫ **F** | Aucun essai dédié en population générale avec preuve clinique. |
 
+> Ces fonctions sont décrites dans la littérature scientifique sur les probiotiques, mais **ne constituent pas des allégations du fabricant**, dont la page produit ne fait aucune indication thérapeutique particulière.
+
 ---
 
 ## ⚠️ Sécurité et précautions  
@@ -126,4 +128,5 @@ Pour toute décision concernant votre santé, consultez un professionnel.
 ---
 
 <sub><em>Dernière mise à jour : 23 novembre 2025</em></sub>
+
 
