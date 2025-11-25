@@ -20,7 +20,7 @@ hide_title: true
   </div>
 
   <div className="product-hero__packshot">
-      <img src="/img/principes/Streptococcus-thermophilus.jpg" alt="Streptococcus thermophilus" loading="eager" />
+      <img src="/img/principes/lactiplantibacillus-plantarum.jpg" alt="Lactiplantibacillus plantarum" loading="eager" />
   </div>
 </div>
 
@@ -128,4 +128,5 @@ Espèce sûre, mais efficacité **non généralisable**. S’appuyer exclusiveme
 ---
 
 <sub><em>Dernière mise à jour : 24 novembre 2025</em></sub>
+
 
