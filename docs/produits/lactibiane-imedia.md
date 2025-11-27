@@ -6,10 +6,19 @@ synopsis: "Complément alimentaire à base de 4 souches microbiotiques (30 milli
 ean: [3401528534805 , 3401560080599]
 hide_title: true
 ---
+<div className="product-hero">
+  <div className="product-hero__titlewrap">
+    <h1 style={{margin:0}}>Lactibiane Imedia</h1>
+    <p style={{margin:0}}>
+      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
+      <strong>Catégorie :</strong> Mélange de souches probiotiques
+    </p>
+  </div>
 
-# 💊 Lactibiane Imedia  
-**Marque / Laboratoire :** PiLeJe  
-**Catégorie :** Mélange de souches microbiotiques (probiotiques)  
+  <div className="product-hero__packshot">
+    <img src="/img/produits/lactibiane-imedia.jpg.jpg" alt="Lactibiane Imedia - PiLeJe" loading="eager" />
+  </div>
+</div>
 
 ---
 
@@ -137,3 +146,4 @@ Consultez un professionnel de santé en cas de diarrhée aiguë, fièvre, déshy
 
 
 <sub><em>Dernière mise à jour : 25 novembre 2025</em></sub>
+
