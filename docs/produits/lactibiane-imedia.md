@@ -16,7 +16,7 @@ hide_title: true
   </div>
 
   <div className="product-hero__packshot">
-    <img src="/img/produits/lactibiane-imedia.jpg.jpg" alt="Lactibiane Imedia - PiLeJe" loading="eager" />
+    <img src="/img/produits/lactibiane-imedia.jpg" alt="Lactibiane Imedia - PiLeJe" loading="eager" />
   </div>
 </div>
 
@@ -146,4 +146,5 @@ Consultez un professionnel de santé en cas de diarrhée aiguë, fièvre, déshy
 
 
 <sub><em>Dernière mise à jour : 25 novembre 2025</em></sub>
+
 
