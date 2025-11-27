@@ -53,6 +53,8 @@ Les effets démontrés concernent seulement quelques souches précises :
 - **Tension artérielle** :  
   – certains laits fermentés enrichis en peptides IPP/VPP issus de fermentations par souches comme LBK-16H ou CM4 ont donné des résultats positifs, mais **d’autres RCTs sont négatives**, et l’EFSA a rejeté les allégations : **preuve faible**.
 
+- **Candisis LA401 (souche LA401)** : malgré un positionnement sur l’équilibre vaginal et la prévention des candidoses, **aucune étude clinique humaine n’est disponible**. Les données proviennent uniquement d’arguments in vitro ou marketing, sans validation clinique.  
+
 Les autres allégations que l'on peut retrouver dans les compléments (“immunité”, “détox”, “cholestérol”, “foie”, “humeur profonde”) **n’ont aucune preuve clinique solide**, et certaines indications ont des essais clairement négatifs.
 
 **Conclusion :** excellente sécurité, mais efficacité limitée à quelques couples **souche + indication**.  
@@ -71,7 +73,7 @@ Un produit marqué simplement “*Lactobacillus helveticus*” sans numéro de s
 | Rhinite allergique – SBT2171 | ↓ symptômes nasaux/oculaires, ↓ éosinophiles | 🟡 C — deux RCT positives cohérentes | 1 boisson/j, 12–16 sem |
 | Immunité / infections | Pas de réduction des infections dans les RCTs | 🔴 E — pas de preuve convaincante | — |
 | Lipides, cholestérol, “détox hépatique” | Aucune étude clinique | ⚫ F — absence totale de preuve humaine | — |
-
+| Santé intime / candidoses – LA401 (Candisis) | Aucune étude clinique humaine ; allégations non démontrées | ⚫ F — absence totale de preuve humaine| — |
 ---
 
 ## ⚠️ Sécurité et précautions
@@ -131,4 +133,5 @@ Un produit marqué simplement “*Lactobacillus helveticus*” sans numéro de s
 ---
 
 <sub><em>Dernière mise à jour : 22 novembre 2025</em></sub>
+
 
