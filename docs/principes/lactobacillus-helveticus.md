@@ -30,7 +30,7 @@ hide_title: true
 
 *Lactobacillus helveticus* est une espèce **extrêmement hétérogène**, regroupant des dizaines de souches aux propriétés très différentes (activité protéolytique, production de peptides bioactifs, immunomodulation, métabolites).  
 
-Attention, comme pour toute bactérie, on ne pas extrapoler les preuves d’une souche à l’espèce entière**, car :  
+Attention, comme pour toute bactérie, **on ne pas extrapoler les preuves d’une souche à l’espèce entière**, car :  
 1) les souches ont des caractéristiques biologiques très différentes ;  
 2) les essais cliniques portent sur **UNE souche précise** ;  
 3) des études négatives sur d’autres souches démontrent que l’étiquette “*B. longum*” seule ne prédit aucun effet clinique.
@@ -133,5 +133,6 @@ Un produit marqué simplement “*Lactobacillus helveticus*” sans numéro de s
 ---
 
 <sub><em>Dernière mise à jour : 22 novembre 2025</em></sub>
+
 
 
