@@ -65,7 +65,8 @@ Espèce sûre, mais efficacité **non généralisable**. S’appuyer exclusiveme
 | **Humeur / sommeil (PS128)** | Amélioration modeste des scores dépressifs et du sommeil (petites RCT). | 🟠 D — preuve faible | 10⁹–10¹⁰ UFC/j, 8 semaines |
 | **Paramètres métaboliques divers** | Effets modestes et inconstants sur HbA1c, CRP, PA (multi-souches). | 🟠 D — preuve faible | 10⁹–10¹⁰ UFC/j |
 | **Immunité / infections** | Signaux biologiques (CRP, IL-6) mais peu d’impact clinique reproductible. | 🟠 D — preuve faible | 10⁹–10¹⁰ UFC/j |
-
+| **Intolérance au fructose** | ↓ ballonnements, douleurs **uniquement avec un mélange** (CECT 7484 + CECT 7485 + P. acidilactici CECT 7483). Aucune donnée monostrain. | 🟠 D — preuve faible | ~3×10⁹ UFC/j, 30 j |
+| **SII / troubles digestifs** | QoL légèrement améliorée avec le même mélange ; effet faible sur diarrhée, aucun effet sur les critères robustes avec le même mélange (CECT 7484 + CECT 7485 + P. acidilactici CECT 7483). | 🟠 D — preuve faible | ~3×10⁹ UFC/j, 6-12 semaines |
 ---
 
 ## ⚠️ Sécurité et précautions
@@ -128,5 +129,6 @@ Espèce sûre, mais efficacité **non généralisable**. S’appuyer exclusiveme
 ---
 
 <sub><em>Dernière mise à jour : 24 novembre 2025</em></sub>
+
 
 
