@@ -4,7 +4,7 @@ image: /img/principes/Cordyceps.jpg
 categories: ["Champignons"]
 synopsis: "Mycélium cultivé (CS-4, Jinshuibao, Bailing). Preuves limitées pour l’endurance chez sujets âgés/sédentaires ; données faibles ou négatives ailleurs."
 synonyms: ["Ophiocordyceps sinensis", "Cordyceps sinensis"]
-popular: false
+popular: true
 slug: /principes/cordyceps
 hide_title: true
 ---
