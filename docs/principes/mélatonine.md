@@ -4,7 +4,7 @@ image: /img/principes/melatonine.jpg
 categories: ["Neuro-hormone"]
 synopsis: "Hormone du sommeil, preuves modérées pour réguler l’endormissement."
 synonyms: ["N‑acétyl‑5‑méthoxytryptamine"]
-popular: true
+popular: false
 slug: /principes/mélatonine
 hide_title: true
 ---
