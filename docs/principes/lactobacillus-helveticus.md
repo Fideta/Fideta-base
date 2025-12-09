@@ -4,7 +4,7 @@ image: /img/principes/Lactobacillus-helveticus.jpg
 categories: ["Probiotiques"]
 synopsis: "Espèce aux propriétés très dépendantes de la souche. Quelques preuves modérées pour certaines souches spécifiques (stress léger, rhinite allergique, confort intestinal), mais efficacité non extrapolable à l’espèce."
 synonyms: ["L. helveticus"]
-popular: false
+popular: true
 slug: /principes/lactobacillus-helveticus
 hide_title: true
 ---
@@ -133,6 +133,7 @@ Un produit marqué simplement “*Lactobacillus helveticus*” sans numéro de s
 ---
 
 <sub><em>Dernière mise à jour : 22 novembre 2025</em></sub>
+
 
 
 
