@@ -4,7 +4,7 @@ image: /img/principes/Ginseng.jpg
 categories: ["Plantes"]
 synopsis: "Effet modeste et transitoire sur la fatigue, données faibles pour glycémie, dysfonction érectile et infections ; pas de preuve pour cognition ou performance."
 synonyms: ["Panax ginseng C.A. Meyer", "Ginseng asiatique", "Ginseng rouge", "Ginseng blanc"]
-popular: true
+popular: false
 slug: /principes/ginseng
 hide_title: true
 ---
