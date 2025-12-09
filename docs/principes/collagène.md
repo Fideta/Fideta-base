@@ -4,7 +4,7 @@ image: /img/principes/Collagene.jpg
 categories: ["Protéines"]
 synopsis: "Protéine de soutien, preuves modérées pour la beauté de la peau."
 synonyms: ["Collagène"]
-popular: true
+popular: false
 slug: /principes/collagène
 hide_title: true
 ---
