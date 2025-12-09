@@ -4,7 +4,7 @@ image: /img/principes/magnesium.jpg
 categories: ["Minéraux"]
 synopsis: "Minéral essentiel, preuves solides pour la prévention des carences."
 synonyms: ["Magnésium, Mg"]
-popular: true
+popular: false
 slug: /principes/magnesium
 hide_title: true
 ---
