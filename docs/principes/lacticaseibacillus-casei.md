@@ -4,7 +4,7 @@ image: /img/principes/lacticaseibacillus-casei.jpg
 categories: ["Probiotiques"]
 synopsis: "Espèce très sûre (QPS EFSA) mais efficacité strictement souche-dépendante. Quelques signaux cliniques pour certaines souches en matrices lactées (constipation, AAD) mais résultats souvent modestes, non reproduits et non transposables aux gélules génériques. Aucune preuve solide au niveau de l’espèce."
 synonyms: ["Lactobacillus casei", "Lacticaseibacillus casei", "L. casei"]
-popular: true
+popular: false
 slug: /principes/lacticaseibacillus-casei
 hide_title: true
 ---
@@ -135,3 +135,4 @@ Cas isolés de bactériémie / endocardite, généralement chez :
 
 
 <sub><em>Dernière mise à jour : 28 novembre 2025</em></sub>
+
