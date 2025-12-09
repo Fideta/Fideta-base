@@ -4,7 +4,7 @@ image: /img/principes/ravintsara.jpg
 categories: ["Plantes", "Huiles essentielles"]
 synopsis: "Huile essentielle de Cinnamomum camphora ct 1,8-cinéole. Profil de sécurité globalement bon aux doses usuelles, mais efficacité clinique non démontrée : aucune RCT sur les indications courantes (immunité, antiviral, ORL). Quelques données humaines exploratoires uniquement (stress, infections nosocomiales)."
 synonyms: ["Cinnamomum camphora ct cineole", "Ravintsara", "FE de camphrier (feuilles)"]
-popular: true
+popular: false
 slug: /principes/ravintsara
 hide_title: true
 ---
@@ -147,3 +147,4 @@ Données basées sur pratiques d'aromathérapie — **aucune posologie validée 
 ---
 
 <sub><em>Dernière mise à jour : 2 décembre 2025</em></sub>
+
