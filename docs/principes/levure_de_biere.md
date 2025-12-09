@@ -4,7 +4,7 @@ image: /img/principes/levure_de_biere.jpg
 categories: ["Bactérie"]
 synopsis: "Source naturelle de vitamines B et minéraux, mais bénéfices cliniques spécifiques non démontrés."
 synonyms: ["Saccharomyces cerevisiae", "Brewer’s yeast"]
-popular: true
+popular: false
 slug: /principes/levure_de_biere
 hide_title: true
 ---
