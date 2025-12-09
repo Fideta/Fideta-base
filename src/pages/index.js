@@ -95,7 +95,7 @@ export default function Home() {
               </div>
 
               <div className={styles.card}>
-                <h3>Les ingrédients les plus populaires</h3>
+                <h3>Les derniers ingrédients analysés</h3>
                 <div className={styles.tagList}>
                   {popularItems.length > 0 ? (
                     popularItems.map(item => (
