@@ -81,10 +81,17 @@ export default function Home() {
             <section className={styles.cardSection}>
               <div className={styles.card}>
                 <h3>Derniers produits analysés</h3>
-                <ul>
-                  <li><Link to="/docs/produits/hydratis">Hydratis®</Link> 💧 “Hydratation ++” : une promesse… très diluée.</li>
-                  <li><Link to="/docs/produits/BonjourDrink">Bonjour Drink</Link> ☕ Remplacer le café : Vraiment ? </li>
-                </ul>
+                  <ul className={styles.productList}>
+  <li>
+    <Link to="/docs/produits/florvis-sii">Florvis SII</Link> 😬 Pertinent ou pas pour le SII ?
+  </li>
+  <li>
+    <Link to="/docs/produits/ergyphilus_confort">Ergyphilus Confort</Link> 😊 Confort digestif : efficacité réelle ou marketing ?
+  </li>
+  <li>
+    <Link to="/docs/produits/zytolia">Zytolia</Link> 🍃 Le complément "bien-être intestinal" tient-il ses promesses ?
+  </li>
+</ul>
               </div>
 
               <div className={styles.card}>
