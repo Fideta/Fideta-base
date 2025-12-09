@@ -4,7 +4,7 @@ image: /img/principes/bifidobacterium-bifidum.jpg
 categories: ["Probiotiques"]
 synopsis: "Espèce sûre mais efficacité strictement souche-dépendante. Preuves solides uniquement pour le SII avec la souche MIMBb75. Autres allégations (immunité, TDAH, allergies, confort digestif) : preuves insuffisantes, fragiles ou absentes."
 synonyms: ["B. bifidum"]
-popular: false
+popular: true
 slug: /principes/bifidobacterium-bifidum
 hide_title: true
 ---
@@ -113,4 +113,5 @@ La sécurité est globalement excellente, mais une prudence reste indiquée chez
 7. ANSES. Avis sur un cas d’endocardite associée à un probiotique, 2019.  
 8. Esaiassen E. et al. *Bifidobacterium* bacteraemia. J Clin Microbiol.  
 9. Bellomo et al. 2024 — essai nourrissons (rétracté). Microorganisms, 2025.  
+
 
