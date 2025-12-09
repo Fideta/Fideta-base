@@ -4,6 +4,7 @@ image: /img/principes/gelee_royale.jpg
 categories: ["Produits de la ruche"]
 synopsis: "Sécrétion des abeilles nourricières, traditionnellement promue pour l’immunité et la fatigue hivernale. Les données cliniques humaines restent faibles : petits essais suggérant un effet modeste sur la ménopause et le syndrome prémenstruel, signaux inconstants sur la glycémie, mais aucune preuve convaincante pour l’immunité, la prévention des rhumes ou la fatigue."
 synonyms: ["Royal Jelly", "Lait des abeilles"]
+popular: true
 slug: /principes/gelee_royale
 hide_title: true
 ---
@@ -104,3 +105,4 @@ La tolérance est généralement bonne, mais des **réactions allergiques sévè
 ---
 
 <sub><em>Dernière mise à jour : 28 septembre 2025</em></sub>
+
