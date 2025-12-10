@@ -106,7 +106,7 @@ La L-théanine peut donc être considérée comme un **ingrédient sûr**, appor
 
 | Critère | Note | Commentaire |
 |--------|------|-------------|
-| **Efficacité** | 🟡 C | Effets modestes mais plausibles sur stress aigu et sommeil ; pas d’efficacité démontrée sur anxiété chronique, cognition isolée, métabolisme. |
+| **Efficacité** |   | Effets modestes mais plausibles sur stress aigu et sommeil ; pas d’efficacité démontrée sur anxiété chronique, cognition isolée, métabolisme. |
 | **Sécurité** | 🟢 B | Très bonne tolérance ; absence de signaux de toxicité ; données limitées mais cohérentes. |
 | **Qualité** | 🟡 C | Variabilité selon origine (synthèse/extraction) ; pureté parfois incomplètement documentée. |
 
@@ -123,5 +123,6 @@ La L-théanine peut donc être considérée comme un **ingrédient sûr**, appor
 7. Hidese S. et al. L-theanine on anxiety and stress markers — RCT, *Neuropharmacology*, 2020.
 
 ---
+
 
 <sub><em>Dernière mise à jour : 9 décembre 2025</em></sub>
