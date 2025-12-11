@@ -22,14 +22,27 @@ hide_title: true
 ---
 
 ## ☠️ Note Fideta : **Disqualifié – Score : 0/100**  
->**Produit non recommandable**  
->La formulation repose sur trois champignons (Lion’s Mane, Cordyceps, Chaga) associés à 35 mg de caféine.  
->– Le **Lion’s Mane** n’a montré **aucune efficacité clinique reproductible** dans la cognition.  
->– Le **Cordyceps sinensis** ne bénéficie que de quelques petits essais contradictoires sur l’endurance, sans preuve robuste.  
->– Le **Chaga** est le point le plus préoccupant : aucune donnée clinique humaine, et présence documentée d’**oxalates** responsables de cas d’atteintes rénales sévères.  
->Ces éléments constituent un **critère bloquant** selon la méthodologie Fideta.  
->L’effet ressenti (énergie, vigilance) provient uniquement de la **caféine**, à faible dose, sans lien avec les champignons.  
->**Élément supplémentaire** : le Cordyceps sinensis est, selon les sources industrielles, une matière première très coûteuse. Compte tenu du positionnement prix du produit et de la fréquence des substitutions commerciales rapportées dans le secteur, on peut se demander si l’espèce présente est bien C. sinensis plutôt que C. militaris, une espèce beaucoup moins coûteuse et facilement cultivable en laboratoire. Nous n’en avons toutefois **aucune preuve formelle**, l'analyse du produit est réalisée en considérant les informations de composition officielle à savoir la présence de Cordyceps sinensis. 
+**Produit non recommandable**  
+
+La formule repose sur trois champignons ([Lion’s Mane](/docs/principes/lion's_mane), [Cordyceps](/docs/principes/cordyceps), [Chaga](/docs/principes/chaga)) combinés à 35 mg de caféine issue d’extrait de café.  
+– Le **Lion’s Mane** n’a montré **aucune efficacité clinique reproductible** pour la cognition.  
+– Le **Cordyceps** ne dispose que de données humaines **faibles et contradictoires**.  
+– Le **Chaga** est l’élément le plus problématique : **aucune donnée clinique humaine** et présence reconnue d’**oxalates**, impliqués dans des cas d’atteintes rénales sévères.  
+
+L’effet ressenti est donc **exclusivement attribuable à la caféine**, et non aux champignons, ceux-ci n’ayant **aucun bénéfice clinique démontré**.
+
+**⚠️ Incohérence d’étiquetage : Cordyceps “sinensis”, fruiting body vs mycélium :**
+
+Le produit présente une incohérence notable concernant le **Cordyceps** :  
+ - à un endroit, il revendique du **“Cordyceps sinensis – fruiting body”** (description générale sur leur site internet),  
+ - mais dans la liste d’ingrédients apparaît un **“extrait de mycélium de Cordyceps sinensis”**.
+
+Or, fruiting body et mycélium sont **deux matières premières différentes**, avec des profils biochimiques distincts. Mentionner le fruiting body alors que la matière réellement utilisée est le **mycélium** peut être interprété comme **trompeur**, car cela suggère un niveau de qualité ou de naturalité non reflété par l’ingrédient effectif.
+
+Cette incohérence d’étiquetage constitue un **problème de transparence** et renforce la faible fiabilité de la formulation.
+
+En l’absence de preuves d’efficacité clinique chez l’homme et compte tenu des risques identifiés (notamment liés au Chaga), **l’utilisation de ce produit ne peut pas être recommandée**.
+
 ---
 
 ## 📦 Composition et analyse  
@@ -60,14 +73,16 @@ Arômes naturels, cacao/céréales selon la recette : uniquement rôle gustatif.
 
 ## ⚠️ Sécurité et précautions
 
-### Effets secondaires / effets indésirables 
-- **Chaga** : signal de néphropathie oxalique (atteinte rénale grave) → critère bloquant.
+**Effets secondaires ou indésirables :**
 
-- **Cordyceps** : manque de recul sur consommation prolongée.  
-- **Lion’s Mane** : bonne tolérance rapportée, mais efficacité absente.  
-- **Caféine (35 mg)** : bien tolérée, équivaut à un thé léger.  
+- **[Chaga](/docs/principes/chaga)** : risque de **néphropathie oxalique** rapporté ; absence de données humaines → **critère bloquant**.  
+- **[Cordyceps](/docs/principes/cordyceps)** : données insuffisantes sur l’usage prolongé.  
+- **[Lion’s Mane](/docs/principes/lion's_mane)** : tolérance globalement bonne dans les études, mais pas d’efficacité prouvée.  
+- [**Caféine (35 mg)**](/docs/principes/cafeine) : équivalent à un thé léger, mais à prendre en compte chez les sujets sensibles, cardiaques, hyperthyroïdiens, etc.  
 
-En l’absence de données publiées sur le **dosage en oxalates** de l’extrait de Chaga utilisé, la sécurité ne peut être garantie.  
+Plusieurs travaux *in vitro* suggèrent des effets anti-agrégants plaquettaires pour le Lion’s Mane, le Cordyceps et le Chaga. Ces données ne permettent pas de conclure à un effet chez l’humain mais justifient la **prudence chez les personnes sous traitements anticoagulants ou présentant des troubles de la coagulation.**
+
+Public : réservé aux adultes. Déconseillé aux enfants, femmes enceintes/allaitantes, personnes avec troubles cardiaques, hyperthyroïdie, ulcère gastro-duodénal. 
 
 ---
 
