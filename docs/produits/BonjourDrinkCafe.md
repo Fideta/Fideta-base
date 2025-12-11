@@ -50,7 +50,7 @@ En l’absence de preuves d’efficacité clinique chez l’homme et compte tenu
 
 ## 📦 Composition et analyse  
 
-### **Actifs par portion (6 g)**  
+**Actifs par portion (6 g)**  
 | Ingrédient | Quantité | Commentaire Fideta |
 |------------|:--:|--------------------|
 | [Lion’s Mane (*Hericium erinaceus*)](/docs/principes/lion's_mane) | 750 mg | Essais cliniques exploratoires et négatifs ; aucune efficacité reproductible. |
@@ -139,3 +139,4 @@ Public : réservé aux adultes. Déconseillé aux enfants, femmes enceintes/alla
 
 ## 🛡️ Note légale  
 Cette fiche repose sur l’analyse critique de données scientifiques disponibles à ce jour. Elle ne constitue ni un avis médical ni une recommandation thérapeutique personnalisée.  
+
