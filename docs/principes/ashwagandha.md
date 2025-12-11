@@ -68,7 +68,7 @@ Note : Bien que plusieurs méta-analyses aillent dans le même sens, la qualité
   - Thyrotoxicose  
   - Rejet de greffe rénale (immunostimulation)  
   - Hyponatrémie / insuffisance surrénale (suppléments combinés)
-  - 
+    
 Le Danemark a interdit l’ashwagandha en 2023–2024 sur la base d’un avis du DTU (2020) évoquant des risques de reprotoxicité et d’effets hormonaux et concluant à l’absence de dose sûre. D’autres analyses récentes contestent la solidité de ces données, mais en pratique le principe de précaution s’impose, en particulier chez la femme enceinte / allaitante et en cas de pathologie hormono-dépendante.
 
 **Contre-indications** :  
