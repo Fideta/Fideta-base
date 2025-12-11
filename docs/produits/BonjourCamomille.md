@@ -43,7 +43,7 @@ En l’absence d’essais cliniques sur la formule complète et compte tenu du n
 ## 📦 Composition et analyse
 
 | Ingrédient | Quantité | Commentaire Fideta |
-|-----------|----------|--------------------|
+|-----------|:--:|--------------------|
 | [**Camomille**](/docs/principes/camomille) | 4300mg | Dose élevée, mais sans standardisation, ce qui limite la comparaison avec les essais cliniques existants. Quelques essais suggèrent une amélioration **modeste** du sommeil et de l’anxiété. Preuve **faible** : résultats non reproductibles et souvent dépendants de populations spécifiques. |
 | [**Passiflore**](/docs/principes/passiflore) | 300mg | Dose cohérente avec certains essais. Quelques signaux positifs sur le stress et la qualité subjective du sommeil, mais études **petites**, méthodologies limitées. Preuve **faible à modérée**, insuffisante pour soutenir une efficacité robuste. |
 | [**Reishi**](/docs/principes/reishi) | 600mg | Preuves humaines **quasi inexistantes** sur le sommeil, la sérénité ou le bien-être. Données disponibles non pertinentes pour l’adulte sain (fatigue, qualité de vie en contexte pathologique). Présence principalement **marketing**, effet attendu **négligeable**. |
@@ -58,7 +58,7 @@ En l’absence d’essais cliniques sur la formule complète et compte tenu du n
 ## 🎯 Pertinence scientifique
 
 | Fonction ciblée | Effet attendu | Niveau de preuve | Commentaire |
-|----------------|--------------|------------------|-------------|
+|----------------|--------------|:--:|-------------|
 | **Sérénité / stress** | Apaisement | 🟠 **D** | Camomille + passiflore : quelques signaux, mais qualité des études faible. Reishi : aucun soutien clinique. |
 | **Sommeil** | Endormissement, qualité subjective | 🟠 **D** | L-théanine est la molécule la plus soutenue, le reste apporte un soutien incertain. Aucun essai sur le produit complet. |
 | **Bien-être global** | Vitalité, humeur, équilibre | ⚫ **F** | Aucune preuve robuste. Reishi n’apporte pas d’effet démontré à ces doses. |
@@ -97,7 +97,7 @@ En l’absence d’essais cliniques sur la formule complète et compte tenu du n
 ## 📊 Résumé des évaluations
 
 | Critère | Note | Commentaire |
-|--------|------|-------------|
+|--------|:--:|-------------|
 | **Efficacité** | 🟠 **D** | Quelques effets possibles sur le sommeil léger et le stress, mais preuves faibles, non reproductibles, mélange non évalué cliniquement. |
 | **Sécurité** | 🟢 **B** | Bien toléré chez l’adulte sain ; vigilance chez personnes fragiles, grossesse, interactions sédatives. |
 | **Qualité** | 🟡 **C** | Bonne pureté et transparence générale, mais **manque de standardisation** et pas de données cliniques sur la formule finale. |
@@ -124,3 +124,4 @@ En cas de doute ou de trouble du sommeil persistant, consultez un professionnel 
 
 
 <sub><em>Dernière mise à jour : 11 décembre 2025</em></sub>
+
