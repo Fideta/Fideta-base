@@ -374,4 +374,13 @@ a:hover{ color:var(--ifm-color-primary-dark); }
     font-size: 0.9rem;        /* ≈ 14.5px */
   }
 }
-
+/* === Justification propre mobile avec césure automatique === */
+@media (max-width: 768px) {
+  .markdown p,
+  .markdown li {
+    text-align: justify;    /* remettre la justification */
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+}
