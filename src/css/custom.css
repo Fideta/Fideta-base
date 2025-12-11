@@ -239,4 +239,28 @@ a:hover{ color:var(--ifm-color-primary-dark); }
 @media (max-width: 700px){
   .product-hero{ flex-direction: row !important; }
 }
+/* Laisse de la place sous le contenu pour le FAB "Scanner" sur mobile */
+@media (max-width: 996px) {
+  .main-wrapper {
+    padding-bottom: 90px; /* ≈ hauteur du bouton + marge */
+  }
+}
 
+/* Mobile très étroit : image au-dessus, texte en dessous */
+@media (max-width: 480px) {
+  .product-hero {
+    flex-direction: column !important;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+
+  .product-hero__packshot {
+    width: 60%;
+    max-width: 220px;
+    margin: 0 auto 0.5rem;
+  }
+
+  .product-hero__titlewrap {
+    text-align: left;
+  }
+}
