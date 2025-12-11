@@ -83,13 +83,13 @@ export default function Home() {
                 <h3>Derniers produits analysés</h3>
                   <ul className={styles.productList}>
   <li>
+    <Link to="/docs/produits/BonjourCamomille">Bonjour Camomille</Link> 😴 Après le café, remplacer la tisane ?
+  </li>
+  <li>
     <Link to="/docs/produits/florvis-sii">Florvis SII</Link> 😬 Pertinent ou pas pour le SII ?
   </li>
   <li>
     <Link to="/docs/produits/ergyphilus_confort">Ergyphilus Confort</Link> 😊 Confort digestif : efficacité réelle ou marketing ?
-  </li>
-  <li>
-    <Link to="/docs/produits/zytolia">Zytolia</Link> 🍃 Le complément "bien-être intestinal" tient-il ses promesses ?
   </li>
 </ul>
               </div>
