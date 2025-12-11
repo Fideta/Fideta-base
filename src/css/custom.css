@@ -264,3 +264,22 @@ a:hover{ color:var(--ifm-color-primary-dark); }
     text-align: left;
   }
 }
+/* === Optimisation lecture mobile === */
+@media (max-width: 768px) {
+  /* Contenu principal : moins de marge, texte un peu plus petit */
+  .markdown {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 0.9rem;      /* ≈ 14–15px selon ton root */
+    line-height: 1.6;
+  }
+
+  /* On réduit aussi un peu la marge globale du contenu doc */
+  .theme-doc-markdown,
+  .theme-doc-main .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
