@@ -52,7 +52,7 @@ En l’absence de preuves d’efficacité clinique chez l’homme et compte tenu
 | [Lion’s Mane (*Hericium erinaceus*)](/docs/principes/lion's_mane) | 750 mg (30 % polysaccharides) | Essais cliniques négatifs ou exploratoires. Aucun bénéfice reproductible. |
 | [Cordyceps (*Cordyceps sinensis*)](/docs/principes/cordyceps) | 750 mg (30 % polysaccharides) | Données humaines limitées, contradictoires. Niveau de preuve faible. |
 | [Chaga (*Inonotus obliquus*)](/docs/principes/chaga) | 750 mg (30 % polysaccharides) | Aucune étude clinique. Présence d’oxalates → risque de néphrotoxicité documenté. |
-| Caféine | 35 mg | Effet léger mais documenté sur vigilance. Non spécifique au produit. |
+| [Caféine](/docs/principes/cafeine) | 35 mg | Effet léger mais documenté sur vigilance. Non spécifique au produit. |
 
 **Excipients notables**  
 Arômes naturels, cacao/céréales selon la recette : uniquement rôle gustatif.  
