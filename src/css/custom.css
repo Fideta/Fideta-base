@@ -283,3 +283,49 @@ a:hover{ color:var(--ifm-color-primary-dark); }
     padding-right: 0.75rem;
   }
 }
+/* === Micro-optimisation mobile premium (14–15px → 15–16px) === */
+@media (max-width: 768px) {
+
+  /* Corps du texte : un peu plus grand que ta version précédente */
+  .markdown {
+    font-size: 0.95rem;   /* ≈ 15.2–15.5px */
+    line-height: 1.6;
+  }
+
+  /* Paragraphes & listes */
+  .markdown p,
+  .markdown li {
+    font-size: 0.95rem;
+    text-align: left;   /* pas de justification moche */
+  }
+
+  /* Titres internes : légèrement reboostés */
+  .markdown h1 {
+    font-size: 1.5rem;   /* ≈ 24px */
+    margin-top: 1.6rem;
+  }
+
+  .markdown h2 {
+    font-size: 1.3rem;   /* ≈ 21px */
+    margin-top: 1.4rem;
+  }
+
+  .markdown h3 {
+    font-size: 1.15rem;  /* ≈ 18px */
+    margin-top: 1.2rem;
+  }
+
+  /* Augmente légèrement l’interligne des sections */
+  .markdown h1, 
+  .markdown h2, 
+  .markdown h3 {
+    line-height: 1.35;
+  }
+
+  /* Petits éléments (labels, tags, notes) */
+  .markdown small,
+  .markdown .small,
+  .markdown em {
+    font-size: 0.85rem; /* ≈ 13–14px */
+  }
+}
