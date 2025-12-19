@@ -83,13 +83,13 @@ export default function Home() {
                 <h3>Derniers produits analysés</h3>
                   <ul className={styles.productList}>
   <li>
+    <Link to="/docs/produits/Proteochoc">PROTEOCHOC®</Link> Protection cellulaire et récupération post-choc : un positionnement sans validation clinique.
+  </li>
+  <li>
     <Link to="/docs/produits/ergytonic_multicebe">ERGYTONIC® Multicébé</Link> Les vitamines ne donnent pas de l’énergie. Elles corrigent des carences.
   </li>
   <li>
     <Link to="/docs/produits/ERGYPHILUS_Intima">ERGYPHILUS® Intima</Link> La flore vaginale par la bouche : une idée séduisante, des preuves limitées.
-  </li>
-  <li>
-    <Link to="/docs/produits/BonjourCamomille">Bonjour Camomille</Link> 😴 Après le café, remplacer la tisane ?
   </li>
 </ul>
               </div>
