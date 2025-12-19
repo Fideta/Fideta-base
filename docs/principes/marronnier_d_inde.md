@@ -4,7 +4,7 @@ image: /img/principes/marronnier_d_inde.jpg
 categories: ["Plantes"]
 synopsis: "Graines du marronnier d’Inde standardisées en escine. L’un des rares veinotoniques avec essais cliniques et méta-analyses solides dans l’insuffisance veineuse chronique. Bonne tolérance à court terme pour les extraits standardisés, mais plante brute toxique et qualité très variable en complément."
 synonyms: ["Aesculus hippocastanum", "Aesculus hippocastanum L.", "Marronnier d’Inde", "Horse Chestnut"]
-popular: true
+popular: false
 slug: /principes/marronnier_d_inde
 hide_title: true
 ---
@@ -146,5 +146,6 @@ Sur la sécurité :
 6. NCCIH (NIH). *Horse Chestnut – Safety & Usefulness.*  
 7. Examine.com. *Horse Chestnut – benefits, dosage, side effects.*  
 8. Vidal Phytothérapie. *Marronnier d’Inde.*
+
 
 
