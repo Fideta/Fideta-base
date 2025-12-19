@@ -3,7 +3,7 @@ title: Lactobacillus crispatus
 image: /img/principes/lactobacillus-crispatus.jpg
 categories: ["Probiotiques"]
 synopsis: "Espèce clé du microbiote vaginal sain. Preuves cliniques limitées mais crédibles uniquement par voie intravaginale avec une souche spécifique (CTV-05 / Lactin-V) en prévention des récidives de vaginose bactérienne après antibiothérapie. Par voie orale : aucune preuve clinique convaincante d’efficacité sur la flore vaginale."
-popular: true
+popular: false
 slug: /principes/lactobacillus-crispatus
 hide_title: true
 ---
@@ -108,3 +108,4 @@ La tolérance est globalement bonne chez l’adulte sain, mais comme pour tous l
 ---
 
 <sub><em>Dernière mise à jour : 15 décembre 2025</em></sub>
+
