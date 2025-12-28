@@ -30,7 +30,7 @@ Fideta attribue à chaque complément une **note globale**, fondée sur :
 - et les **éventuels risques pour la santé**
 
 > 🔍 **Les notes sont attribuées par indication** : un ingrédient peut être efficace dans un contexte précis… et inutile dans un autre.  
-> Seule une **dangerosité avérée** entraîne une exclusion générale (note **F**).
+> Seule une **dangerosité avérée** entraîne une exclusion générale (note **☠️ Disqualifié**).
 
 ### 🔬 Niveaux de preuve scientifique (ingrédients actifs)
 
