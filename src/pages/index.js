@@ -84,6 +84,7 @@ export default function Home() {
                   <ul className={styles.productList}>
   <li>
     <Link to="/docs/produits/lactibiane-dlr">Lactibiane DLR</Link> SII et inconfort digestif : positionnement plausible, preuves cliniques faibles.
+  </li>
   <li>
     <Link to="/docs/produits/Proteochoc">PROTEOCHOC®</Link> Protection cellulaire et récupération post-choc : un positionnement sans validation clinique.
   </li>
