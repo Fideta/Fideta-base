@@ -42,7 +42,7 @@ Dans ce contexte, le niveau de preuve global est considéré comme faible au reg
 
 | Ingrédient | Quantité | Commentaire Fideta |
 |-----------|----------|--------------------|
-| **Lactobacillus acidophilus DDS-1™** | 10 milliards UFC | Souche ayant fait l’objet d’au moins une étude clinique humaine contrôlée montrant un **effet modeste mais plausible** sur certains symptômes digestifs (SII). Données limitées, non reproduites à large échelle. |
+| [**Lactobacillus acidophilus DDS-1™**](/docs/principes/lactobacillus-acidophilus) | 10 milliards UFC | Souche ayant fait l’objet d’au moins une étude clinique humaine contrôlée montrant un **effet modeste mais plausible** sur certains symptômes digestifs (SII). Données limitées, non reproduites à large échelle. |
 | Excipient (amidon de maïs) | qsp | Excipient technologique, sans effet clinique démontré. |
 | Gélule végétale | qsp | Support galénique standard. |
 | Sels de magnésium d’acides gras | qsp | Anti-agglomérant. |
@@ -119,3 +119,4 @@ Pour toute décision de santé, consultez un professionnel.
 ---
 
 <sub><em>Dernière mise à jour : 29 décembre 2025</em></sub>
+
