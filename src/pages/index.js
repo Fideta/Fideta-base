@@ -83,13 +83,13 @@ export default function Home() {
                 <h3>Derniers produits analysés</h3>
                   <ul className={styles.productList}>
   <li>
+    <Link to="/docs/produits/lactibiane-immuno">Lactibiane Immuno</Link> Immunité : un nom prometteur, mais aucune preuve clinique pertinente à l’appui.
+  </li>
+  <li>
     <Link to="/docs/produits/lactibiane-dlr">Lactibiane DLR</Link> SII et inconfort digestif : positionnement plausible, preuves cliniques faibles.
   </li>
   <li>
     <Link to="/docs/produits/Proteochoc">PROTEOCHOC®</Link> Protection cellulaire et récupération post-choc : un positionnement sans validation clinique.
-  </li>
-  <li>
-    <Link to="/docs/produits/ergytonic_multicebe">ERGYTONIC® Multicébé</Link> Les vitamines ne donnent pas de l’énergie. Elles corrigent des carences.
   </li>
 </ul>
               </div>
