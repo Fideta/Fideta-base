@@ -3,7 +3,7 @@ title: "Bonjour – Saveur Camomille"
 image: /img/produits/BonjourCamomille.jpg
 categories: ["Sommeil", "Relaxation", "Bien-être"]
 synopsis: "Boisson fonctionnelle sans caféine à base de camomille, passiflore, reishi et L-théanine. Positionnée pour favoriser la sérénité, le sommeil et le bien-être."
-ean: [3770033452226]
+ean: [3770033452226 , 3770033452134]
 hide_title: true
 ---
 
@@ -124,4 +124,5 @@ En cas de doute ou de trouble du sommeil persistant, consultez un professionnel 
 
 
 <sub><em>Dernière mise à jour : 11 décembre 2025</em></sub>
+
 
