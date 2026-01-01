@@ -3,7 +3,7 @@ title: "Bonjour – Boisson aux champignons"
 image: /img/produits/BonjourDrink.jpg
 categories: ["Énergie", "Cognition", "Stress"]
 synopsis: "Boisson instantanée à base d’extraits concentrés de champignons adaptogènes (Lion’s Mane, Cordyceps, Chaga) et caféine. Positionnée comme alternative au café, promet énergie stable, concentration, digestion apaisée et soutien immunitaire."
-ean: [0883990231148]
+ean: [0883990231148 , 3770033452059]
 hide_title: true
 ---
 <div className="product-hero">
