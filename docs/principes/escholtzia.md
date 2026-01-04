@@ -29,7 +29,7 @@ hide_title: true
 Aucune efficacité clinique n’est démontrée en monothérapie (ni sur le sommeil, ni sur l’anxiété).  
 L’EMA/HMPC reconnaît uniquement un **usage traditionnel**.  
 
-Une unique étude randomisée existe sur une **association aubépine + escholtzia + magnésium**, avec un effet anxiolytique **modeste**, mais attribution impossible à l’escholtzia seule.  
+Des études anciennes de faible puissance (Schulz 1998 ; Meolie 2005) suggèrent un effet sédatif aigu ou un usage traditionnel dans l’insomnie, sans démonstration clinique robuste. La seule RCT positive concerne une **association (eschscholtzia + aubépine + magnésium)**, avec un effet anxiolytique **modeste** non attribuable à l’eschscholtzia seule. Aucune preuve convaincante d’efficacité en monothérapie n’est disponible.
 
 Des signalements **nutrivigilance (ANSES, 2018–2022)** rapportent des cas de **confusion et hallucinations**, imputabilité jugée **très vraisemblable** au produit (Novanuit®). Le mécanisme suspecté est une **interaction médicamenteuse** (inhibition CYP par les alcaloïdes d’escholtzia) ou une synergie avec la mélatonine.  
 
