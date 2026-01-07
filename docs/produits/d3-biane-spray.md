@@ -29,7 +29,7 @@ hide_title: true
 
 Produit reposant sur un **micronutriment essentiel** dont l’efficacité est **clairement démontrée uniquement pour corriger une carence en vitamine D**.  
 
-En revanche, **aucun bénéfice clinique pertinent n’est démontré chez les sujets non carencés**, notamment pour les usages suggérés en prévention générale ou pour le « soutien de l’immunité ».   
+En revanche, **aucun bénéfice clinique pertinent n’est démontré à ce jour chez les sujets non carencés**, notamment pour les usages suggérés en prévention générale ou pour le « soutien de l’immunité ».   
 
 **La forme spray n’a pas montré d’influence démontrée sur l’absorption ou l’efficacité par rapport aux formes gouttes ou gélules**, à dose équivalente : le choix galénique relève essentiellement du confort et de l’observance.
 
@@ -105,4 +105,5 @@ Elle ne constitue ni un avis médical ni une recommandation personnalisée et ne
 ---
 
 <sub><em>Dernière mise à jour : 7 janvier 2026</em></sub>
+
 
