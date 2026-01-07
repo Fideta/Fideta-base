@@ -49,7 +49,7 @@ En revanche, **aucun bénéfice clinique pertinent n’est démontré chez les s
 
 | Fonction ciblée | Effet attendu | Niveau de preuve | Commentaire |
 |-----------------|---------------|------------------|-------------|
-| **Carence avérée en vitamine D** | Normalisation du statut 25-OH-vitamine D, prévention ostéomalacie/rachitisme | ✅ A | **Efficacité clairement démontrée chez les sujets carencés ou insuffisants.** |
+| **Carence avérée en vitamine D** | Normalisation du statut 25-OH-vitamine D, prévention ostéomalacie/rachitisme | ✅ A | **Efficacité clairement démontrée chez les sujets carencés.** |
 | **Supplémentation chez sujets non carencés** | Amélioration de la santé osseuse ou immunitaire | ⚫ F | **Aucun bénéfice clinique démontré** chez les sujets ayant un statut vitaminique adéquat. |
 | Fonction immunitaire | Réduction des infections respiratoires | 🔴 E | Données hétérogènes et effet au mieux modeste, dépendant du statut initial. Absence de preuve robuste en population générale. |
 
@@ -105,3 +105,4 @@ Elle ne constitue ni un avis médical ni une recommandation personnalisée et ne
 ---
 
 <sub><em>Dernière mise à jour : 7 janvier 2026</em></sub>
+
