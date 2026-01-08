@@ -24,10 +24,16 @@ hide_title: true
 ---
 
 ## Avis global :  
-La vitamine B2 est **essentielle pour le métabolisme énergétique** et indiquée pour **prévenir ou corriger une carence** (rare en population générale).  
-En dehors de la carence, **l’effet le mieux documenté est la réduction de la fréquence des migraines** à fortes doses (≥ 400 mg/j).  
+
+La vitamine B2 est **essentielle pour le métabolisme énergétique** et indiquée pour **prévenir ou corriger une carence**.  
+En population générale, la carence clinique en vitamine B2 est rare et limitée à des situations pathologiques particulières ; elle ne justifie pas une supplémentation systématique.
+
+En dehors de la carence, **l’effet le mieux documenté est la réduction de la fréquence des migraines** à fortes doses (≥ 400 mg/j). La riboflavine à forte dose peut réduire la fréquence des migraines chez certains patients, avec un effet modeste mais reproductible, ce qui en fait une option non médicamenteuse possible, sans équivalence aux traitements de fond standards.
+
 D’autres usages (récupération musculaire post-exercice, cognition) disposent de données limitées ou observationnelles, insuffisantes pour conclure.  
 **Aucun niveau d’apport maximal tolérable (UL) n’est défini** par l’EFSA ou le NIH.
+
+
 
 ---
 
@@ -63,8 +69,8 @@ D’autres usages (récupération musculaire post-exercice, cognition) disposent
 | Critère | Note | Commentaire |
 |---|---|---|
 | Efficacité |  | Effet établi uniquement pour la carence et la migraine ; autres usages à confirmer |
-| Sécurité | A | Tolérance orale excellente, pas d’UL fixé |
-| Qualité | B | Essais solides pour migraine, mais rares pour autres indications |
+| Sécurité | ✅ A | Tolérance orale excellente, pas d’UL fixé |
+| Qualité | 🟢 B | Essais solides pour migraine, mais rares pour autres indications |
 
 ---
 
@@ -75,3 +81,7 @@ D’autres usages (récupération musculaire post-exercice, cognition) disposent
 - Powers et al. (2003) – *RCT: High-dose riboflavin in migraine prophylaxis*, Neurology  
 - Hoffman et al. (2017) – *RCT: Riboflavin and muscle soreness in ultramarathon*, Sports Medicine – Open  
 - Ji et al. (2024) – *NHANES analysis: riboflavin intake and cognitive performance*, Sci Rep
+
+---
+
+<sub><em>Dernière mise à jour : 8 Janvier 2026</em></sub>
