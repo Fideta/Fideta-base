@@ -96,5 +96,10 @@ L’intérêt de ce produit repose essentiellement sur une **correction d’appo
 ---
 
 ## 🛡️ Avertissement légal
-Cette fiche est fondée sur une analyse critique des données scientifiques disponibles selon la méthodologie Fideta.  
+Cette fiche est fondée sur une analyse critique des données scientifiques disponibles selon la méthodologie Fideta. Elle ne prend pas en compte d'éventuelles données internes non publiées par le laboratoire.  
 Elle ne constitue ni un avis médical ni une recommandation personnalisée. Pour toute décision de santé, consultez un professionnel qualifié.
+
+---
+
+<sub><em>Dernière mise à jour : 8 Janvier 2026</em></sub>
+
