@@ -46,6 +46,7 @@ Un complément peut être utile uniquement si un déficit est suspecté ou docum
 | Système nerveux     | Soutien fonctionnel (si déficit)                       | ✅ A              | 300–400 mg/j      |
 | Muscles             | Crampes idiopathiques                                  | ⚫ F             | Inefficace        |
 | Stress / anxiété    | Réduction du stress ou de l’anxiété                    | 🟠 D              | Données faibles   |
+| Sommeil             | Amélioration de la qualité du sommeil                  | 🔴 E              | ~250–400 mg/j Mais RCT récents (dont bisglycinate) : différence statistiquement significative mais inférieure au seuil d’amélioration cliniquement pertinente (MCID ≈ 6 points ; effet observé ≈ 1,6 point). Résultat sans impact perceptible pour l’utilisateur, non reproductible de manière robuste, critères majoritairement subjectifs.    |
 | SPM / migraines     | Soulagement de symptômes modérés                       | 🟡 C              | Inconstant        |
 | Santé osseuse       | Prévention de l’ostéoporose (hors déficit)            | ⚫ F              | Non démontré      |
 | Performance sportive| Amélioration des performances                          | ⚫ F              | Non démontré      |
@@ -87,6 +88,7 @@ Un complément peut être utile uniquement si un déficit est suspecté ou docum
 4. Office of Dietary Supplements, NIH – _Magnesium Fact Sheet for Health Professionals_.  
 5. Boyle NB et al. (2017) – _The Effects of Magnesium Supplementation on Subjective Anxiety and Stress_, Nutrients.
 6. Garrison et al. Cochrane : Le magnésium pour les crampes musculaires,  Le magnésium n'est pas susceptible de réduire la fréquence ou la gravité des crampes musculaires chez les personnes âgées.
+7. Schuster J. et al. (2025) - _Magnesium Bisglycinate Supplementation in Healthy Adults Reporting Poor Sleep: A Randomized, Placebo-Controlled Trial_ Nat Sci Sleep
 
-<sub><em>Dernière mise à jour : 20 novembre 2025</em></sub>
+<sub><em>Dernière mise à jour : 8 Janvier 2026</em></sub>
 
