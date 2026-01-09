@@ -27,7 +27,7 @@ hide_title: true
 
 ## Avis global :  
 
-Chez l’humain, le gingembre possède des **preuves cohérentes pour réduire les nausées** dans certaines situations (grossesse, postopératoire). Pour le **mal des transports**, les résultats sont **limités et contradictoires** : un essai en conditions réelles suggère un bénéfice, tandis qu’un essai en laboratoire n’a montré aucun effet clinique. En pratique, les **posologies antinauséeuses usuelles** se situent entre **1 et 3 g/j** de poudre de rhizome ou équivalents, souvent en **prise unique de 1 g** avant exposition. La **tolérance est globalement bonne** (gêne digestive, pyrosis), mais une **prudence est requise** en cas de reflux gastro-œsophagien ou sous traitements anticoagulants/antiagrégants.  
+Chez l’humain, le gingembre possède des **preuves cohérentes pour réduire les nausées** dans certaines situations (grossesse, postopératoire) ainsi que les douleurs menstruelles. Pour le **mal des transports**, les résultats sont **limités et contradictoires** : un essai en conditions réelles suggère un bénéfice, tandis qu’un essai en laboratoire n’a montré aucun effet clinique. En pratique, les **posologies antinauséeuses usuelles** se situent entre **1 et 3 g/j** de poudre de rhizome ou équivalents, souvent en **prise unique de 1 g** avant exposition. La **tolérance est globalement bonne** (gêne digestive, pyrosis), mais une **prudence est requise** en cas de reflux gastro-œsophagien ou sous traitements anticoagulants/antiagrégants.  
 
 ---
 
@@ -36,6 +36,7 @@ Chez l’humain, le gingembre possède des **preuves cohérentes pour réduire l
 |---------------------|--------------------------------|------------------|--------------|
 | Mal des transports | Réduction des symptômes en voyage | 🟠 D | 1 g en prise unique 30–60 min avant départ ; plages 1–3 g/j en usage court |
 | Nausées de grossesse (NVP, 1er trimestre) | Diminution de l’intensité des nausées | 🟢 B | 1 g/j (250 mg × 4/j) pendant quelques jours |
+| Dysménorrhée primaire (douleurs menstruelles) | Réduction de l’intensité de la douleur | 🟢 B | Plusieurs essais cliniques randomisés vs placebo (n≈70–150) montrent une diminution statistiquement significative de la douleur (VAS) avec 0,75–2 g/j de gingembre pris pendant les 3–4 premiers jours des règles. Résultats cohérents mais études de taille modérée, durée courte et populations limitées géographiquement. Pas de méta-analyse de haute puissance → preuve probable mais non définitive. |
 | Nausées postopératoires (PONV) | Réduction de la nausée (vomissements variables) | 🟡 C | ≥1 g per os autour de l’intervention |
 | Dyspepsie / vidange gastrique | Amélioration de la vidange gastrique | 🟡 C | ≈1 g en prise unique (poudre ou extrait) |
 | Nausées liées à la chimiothérapie (CINV) | Effet inconstant | 🟠 D | Pas de schéma standard robuste |
@@ -64,7 +65,7 @@ Chez l’humain, le gingembre possède des **preuves cohérentes pour réduire l
 
 | Critère     | Note | Commentaire |
 |-------------|------|-------------|
-| Efficacité  |      | Preuve solide pour les nausées de grossesse, données modérées pour les nausées postopératoires, efficacité faible et contradictoire pour le mal des transports, résultats limités pour dyspepsie et chimiothérapie. |
+| Efficacité  |      | Preuve solide pour les nausées de grossesse et les douleurs menstruelles, données modérées pour les nausées postopératoires, efficacité faible et contradictoire pour le mal des transports, résultats limités pour dyspepsie et chimiothérapie. |
 | Sécurité    | 🟢 B | Bonne tolérance aux doses usuelles, prudence avec reflux sévère et anticoagulants. |
 | Qualité     | 🟡 C | Variabilité selon la forme et la standardisation ; importance de la traçabilité et de la certification. |
 
@@ -81,5 +82,10 @@ Chez l’humain, le gingembre possède des **preuves cohérentes pour réduire l
 7. Chaiyakunapruk N et al. *The efficacy of ginger for prevention of postoperative nausea and vomiting: a meta-analysis*. Am J Obstet Gynecol. 2006.  
 8. Wu KL et al. *Effect of ginger on gastric emptying and motility*. Eur J Gastroenterol Hepatol. 2008.  
 9. Hu ML et al. *Ginger in functional dyspepsia*. World J Gastroenterol. 2011.  
-10. Examine.com. *Ginger: Up-to-date scientific evidence*. 2025.  
-11. EMA/HMPC. *European Union herbal monograph on Zingiber officinale, rhizoma*. Projet révision 2024.  
+10. EMA/HMPC. *European Union herbal monograph on Zingiber officinale, rhizoma*. Projet révision 2024.  
+11. Daily JW, Zhang X, Kim DS, Park S. Ginger for the treatment of primary dysmenorrhea: a systematic review of randomized clinical trials. Pain Medicine. 2015;16(12):2243–2255.
+
+---
+
+<sub><em>Dernière mise à jour : 9 Janvier 2026</em></sub>
+
