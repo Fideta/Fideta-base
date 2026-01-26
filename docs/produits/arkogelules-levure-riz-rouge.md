@@ -3,7 +3,7 @@ title: "Arkogélules BIO Levure de riz rouge"
 image: /img/produits/arkogelules-levure-riz-rouge.jpg
 categories: ["Cholestérol", "Santé cardiovasculaire"]
 synopsis: "Complément à base de levure de riz rouge fournissant 2,9 mg de monacolines par jour. Actif pharmacologique sous-dosé, sans efficacité clinique démontrée au dosage proposé et associé à des effets indésirables documentés, y compris à faibles doses."
-ean: []
+ean: [3401551411715 , 3578831411366 , 3401598893574 , 3578831419454]
 hide_title: true
 ---
 
@@ -130,3 +130,4 @@ Pour toute décision de santé, consultez un professionnel.
 ---
 
 <sub><em>Dernière mise à jour : 26 janvier 2026</em></sub>
+
