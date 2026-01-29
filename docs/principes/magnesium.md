@@ -29,11 +29,11 @@ Le magnésium est un **minéral essentiel** impliqué dans plusieurs centaines d
 Malgré cette importance biologique, **les véritables déficits cliniques sont rares** et surviennent surtout dans des situations médicales précises : malabsorption, alcoolisme chronique, certains traitements, pathologies digestives ou rénales.
 
 La majorité des compléments vendus au grand public ciblent des problèmes comme la **fatigue**, le **stress**, les **crampes**, ou le **sommeil**.
-➡️ Or, en population générale sans déficit, les études ne montrent pas de bénéfice clair voire ne montrent aucune efficacité comme lar evue cochrane dans le cas des crampes, ce qui limite l’intérêt d’une supplémentation systématique
+➡️ Or, en population générale sans déficit, les études ne montrent pas de bénéfice clair voire ne montrent aucune efficacité comme la revue cochrane dans le cas des crampes, ce qui limite l’intérêt d’une supplémentation systématique.
 
 L’apport via l’alimentation (oléagineux, légumineuses, céréales complètes, eau minérale riche en Mg) suffit généralement.
 
-Il est courrant de voir partagé que “deux tiers de la population manquent de magnésium”, en s’appuyant sur un rapport de l’ANSES souvent mal interprété : l’agence a montré que les **apports alimentaires sont parfois inférieurs aux recommandations**, ce qui ne signifie pas une carence biologique, encore moins un déficit nécessitant un complément. La majorité des personnes compensent via l’absorption digestive, les réserves corporelles et l’ajustement rénal, ce qui explique pourquoi les vraies carences restent rares malgré des apports parfois modestes
+Il est courrant de voir partagé que “deux tiers de la population manquent de magnésium”, en s’appuyant sur un rapport de l’ANSES souvent mal interprété : l’agence a montré que les **apports alimentaires sont parfois inférieurs aux recommandations**, ce qui ne signifie pas une carence biologique, encore moins un déficit nécessitant un complément. La majorité des personnes compensent via l’absorption digestive, les réserves corporelles et l’ajustement rénal, ce qui explique pourquoi les vraies carences restent rares malgré des apports parfois modestes.
 
 Un complément peut être utile uniquement si un déficit est suspecté ou documenté, ou si certains symptômes concordants apparaissent dans un contexte à risque.
 
