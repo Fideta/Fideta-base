@@ -83,13 +83,13 @@ export default function Home() {
                 <h3>Derniers produits analysés</h3>
                   <ul className={styles.productList}>
   <li>
+    <Link to="/docs/produits/probiotiques-nutrastream">Probiotiques Nutrastream</Link> Formule annoncée "scientifiquement prouvée".
+  </li>
+  <li>
     <Link to="/docs/produits/arkogelules-levure-riz-rouge">Arkogélules Levure de riz rouge</Link> Sans efficacité prouvée mais avec des risques.
   </li>
   <li>
     <Link to="/docs/produits/taido-menoactiv">Taïdo Menoactiv</Link> Ménopause ciblée, preuves absentes.
-  </li>
-  <li>
-    <Link to="/docs/produits/TrichoForce">DHT Blocker</Link> Anti-DHT revendiqué : les cheveux attendent, les preuves aussi.
   </li>
 </ul>
               </div>
