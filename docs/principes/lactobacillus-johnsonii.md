@@ -52,7 +52,7 @@ En conséquence, **les revendications génériques associées à *Lactobacillus 
 
 ## ⚠️ Sécurité et précautions
 
-**Effets secondaires :**
+**Effets secondaires / Effets indésirables :**
 - Ballonnements, inconfort digestif transitoire.
 - Profil de tolérance globalement comparable au placebo dans les essais disponibles.
 
@@ -105,3 +105,4 @@ En conséquence, **les revendications génériques associées à *Lactobacillus 
 ---
 
 *Dernière mise à jour : 30 janvier 2026*
+
