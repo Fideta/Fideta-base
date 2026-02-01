@@ -24,15 +24,6 @@ hide_title: true
   </div>
 </div>
 
-
----
-
-# Eleuthérocoque  
-
-**Nom scientifique :** *Eleutherococcus senticosus* (Rupr. & Maxim.) Maxim.  
-**Partie utilisée :** racine / rhizome (radix)  
-**Origine :** arbuste de la famille des Araliaceae, originaire d’Asie du Nord-Est (Sibérie, Chine, Corée, Japon).  
-
 ---
 
 ## Avis global
@@ -72,6 +63,7 @@ Ainsi, l’eleuthérocoque apparaît plutôt comme un **tonique traditionnel ave
 | **Fatigue liée au stress / troubles fonctionnels de type « burnout léger »** | Amélioration de la fatigue, de la concentration et du bien-être chez des adultes stressés | ⚫ **F — Inefficacité démontrée** (ajout d’eleuthérocoque à un programme de gestion du stress : aucune supériorité vs programme seul) | Extrait sec standardisé (dose équivalente à ≈ 2 g de racine/j), 2 mois |
 | **Performance physique / endurance** | Augmentation de la VO₂max, du temps d’effort, amélioration de la performance chez sportifs ou sujets entraînés | 🔴 **E — Pas de preuve convaincante** (quelques études anciennes positives mais plusieurs RCTs ne montrent aucun effet reproductible) | Extraits liquides ou secs, ≈ 0,8–1,2 g/j d’extrait ou 1–4 g/j de racine, 4–8 semaines |
 | **Infections respiratoires hautes** (rhume, états grippaux) | Diminution de la durée et de la sévérité des symptômes | 🔴 **E — Pas de preuve convaincante pour l’eleuthérocoque seul** (essais positifs uniquement avec des combinaisons *Eleutherococcus* + *Andrographis* ou autres plantes) | Combinaisons standardisées (type Kan Jang), cures courtes (4–10 jours) — effet non attribuable spécifiquement à l’eleuthérocoque |
+| **Fonctions cognitives (seniors)** | Amélioration des performances intellectuelles | 🟠 **D** | Effets modestes, souvent en association (ginkgo) |
 
 \*Les doses indiquées sont celles utilisées dans les études ou monographies et **ne constituent pas des recommandations individuelles**.
 
@@ -189,5 +181,6 @@ En pratique, la **variabilité considérable entre extraits** (composition, dosa
 
 ---
 
-<sub><em>Dernière mise à jour : 30 novembre 2025</em></sub>
+<sub><em>Dernière mise à jour : 1 Février 2026</em></sub>
+
 
