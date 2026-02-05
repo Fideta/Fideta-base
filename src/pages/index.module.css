@@ -475,12 +475,8 @@
 @media (max-width: 768px) {
   .heroContent h1,
   .heroSubtitle {
-    text-align: justify;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-    -ms-hyphens: auto;
-    word-break: normal;
-    overflow-wrap: break-word;
+    text-align: left;
+    text-wrap: blance;
   }
 }
 
