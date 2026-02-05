@@ -1,36 +1,47 @@
 /* src/pages/index.module.css */
 
-/* ====== Styles existants (desktop/tablette) ====== */
+/* =========================
+   HERO (desktop/tablette)
+   ========================= */
 
 .heroBanner {
   background-color: #f4f9f5;
-  padding: 2rem 1rem 1.5rem;
+  padding: 4rem 1rem 2rem; /* ↓ réduit l'espace avant la section suivante */
   text-align: left;
 }
 
 .heroContent {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
-  max-width: 1200px;
+  max-width: none;
   margin: 0 auto;
+   width: 100%;
+
+  /* 🔑 aligner le bas du bloc texte (boutons) avec le bas de l'image */
+  align-items: flex-end;
 }
 
 /* Option 2 : élargir sur très grands écrans */
 @media screen and (min-width: 1600px) {
   .heroContent {
-    max-width: 90%;
+    max-width: 100%;
   }
 }
 
 .heroText {
-  flex: 1;
-  min-width: 360px;
-  max-width: 600px;
+  flex: 0 0 54%;
+  min-width: 420;
+  max-width: none;
+
+  /* permet de pousser les boutons en bas du bloc texte */
+  display: flex;
+  flex-direction: column;
+
   text-align: justify;
 }
+
 
 .heroText h1 {
   font-size: 2.8rem;
@@ -43,14 +54,24 @@
 .heroText p {
   font-size: 1.25rem;
   color: #333;
-  margin-bottom: 2rem;
+  margin-bottom: 2rem; /* ↓ moins d'espace avant les boutons */
 }
 
 .buttons {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 3rem;
   justify-content: flex-start;
+
+  /* 🔑 pousse les boutons vers le bas du bloc texte */
+  margin-top: 1rem;
+
+}
+
+@media (min-width: 996px) {
+  .buttons {
+    transform: translate(20px, -8px);
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -80,52 +101,132 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
+/* Bouton secondaire : texte noir (base/visited), vert au survol */
+.buttons :global(.button--secondary) {
+  color: #000;
+}
+
+.buttons :global(.button--secondary:visited) {
+  color: #000;
+}
+
+.buttons :global(.button--secondary:hover),
+.buttons :global(.button--secondary:focus-visible),
+.buttons :global(.button--secondary:active) {
+  color: var(--ifm-color-primary);
+}
+
+/* Icônes éventuelles dans le bouton */
+.buttons :global(.button--secondary) svg {
+  color: currentColor;
+  fill: currentColor;
+}
+
 .heroImage {
   flex: 1;
   text-align: center;
 }
 
+/* 🔑 image plus petite + même “hauteur perçue” que le bloc texte */
 .heroImage img {
-  max-width: 100%;
+  width: auto;
   height: auto;
+  max-width: 100%;
+  max-height: 420px; /* ajuste 320–360 si tu veux au pixel */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+/* =========================
+   BACKGROUND
+   ========================= */
 
 .fullBackground {
   background-color: #f4f9f5;
   padding-bottom: 3rem;
 }
 
+/* =========================
+   TITRE DE SECTION
+   ========================= */
+
+.homeSectionTitle {
+  margin: 0.75rem 0 0.75rem; /* ↓ rapproche du hero */
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1b5e20;
+}
+
+/* =========================
+   GRILLE & CARTES
+   ========================= */
+
 .cardSection {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-  padding: 1.5rem 0 3rem;
+  gap: 1.5rem;
+  padding: 0.75rem 0 2rem;
+}
+
+/* Verrouille 3 colonnes desktop si tu veux un rendu constant */
+@media screen and (min-width: 996px) {
+  .cardSection {
+    grid-template-columns: repeat(3, minmax(280px, 1fr));
+  }
 }
 
 .card {
   background: white;
   border: 1px solid #e0e0e0;
   border-radius: 12px;
-  padding: 1.5rem;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.05);
+
+  /* header/body gérés séparément */
+  padding: 0;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* aide l'alignement des boutons en bas */
 }
 
-.card h3 {
+/* Bandeau gris du titre */
+.cardHeader {
+  background-color: #f1f3f5;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 0.85rem 1.1rem;
+}
+
+.cardHeader h3 {
+  margin: 0;
+  font-size: 1.2rem;   /* ↑ titres plus gros */
+  font-weight: 800;    /* ↑ plus affirmé */
   color: #1b5e20;
-  margin-bottom: 1rem;
+  line-height: 1.25;
 }
 
-.card ul {
+/* Corps de carte : flex colonne pour pousser le footer en bas */
+.cardBody {
+  padding: 1rem 1.1rem 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  height: 100%;
+}
+
+.cardBody ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.card li {
-  margin-bottom: 0.5rem;
+.cardBody li {
+  margin-bottom: 0.45rem;
   font-size: 0.95rem;
 }
 
+/* Tags */
 .tagList {
   display: flex;
   flex-wrap: wrap;
@@ -141,7 +242,7 @@
   font-weight: 500;
 }
 
-/* Boutons populaires cliquables */
+/* Tags cliquables */
 .tagButton {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -164,84 +265,102 @@
   transform: translateY(0);
 }
 
+/* 🔑 Footer : aligne tous les boutons verts en bas de chaque carte */
+.cardBodyFooter {
+  margin-top: auto;
+}
 
-/* ====== Améliorations Mobile-First (≤ 767px) ======
-   -> N’affectent PAS le rendu PC
-==================================================== */
+/* Boutons dans les cartes */
+.cardBody :global(.button) {
+  margin-top: 0.4rem;
+  align-self: flex-start;
+}
+
+
+/* =========================
+   MOBILE (≤ 767px)
+   ========================= */
+
 @media (max-width: 767px) {
-
   .heroBanner {
-    padding: 1.25rem 1rem 1rem;
+    padding: 0.75rem 1rem 0.75rem;
   }
 
   .heroContent {
     display: grid;
     grid-template-columns: 1fr;
     gap: 0.75rem;
+    align-items: start; /* sur mobile on privilégie la lecture */
   }
 
   .heroText {
-    min-width: 0;         /* annule le min-width:360px */
+    min-width: 0;
     max-width: none;
-    text-align: left;     /* plus confortable à la lecture mobile */
+    text-align: left;
   }
 
   .heroText h1 {
-    font-size: 1.9rem;    /* était 2.8rem */
+    font-size: 1.9rem;
     line-height: 1.25;
     letter-spacing: -0.012em;
     margin-bottom: 0.75rem;
   }
 
   .heroText p {
-    font-size: 1rem;      /* était 1.25rem */
+    font-size: 1rem;
     margin-bottom: 1rem;
   }
 
   .buttons {
     gap: 0.75rem;
+    margin-top: 0;
   }
 
   .buttons :global(.button) {
     width: 100%;
     max-width: none;
     font-size: 1.05rem !important;
-    padding: 0.95rem 1rem !important; /* tap target ≥44px */
+    padding: 0.95rem 1rem !important;
     border-radius: 12px !important;
   }
 
   .heroImage {
-    order: 2;             /* image après le texte */
+    order: 2;
     margin-top: 0.25rem;
   }
 
   .heroImage img {
     width: 88%;
     max-width: 420px;
+   
   }
 
   .fullBackground {
     padding-bottom: 2rem;
   }
 
+  .homeSectionTitle {
+    margin: 0.75rem 0 0.5rem;
+    font-size: 1.35rem;
+  }
+
   .cardSection {
-    grid-template-columns: 1fr;   /* cartes empilées */
+    grid-template-columns: 1fr;
     gap: 0.9rem;
-    padding: 1rem 0 2rem;
+    padding: 0.75rem 0 2rem;
   }
 
-  .card {
-    padding: 1rem;
-    border-radius: 14px;
+  .cardHeader {
+    padding: 0.75rem 1rem;
   }
 
-  .card h3 {
-    font-size: 1.05rem;
-    margin-bottom: 0.5rem;
+  .cardHeader h3 {
+    font-size: 1.1rem;
   }
 
-  .card li {
-    font-size: 0.95rem;
+  .cardBody {
+    padding: 0.9rem 1rem 1rem;
+    gap: 0.5rem;
   }
 
   .tagList {
@@ -254,22 +373,129 @@
     padding: 0.45rem 0.75rem;
   }
 }
-/* Dans la section CTA de la home, le bouton secondaire = texte noir (base/visited), vert au survol */
-.buttons :global(.button--secondary){
-  color: #000;
-  
-}
-.buttons :global(.button--secondary:visited){
-  color: #000;
-}
-.buttons :global(.button--secondary:hover),
-.buttons :global(.button--secondary:focus-visible),
-.buttons :global(.button--secondary:active){
-  color: var(--ifm-color-primary);
+
+/* Flèches Fideta sur les listes des cartes (sans modifier le JSX) */
+.cardBody ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-/* Icônes éventuelles dans le bouton */
-.buttons :global(.button--secondary) svg{
-  color: currentColor;
-  fill: currentColor;
+.cardBody ul li {
+  position: relative;
+  padding-left: 1.4rem;   /* place pour la flèche */
+  margin-bottom: 0.45rem;
+  line-height: 1.45;
+}
+
+/* la flèche */
+.cardBody ul li::before {
+  content: "➝";
+  position: absolute;
+  left: 0;
+  top: 50%;                         /* 🔑 se place au milieu */
+  transform: translateY(-50%);      /* 🔑 recentre exactement */
+  color: #1b5e20;                   /* vert foncé Fideta */
+  font-weight: 800;
+  font-size: 1.05rem;
+}
+/* --- Carte "Explorer Fideta" : 3 colonnes verticales internes --- */
+
+.miniColumns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.miniCol {
+  padding: 0.75rem 0.85rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-height: 120px; /* assure une hauteur harmonieuse */
+}
+.miniColSupport {
+  background: #f4faf5;          /* vert très pâle */
+  border: 2.3px solid #e0e0e0;    /* même gris que les séparateurs */
+  border-radius: 8px;
+  padding: 0.75rem 0.85rem;
+}
+
+/* Bouton Soutenir : vert plus foncé */
+.miniColSupport .miniLink {
+  background: #2e7d32;   /* vert plus foncé Fideta */
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.miniColSupport .miniLink:hover {
+  background: #1b5e20;   /* encore un cran plus foncé au hover */
+}
+
+
+
+.miniCol + .miniCol {
+  border-left: 2px solid #e0e0e0; /* séparateur vertical visible */
+}
+
+.miniTitle {
+  font-weight: 800;
+  color: #1b5e20;
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+
+.miniText {
+  font-size: 0.85rem;
+  color: #333;
+  line-height: 1.35;
+  flex: 1; /* pousse le lien en bas */
+}
+
+.miniLink {
+  align-self: flex-start;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: #1b5e20;
+  background: #e8f5e9;
+  padding: 0.35rem 0.6rem;
+  border-radius: 8px;
+  transition: transform 0.1s ease, background-color 0.2s ease;
+}
+
+.miniLink:hover {
+  background: #c8e6c9;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .heroContent h1,
+  .heroSubtitle {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroContent {
+    max-width: 43ch;
+  }
+
+  .heroSubtitle {
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSubtitle {
+    display: none;
+  }
 }
