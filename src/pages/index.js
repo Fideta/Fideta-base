@@ -175,22 +175,22 @@ export default function Home() {
                 </div>
                 <div className={styles.cardBody}>
                   <div className={styles.tagList}>
-                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/principes/creatine">
+                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/docs/principes/creatine">
                       Créatine
                     </Link>
-                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/principes/spiruline">
+                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/docs/principes/spiruline">
                       Spiruline
                     </Link>
-                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/principes/ashwagandha">
+                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/docs/principes/ashwagandha">
                       Ashwagandha
                     </Link>
-                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/principes/berberine">
+                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/docs/principes/berberine">
                       Berberine
                     </Link>
-                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/principes/chondroitine">
+                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/docs/principes/chondroitine">
                       Chondroitine
                     </Link>
-                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/principes/omega-3">
+                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/docs/principes/omega-3">
                       Omega 3
                     </Link>
 
