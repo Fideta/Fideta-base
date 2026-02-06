@@ -151,13 +151,13 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <ul>
                       <li>
+    <Link to="/docs/produits/quinton-hypertonic">Quinton hypertonique</Link> De l'eau mer.
+  </li>
+  <li>
     <Link to="/docs/produits/probiotiques-nutrastream">Probiotiques Nutrastream</Link>"scientifiquement prouvé".
   </li>
   <li>
     <Link to="/docs/produits/arkogelules-levure-riz-rouge">Arkogélules Levure de riz rouge</Link> Sans efficacité prouvée mais avec des risques.
-  </li>
-  <li>
-    <Link to="/docs/produits/taido-menoactiv">Taïdo Menoactiv</Link> Ménopause ciblée sans preuves.
   </li>
                   </ul>
 
