@@ -151,7 +151,7 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <ul>
                       <li>
-    <Link to="/docs/produits/quinton-hypertonic">Quinton hypertonique</Link> De l'eau mer.
+    <Link to="/docs/produits/quinton-hypertonic">Quinton hypertonique</Link> De l'eau de mer.
   </li>
   <li>
     <Link to="/docs/produits/probiotiques-nutrastream">Probiotiques Nutrastream</Link>"scientifiquement prouvé".
