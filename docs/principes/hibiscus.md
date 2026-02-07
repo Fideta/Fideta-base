@@ -82,7 +82,7 @@ Aucune limite officielle. Par prudence EBM : **ne pas dépasser les doses utilis
 
 | Critère | Note | Commentaire |
 |--------|------|-------------|
-| Efficacité | 🟢 B | Intérêt limité à la baisse modeste de la pression artérielle |
+| Efficacité |   | Intérêt limité à la baisse modeste de la pression artérielle |
 | Sécurité | 🟡 C | Bonne tolérance globale mais interactions médicamenteuses humaines documentées |
 | Qualité des preuves | 🟡 C | Hétérogénéité des formes, doses et populations étudiées |
 
@@ -99,3 +99,4 @@ Aucune limite officielle. Par prudence EBM : **ne pas dépasser les doses utilis
 7. Nurfaradilla SA et al. Herb–drug interaction between *Hibiscus sabdariffa* and captopril in healthy volunteers. **Clinical Pharmacology**, 2020.  
 8. Fakeye TO et al. Interaction of *Hibiscus sabdariffa* beverage with diclofenac in humans. **European Journal of Drug Metabolism**, 2007.  
 9. Kolawole JA et al. Effect of *Hibiscus sabdariffa* drink on acetaminophen pharmacokinetics. **Human & Experimental Toxicology**, 2004.
+
