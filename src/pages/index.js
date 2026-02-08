@@ -151,13 +151,13 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <ul>
                       <li>
+    <Link to="/docs/produits/arko_expert_minceur">Expert Minceur GLP-1 </Link> Mincir avec Arko.
+  </li>
+  <li>
     <Link to="/docs/produits/quinton-hypertonic">Quinton hypertonique</Link> De l'eau de mer.
   </li>
   <li>
     <Link to="/docs/produits/probiotiques-nutrastream">Probiotiques Nutrastream</Link>"scientifiquement prouvé".
-  </li>
-  <li>
-    <Link to="/docs/produits/arkogelules-levure-riz-rouge">Arkogélules Levure de riz rouge</Link> Sans efficacité prouvée mais avec des risques.
   </li>
                   </ul>
 
