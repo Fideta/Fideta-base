@@ -36,7 +36,7 @@ Les effets sur la **fonction sexuelle, la fertilité, la cognition et l’immuni
 
 La **sécurité à court terme (≤ 3 mois)** apparaît globalement correcte, mais des **cas graves rapportés** (atteintes hépatiques, thyroïdiennes, rejet de greffe, hyponatrémie) incitent à **déconseiller l’usage chez les populations à risque**, et à rester prudent en l’absence de données à long terme.
 
-En résumé : **Bénéfice modeste, risques rares mais sérieux : balance acceptable seulement chez l’adulte sain et à court terme.**
+En l’état actuel des données, il existe un bénéfice probable mais d’ampleur modeste, associé à des **signaux de toxicité et à une incertitude persistante sur la sécurité d’emploi**, ne permettant pas de recommander son utilisation prolongée ni chez les populations à risque.
 
 ---
 
