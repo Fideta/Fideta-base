@@ -91,5 +91,10 @@ René Quinton n’est pas intéressant parce qu’il aurait “eu raison avant t
 Un produit peut être ancien, populaire, et même “logique” sur le papier — sans pour autant être prouvé efficace. L’histoire explique la naissance d’une idée ; elle ne valide pas son efficacité.
 </Admonition>
 
+Pour aller plus loin :
+ - https://fideta.fr/docs/principes/plasma-de-quinton
+ - https://fideta.fr/docs/produits/quinton-hypertonic
+
+
 
 
