@@ -416,6 +416,8 @@
   flex-direction: column;
   gap: 0.35rem;
   min-height: 120px; /* assure une hauteur harmonieuse */
+  min-width: 0; /* 🔑 indispensable en grid */
+
 }
 .miniColSupport {
   background: #f4faf5;          /* vert très pâle */
@@ -446,9 +448,17 @@
   color: #1b5e20;
   font-size: 0.95rem;
   line-height: 1.2;
+    word-break: normal;
+  overflow-wrap: normal;
+  hyphens: none;
+  white-space: nowrap;
 }
 
 .miniText {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
   font-size: 0.85rem;
   color: #333;
   line-height: 1.35;
@@ -475,7 +485,7 @@
 @media (max-width: 768px) {
   .heroContent h1,
   .heroSubtitle {
-    text-align: left;
+    text-align: justify;
     text-wrap: blance;
   }
 }
