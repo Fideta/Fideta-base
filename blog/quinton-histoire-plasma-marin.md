@@ -28,7 +28,8 @@ René Quinton (1866–1925), naturaliste et physiologiste autodidacte, propose a
 
 ## Une médecine d’avant les antibiotiques
 
-Pour comprendre Quinton, il faut revenir au contexte : la tuberculose pulmonaire est alors une cause majeure de mortalité, et la médecine dispose de peu de traitements efficaces. Les sanatoriums, l’hygiène, le repos, la nutrition dominent. L’idée de “soutenir l’organisme” et de “renforcer le terrain” n’a rien d’exotique : c’est une façon, à défaut de mieux, de donner un sens thérapeutique à des interventions compatibles avec les connaissances disponibles.
+Pour comprendre Quinton, il faut replacer son travail dans son contexte : à son époque, la tuberculose pulmonaire constitue l’une des principales causes de mortalité, et la médecine dispose de peu de traitements réellement efficaces.
+Les sanatoriums, l’hygiène, le repos et la nutrition dominent l’arsenal thérapeutique. Dans ce paysage, l’idée de “soutenir l’organisme” et de “renforcer le terrain” n’a rien d’exotique ; c’est dans ce cadre que s’inscrit l’eau de Quinton.
 
 Quinton et certains médecins autour de lui systématisent l’usage d’eau de mer rendue isotonique, notamment par injections sous-cutanées, et popularisent l’approche via des structures de soins et de diffusion.
 
@@ -39,7 +40,7 @@ Quinton et certains médecins autour de lui systématisent l’usage d’eau de 
 
 ## Le pivot : un mémoire… et les limites de sa méthode
 
-Le texte souvent invoqué dans l’histoire du “plasma marin” est un mémoire portant sur des injections isotoniques dans la tuberculose. Vu avec les yeux d’aujourd’hui, ce qui frappe n’est pas seulement l’ambition : c’est l’absence des garde-fous méthodologiques qui structurent désormais la médecine fondée sur les preuves.
+Le texte souvent évoqué dans l’histoire du “plasma marin” est un mémoire portant sur des injections isotoniques dans la tuberculose. Vu avec les yeux d’aujourd’hui, ce qui frappe n’est pas seulement l’ambition : c’est l’absence des garde-fous méthodologiques qui structurent désormais la médecine fondée sur les preuves.
 
 <Admonition type="info" title="Ce que la médecine moderne attendrait (et qui manque ici)">
 - **Groupe témoin** (comparateur) : absent  
@@ -50,7 +51,7 @@ Le texte souvent invoqué dans l’histoire du “plasma marin” est un mémoir
 - **Gestion explicite des biais** (sélection, confusion, attrition) : non  
 </Admonition>
 
-Dit autrement : même si des patients semblent aller “mieux” dans une série d’observations, cela ne permet pas d’attribuer cet effet au produit. Entre évolution spontanée, variations naturelles, co-interventions, attentes du médecin et du patient, l’illusion d’efficacité est facile à fabriquer — surtout quand on ne compare à rien.
+Autrement dit : même si des patients semblent aller “mieux” dans une série d’observations, cela ne permet pas d’attribuer cet effet au produit. Entre évolution spontanée, variations naturelles, co-interventions, attentes du médecin et du patient, l’illusion d’efficacité est facile à fabriquer — surtout quand on ne compare à rien.
 
 ## Le changement de siècle : ce n’est pas seulement la science, c’est le standard de preuve
 
@@ -71,7 +72,7 @@ Cette continuité explique une partie de la résilience du modèle : un discours
 
 ## Pourquoi ça séduit encore
 
-Il faut le dire sans condescendance : ces modèles séduisent parce qu’ils offrent
+Il faut le dire sans condescendance, ces modèles séduisent parce qu’ils offrent :
 - une **histoire** (origine marine, retour aux sources),
 - une **explication globale** (le “terrain”, l’“équilibre”),
 - une **solution simple** (un geste, un produit, un rituel).
@@ -89,5 +90,6 @@ René Quinton n’est pas intéressant parce qu’il aurait “eu raison avant t
 <Admonition type="caution" title="À retenir">
 Un produit peut être ancien, populaire, et même “logique” sur le papier — sans pour autant être prouvé efficace. L’histoire explique la naissance d’une idée ; elle ne valide pas son efficacité.
 </Admonition>
+
 
 
