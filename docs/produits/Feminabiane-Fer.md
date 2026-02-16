@@ -3,7 +3,7 @@ title: "Feminabiane Fer"
 image: /img/produits/Feminabiane-Fer.jpg
 categories: ["Minéraux", "Fer", "Santé des femmes"]
 synopsis: "Complément alimentaire apportant 14 mg de fer (100% VNR) et 0,5 mg de cuivre via le complexe Guanylor®. Intérêt limité à la couverture des apports ou à la prévention d’un déficit léger. Dose insuffisante pour corriger une carence martiale avérée."
-ean: ""
+ean: 3701145600663
 hide_title: true
 ---
 
@@ -134,3 +134,4 @@ Pour toute décision de santé (diagnostic de carence, supplémentation, interac
 ---
 
 <sub><em>Dernière mise à jour : 16 février 2026</em></sub>
+
