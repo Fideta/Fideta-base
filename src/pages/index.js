@@ -151,13 +151,13 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <ul>
                       <li>
+    <Link to="/docs/produits/feminabiane-endocalm">Feminabiane Endo'Calm </Link> Peu de confort prouvé.
+  </li>
+  <li>
+    <Link to="/docs/produits/feminabiane-meno-confort">Feminabiane Méno’Confort </Link> Encore peu de confort prouvé.
+  </li>
+  <li>
     <Link to="/docs/produits/Feminabiane-Fer">Feminabiane fer </Link> Du fer pour femmes ?
-  </li>
-  <li>
-    <Link to="/docs/produits/ginkor-fort">Ginkor fort </Link> A l'ancienne.
-  </li>
-  <li>
-    <Link to="/docs/produits/arko_expert_minceur">Expert Minceur GLP-1 </Link> Mincir avec Arko.
   </li>
                   </ul>
 
