@@ -3,6 +3,7 @@ title: Feminabiane Endocalm
 image: /img/produits/feminabiane-endocalm.jpg
 categories: ["Produits"]
 synopsis: "Complément positionné sur le confort menstruel et pelvien. Les ingrédients principaux (PEA, achillée, probiotiques) reposent sur des niveaux de preuve faibles à insuffisants pour la dysménorrhée. Aucune étude clinique publiée sur la formule complète."
+ean : 3701145600700
 hide_title: true
 ---
 
@@ -114,3 +115,4 @@ Tolérance globale présumée correcte à court terme, absence de données long 
 ---
 
 <sub><em>Dernière mise à jour : 17 février 2026</em></sub>
+
