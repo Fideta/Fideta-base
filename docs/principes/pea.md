@@ -5,7 +5,7 @@ categories: ["Lipides bioactifs"]
 synopsis: "Lipide endogène à activité anti-inflammatoire et analgésique. Les données humaines suggèrent un signal modeste dans certaines douleurs chroniques, mais les essais restent hétérogènes et souvent méthodologiquement fragiles. Aucune efficacité solide démontrée en dysménorrhée aiguë."
 synonyms: ["PEA", "Palmitoylethanolamide"]
 popular: false
-slug: /principes/palmitoylethanolamide
+slug: /principes/pea
 hide_title: true
 ---
 
@@ -120,3 +120,4 @@ Variabilité inter-produits importante.
 ---
 
 <sub><em>Dernière mise à jour : 17 février 2026</em></sub>
+
