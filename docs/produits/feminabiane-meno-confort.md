@@ -3,6 +3,7 @@ title: "Feminabiane Méno’Confort"
 image: /img/produits/feminabiane-meno-confort.jpg
 categories: ["Ménopause", "Compléments alimentaires"]
 synopsis: "Complément alimentaire à base d’actée à grappes noires, rhodiole et vitamines. Données cliniques hétérogènes et absence d’étude sur le produit final. Intérêt principalement nutritionnel."
+ean : 3701145600854
 hide_title: true
 ---
 
@@ -127,3 +128,4 @@ Pour toute décision de santé, consultez un professionnel.
 ---
 
 <sub><em>Dernière mise à jour : 17 février 2026</em></sub>
+
