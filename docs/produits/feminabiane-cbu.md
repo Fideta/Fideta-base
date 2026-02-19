@@ -74,8 +74,7 @@ Au regard des données disponibles, le bénéfice clinique n’est pas établi e
 
 | Fonction ciblée | Effet attendu | Niveau de preuve | Commentaire |
 |----------------|--------------|:----------------:|-------------|
-| Prévention des cystites récidivantes | Diminution des récidives | 🔴 **E** | Données modérées pour la canneberge seule au long cours, 
-mais absence de preuve robuste pour la formule combinée et la durée proposée. |
+| Prévention des cystites récidivantes | Diminution des récidives | 🔴 **E** | Données modérées pour la canneberge seule au long cours, mais absence de preuve robuste pour la formule combinée et la durée proposée. |
 | Traitement d’une cystite aiguë | Guérison | ⚫ **F** | Un complément alimentaire ne remplace pas une prise en charge médicale (dont antibiotique si indiqué) en cas de cystite aiguë. |
 | Soutien du microbiote urinaire | Équilibre de flore | 🔴 **E** | Données cliniques spécifiques limitées avec ces souches; la part propre des souches dans les effets observés sur une combinaison n’est pas établie. |
 
@@ -128,3 +127,4 @@ Tolérance présumée correcte à court terme. Absence de données spécifiques 
 ---
 
 <sub><em>Dernière mise à jour : 19 février 2026</em></sub>
+
