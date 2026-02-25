@@ -99,7 +99,7 @@ La tolérance est bonne aux doses usuelles. L’intérêt est donc **ciblé**, e
 
 | Critère | Note | Commentaire |
 |----------|:----:|-------------|
-| **Efficacité** | 🟡 C | Intérêt ciblé en DMLA intermédiaire (AREDS2). Hors DMLA : effets modestes ou non démontrés |
+| **Efficacité** |   | Intérêt ciblé en DMLA intermédiaire (AREDS2). Hors DMLA : effets modestes ou non démontrés |
 | **Sécurité** | 🟢 B | Très bonne tolérance aux doses usuelles |
 | **Qualité** | 🟡 C | Dépend de la standardisation et stabilité du produit |
 
