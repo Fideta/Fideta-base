@@ -24,29 +24,28 @@ hide_title: true
 
 ---
 
-## 🟠 Note Fideta : **D – Score : 50/100**
+## 🔴 Note Fideta : **E – Score : 38/100**
 
-**Cohérence nutritionnelle, preuves cliniques faibles**
+**Pertinence faible**
 
-Nutrof Total propose une formule associant DHA, lutéine, zéaxanthine et micronutriments antioxydants, inspirée des travaux AREDS2 sur la dégénérescence maculaire liée à l’âge (DMLA).
+Nutrof Total repose principalement sur une inspiration des travaux AREDS2 concernant la dégénérescence maculaire liée à l’âge (DMLA).  
 
-Il existe **un intérêt probable dans un contexte précis** :  
-- Les doses de **lutéine (10 mg) et zéaxanthine (2 mg)** correspondent à celles utilisées dans AREDS2, où un bénéfice a été démontré **chez des patients atteints de DMLA intermédiaire**.  
-- Le **DHA ≥ 250 mg/j** permet l’allégation réglementaire « maintien d’une vision normale », avec un rationnel nutritionnel cohérent en cas d’apports insuffisants.  
-- Le **zinc** participe physiologiquement au maintien de la fonction visuelle.
+Cependant, il est essentiel de préciser que **ce produit n’est pas la formulation utilisée dans les essais AREDS2**. Les études ayant démontré une réduction du risque de progression de la DMLA concernaient une combinaison précise de nutriments, à des doses spécifiques, qui ne sont pas reproduites ici.
 
-Cependant, plusieurs limites importantes doivent être soulignées :
+En conséquence :
 
-- **Aucune étude clinique robuste n’a évalué Nutrof Total en tant que formulation complète.**  
-- Les bénéfices démontrés dans AREDS2 reposent sur des **doses significativement plus élevées en vitamine C, vitamine E et zinc**, non reproduites ici.  
-- En **population générale**, les méta-analyses ne montrent pas de prévention de la DMLA par supplémentation antioxydante.  
-- L’ajout d’**oméga-3 n’a pas démontré de bénéfice supplémentaire** dans AREDS2.
+- **Les résultats cliniques d’AREDS2 ne peuvent pas être extrapolés à Nutrof Total.**
+- **Aucune étude clinique robuste n’a évalué cette formulation complète.**
+- Les doses en vitamines C, E et zinc sont nettement inférieures à celles ayant montré un effet sur la progression de la DMLA.
+- L’ajout d’oméga-3 n’a pas démontré de bénéfice supplémentaire dans AREDS2.
 
-Ainsi, le produit repose sur une **base scientifique indirecte et extrapolée**, mais ne constitue pas une formulation équivalente aux protocoles ayant démontré une réduction du risque de progression de la DMLA.  
+Les seuls éléments objectivement établis relèvent du **champ nutritionnel réglementaire** :
+- Le DHA (≥ 250 mg/j) contribue au maintien d’une vision normale.
+- Le zinc contribue au maintien d’une fonction visuelle normale.
 
-Il peut être envisagé comme **complément nutritionnel plausible**, notamment chez des patients présentant une fragilité maculaire ou des apports alimentaires insuffisants, mais **il ne s’agit pas d’une stratégie thérapeutique validée**.
+Ces effets correspondent à des **allégations nutritionnelles**, mais ne constituent pas une démonstration d’efficacité clinique dans la prévention ou la prise en charge d’une pathologie oculaire.
 
-Ainsi le produit **présente un intérêt réel** mais avec une absence de validation clinique directe et un **bénéfice non démontré en population générale.**
+Ainsi, en l’absence d’essai clinique sur le produit et sans équivalence stricte aux protocoles validés, Nutrof Total ne peut pas être considéré comme une stratégie thérapeutique fondée sur des preuves.
 
 ---
 
@@ -78,6 +77,23 @@ Ainsi le produit **présente un intérêt réel** mais avec une absence de valid
 | Prévention DMLA (population générale) | Réduction du risque | 🔴 E | Méta-analyses négatives pour la prévention par antioxydants. |
 | Progression DMLA intermédiaire | Ralentissement | 🟠 D | Données solides pour AREDS/AREDS2, mais formulation non équivalente. |
 | Stress oxydatif oculaire | Protection cellulaire |  🔴 E  | Base biologique plausible ; traduction clinique incertaine. |
+
+### 🔎 Comparatif ingrédient par ingrédient : Nutrof Total vs **formule AREDS2 (étude)**
+
+> **Rappel méthodologique :** les résultats d’AREDS2 s’appliquent à **la formule testée**. Une formule différente (doses/actifs) **n’est pas extrapolable**.
+
+| Ingrédient actif | Nutrof Total (2 capsules/j) | AREDS2 (formule de l’étude, /jour) | Écart / interprétation |
+|---|---:|---:|---|
+| **Vitamine C** | **180 mg** | **500 mg** | **Sous-dosé (~36%)** vs AREDS2 |
+| **Vitamine E** | **30 mg** | **400 UI ≈ 268 mg α-TE** | **Très sous-dosé (~11%)** |
+| **Zinc** | **15 mg** | **80 mg** *(bras principal)* | **Sous-dosé (~19%)** |
+| **Cuivre** | **1 mg** | **2 mg** | **Sous-dosé (50%)** |
+| **Lutéine** | **10 mg** | **10 mg** | **Identique** |
+| **Zéaxanthine** | **2 mg** | **2 mg** | **Identique** |
+| **Bêta-carotène** | **0 mg** | **0 mg** *(AREDS2 : retiré)* | Cohérent avec AREDS2 (pas de bêta-carotène) |
+| **Oméga-3 (EPA/DHA)** | **Oméga-3 totaux 656 mg** (DHA > 250 mg) | **0 mg** *(non inclus dans la formule AREDS2)* | AREDS2 a testé l’ajout d’oméga-3 en bras séparés : **pas de bénéfice additionnel** |
+| **Vitamine D3** | **10 µg** | **0 µg** | **Hors AREDS2** (effet surtout nutritionnel si insuffisance) |
+| **Resvératrol** | **1 mg** | **0 mg** | **Hors AREDS2**, dose très faible vs littérature |
 
 ---
 
@@ -113,7 +129,7 @@ Aux doses recommandées, le produit reste sous les limites de sécurité, hors c
 
 | Critère | Note | Commentaire |
 |----------|:--:|-------------|
-| **Efficacité** | 🟠 **D** | Base scientifique indirecte mais absence de validation clinique propre |
+| **Efficacité** | 🔴 E | Base scientifique indirecte mais absence de validation clinique propre et formule AREDS 2 non suivie |
 | **Sécurité** | 🟡 **C** | Tolérance globalement bonne ; prudence avec anticoagulants |
 | **Qualité** | 🟢 **B**  | Formulation cohérente, respecte les BPF. |
 
