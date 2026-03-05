@@ -34,8 +34,6 @@ Fideta attribue à chaque complément une **note globale**, fondée sur :
 
 ### 🔬 Niveaux de preuve scientifique (ingrédients actifs)
 
-# 🔬 Niveaux de preuve scientifique (ingrédients actifs) – Fideta (version stricte EBM)
-
 | Note | Description | Critères scientifiques |
 |------|-------------|------------------------|
 | **✅ A — Preuve solide** | Effet démontré | Plusieurs essais cliniques robustes (RCT bien conduites), cohérents entre eux, souvent appuyés par méta-analyses. Forte reproductibilité et biais faibles. |
