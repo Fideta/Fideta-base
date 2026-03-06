@@ -9,7 +9,7 @@ pagination_next: null
 
 # Qui sommes-nous ?
 
-Je m'appelle Thomas, je suis **docteur en pharmacie**, et j’ai créé Fideta pour répondre à un besoin personnel :  
+Je m'appelle Thomas Gassies, je suis **docteur en pharmacie**, et j’ai créé Fideta pour répondre à un besoin personnel :  
 avoir accès à un outil **fiable, rapide et indépendant** pour évaluer les compléments alimentaires.  
 
 Aujourd’hui, l’information sur ces produits est très largement dominée par le **discours marketing des laboratoires**.  
