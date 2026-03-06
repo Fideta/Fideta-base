@@ -151,7 +151,7 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <ul>
                       <li>
-    <Link to="/docs/produits/feminabiane-endocalm">Feminabiane Endo'Calm </Link> Peu de confort prouvé.
+    <Link to="/docs/produits/effluvium">Effluvium </Link> Peu de preuves pour les cheveux.
   </li>
   <li>
     <Link to="/docs/produits/feminabiane-meno-confort">Feminabiane Méno’Confort </Link> Encore peu de confort prouvé.
