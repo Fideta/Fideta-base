@@ -151,13 +151,13 @@ export default function Home() {
                 <div className={styles.cardBody}>
                   <ul>
                       <li>
+    <Link to="/docs/produits/cytocore">Cytocore </Link> Pour fatigue intense, moins intense sur les preuves.
+  </li>
+  <li>
     <Link to="/docs/produits/effluvium">Effluvium </Link> Peu de preuves pour les cheveux.
   </li>
   <li>
     <Link to="/docs/produits/feminabiane-meno-confort">Feminabiane Méno’Confort </Link> Encore peu de confort prouvé.
-  </li>
-  <li>
-    <Link to="/docs/produits/Feminabiane-Fer">Feminabiane fer </Link> Du fer pour femmes ?
   </li>
                   </ul>
 
