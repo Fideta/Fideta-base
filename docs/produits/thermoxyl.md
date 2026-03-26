@@ -84,7 +84,7 @@ La composition n’est pas incohérente, la tolérance paraît globalement accep
 
 ## ⚠️ Sécurité et précautions
 
-- **Effets secondaires / Effets indésirables possibles :** nervosité, agitation, palpitations, troubles du sommeil, inconfort digestif, nausées, surtout en raison de la caféine apportée par le [thé vert](/docs/principes/the_vert), le [guarana](/docs/principes/guarana) et le [café vert](/docs/principes/cafe).  
+- **Effets secondaires / Effets indésirables possibles :** nervosité, agitation, palpitations, troubles du sommeil, inconfort digestif, nausées, surtout en raison de la caféine apportée par le [thé vert](/docs/principes/the-vert), le [guarana](/docs/principes/guarana) et le [café vert](/docs/principes/cafe).  
 - **Prudence :**  
   - **Grossesse / allaitement** : déconseillé selon le fabricant.  
   - **Hypertension, troubles du rythme, hyperthyroïdie, anxiété marquée** : prudence en raison des stimulants.  
