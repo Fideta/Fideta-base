@@ -47,7 +47,7 @@ Les souches utilisées appartiennent à des **espèces généralement considér�
 | [**Bifidobacterium longum LA101**](/docs/principes/bifidobacterium-longum) | Inclus dans les 10⁹ UFC | Aucune étude clinique solide propre à la souche. Solide historique de sécurité. |
 | [**Lactobacillus helveticus LA102**](/docs/principes/lactobacillus-helveticus) | Inclus | Absence de preuve d’efficacité clinique digestive pour cette souche. |
 | [**Lactococcus lactis LA103**](/docs/principes/lactococcus-lactis) | Inclus | Espèce sûre, mais aucune donnée démontrant un effet digestif de LA103. |
-| [**Streptococcus thermophilus LA104**](/docs/principes/Streptococcus-thermophilus) | Inclus | Souche alimentaire ; aucune preuve clinique digestive spécifique. |
+| [**Streptococcus thermophilus LA104**](/docs/principes/streptococcus-thermophilus) | Inclus | Souche alimentaire ; aucune preuve clinique digestive spécifique. |
 | **Total ferments lactiques** | 10 × 10⁹ UFC | Dose usuelle, mais l’étude clinique à cette dose est **négative**. |
 | Excipients (amidon de maïs, enveloppe végétale, acides gras) | — | Rôle technique, sans impact clinique. |
 
