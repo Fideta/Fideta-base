@@ -1,15 +1,23 @@
 ---
 title: Taurine
-icon: 🧬
+image: /img/principes/taurine.jpg
 categories: ["Acides aminés"]
 synopsis: "Preuves limitées pour la performance et la santé cardiovasculaire."
 synonyms: ["Taurine"]
 slug: /principes/taurine
+hide_title: true
 ---
-# Taurine  
-*Nom scientifique :* _2‑aminoéthanesulfonic acid_  
-**Partie utilisée :** composé naturel — **Extrait :** synthétique ou alimentaire  
-**Origine :** synthèse, poisson, viande, lait, algues  
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
+
+<PrincipeHero
+  title={"Taurine"}
+  scientificName={"2‑aminoéthanesulfonic acid"}
+  partUsed={"composé naturel — Extrait : synthétique ou alimentaire"}
+  origin={"synthèse, poisson, viande, lait, algues"}
+  image={"/img/principes/taurine.jpg"}
+  imageAlt={"Taurine"}
+  path={"/docs/principes/taurine"}
+/>
 
 ---
 

@@ -1,18 +1,24 @@
 ---
 title: Zinc
-icon: ⚛
+image: /img/principes/zinc.jpg
 categories: ["Minéraux"]
 synopsis: "Oligo-élément essentiel, preuves solides pour la fonction immunitaire.."
 synonyms: ["Zincum"]
 popular: true
 slug: /principes/zinc
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Zinc
-
-**Nom scientifique** : *Zinc* (divers sels : picolinate, bisglycinate, gluconate, sulfate…)  
-**Partie utilisée** : minéral — **Extrait** : non applicable  
-**Origine** : roches, eaux, aliments (viande, fruits de mer, graines)
+<PrincipeHero
+  title={"Zinc"}
+  scientificName={"Zinc (divers sels : picolinate, bisglycinate, gluconate, sulfate…)"}
+  partUsed={"minéral"}
+  origin={"roches, eaux, aliments (viande, fruits de mer, graines)"}
+  image={"/img/principes/zinc.jpg"}
+  imageAlt={"Zinc"}
+  path={"/docs/principes/zinc"}
+/>
 
 ---
 

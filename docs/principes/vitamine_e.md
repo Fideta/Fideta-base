@@ -1,17 +1,23 @@
 ---
 title: Vitamine E
-icon: 🫒
+image: /img/principes/vitamine_e.jpg
 categories: ["Vitamines"]
 synopsis: "Antioxydant liposoluble, efficace uniquement en cas de carence documentée."
 synonyms: ["Tocophérols", "Tocotriénols"]
 slug: /principes/vitamine_e
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Vitamine E  
-*Nom scientifique :* _Tocophérols et tocotriénols_  
-**Partie utilisée :** composé liposoluble  
-**Origine :** huiles végétales (tournesol, soja, blé…), ou synthèse chimique (dl-α-tocophérol)  
-
+<PrincipeHero
+  title={"Vitamine E"}
+  scientificName={"Tocophérols et tocotriénols"}
+  partUsed={"composé liposoluble"}
+  origin={"huiles végétales (tournesol, soja, blé…), ou synthèse chimique (dl-α-tocophérol)"}
+  image={"/img/principes/vitamine_e.jpg"}
+  imageAlt={"Vitamine E"}
+  path={"/docs/principes/vitamine_e"}
+/>
 ---
 
 ## Avis global :  
@@ -82,8 +88,8 @@ Certaines méta-analyses signalent même une **augmentation de la mortalité à 
 
 | Critère     | Note | Commentaire |
 |-------------|------|-------------|
-| Efficacité  | ⚠️ Faible (sauf carence) | Efficace uniquement pour corriger une carence, aucun bénéfice préventif établi en population générale |
-| Sécurité    | ⚠️ Modérée | Tolérée aux doses nutritionnelles, risque accru à fortes doses chroniques |
+| Efficacité  |    | Efficace uniquement pour corriger une carence, aucun bénéfice préventif établi en population générale |
+| Sécurité    | 🟡 C | Tolérée aux doses nutritionnelles, risque accru à fortes doses chroniques |
 | Qualité     | 🟡 C | Biodisponibilité supérieure pour la forme naturelle ; qualité variable selon la matrice lipidique |
 
 ---
@@ -98,3 +104,7 @@ Certaines méta-analyses signalent même une **augmentation de la mortalité à 
 6. Abner EL et al. (2011) – *Vitamin E and cognitive decline in aging and Alzheimer’s disease: meta-analysis*, J Alzheimers Dis.  
 7. Meydani SN et al. (1997) – *Vitamin E supplementation and in vivo immune response in healthy elderly subjects*, NEJM.  
 8. Meydani SN et al. (2004) – *Vitamin E and respiratory tract infections in elderly nursing home residents: RCT*, JAMA.  
+
+---
+
+<sub><em>Dernière mise à jour : 10 Avril 2026</em></sub>

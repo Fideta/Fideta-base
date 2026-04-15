@@ -1,18 +1,23 @@
 ---
 title: Cassis
-icon: 🍇
+image: /img/principes/Cassis.jpg
 categories: ["Plantes"]
 synopsis: "Plante riche en antioxydants, preuves limitées sur effets anti-inflammatoires."
 synonyms: ["Cassis", "Ribes nigrum"]
 slug: /principes/cassis
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Cassis
-
-**Nom scientifique** : *Ribes nigrum*  
-**Partie utilisée** : fruits (baies), graines (huile), feuilles (usage traditionnel)  
-**Origine** : Europe centrale et boréale ; cultivé en Nouvelle-Zélande pour les extraits anthocyaniques  
-
+<PrincipeHero
+  title={"Cassis"}
+  scientificName={"Ribes nigrum"}
+  partUsed={"fruits (baies), graines (huile), feuilles (usage traditionnel)"}
+  origin={"Europe centrale et boréale ; cultivé en Nouvelle-Zélande pour les extraits anthocyaniques"}
+  image={"/img/principes/Cassis.jpg"}
+  imageAlt={"Cassis"}
+  path={"/docs/principes/cassis"}
+/>
 ---
 
 ## Avis global  

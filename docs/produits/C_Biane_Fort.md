@@ -4,12 +4,18 @@ image: /img/produits/C_Biane_Fort.jpg
 categories: ["Immunité", "Vitamine C"]
 synopsis: "Vitamine C à forte dose avec bioflavonoïdes d’agrumes et acides gras."
 ean: 3701145601103 
+hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-# 💊 C Biane Fort  
-**Marque / Laboratoire :** PiLeJe  
-**Catégorie :** Vitamine hydrosoluble – Formulation avec bioflavonoïdes et acides gras  
-
+<ProduitHero
+  title={"C Biane Fort"}
+  brand={"Pileje"}
+  category={"Vitamine hydrosoluble – Formulation avec bioflavonoïdes et acides gras"}
+  image={"/img/produits/C_Biane_Fort.jpg"}
+  imageAlt={"C Biane Fort"}
+  path={"/docs/produits/C_Biane_Fort"}
+/>
 ---
 
 ## 🟠 Note Fideta : **D** – Score : **55/100**

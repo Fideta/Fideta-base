@@ -4,13 +4,18 @@ image: /img/produits/Vitamine_C_500_croquer.jpg
 categories: ["Énergie", "Immunité"]
 synopsis: "Complément alimentaire à base de vitamine C à croquer, arôme orange."
 ean: 3585550000528
+hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-# 💊 VITAMINE C 500 mg ***(à croquer)***
-
-**Marque / Laboratoire :** UPSA  
-**Catégorie :** Vitamine hydrosoluble – Acide ascorbique (ascorbate de sodium + acide ascorbique)
-
+<ProduitHero
+  title={"Vitamine C 500 à croquer"}
+  brand={"UPSA"}
+  category={"Vitamine hydrosoluble – Acide ascorbique (ascorbate de sodium + acide ascorbique)"}
+  image={"/img/produits/Vitamine_C_500_croquer.jpg"}
+  imageAlt={"Vitamine C 500 à croquer"}
+  path={"/docs/produits/Vitamine_C_500_à_croquer"}
+/>
 ---
 
 ## 🟡 Note Fideta : C **– Score : 68/100**

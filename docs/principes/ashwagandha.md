@@ -1,17 +1,34 @@
 ---
 title: Ashwagandha
-icon: 🌿
+image: /img/principes/Ashwagandha.jpg
 categories: ["Plantes"]
 synopsis: "Plante adaptogène ayurvédique, preuves solides sur stress/anxiété, effets modestes sur sommeil ; données exploratoires et signaux de sécurité à surveiller."
 synonyms: ["Ashwagandha", "Withania somnifera", "Ginseng indien"]
 slug: /principes/ashwagandha
+hide_title: true
+clinical:
+  - indication: endormissement
+    grade: C
+  - indication: sommeil_qualite
+    grade: C
+  - indication: reveils_nocturnes
+    grade: C 
+  - indication: alignement_circadien
+    grade: F 
+
+
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Ashwagandha
-
-**Nom scientifique** : *Withania somnifera* (L.) Dunal  
-**Partie utilisée** : Racine (préférable)  
-**Origine** : Inde, Moyen-Orient, Afrique, Méditerranée  
+<PrincipeHero
+  title={"Ashwagandha"}
+  scientificName={"Withania somnifera (L.) Dunal"}
+  partUsed={"Racine (préférable)"}
+  origin={"Inde, Moyen-Orient, Afrique, Méditerranée"}
+  image={"/img/principes/Ashwagandha.jpg"}
+  imageAlt={"Ashwagandha"}
+  path={"/docs/principes/ashwagandha"}
+/>
 
 ---
 

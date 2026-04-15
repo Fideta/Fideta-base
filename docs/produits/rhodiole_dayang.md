@@ -4,13 +4,18 @@ image: /img/produits/rhodiole_dayang.jpg
 categories: ["Stress", "Énergie", "Humeur"]
 synopsis: "Complément alimentaire à base de rhodiole standardisée, présenté comme soutien de l’équilibre émotionnel et de la résistance au stress."
 ean: 3760162131840
+hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-# 💊 Rhodiole – Équilibre émotionnel
-
-**Marque / Laboratoire :** DAYANG (Laboratoire français)  
-**Catégorie :** Plante adaptogène (Phytothérapie)
-
+<ProduitHero
+  title={"Rhodiole – Équilibre émotionnel"}
+  brand={"DAYANG (laboratoire français)"}
+  category={"Plante dite adaptogène (Phytothérapie)"}
+  image={"/img/produits/rhodiole_dayang.jpg"}
+  imageAlt={"Rhodiole – Équilibre émotionnel"}
+  path={"/docs/produits/rhodiole_dayang"}
+/>
 ---
 
 ## ⚫ Note Fideta : F – Score : 15/100

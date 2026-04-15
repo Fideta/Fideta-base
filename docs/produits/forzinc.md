@@ -4,14 +4,18 @@ image: /img/produits/forzinc.jpg
 categories: ["Zinc", "Immunité"]
 synopsis: "Complément alimentaire à base de zinc."
 ean: 3701145600779
+hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
----
-
-# 💊 Forzinc  
-**Marque / Laboratoire :** PiLeJe  
-**Catégorie :** Oligo-élément – Zinc  
-
+<ProduitHero
+  title={"Forzinc"}
+  brand={"PiLeJe"}
+  category={"Oligo-élément – Zinc"}
+  image={"/img/produits/forzinc.jpg"}
+  imageAlt={"Forzinc"}
+  path={"/docs/produits/forzinc"}
+/>
 ---
 
 ## 🔴 Note Fideta : **E** – Score : **41/100** 

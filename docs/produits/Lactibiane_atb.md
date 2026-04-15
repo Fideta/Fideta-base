@@ -4,13 +4,18 @@ image: /img/produits/Lactibiane_atb.jpg
 categories: ["Probiotiques", "Microbiote intestinal"]
 synopsis: "Complément alimentaire à base de Lactobacillus rhamnosus GG."
 ean: 3401560168174
+hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
----
-
-# 💊 **Lactibiane ATB**  
-**Marque / Laboratoire** : Pileje  
-**Catégorie** : Probiotique  
+<ProduitHero
+  title={"Lactibiane ATB"}
+  brand={"Pileje"}
+  category={"Probiotique"}
+  image={"/img/produits/Lactibiane_atb.jpg"}
+  imageAlt={"Lactibiane ATB"}
+  path={"/docs/produits/Lactibiane_atb"}
+/>
 
 ---
 

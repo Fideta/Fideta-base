@@ -1,17 +1,33 @@
 ---
 title: Valériane
-icon: 🌿
+image: /img/principes/valeriane.jpg
 categories: ["Plantes"]
 synopsis: "Plante sédative, preuves modérées pour améliorer le sommeil."
 synonyms: ["Valeriana officinalis"]
 slug: /principes/valériane
+hide_title: true
+clinical:
+  - indication: endormissement
+    grade: C
+  - indication: sommeil_qualite
+    grade: C
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
+    
 ---
-# Valériane
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-**Nom scientifique** : *Valeriana officinalis*  
-**Partie utilisée** : Racine (rhizome)  
-**Origine** : Europe et Asie tempérées
-
+<PrincipeHero
+  title={"Valériane"}
+  scientificName={"Valeriana officinalis"}
+  partUsed={"Racine (rhizome)"}
+  origin={"Europe et Asie tempérées"}
+  image={"/img/principes/valeriane.jpg"}
+  imageAlt={"Valériane"}
+  path={"/docs/principes/valériane"}
+/>
 ---
 
 ## 🧠 Avis global

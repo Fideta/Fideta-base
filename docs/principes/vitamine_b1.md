@@ -1,17 +1,23 @@
 ---
 title: Vitamine B1
-icon: 💊
+image: /img/principes/vitamine_b1.jpg
 categories: ["Vitamines"]
 synopsis: "Vitamine essentielle, preuve établie pour corriger une carence."
 synonyms: ["Thiamine"]
 slug: /principes/vitamine_b1
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Vitamine B1  
-**Nom scientifique :** Thiamine (chlorhydrate ou mononitrate de thiamine)  
-**Partie utilisée :** vitamine hydrosoluble — Extrait : non applicable  
-**Origine :** synthèse ou sources alimentaires (céréales complètes/fortifiées, légumineuses, porc, poissons)
-
+<PrincipeHero
+  title={"Vitamine B1"}
+  scientificName={"Thiamine (chlorhydrate ou mononitrate de thiamine)"}
+  partUsed={"souche bactérienne vivante (probiotique)"}
+  origin={"synthèse ou sources alimentaires (céréales complètes/fortifiées, légumineuses, porc, poissons)"}
+  image={"/img/principes/vitamine_b1.jpg"}
+  imageAlt={"Vitamine B1"}
+  path={"/docs/principes/vitamine_b1"}
+/>
 ---
 
 ## Avis global :  

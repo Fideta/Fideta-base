@@ -1,22 +1,47 @@
 ---
 title: Magnésium
-icon: ⚛
+image: /img/principes/magnesium.jpg
 categories: ["Minéraux"]
 synopsis: "Minéral essentiel, preuves solides pour la prévention des carences."
 synonyms: ["Magnésium, Mg"]
-popular: true
+popular: false
 slug: /principes/magnesium
+hide_title: true
+clinical:
+  - indication: endormissement
+    grade: F
+  - indication: sommeil_qualite
+    grade: E
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Magnésium  
-*Nom scientifique :* _Magnesium (divers sels : citrate, bisglycinate, oxyde…)_  
-**Partie utilisée :** minéral — **Extrait :** non applicable  
-**Origine :** divers (eaux, roches, aliments)
-
+<PrincipeHero
+  title={"Magnésium"}
+  scientificName={"Magnesium (divers sels : citrate, bisglycinate, oxyde…)"}
+  partUsed={"minéral"}
+  origin={"divers (eaux, roches, aliments)"}
+  image={"/img/principes/magnesium.jpg"}
+  imageAlt={"Magnésium"}
+  path={"/docs/principes/magnesium"}
+/>
 ---
 
 ## Avis global :  
-Le magnésium est **efficace pour corriger une carence avérée**, mais ces situations sont **rares** et souvent **médicalisées**. Les compléments en vente libre visent des usages (crampes, stress, fatigue…) **non validés scientifiquement**, ce qui limite leur pertinence réelle.
+Le magnésium est un **minéral essentiel** impliqué dans plusieurs centaines de réactions enzymatiques (muscles, système nerveux, métabolisme énergétique).
+Malgré cette importance biologique, **les véritables déficits cliniques sont rares** et surviennent surtout dans des situations médicales précises : malabsorption, alcoolisme chronique, certains traitements, pathologies digestives ou rénales.
+
+La majorité des compléments vendus au grand public ciblent des problèmes comme la **fatigue**, le **stress**, les **crampes**, ou le **sommeil**.
+➡️ Or, en population générale sans déficit, les études ne montrent pas de bénéfice clair voire ne montrent aucune efficacité comme la revue cochrane dans le cas des crampes, ce qui limite l’intérêt d’une supplémentation systématique.
+
+L’apport via l’alimentation (oléagineux, légumineuses, céréales complètes, eau minérale riche en Mg) suffit généralement.
+
+Il est courrant de voir partagé que “deux tiers de la population manquent de magnésium”, en s’appuyant sur un rapport de l’ANSES souvent mal interprété : l’agence a montré que les **apports alimentaires sont parfois inférieurs aux recommandations**, ce qui ne signifie pas une carence biologique, encore moins un déficit nécessitant un complément. La majorité des personnes compensent via l’absorption digestive, les réserves corporelles et l’ajustement rénal, ce qui explique pourquoi les vraies carences restent rares malgré des apports parfois modestes.
+
+Un complément peut être utile uniquement si un déficit est suspecté ou documenté, ou si certains symptômes concordants apparaissent dans un contexte à risque.
 
 ---
 
@@ -27,6 +52,7 @@ Le magnésium est **efficace pour corriger une carence avérée**, mais ces situ
 | Système nerveux     | Soutien fonctionnel (si déficit)                       | ✅ A              | 300–400 mg/j      |
 | Muscles             | Crampes idiopathiques                                  | ⚫ F             | Inefficace        |
 | Stress / anxiété    | Réduction du stress ou de l’anxiété                    | 🟠 D              | Données faibles   |
+| Sommeil             | Amélioration de la qualité du sommeil                  | 🔴 E              | ~250–400 mg/j Mais RCT récents (dont bisglycinate) : différence statistiquement significative mais inférieure au seuil d’amélioration cliniquement pertinente (MCID ≈ 6 points ; effet observé ≈ 1,6 point). Résultat sans impact perceptible pour l’utilisateur, non reproductible de manière robuste, critères majoritairement subjectifs.    |
 | SPM / migraines     | Soulagement de symptômes modérés                       | 🟡 C              | Inconstant        |
 | Santé osseuse       | Prévention de l’ostéoporose (hors déficit)            | ⚫ F              | Non démontré      |
 | Performance sportive| Amélioration des performances                          | ⚫ F              | Non démontré      |
@@ -67,3 +93,8 @@ Le magnésium est **efficace pour corriger une carence avérée**, mais ces situ
 3. EFSA (2012) – _Scientific opinion on health claims related to magnesium_.  
 4. Office of Dietary Supplements, NIH – _Magnesium Fact Sheet for Health Professionals_.  
 5. Boyle NB et al. (2017) – _The Effects of Magnesium Supplementation on Subjective Anxiety and Stress_, Nutrients.
+6. Garrison et al. Cochrane : Le magnésium pour les crampes musculaires,  Le magnésium n'est pas susceptible de réduire la fréquence ou la gravité des crampes musculaires chez les personnes âgées.
+7. Schuster J. et al. (2025) - _Magnesium Bisglycinate Supplementation in Healthy Adults Reporting Poor Sleep: A Randomized, Placebo-Controlled Trial_ Nat Sci Sleep
+
+<sub><em>Dernière mise à jour : 8 Janvier 2026</em></sub>
+

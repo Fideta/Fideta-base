@@ -1,24 +1,31 @@
 ---
 title: Vitamine D
-icon: ☀️
+image: /img/principes/vitamine_d.jpg
 categories: ["Vitamines"]
 synopsis: "Essentielle à la santé osseuse, preuves solides pour prévenir le rachitisme."
 synonyms: ["Cholécalciférol, Ergocalciférol"]
 popular: true
 slug: /principes/vitamine_d
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Vitamine D  
-**Nom scientifique :** _Cholécalciférol (D₃), Ergocalciférol (D₂)_  
-**Partie utilisée :** prohormone — **Extrait :** non applicable  
-**Origine :** synthèse cutanée (UVB) ou extraite de lanoline, lichen (D₃), levures (D₂)
+<PrincipeHero
+  title={"Vitamine D"}
+  scientificName={"Cholécalciférol (D₃), Ergocalciférol (D₂)"}
+  partUsed={"substance pure ou extraite de fruits"}
+  origin={"synthèse cutanée (UVB) ou extraite de lanoline, lichen (D₃), levures (D₂)"}
+  image={"/img/principes/vitamine_d.jpg"}
+  imageAlt={"Vitamine D"}
+  path={"/docs/principes/vitamine_d"}
+/>
 
 ---
 
 ## Avis global :  
 La vitamine D est une **prohormone essentielle** au métabolisme phosphocalcique. Elle est **clairement efficace** pour prévenir le **rachitisme**, l’**ostéomalacie** et certaines **fractures** chez les **personnes à risque** : sujets carencés, personnes âgées ou atteintes de maladies chroniques.
 
-En revanche, chez les individus en bonne santé, les **bénéfices d’une supplémentation généralisée** ne sont **pas démontrés** par les essais cliniques contrôlés.  
+En revanche, chez les individus en bonne santé, les **bénéfices d’une supplémentation généralisée** ne sont **pas démontrés** par les essais cliniques contrôlés. Concernant les infections respiratoires, les résultats sont contradictoires : une méta-analyse antérieure suggérait un effet protecteur en cas de carence sévère, mais les analyses plus récentes et de plus grande ampleur (Lancet Diabetes & Endocrinology, 2021) concluent à **l’absence d’effet significatif dans la population générale**. 
 
 Le **dosage sanguin de 25(OH)D** est l’objet de nombreuses interprétations, mais un point fait consensus :  
 **un taux inférieur à 20 ng/mL reflète une vraie carence avec risque clinique avéré** (rachitisme, ostéomalacie).  
@@ -32,7 +39,8 @@ Enfin, les **prises quotidiennes à dose modérée sont préférables aux bolus 
 | Fonction ciblée       | Effet revendiqué                                                                 | Niveau de preuve     | Dose efficace       |
 |------------------------|----------------------------------------------------------------------------------|----------------------|---------------------|
 | Santé osseuse          | Réduction du risque de fracture chez les personnes âgées carencées              | ✅ A                 | 800–2000 UI/j       |
-| Immunité (prévention)  | Réduction modeste des infections respiratoires *chez les sujets carencés*       | 🟢 B (contextuel)    | 400–1000 UI/j       |
+| Immunité (prévention) chez carencés  | Réduction modeste des infections respiratoires *chez les sujets carencés*       | 🟢 B (contextuel)    | 400–1000 UI/j       |
+| Prévention des infections respiratoires    | Absence d'effet en population générale                   | ⚫ F                 | Non établi          | 
 | Humeur/dépression      | Amélioration de symptômes dépressifs modérés                                    | 🟡 C                 | ≥2000 UI/j          |
 | Cancer (prévention)    | Réduction supposée du risque colorectal, sein (non démontré)                    | ⚫ F                 | Non établi          |
 | Santé cardiovasculaire | Diminution des événements cardiovasculaires                                      | ⚫ F                 | Non établi          |

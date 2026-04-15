@@ -85,6 +85,7 @@ a:hover{ color:var(--ifm-color-primary-dark); }
 .markdown table{ width:100%; }
 .markdown th,.markdown td{ vertical-align:top; }
 
+
 /* ---------- Tables responsive ---------- */
 @media (max-width:768px){
   .theme-table-container table,
@@ -199,4 +200,180 @@ a:hover{ color:var(--ifm-color-primary-dark); }
 /* Mobile uniquement */
 @media (min-width: 997px){
   .navbar .fab-scan { display: none; }
+}
+
+.product-hero{
+  display:flex;
+  flex-direction: row !important;   /* reste en ligne */
+  align-items:center;
+  justify-content:space-between;
+  gap:1rem;
+  margin:0.5rem 0 1.25rem;
+}
+
+/* Réserve un espace fixe (mais responsive) à l'image */
+.product-hero__packshot{
+  flex:0 0 auto;
+  width: clamp(140px, 28vw, 220px);
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+}
+
+/* Laisse le texte occuper le reste */
+.product-hero__titlewrap{
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.product-hero__packshot > img{
+  width:100%;
+  height:100%;
+  object-fit: contain;
+  display:block;
+  border:0;
+  background:transparent;
+}
+
+/* (Optionnel) même sur mobile, on force la ligne */
+@media (max-width: 700px){
+  .product-hero{ flex-direction: row !important; }
+}
+
+/* === Ajustements globaux mobile === */
+@media (max-width: 768px) {
+  /* Contenu principal plus compact */
+  .markdown {
+    padding: 0.75rem 1rem;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* Éviter tout scroll horizontal parasite */
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+/* Laisse de la place sous le contenu pour le FAB "Scanner" sur mobile */
+@media (max-width: 996px) {
+  .main-wrapper {
+    padding-bottom: 90px; /* ≈ hauteur du bouton + marge */
+  }
+}
+
+/* Mobile très étroit : image au-dessus, texte en dessous */
+@media (max-width: 480px) {
+  .product-hero {
+    flex-direction: column !important;
+    align-items: stretch;
+    gap: 0.75rem;
+  }
+
+  .product-hero__packshot {
+    width: 60%;
+    max-width: 220px;
+    margin: 0 auto 0.5rem;
+  }
+
+  .product-hero__titlewrap {
+    text-align: left;
+  }
+}
+
+/* === Optimisation lecture mobile === */
+@media (max-width: 768px) {
+  /* Contenu principal : moins de marge, texte un peu plus petit */
+  .markdown {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 0.9rem;      /* ≈ 14–15px selon ton root */
+    line-height: 1.6;
+  }
+
+  /* On réduit aussi un peu la marge globale du contenu doc */
+  .theme-doc-markdown,
+  .theme-doc-main .container {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+}
+
+.fiche-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.fiche-favorite-star {
+  line-height: 0;
+}
+
+/* Desktop : étoile visuellement posée sur l'image */
+@media (min-width: 997px) {
+  .product-hero {
+    position: relative;
+  }
+
+  .fiche-favorite-star {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 3;
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 999px;
+    padding: 6px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.12);
+  }
+}
+
+/* Mobile : elle reste à côté du titre */
+@media (max-width: 996px) {
+  .fiche-favorite-star {
+    position: static;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+  }
+}
+
+.fiche-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.fiche-favorite-star {
+  line-height: 0;
+}
+
+@media (min-width: 997px) {
+  .product-hero {
+    position: relative;
+  }
+
+  .fiche-favorite-star {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 3;
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 999px;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 996px) {
+  .fiche-favorite-star {
+    position: static;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+  }
 }

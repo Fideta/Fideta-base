@@ -1,18 +1,33 @@
 ---
 title: Safran
-icon: 🌸
+image: /img/principes/safran.jpg
 categories: ["Plantes"]
 synopsis: "Extrait de stigmates, preuves cliniques probables pour la dépression légère à modérée."
 synonyms: ["Crocus sativus L."]
 popular: true
 slug: /principes/safran
+hide_title: true
+clinical:
+  - indication: endormissement
+    grade: F
+  - indication: sommeil_qualite
+    grade: C
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Safran
-
-**Nom scientifique** : *Crocus sativus L.*  
-**Partie utilisée** : stigmates (fils rouges du pistil)  
-**Origine** : plante herbacée vivace (Iridaceae), cultivée principalement en Iran, Espagne, Maroc, Inde  
+<PrincipeHero
+  title={"Safran"}
+  scientificName={"Crocus sativus L."}
+  partUsed={"Stigmates (fils rouges du pistil)"}
+  origin={"Plante herbacée vivace (Iridaceae), cultivée principalement en Iran, Espagne, Maroc, Inde"}
+  image={"/img/principes/safran.jpg"}
+  imageAlt={"Safran"}
+  path={"/docs/principes/safran"}
+/>
 
 ---
 

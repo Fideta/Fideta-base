@@ -1,18 +1,33 @@
 ---
 title: Mélatonine
-icon: 🌙
+image: /img/principes/melatonine.jpg
 categories: ["Neuro-hormone"]
 synopsis: "Hormone du sommeil, preuves modérées pour réguler l’endormissement."
 synonyms: ["N‑acétyl‑5‑méthoxytryptamine"]
 popular: true
 slug: /principes/mélatonine
+hide_title: true
+clinical:
+  - indication: endormissement
+    grade: A
+  - indication: sommeil_qualite
+    grade: F
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: A 
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Mélatonine  
-**Nom scientifique** : N‑acétyl‑5‑méthoxytryptamine  
-**Partie utilisée** : Synthèse endogène ou complément synthétique  
-**Origine** : Hormone naturellement produite par la glande pinéale; disponible sous forme de complément synthétique.
-
+<PrincipeHero
+  title={"Mélatonine"}
+  scientificName={"N‑acétyl‑5‑méthoxytryptamine"}
+  partUsed={"Synthèse endogène ou complément synthétique"}
+  origin={"Hormone naturellement produite par la glande pinéale; disponible sous forme de complément synthétique."}
+  image={"/img/principes/melatonine.jpg"}
+  imageAlt={"Mélatonine"}
+  path={"/docs/principes/mélatonine"}
+/>
 ---
 
 ## 🧠 Avis global  

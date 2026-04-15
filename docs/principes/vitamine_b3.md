@@ -1,17 +1,23 @@
 ---
 title: Vitamine B3
-icon: 💊
+image: /img/principes/vitamine_b3.jpg
 categories: ["Vitamines"]
 synopsis: "Nutriment essentiel, traitement établi des carences ; bénéfices additionnels non démontrés en complémentation courante."
 synonyms: ["Niacine", "Nicotinamide", "Niacinamide", "Nicotinamide riboside (NR)", "Nicotinamide mononucléotide (NMN)"]
 slug: /principes/vitamine_b3
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Vitamine B3 
-**Nom scientifique :** Niacine (acide nicotinique), Nicotinamide (niacinamide) ; vitamères apparentés : Nicotinamide riboside (NR), Nicotinamide mononucléotide (NMN)  
-**Partie utilisée :** — (vitamine hydrosoluble de synthèse)  
-**Origine :** Nutriment essentiel ; apports exprimés en « équivalents niacine » (EN). Références nutritionnelles et UL fixés par EFSA/SCF.  
-
+<PrincipeHero
+  title={"Vitamine B3"}
+  scientificName={"Niacine (acide nicotinique), Nicotinamide (niacinamide) ; vitamères apparentés : Nicotinamide riboside (NR), Nicotinamide mononucléotide (NMN)"}
+  partUsed={"Vitamine hydrosoluble de synthèse"}
+  origin={"Nutriment essentiel ; apports exprimés en « équivalents niacine » (EN). Références nutritionnelles et UL fixés par EFSA/SCF."}
+  image={"/img/principes/vitamine_b3.jpg"}
+  imageAlt={"Vitamine B3"}
+  path={"/docs/principes/vitamine_b3"}
+/>
 ---
 
 ## Avis global :  

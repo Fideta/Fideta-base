@@ -1,18 +1,24 @@
 ---
 title: Vitamine B6
-icon: 💊
+image: /img/principes/vitamine_b6.jpg
 categories: ["Vitamines"]
 synopsis: "Cofacteur enzymatique, preuves solides pour la fonction nerveuse et métabolique si carence avérée."
 synonyms: ["Pyridoxine, pyridoxal, pyridoxamine"]
 slug: /principes/vitamine_b6
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Vitamine B6
-
-**Nom scientifique :** Pyridoxine, pyridoxal, pyridoxamine — forme active : Pyridoxal-5-phosphate (PLP)  
-**Partie utilisée :** vitamine hydrosoluble — **Extrait :** non applicable  
-**Origine :** aliments d’origine animale et végétale, synthèse chimique pour les compléments
-
+<PrincipeHero
+  title={"Vitamine B6"}
+  scientificName={"Pyridoxine, pyridoxal, pyridoxamine — forme active : Pyridoxal-5-phosphate (PLP)"}
+  partUsed={"vitamine hydrosoluble"}
+  origin={"aliments d’origine animale et végétale, synthèse chimique pour les compléments"}
+  image={"/img/principes/vitamine_b6.jpg"}
+  imageAlt={"Vitamine B6"}
+  path={"/docs/principes/vitamine_b6"}
+/>
+---
 ## Avis global :
 
 La vitamine B6 est **essentielle au métabolisme** et à la synthèse des neurotransmetteurs. Les carences sont rares en population générale. Les compléments peuvent être utiles dans des contextes ciblés avec des dosages spécifiques (SPM, nausées de grossesse), mais les preuves sont limitées dans la majorité des usages courants.

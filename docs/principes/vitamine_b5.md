@@ -1,17 +1,23 @@
 ---
 title: Vitamine B5
-icon: 💊
+image: /img/principes/vitamine_b5.jpg
 categories: ["Vitamines"]
 synopsis: "Coenzyme essentiel, preuves solides pour prévenir sa carence."
 synonyms: ["Acide pantothénique"]
 slug: /principes/vitamine_b5
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Vitamine B5  
-**Nom scientifique :** Acide pantothénique (D-pantothénate de calcium)  
-**Partie utilisée :** vitamine hydrosoluble — Extrait : non applicable  
-**Origine :** synthèse ou sources alimentaires (foie, œufs, céréales, légumineuses)
-
+<PrincipeHero
+  title={"Vitamine B5"}
+  scientificName={"Acide pantothénique (D-pantothénate de calcium)"}
+  partUsed={"Vitamine hydrosoluble"}
+  origin={"synthèse ou sources alimentaires (foie, œufs, céréales, légumineuses)"}
+  image={"/img/principes/vitamine_b5.jpg"}
+  imageAlt={"Vitamine B5"}
+  path={"/docs/principes/vitamine_b5"}
+/>
 ---
 
 ## Avis global :  

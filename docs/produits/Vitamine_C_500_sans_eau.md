@@ -4,14 +4,18 @@ image: /img/produits/Vitamine_C_500_sans_eau.jpg
 categories: ["Énergie", "Immunité"]
 synopsis: "Complément alimentaire à base de vitamine C sans eau."
 ean: 3585550000351
+hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-
-# 💊 VITAMINE C 500 mg ***(sachet sans eau)***
-
-**Marque / Laboratoire :** UPSA  
-**Catégorie :** Vitamine hydrosoluble – Acide ascorbique (ascorbate de sodium + acide ascorbique)
-
+<ProduitHero
+  title={"Vitamine C 500 sans eau"}
+  brand={"UPSA"}
+  category={"Vitamine hydrosoluble – Acide ascorbique (ascorbate de sodium + acide ascorbique)"}
+  image={"/img/produits/Vitamine_C_500_sans_eau.jpg"}
+  imageAlt={"Vitamine C 500 sans eau"}
+  path={"/docs/produits/Vitamine_C_500_sans_eau"}
+/>
 ---
 
 ## 🟡 Note Fideta : C **– Score : 68/100**

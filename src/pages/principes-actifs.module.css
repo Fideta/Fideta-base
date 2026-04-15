@@ -219,6 +219,16 @@
   border-color: #2d7039;
   color: #fff;
 }
+/* ✅ Vignette image */
+.thumb {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  object-fit: cover;
+  background: #fff;
+  border: 1px solid var(--ifm-toc-border-color);
+  flex: 0 0 auto;
+}
 
 /* État vide */
 .empty {

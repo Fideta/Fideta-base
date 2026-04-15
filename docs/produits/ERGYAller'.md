@@ -3,14 +3,19 @@ title: "ERGYAller"
 image: /img/produits/ERGYAller'.jpg
 categories: ["Allergies", "Phytothérapie", "Immunité"]
 synopsis: "Complément alimentaire à base de quercétine, cassis et ortie."
-ean: 
+ean: 3664524001751
+hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-# 💊 ERGYAlleR’
-
-**Marque / Laboratoire :** Nutergia  
-**Catégorie :** Mixte (extraits végétaux + oligoéléments + vitamine)
-
+<ProduitHero
+  title={"ERGYAller"}
+  brand={"Nutergia"}
+  category={"Mixte (extraits végétaux + oligoéléments + vitamine)"}
+  image={"/img/produits/ERGYAller'.jpg"}
+  imageAlt={"ERGYAller"}
+  path={"/docs/produits/ERGYAller'"}
+/>
 ---
 
 ## ⚫ Note Fideta : F – Score : 20/100  

@@ -1,17 +1,23 @@
 ---
 title: Vitamine B12
-icon: 💊
+image: /img/principes/vitamine_b12.jpg
 categories: ["Vitamines"]
 synopsis: "Essentielle aux globules rouges et au système nerveux, preuves solides pour prévenir l’anémie."
 synonyms: ["Cobalamine"]
 slug: /principes/vitamine_b12
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Vitamine B12  
-*Nom scientifique :* _Cobalamine_  
-**Partie utilisée :** molécule isolée (vitamine hydrosoluble) — **Extrait :** non applicable  
-**Origine :** synthèse bactérienne (présente dans les produits d’origine animale)
-
+<PrincipeHero
+  title={"Vitamine B12"}
+  scientificName={"Cobalamine"}
+  partUsed={"molécule isolée (vitamine hydrosoluble)"}
+  origin={"synthèse bactérienne (présente dans les produits d’origine animale)"}
+  image={"/img/principes/vitamine_b12.jpg"}
+  imageAlt={"Vitamine B12"}
+  path={"/docs/principes/vitamine_b12"}
+/>
 ---
 
 ## Avis global :  

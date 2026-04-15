@@ -1,18 +1,24 @@
 ---
-title: Cordyceps
-icon: 🍄
+title: Cordyceps sinensis
+image: /img/principes/Cordyceps.jpg
 categories: ["Champignons"]
 synopsis: "Mycélium cultivé (CS-4, Jinshuibao, Bailing). Preuves limitées pour l’endurance chez sujets âgés/sédentaires ; données faibles ou négatives ailleurs."
 synonyms: ["Ophiocordyceps sinensis", "Cordyceps sinensis"]
 popular: false
 slug: /principes/cordyceps
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Cordyceps
-
-**Nom scientifique** : *Ophiocordyceps sinensis* (syn. *Cordyceps sinensis*)  
-**Partie utilisée** : mycélium cultivé (CS-4, Jinshuibao®, Bailing®), plus rarement corps fructifères  
-**Origine** : champignon entomopathogène du plateau tibétain ; en compléments, le plus souvent issu de culture contrôlée en cuve  
+<PrincipeHero
+  title={"Cordyceps sinensis"}
+  scientificName={"Ophiocordyceps sinensis (syn. Cordyceps sinensis)"}
+  partUsed={"mycélium cultivé, plus rarement corps fructifères"}
+  origin={"champignon entomopathogène du plateau tibétain ; en compléments, le plus souvent issu de culture contrôlée en cuve"}
+  image={"/img/principes/Cordyceps.jpg"}
+  imageAlt={"Cordyceps sinensis"}
+  path={"/docs/principes/cordyceps"}
+/>
 
 ---
 

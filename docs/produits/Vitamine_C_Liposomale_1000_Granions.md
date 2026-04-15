@@ -4,13 +4,18 @@ image: /img/produits/Vitamine_C_1000_liposomale_granions.jpg
 categories: ["Énergie", "Immunité"]
 synopsis: "Complément alimentaire à base de vitamine C dite liposomale."
 ean: 3760155214642
+hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-# Vitamine C Liposomale 1000 mg
-
-**Marque / Laboratoire** : Granions  
-**Catégorie** : Vitamine hydrosoluble – Formulation “liposomale”
-
+<ProduitHero
+  title={"Vitamine C Liposomale 1000 mg Granions"}
+  brand={"Granions"}
+  category={"Vitamine hydrosoluble – Formulation “liposomale”"}
+  image={"/img/produits/Vitamine_C_1000_liposomale_granions.jpg"}
+  imageAlt={"Vitamine C Liposomale 1000 mg Granions"}
+  path={"/docs/produits/Vitamine_C_Liposomale_1000_Granions"}
+/>
 ---
 
 ## 🟠 Note Fideta : D – Score : 55/100

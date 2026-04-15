@@ -1,16 +1,23 @@
 ---
 title: Vitamine C
-icon: 🍊
+image: /img/principes/vitamine_c.jpg
 categories: ["Vitamines"]
 synopsis: "Antioxydant essentiel, preuves solides pour prévenir le scorbut."
 synonyms: ["Acide ascorbique"]
 slug: /principes/vitamine_c
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Vitamine C  
-*Nom scientifique :* _Acide ascorbique_  
-**Partie utilisée :** substance pure ou extraite de fruits — **Extrait :** synthèse ou naturelle  
-**Origine :** fruits (agrumes, baies), ou synthèse chimique (glucose microbien)
+<PrincipeHero
+  title={"Vitamine C"}
+  scientificName={"Acide ascorbique"}
+  partUsed={"substance pure ou extraite de fruits"}
+  origin={"fruits (agrumes, baies), ou synthèse chimique (glucose microbien)"}
+  image={"/img/principes/vitamine_c.jpg"}
+  imageAlt={"Vitamine C"}
+  path={"/docs/principes/vitamine_c"}
+/>
 
 ---
 

@@ -1,25 +1,32 @@
 ---
-title: "Bonjour – Boisson aux champignons"
+title: "Bonjour – Boisson aux champignons - Goût original"
 image: /img/produits/BonjourDrink.jpg
 categories: ["Énergie", "Cognition", "Stress"]
 synopsis: "Boisson instantanée à base d’extraits concentrés de champignons adaptogènes (Lion’s Mane, Cordyceps, Chaga) et caféine. Positionnée comme alternative au café, promet énergie stable, concentration, digestion apaisée et soutien immunitaire."
 ean: [0883990231148]
+hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-# 💊 Bonjour – Boisson aux champignons (Lion’s Mane, Cordyceps, Chaga)  
-**Marque / Laboratoire :** Bonjour Drink (France)  
-**Catégorie :** Mélange de champignons adaptogènes + caféine (boisson fonctionnelle)  
-
+<ProduitHero
+  title={"Bonjour – Boisson aux champignons - Goût original"}
+  brand={"Bonjour Drink (France)"}
+  category={"Mélange de champignons adaptogènes + caféine (boisson fonctionnelle)"}
+  image={"/img/produits/BonjourDrink.jpg"}
+  imageAlt={"Bonjour – Boisson aux champignons - Goût original"}
+  path={"/docs/produits/BonjourDrink"}
+/>
 ---
 
 ## ☠️ Note Fideta : **Disqualifié – Score : 0/100**  
->**Produit non recommandable**  
->La formulation repose sur trois champignons (Lion’s Mane, Cordyceps, Chaga) associés à 35 mg de caféine.  
->– Le **Lion’s Mane** n’a montré **aucune efficacité clinique reproductible** dans la cognition.  
->– Le **Cordyceps** ne bénéficie que de quelques petits essais contradictoires sur l’endurance, sans preuve robuste.  
->– Le **Chaga** est le point le plus préoccupant : aucune donnée clinique humaine, et présence documentée d’**oxalates** responsables de cas d’atteintes rénales sévères.  
->Ces éléments constituent un **critère bloquant** selon la méthodologie Fideta.  
->L’effet ressenti (énergie, vigilance) provient uniquement de la **caféine**, à faible dose, sans lien avec les champignons.  
+
+**Produit non recommandable**  
+La formulation repose sur trois champignons (Lion’s Mane, Cordyceps, Chaga) associés à 35 mg de caféine.  
+– Le **Lion’s Mane** n’a montré **aucune efficacité clinique reproductible** dans la cognition.  
+– Le **Cordyceps** ne bénéficie que de quelques petits essais contradictoires sur l’endurance, sans preuve robuste.  
+– Le **Chaga** est le point le plus préoccupant : aucune donnée clinique humaine, et présence documentée d’**oxalates** responsables de cas d’atteintes rénales sévères.  
+Ces éléments constituent un **critère bloquant** selon la méthodologie Fideta.  
+L’effet ressenti (énergie, vigilance) ne peut être attribué selon des preuves cliniques robustes uniquement à la **caféine**, à faible dose, sans lien avec les champignons.  
 
 ---
 
@@ -28,7 +35,7 @@ ean: [0883990231148]
 | Ingrédient | Quantité (1 portion) | Commentaire Fideta |
 |------------|----------------------|--------------------|
 | [Lion’s Mane (*Hericium erinaceus*)](/docs/principes/lion's_mane) | 750 mg (30 % polysaccharides) | Essais cliniques négatifs ou exploratoires. Aucun bénéfice reproductible. |
-| [Cordyceps (*Cordyceps militaris*)](/docs/principes/cordyceps) | 750 mg (30 % polysaccharides) | Données humaines limitées, contradictoires. Niveau de preuve faible. |
+| [Cordyceps (*Cordyceps sinensis*)](/docs/principes/cordyceps) | 750 mg (30 % polysaccharides) | Données humaines limitées, contradictoires. Niveau de preuve faible. |
 | [Chaga (*Inonotus obliquus*)](/docs/principes/chaga) | 750 mg (30 % polysaccharides) | Aucune étude clinique. Présence d’oxalates → risque de néphrotoxicité documenté. |
 | Caféine | 35 mg | Effet léger mais documenté sur vigilance. Non spécifique au produit. |
 

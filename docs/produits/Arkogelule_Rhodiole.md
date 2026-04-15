@@ -4,13 +4,18 @@ image: /img/produits/Arkogelule_Rhodiole.jpg
 categories: ["Stress", "Énergie", "Humeur"]
 synopsis: "Complément alimentaire à base de rhodiole bio titrée"
 ean: [3578835504453 , 3578835504460]
+hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-# 💊 Rhodiole BIO
-
-**Marque / Laboratoire :** Arkopharma  
-**Catégorie :** Plante adaptogène (Rhodiola rosea L.)
-
+<ProduitHero
+  title={"Arkogélules® Rhodiole BIO"}
+  brand={"Arkopharma"}
+  category={"Plante dite adaptogène (Rhodiola rosea L.)"}
+  image={"/img/produits/Arkogelule_Rhodiole.jpg"}
+  imageAlt={"Arkogélules® Rhodiole BIO"}
+  path={"/docs/produits/Arkogelule_Rhodiole"}
+/>
 ---
 
 ## ⚫ Note Fideta : F – Score : 20/100

@@ -1,17 +1,23 @@
 ---
 title: Fer
-icon: 💊
+image: /img/principes/Fer.jpg
 categories: ["Minéraux"]
 synopsis: "Oligo-élément essentiel, preuve établie pour corriger une carence martiale."
 synonyms: ["Fer élémentaire", "Fer héminique", "Fer non héminique"]
 slug: /principes/fer
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Fer  
-**Nom scientifique :** Fer (Fe)  
-**Partie utilisée :** Élément minéral essentiel — Extrait : non applicable  
-**Origine :** minérale, naturellement présent dans les aliments (viandes, poissons, légumineuses, céréales enrichies)  
-
+<PrincipeHero
+  title={"Fer"}
+  scientificName={"Fer (Fe)"}
+  partUsed={"Élément minéral essentiel"}
+  origin={"minérale, naturellement présent dans les aliments (viandes, poissons, légumineuses, céréales enrichies)"}
+  image={"/img/principes/Fer.jpg"}
+  imageAlt={"Fer"}
+  path={"/docs/principes/fer"}
+/>
 ---
 
 ## Avis global :  

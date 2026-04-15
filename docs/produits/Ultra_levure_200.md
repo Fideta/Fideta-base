@@ -4,12 +4,19 @@ image: /img/produits/Ultra_levure_200.jpg
 categories: ["Probiotiques", "Microbiote intestinal"]
 synopsis: "Complément alimentaire à base de Saccharomyces boulardii."
 ean: 3400922096612
+hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-# 💊 **Ultralevure 200 mg**  
-**Marque / Laboratoire :** Biocodex  
-**Catégorie :** Probiotique – Levure  
-
+<ProduitHero
+  title={"ULTRA-LEVURE 200 mg"}
+  brand={"Biocodex"}
+  category={"Probiotique – Levure"}
+  image={"/img/produits/Ultra_levure_200.jpg"}
+  imageAlt={"ULTRA-LEVURE 200 mg"}
+  path={"/docs/produits/Ultra_levure_200"}
+/>
+---
 ## 🟢 **Note Fideta : B – Score : 76/100**  
 **Souche documentée, formulation correcte**  
 Ultralevure 200 mg contient *Saccharomyces boulardii* CNCM I-745, une levure probiotique dont **l’efficacité est bien établie** dans certaines pathologies digestives chez l’adulte : **diarrhée associée aux antibiotiques (DAA)**, **diarrhée infectieuse aiguë**, voire en prévention secondaire des récidives de *Clostridium difficile*.  

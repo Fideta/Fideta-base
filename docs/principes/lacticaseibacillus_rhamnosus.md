@@ -1,16 +1,23 @@
 ---
 title: Lacticaseibacillus rhamnosus
-icon: 🦠
+image: /img/principes/lacticaseibacillus_rhamnosus.jpg
 categories: ["Probiotiques"]
 synopsis: "Probiotique aux preuves variables pour la santé digestive."
 synonyms: ["Lactobacillus rhamnosus"]
 slug: /principes/lacticaseibacillus_rhamnosus
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Lacticaseibacillus rhamnosus  
-*Nom scientifique :* _Lacticaseibacillus rhamnosus (ex. Lactobacillus rhamnosus)_  
-**Partie utilisée :** souche bactérienne vivante (probiotique) — **Extrait :** non applicable  
-**Origine :** flore intestinale humaine ou produits laitiers fermentés  
+<PrincipeHero
+  title={"Lacticaseibacillus rhamnosus"}
+  scientificName={"Lacticaseibacillus rhamnosus (ex. Lactobacillus rhamnosus)"}
+  partUsed={"souche bactérienne vivante (probiotique)"}
+  origin={"flore intestinale humaine ou produits laitiers fermentés"}
+  image={"/img/principes/lacticaseibacillus_rhamnosus.jpg"}
+  imageAlt={"Lacticaseibacillus rhamnosus"}
+  path={"/docs/principes/lacticaseibacillus_rhamnosus"}
+/>
 
 ---
 

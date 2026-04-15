@@ -1,17 +1,23 @@
 ---
 title: Rhodiole
-icon: 🌿
+image: /img/principes/rhodiole.jpg
 categories: ["Plantes"]
 synopsis: "Plante adaptogène traditionnelle, preuves limitées et inconstantes sur la fatigue liée au stress et la dépression légère."
 synonyms: ["Rhodiola rosea", "Orpin rose", "Racine dorée"]
 slug: /principes/rhodiole
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Rhodiole
-
-**Nom scientifique** : *Rhodiola rosea* L.  
-**Partie utilisée** : rhizomes et racines  
-**Origine** : Plante alpine/circumpolaire (Europe, Asie, Amérique du Nord)  
+<PrincipeHero
+  title={"Rhodiole"}
+  scientificName={"Rhodiola rosea L."}
+  partUsed={"rhizomes et racines"}
+  origin={"Plante alpine/circumpolaire (Europe, Asie, Amérique du Nord)"}
+  image={"/img/principes/rhodiole.jpg"}
+  imageAlt={"Rhodiole"}
+  path={"/docs/principes/rhodiole"}
+/>
 
 ---
 

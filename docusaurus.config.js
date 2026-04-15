@@ -1,4 +1,5 @@
 // @ts-check
+import 'dotenv/config';
 import { themes as prismThemes } from 'prism-react-renderer';
 import path from 'path';
 
@@ -6,7 +7,12 @@ import path from 'path';
 const config = {
   title: 'Fideta',
   tagline: 'Compléments alimentaires décodés par la science, pas par le marketing',
-  favicon: 'img/favico.ico', // garde ton .ico principal
+  favicon: 'img/favico.ico',
+
+  customFields: {
+    supabaseUrl: process.env.NEXT_PUBLIC_SUPABASE_URL,
+    supabasePublishableKey: process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_DEFAULT_KEY,
+  },
 
   future: {
     v4: true,
@@ -52,7 +58,6 @@ const config = {
     ],
   ],
 
-  // ✅ Google Analytics 4
   plugins: [
     [
       '@docusaurus/plugin-google-gtag',
@@ -66,7 +71,6 @@ const config = {
   ],
 
   themeConfig: {
-    // Image par défaut pour Open Graph & Twitter
     image: 'img/fideta-social-card.png',
     metadata: [
       {
@@ -101,7 +105,7 @@ const config = {
         { to: '/blog', label: 'Actu', position: 'left' },
         { to: '/scan', label: 'Scanner', position: 'right', className: 'fab-scan' },
         { to: '/search', label: '🔍 Rechercher', position: 'right' },
-        { to: '/contact', label: 'Nous contacter', position: 'right' },
+        { type: 'custom-account', position: 'right' },
       ],
     },
     footer: {

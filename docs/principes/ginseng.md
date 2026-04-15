@@ -1,18 +1,24 @@
 ---
 title: Ginseng
-icon: 🌱
+image: /img/principes/Ginseng.jpg
 categories: ["Plantes"]
 synopsis: "Effet modeste et transitoire sur la fatigue, données faibles pour glycémie, dysfonction érectile et infections ; pas de preuve pour cognition ou performance."
 synonyms: ["Panax ginseng C.A. Meyer", "Ginseng asiatique", "Ginseng rouge", "Ginseng blanc"]
 popular: true
 slug: /principes/ginseng
+hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Ginseng
-
-**Nom scientifique** : *Panax ginseng* C.A. Meyer  
-**Partie utilisée** : racine (Radix) – “blanche” (séchée) ou “rouge” (étuvée)  
-**Origine** : Asie de l’Est (Chine, Corée) ; cultures mondiales  
+<PrincipeHero
+  title={"Ginseng"}
+  scientificName={"Panax ginseng C.A. Meyer"}
+  partUsed={"racine (Radix) – “blanche” (séchée) ou “rouge” (étuvée)"}
+  origin={"Asie de l’Est (Chine, Corée) ; cultures mondiales"}
+  image={"/img/principes/Ginseng.jpg"}
+  imageAlt={"Ginseng"}
+  path={"/docs/principes/ginseng"}
+/>
 
 ---
 

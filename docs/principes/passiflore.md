@@ -1,17 +1,33 @@
 ---
 title: Passiflore
-icon: 🌿
+image: /img/principes/passiflore.jpg
 categories: ["Plantes"]
 synopsis: "Plante sédative traditionnelle, données limitées ; signaux positifs en anxiété pré-opératoire et sommeil, mais preuves insuffisantes en anxiété chronique."
 synonyms: ["Passiflora incarnata", "Passionflower"]
 popular: false
 slug: /principes/passiflore
+hide_title: true
+clinical:
+  - indication: endormissement
+    grade: F
+  - indication: sommeil_qualite
+    grade: D
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-# Passiflore  
-*Nom scientifique :* _Passiflora incarnata L._  
-**Partie utilisée :** parties aériennes (feuilles, tiges, fleurs)  
-**Origine :** Amériques (aujourd’hui cultivée en Europe)
+<PrincipeHero
+  title={"Passiflore"}
+  scientificName={"Passiflora incarnata L"}
+  partUsed={"Parties aériennes (feuilles, tiges, fleurs)"}
+  origin={"Amériques (aujourd’hui cultivée en Europe)"}
+  image={"/img/principes/passiflore.jpg"}
+  imageAlt={"Passiflore"}
+  path={"/docs/principes/passiflore"}
+/>
 
 ---
 

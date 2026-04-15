@@ -7,7 +7,7 @@ import styles from "./principes-actifs.module.css";
 
 const ALL_CATEGORIES = [
   "Tous", "Vitamines", "Minéraux", "Acides gras", "Plantes",
-  "Protéines", "Acides aminés", "Neuro-hormone"
+  "Protéines", "Acides aminés", "Probiotiques", "Champignons"
 ];
 
 export default function PrincipesActifsPage() {
@@ -66,7 +66,7 @@ export default function PrincipesActifsPage() {
         {/* Contenu */}
         <section className={styles.content}>
           
-          {/* Sidebar */}
+        {/* Sidebar */}
           <aside className={styles.sidebar}>
             <h2 className={styles.sidebarTitle}>Catégories</h2>
             <nav className={styles.categoryList}>
@@ -87,7 +87,15 @@ export default function PrincipesActifsPage() {
             {paginated.map((it) => (
               <article key={it.path} className={styles.card}>
                 <div className={styles.cardHeader}>
-                  <span className={styles.icon}>{it.icon}</span>
+                  <img
+  src={it.image}
+  alt={it.title}
+  className={styles.thumb}
+  width={28}
+  height={28}
+  loading="lazy"
+/>
+
                   <h3 className={styles.cardTitle}>{it.title}</h3>
                 </div>
                 <p className={styles.synopsis}>{it.synopsis}</p>

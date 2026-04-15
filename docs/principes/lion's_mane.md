@@ -1,16 +1,23 @@
 ---
 title: Lion’s Mane
-icon: 🍄
+image: /img/principes/lion's_mane.jpg
 categories: ["Champignons"]
 synopsis: "Preuves faibles pour la cognition (MCI/Alzheimer), inefficacité démontrée chez adultes sains. Tolérance correcte mais marché hétérogène."
 synonyms: ["Hericium erinaceus", "Crinière de lion"]
 slug: /principes/lion's_mane
+hide_title: true
 ---
-# Lion’s Mane  
-*Nom scientifique :* _Hericium erinaceus_  
-**Partie utilisée :** sporophore (corps fructifère) ou mycélium (erinacine A)  
-**Origine :** champignon médicinal, Asie / Europe / Amérique du Nord  
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
+<PrincipeHero
+  title={"Lion’s Mane"}
+  scientificName={"Hericium erinaceus"}
+  partUsed={"Sporophore (corps fructifère) ou mycélium (erinacine A)"}
+  origin={"Champignon médicinal, Asie / Europe / Amérique du Nord"}
+  image={"/img/principes/lion's_mane.jpg"}
+  imageAlt={"Lion’s Mane"}
+  path={"/docs/principes/lion's_mane"}
+/>
 ---
 
 ## 🧾 Avis global  
