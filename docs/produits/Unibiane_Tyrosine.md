@@ -6,20 +6,17 @@ ean : 3701145600175
 synopsis: "Tyrosine isolée : un rôle physiologique réel, mais peu de preuves d’un bénéfice clinique en usage courant."
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Unibiane Tyrosine</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Acide aminé / mono-ingrédient
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/Unibiane_Tyrosine.jpg" alt="Unibiane Tyrosine" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Unibiane Tyrosine"}
+  brand={"PiLeJe"}
+  category={"Acide aminé / mono-ingrédient"}
+  image={"/img/produits/Unibiane_Tyrosine.jpg"}
+  imageAlt={"Unibiane Tyrosine"}
+  path={"/docs/produits/Unibiane_Tyrosine"}
+/>
 
 ---
 

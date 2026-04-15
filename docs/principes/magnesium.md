@@ -7,21 +7,27 @@ synonyms: ["Magnésium, Mg"]
 popular: false
 slug: /principes/magnesium
 hide_title: true
+clinical:
+  - indication: endormissement
+    grade: F
+  - indication: sommeil_qualite
+    grade: E
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Magnésium</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Magnesium (divers sels : citrate, bisglycinate, oxyde…)<br/>
-      <strong>**Partie utilisée** :</strong> minéral
-      <strong>****Origine**** :</strong> divers (eaux, roches, aliments)
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/magnesium.jpg" alt="Magnesium" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Magnésium"}
+  scientificName={"Magnesium (divers sels : citrate, bisglycinate, oxyde…)"}
+  partUsed={"minéral"}
+  origin={"divers (eaux, roches, aliments)"}
+  image={"/img/principes/magnesium.jpg"}
+  imageAlt={"Magnésium"}
+  path={"/docs/principes/magnesium"}
+/>
 ---
 
 ## Avis global :  

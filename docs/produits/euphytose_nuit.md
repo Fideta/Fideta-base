@@ -5,21 +5,25 @@ categories: ["Sommeil", "Mélatonine", "Plantes"]
 synopsis: "Complément à base de mélatonine (1 mg) + passiflore ; efficacité limitée à la latence d’endormissement ; données faibles sur la qualité du sommeil."
 ean: [3534510001952 , 3401581631091] 
 hide_title: true
+status: C 
+score: 70
+clinical:
+  - indication: endormissement
+    grade: A
+  - indication: sommeil_qualite
+    grade: C
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Euphytose Nuit</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Bayer Santé (Bayer Healthcare SAS)<br/>
-      <strong>Catégorie :</strong> Mixte (hormone – mélatonine + plante – passiflore)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/euphytose_nuit.jpg" alt="Euphytose Nuit" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Euphytose Nuit"}
+  brand={"Bayer Santé (Bayer Healthcare SAS)"}
+  category={"Mixte (hormone – mélatonine + plante – passiflore)"}
+  image={"/img/produits/euphytose_nuit.jpg"}
+  imageAlt={"Euphytose Nuit"}
+  path={"/docs/produits/euphytose_nuit"}
+/>
 
 ## 🟡 Note Fideta : C – Score : 70/100
 

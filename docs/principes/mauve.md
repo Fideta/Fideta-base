@@ -7,21 +7,18 @@ synonyms: ["Malva sylvestris", "Grande mauve"]
 slug: /principes/mauve
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Mauve</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Malva sylvestris</em> L.<br/>
-      <strong>**Partie utilisée** :</strong> fleurs (flos) et feuilles (folium)<br/>
-      <strong>**Origine** :</strong> Europe, Asie occidentale, Afrique du Nord – naturalisée mondialement
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/mauve.jpg" alt="Mauve" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Mauve"}
+  scientificName={"fleurs (flos) et feuilles (folium)"}
+  partUsed={"fleurs (flos) et feuilles (folium)"}
+  origin={"Europe, Asie occidentale, Afrique du Nord – naturalisée mondialement"}
+  image={"/img/principes/mauve.jpg"}
+  imageAlt={"Mauve"}
+  path={"/docs/principes/mauve"}
+/>
 ---
 
 ## Avis global  

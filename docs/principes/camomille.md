@@ -6,22 +6,28 @@ synopsis: "Plante traditionnelle des troubles digestifs et de l’anxiété lég
 synonyms: ["Matricaria recutita", "Chamomilla recutita", "Camomille allemande"]
 slug: /principes/camomille
 hide_title: true
+clinical:
+  - indication: endormissement
+    grade: F
+  - indication: sommeil_qualite
+    grade: C
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Camomille</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Matricaria recutita</em> L.<br/>
-      <strong>**Partie utilisée** :</strong> capitules floraux (sommités fleuries)<br/>
-      <strong>**Origine** : </strong> Europe et Asie occidentale, aujourd’hui cultivée mondialement
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/camomille.jpg" alt="Camomille" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Camomille"}
+  scientificName={"capitules floraux (sommités fleuries)"}
+  partUsed={"capitules floraux (sommités fleuries)"}
+  origin={"Europe et Asie occidentale, aujourd’hui cultivée mondialement"}
+  image={"/img/principes/camomille.jpg"}
+  imageAlt={"Camomille"}
+  path={"/docs/principes/camomille"}
+/>
 ---
 
 ## Avis global  

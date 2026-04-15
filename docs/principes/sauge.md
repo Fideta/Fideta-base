@@ -8,21 +8,18 @@ popular: false
 slug: /principes/sauge
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Sauge officinale</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Salvia officinalis</em> L.<br/>
-      <strong>Partie utilisée :</strong> feuille (Salviae folium)<br/>
-      <strong>Origine :</strong> Région méditerranéenne, culture européenne et mondiale
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/sauge.jpg" alt="Sauge officinale" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Sauge officinale"}
+  scientificName={"feuille (Salviae folium)"}
+  partUsed={"feuille (Salviae folium)"}
+  origin={"Région méditerranéenne, culture européenne et mondiale"}
+  image={"/img/principes/sauge.jpg"}
+  imageAlt={"Sauge officinale"}
+  path={"/docs/principes/sauge"}
+/>
 
 ---
 

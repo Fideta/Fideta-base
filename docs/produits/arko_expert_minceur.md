@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire positionné pour la gestion du poids associan
 ean: 3578835506105
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>EXPERT MINCEUR</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Arkopharma<br/>
-      <strong>Catégorie :</strong> Complément alimentaire minceur – extraits végétaux, fibres, protéines et oligo-élément
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/expert-minceur.jpg" alt="EXPERT MINCEUR Arkopharma" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"EXPERT MINCEUR"}
+  brand={"Arkopharma"}
+  category={"Complément alimentaire minceur – extraits végétaux, fibres, protéines et oligo-élément"}
+  image={"/img/produits/expert-minceur.jpg"}
+  imageAlt={"EXPERT MINCEUR"}
+  path={"/docs/produits/arko_expert_minceur"}
+/>
 
 ---
 

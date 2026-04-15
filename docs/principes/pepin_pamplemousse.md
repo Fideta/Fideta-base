@@ -7,21 +7,18 @@ synonyms: ["Grapefruit seed extract", "EPP", "GSE"]
 slug: /principes/pepin_pamplemousse
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Pépin de pamplemousse (Extrait)</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> *Citrus × paradisi* (parfois mélangé à d'autres espèces)<br/>
-      <strong>**Partie utilisée** :</strong> Pépins (parfois membranes et pulpe)<br/>
-      <strong>**Origine** :</strong> Agrume hybride cultivé mondialement
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/pepin-pamplemousse.jpg" alt="Pépin de pamplemousse" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Pépin de pamplemousse (Extrait)"}
+  scientificName={"Citrus × paradisi (parfois mélangé à d'autres espèces)"}
+  partUsed={"Pépins (parfois membranes et pulpe)"}
+  origin={"Agrume hybride cultivé mondialement"}
+  image={"/img/principes/pepin-pamplemousse.jpg"}
+  imageAlt={"Pépin de pamplemousse (Extrait)"}
+  path={"/docs/principes/pepin_pamplemousse"}
+/>
 
 ---
 

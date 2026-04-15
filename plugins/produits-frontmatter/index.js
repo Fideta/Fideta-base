@@ -50,6 +50,9 @@ module.exports = function produitsFrontmatterPlugin() {
           categories: data.categories || [],
           synopsis: data.synopsis || "",
           synonyms: data.synonyms || [],
+          status: data.status || null,
+          score: typeof data.score === "number" ? data.score : null,
+          clinical: Array.isArray(data.clinical) ? data.clinical : [],
         };
       });
 

@@ -7,21 +7,18 @@ synonyms: ["L-Cystine", "Cystéine", "L-2-amino-3-mercaptopropanoïque"]
 slug: /principes/cysteine
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>L-cystéine</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> L-cystéine (L-2-amino-3-mercaptopropanoïque)<br/>
-      <strong>**Partie utilisée** :</strong> acide aminé soufré (forme libre ou oxydée, L-cystine)<br/>
-      <strong>**Origine** :</strong> fermentation microbienne (souches <em>E. coli</em> non pathogènes) ; production à partir de cheveux humains interdite dans l’UE (règlement 231/2012)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/cysteine.jpg" alt="L-cystéine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"L-cystéine"}
+  scientificName={"L-cystéine (L-2-amino-3-mercaptopropanoïque)"}
+  partUsed={"acide aminé soufré (forme libre ou oxydée, L-cystine)"}
+  origin={"fermentation microbienne (souches E. coli non pathogènes) ; production à partir de cheveux humains interdite dans l’UE (règlement 231/2012)"}
+  image={"/img/principes/cysteine.jpg"}
+  imageAlt={"L-cystéine"}
+  path={"/docs/principes/cysteine"}
+/>
 ---
 
 ## Avis global

@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire à base de capillaire de Montpellier, d’esc
 ean: [3760007336515 , 3760007336607]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>LUXEOL Chute de cheveux réactionnelle</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Luxéol<br/>
-      <strong>Catégorie :</strong> Mixte (plantes + acides aminés + vitamines / minéraux)
-    </p>
-  </div>
 
-<div className="product-hero__packshot">
-    <img src="/img/produits/luxeol-chute-reactionnelle.jpg" alt="LUXEOL Chute de cheveux réactionnelle" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"LUXEOL Chute de cheveux réactionnelle"}
+  brand={"Luxéol"}
+  category={"Mixte (plantes + acides aminés + vitamines / minéraux)"}
+  image={"/img/produits/luxeol-chute-reactionnelle.jpg"}
+  imageAlt={"LUXEOL Chute de cheveux réactionnelle"}
+  path={"/docs/produits/luxeol_chute_reactionnelle"}
+/>
 
 ---
 
@@ -57,7 +54,7 @@ En résumé, **le produit n’est pas dangereux aux doses proposées**, mais **s
 
 | Fonction ciblée | Effet attendu | Niveau de preuve | Commentaire |
 |------------------|---------------|:----------------:|-------------|
-| **Chute réactionnelle** | Réduction de la perte | ⚫ F | Aucun essai clinique disponible ; actifs non validés pour cet usage. |
+| **Chute réactionnelle** | Réduction de la perte |   | Aucun essai clinique disponible ; actifs non validés pour cet usage. |
 | **Stress / fatigue** | Diminution du stress | ⚫ F | Données modestes sur l’eschscholtzia, à doses supérieures et avec d'autres plantes absentes ici. |
 | **Beauté / entretien capillaire** | Cheveux normaux | ✅ | Biotine, zinc, vitamine B6 et sélénium : allégations EFSA reconnues mais **non thérapeutiques**, **uniquement fonctionnel**. |
 

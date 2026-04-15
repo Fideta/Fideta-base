@@ -7,21 +7,18 @@ synonyms: ["Aubépine", "Hawthorn", "Crataegus monogyna", "Crataegus laevigata"]
 slug: /principes/aubepine  
 hide_title: true  
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Aubépine</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> *Crataegus monogyna* Jacq., *Crataegus laevigata* (Poir.) DC.<br/>
-      <strong>**Partie utilisée** :</strong> sommités fleuries (feuilles + fleurs) – *Crataegi folium cum flore*<br/>
-      <strong>**Origine** :</strong> Europe et Asie tempérée ; famille des Rosaceae
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/aubepine.jpg" alt="Aubépine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Aubépine"}
+  scientificName={"Crataegus monogyna Jacq., Crataegus laevigata (Poir.) DC."}
+  partUsed={"sommités fleuries (feuilles + fleurs) – Crataegi folium cum flore"}
+  origin={"Europe et Asie tempérée ; famille des Rosaceae"}
+  image={"/img/principes/aubepine.jpg"}
+  imageAlt={"Aubépine"}
+  path={"/docs/principes/aubepine"}
+/>
 
 ---
 

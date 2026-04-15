@@ -8,21 +8,18 @@ popular: false
 slug: /principes/lactobacillus-gasseri
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lactobacillus gasseri</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Lactobacillus gasseri</em> (souvent reclassé en <em>Ligilactobacillus gasseri</em>)<br/>
-      <strong>Partie utilisée :</strong> souches bactériennes probiotiques vivantes lyophilisées (UFC)<br/>
-      <strong>Origine :</strong> bactérie lactique du microbiote humain (intestin, vagin) et du lait maternel ; également présente dans certains laits fermentés
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/lactobacillus-gasseri.jpg" alt="Lactobacillus gasseri" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Lactobacillus gasseri"}
+  scientificName={"souches bactériennes probiotiques vivantes lyophilisées (UFC)"}
+  partUsed={"souches bactériennes probiotiques vivantes lyophilisées (UFC)"}
+  origin={"bactérie lactique du microbiote humain (intestin, vagin) et du lait maternel ; également présente dans certains laits fermentés"}
+  image={"/img/principes/lactobacillus-gasseri.jpg"}
+  imageAlt={"Lactobacillus gasseri"}
+  path={"/docs/principes/lactobacillus-gasseri"}
+/>
 
 ---
 

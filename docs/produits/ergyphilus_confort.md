@@ -6,20 +6,17 @@ synopsis: "Complément probiotique à 5 souches (24 milliards/j), positionné po
 ean: [3401596471576]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYPHILUS Confort</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Mélange de probiotiques (Lactobacillus + Bifidobacterium), prébiotique (FOS) et vitamine B3
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/ergyphilus-confort.jpg" alt="ERGYPHILUS Confort – Nutergia" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYPHILUS Confort"}
+  brand={"Nutergia"}
+  category={"Mélange de probiotiques (Lactobacillus + Bifidobacterium), prébiotique (FOS) et vitamine B3"}
+  image={"/img/produits/ergyphilus-confort.jpg"}
+  imageAlt={"ERGYPHILUS Confort"}
+  path={"/docs/produits/ergyphilus_confort"}
+/>
 
 ---
 

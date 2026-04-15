@@ -6,19 +6,16 @@ synopsis: "Version chocolat gourmand de la boisson fonctionnelle Bonjour Drink. 
 ean: [3770033452042]
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bonjour – Boisson aux champignons – Goût chocolat gourmand</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Bonjour Drink (France)<br/>
-      <strong>Catégorie :</strong> Mélange de champignons adaptogènes (boisson fonctionnelle)
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/BonjourDrinkChocolatGourmand.jpg" alt="Bonjour – Boisson aux champignons - Goût chocolat gourmand" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Bonjour – Boisson aux champignons - Goût chocolat gourmand"}
+  brand={"Bonjour Drink (France)"}
+  category={"Mélange de champignons adaptogènes (boisson fonctionnelle)"}
+  image={"/img/produits/BonjourDrinkChocolatGourmand.jpg"}
+  imageAlt={"Bonjour – Boisson aux champignons - Goût chocolat gourmand"}
+  path={"/docs/produits/BonjourDrinkChocolatGourmand"}
+/>
 ---
 
 ## ☠️ Note Fideta : **Disqualifié – Score : 0/100**  

@@ -7,21 +7,18 @@ synonyms: ["Piper nigrum", "Black pepper"]
 slug: /principes/poivre_noir
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Poivre noir</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Piper nigrum</em><br/>
-      <strong>Partie utilisée :</strong> fruit (baies) – extraits standardisés en pipérine<br/>
-      <strong>Origine :</strong> Inde et Asie du Sud-Est ; cultivé dans toutes les zones tropicales
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/poivre_noir.jpg" alt="Poivre noir" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Poivre noir"}
+  scientificName={"fruit (baies) – extraits standardisés en pipérine"}
+  partUsed={"fruit (baies) – extraits standardisés en pipérine"}
+  origin={"Inde et Asie du Sud-Est ; cultivé dans toutes les zones tropicales"}
+  image={"/img/principes/poivre_noir.jpg"}
+  imageAlt={"Poivre noir"}
+  path={"/docs/principes/poivre_noir"}
+/>
 
 ---
 
@@ -104,9 +101,9 @@ Effet démontré uniquement pour **administration concomitante unique**, non cum
 
 | Critère | Note | Commentaire |
 |----------|:----:|-------------|
-| **Efficacité** |    | Petits essais positifs sur la biodisponibilité (curcumine, β-carotène) mais non reproduits ; aucun effet clinique démontré. |
-| **Sécurité** | 🟡 **C** | Tolérance correcte à court terme mais interactions médicamenteuses significatives ; prudence grossesse et pathologie hépatique. |
-| **Qualité** | 🟢 **B** | Extraits standardisés disponibles, contrôle qualité essentiel, variabilité selon les fabricants. |
+| **Efficacité** | 🟠 **D – Preuve faible** | Petits essais positifs sur la biodisponibilité (curcumine, β-carotène) mais non reproduits ; aucun effet clinique démontré. |
+| **Sécurité** | 🟡 **C – Preuve modérée** | Tolérance correcte à court terme mais interactions médicamenteuses significatives ; prudence grossesse et pathologie hépatique. |
+| **Qualité** | 🟢 **B – Preuve probable** | Extraits standardisés disponibles, contrôle qualité essentiel, variabilité selon les fabricants. |
 
 ---
 
@@ -128,4 +125,3 @@ Effet démontré uniquement pour **administration concomitante unique**, non cum
 ---
 
 <sub><em>Dernière mise à jour : 19 octobre 2025</em></sub>
-

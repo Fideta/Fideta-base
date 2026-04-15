@@ -6,19 +6,16 @@ synopsis: "Version café torréfié de la boisson fonctionnelle Bonjour Drink. M
 ean: [3770033452059]
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bonjour – Boisson aux champignons – Goût café</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Bonjour Drink (France)<br/>
-      <strong>Catégorie :</strong> Mélange de champignons adaptogènes + caféine (boisson fonctionnelle)
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/BonjourDrinkCafe.jpg" alt="Bonjour – Boisson aux champignons - Goût café" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Bonjour – Boisson aux champignons - Goût café"}
+  brand={"Bonjour Drink (France)"}
+  category={"Mélange de champignons adaptogènes + caféine (boisson fonctionnelle)"}
+  image={"/img/produits/BonjourDrinkCafe.jpg"}
+  imageAlt={"Bonjour – Boisson aux champignons - Goût café"}
+  path={"/docs/produits/BonjourDrinkCafe"}
+/>
 ---
 
 ## ☠️ Note Fideta : **Disqualifié – Score : 0/100**  
@@ -50,7 +47,7 @@ En l’absence de preuves d’efficacité clinique chez l’homme et compte tenu
 
 ## 📦 Composition et analyse  
 
-**Actifs par portion (6 g)**  
+### **Actifs par portion (6 g)**  
 | Ingrédient | Quantité | Commentaire Fideta |
 |------------|:--:|--------------------|
 | [Lion’s Mane (*Hericium erinaceus*)](/docs/principes/lion's_mane) | 750 mg | Essais cliniques exploratoires et négatifs ; aucune efficacité reproductible. |
@@ -139,4 +136,3 @@ Public : réservé aux adultes. Déconseillé aux enfants, femmes enceintes/alla
 
 ## 🛡️ Note légale  
 Cette fiche repose sur l’analyse critique de données scientifiques disponibles à ce jour. Elle ne constitue ni un avis médical ni une recommandation thérapeutique personnalisée.  
-

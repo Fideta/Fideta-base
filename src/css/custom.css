@@ -85,6 +85,7 @@ a:hover{ color:var(--ifm-color-primary-dark); }
 .markdown table{ width:100%; }
 .markdown th,.markdown td{ vertical-align:top; }
 
+
 /* ---------- Tables responsive ---------- */
 @media (max-width:768px){
   .theme-table-container table,
@@ -239,6 +240,23 @@ a:hover{ color:var(--ifm-color-primary-dark); }
 @media (max-width: 700px){
   .product-hero{ flex-direction: row !important; }
 }
+
+/* === Ajustements globaux mobile === */
+@media (max-width: 768px) {
+  /* Contenu principal plus compact */
+  .markdown {
+    padding: 0.75rem 1rem;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* Éviter tout scroll horizontal parasite */
+  html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+}
+
 /* Laisse de la place sous le contenu pour le FAB "Scanner" sur mobile */
 @media (max-width: 996px) {
   .main-wrapper {
@@ -264,6 +282,7 @@ a:hover{ color:var(--ifm-color-primary-dark); }
     text-align: left;
   }
 }
+
 /* === Optimisation lecture mobile === */
 @media (max-width: 768px) {
   /* Contenu principal : moins de marge, texte un peu plus petit */
@@ -283,104 +302,78 @@ a:hover{ color:var(--ifm-color-primary-dark); }
     padding-right: 0.75rem;
   }
 }
-/* === Micro-optimisation mobile premium (14–15px → 15–16px) === */
-@media (max-width: 768px) {
 
-  /* Corps du texte : un peu plus grand que ta version précédente */
-  .markdown {
-    font-size: 0.95rem;   /* ≈ 15.2–15.5px */
-    line-height: 1.6;
+.fiche-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.fiche-favorite-star {
+  line-height: 0;
+}
+
+/* Desktop : étoile visuellement posée sur l'image */
+@media (min-width: 997px) {
+  .product-hero {
+    position: relative;
   }
 
-  /* Paragraphes & listes */
-  .markdown p,
-  .markdown li {
-    font-size: 0.95rem;
-    text-align: left;   /* pas de justification moche */
-  }
-
-  /* Titres internes : légèrement reboostés */
-  .markdown h1 {
-    font-size: 1.5rem;   /* ≈ 24px */
-    margin-top: 1.6rem;
-  }
-
-  .markdown h2 {
-    font-size: 1.3rem;   /* ≈ 21px */
-    margin-top: 1.4rem;
-  }
-
-  .markdown h3 {
-    font-size: 1.15rem;  /* ≈ 18px */
-    margin-top: 1.2rem;
-  }
-
-  /* Augmente légèrement l’interligne des sections */
-  .markdown h1, 
-  .markdown h2, 
-  .markdown h3 {
-    line-height: 1.35;
-  }
-
-  /* Petits éléments (labels, tags, notes) */
-  .markdown small,
-  .markdown .small,
-  .markdown em {
-    font-size: 0.85rem; /* ≈ 13–14px */
+  .fiche-favorite-star {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 3;
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 999px;
+    padding: 6px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.12);
   }
 }
 
-/* === Typographie mobile XL (confort maximal) === */
-@media (max-width: 768px) {
-
-  /* Texte principal : 16–17px */
-  .markdown {
-    font-size: 1rem;          /* ≈ 16px */
-    line-height: 1.65;
-    padding-left: 0.75rem;
-    padding-right: 0.75rem;
-  }
-
-  .markdown p,
-  .markdown li {
-    font-size: 1rem;          /* 16px */
-    line-height: 1.65;
-    text-align: left;
-  }
-
-  /* Titres : hiérarchie claire et lisible */
-  .markdown h1 {
-    font-size: 1.7rem;        /* ≈ 27px */
-    line-height: 1.3;
-    margin-top: 1.8rem;
-  }
-
-  .markdown h2 {
-    font-size: 1.45rem;       /* ≈ 23px */
-    line-height: 1.3;
-    margin-top: 1.5rem;
-  }
-
-  .markdown h3 {
-    font-size: 1.25rem;       /* ≈ 20px */
-    line-height: 1.3;
-    margin-top: 1.2rem;
-  }
-
-  /* Éléments secondaires */
-  .markdown small,
-  .markdown .small,
-  .markdown em {
-    font-size: 0.9rem;        /* ≈ 14.5px */
+/* Mobile : elle reste à côté du titre */
+@media (max-width: 996px) {
+  .fiche-favorite-star {
+    position: static;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
   }
 }
-/* === Justification propre mobile avec césure automatique === */
-@media (max-width: 768px) {
-  .markdown p,
-  .markdown li {
-    text-align: justify;    /* remettre la justification */
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
+
+.fiche-title-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.fiche-favorite-star {
+  line-height: 0;
+}
+
+@media (min-width: 997px) {
+  .product-hero {
+    position: relative;
+  }
+
+  .fiche-favorite-star {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 3;
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 999px;
+    padding: 6px;
+  }
+}
+
+@media (max-width: 996px) {
+  .fiche-favorite-star {
+    position: static;
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
   }
 }

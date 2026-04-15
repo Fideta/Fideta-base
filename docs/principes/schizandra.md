@@ -7,21 +7,18 @@ synonyms: ["Schisandra chinensis", "Baie aux cinq saveurs", "Wuweizi"]
 slug: /principes/schizandra
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Schizandra</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Schisandra chinensis</em> (Turcz.) Baill.<br/>
-      <strong>**Partie utilisée** :</strong> fruit mûr séché (<em>Schisandrae chinensis fructus</em>)<br/>
-      <strong>**Origine** :</strong> Asie du Nord-Est (Chine, Corée, Extrême-Orient russe)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/schizandra.jpg" alt="Schizandra" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Schizandra"}
+  scientificName={"Schisandra chinensis (Turcz.) Baill."}
+  partUsed={"fruit mûr séché ( Schisandrae chinensis fructus )"}
+  origin={"Asie du Nord-Est (Chine, Corée, Extrême-Orient russe)"}
+  image={"/img/principes/schizandra.jpg"}
+  imageAlt={"Schizandra"}
+  path={"/docs/principes/schizandra"}
+/>
 ---
 
 ## Avis global  

@@ -8,21 +8,18 @@ popular: false
 slug: /principes/frene
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Frêne</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> Fraxinus excelsior L.<br/>
-      <strong>Partie utilisée :</strong> feuille principalement ; certains compléments utilisent aussi des extraits de graines, qui ne sont pas équivalents cliniquement<br/>
-      <strong>Origine :</strong> arbre d’Europe et d’Asie occidentale
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/frene.jpg" alt="Frêne" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Frêne"}
+  scientificName={"Fraxinus excelsior L."}
+  partUsed={"feuille principalement ; certains compléments utilisent aussi des extraits de graines, qui ne sont pas équivalents cliniquement"}
+  origin={"arbre d’Europe et d’Asie occidentale"}
+  image={"/img/principes/frene.jpg"}
+  imageAlt={"Frêne"}
+  path={"/docs/principes/frene"}
+/>
 
 ---
 

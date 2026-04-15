@@ -7,22 +7,18 @@ synonyms: ["Huile essentielle de cannelle", "Cinnamon essential oil", "Cinnamomu
 slug: /principes/huile_essentielle_cannelle
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Huile essentielle de cannelle (écorce)</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Cinnamomum verum</em><br/>
-      <strong>Partie utilisée :</strong> Écorce distillée<br/>
-      <strong>Molécule majoritaire :</strong> Cinnamaldéhyde (60–90 %)<br/>
-      <strong>Origine :</strong> Sri Lanka, Madagascar, Inde du Sud
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/huile_essentielle_cannelle.jpg" alt="Huile essentielle de cannelle" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Huile essentielle de cannelle (écorce)"}
+  scientificName={"Écorce distillée"}
+  partUsed={"Écorce distillée"}
+  origin={"Sri Lanka, Madagascar, Inde du Sud"}
+  image={"/img/principes/huile_essentielle_cannelle.jpg"}
+  imageAlt={"Huile essentielle de cannelle (écorce)"}
+  path={"/docs/principes/huile_essentielle_cannelle"}
+/>
 
 ---
 

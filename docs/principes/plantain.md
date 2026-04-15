@@ -7,20 +7,17 @@ synonyms: ["Plantago major, Plantago lanceolata"]
 slug: /principes/plantain
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Plantain</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> *Plantago major* L. (et *Plantago lanceolata* parfois utilisé)<br/>
-      <strong>**Partie utilisée** :</strong> feuilles fraîches ou sèches ; gel ou extrait aqueux/alcoolique<br/>
-      <strong>****Origine**** :</strong> cosmopolite, feuilles largement utilisées en Europe, Asie et Amérique du Nord<br/>
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/plantain.jpg" alt="Passiflore" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Plantain"}
+  scientificName={"Plantago major L. (et Plantago lanceolata parfois utilisé)"}
+  partUsed={"feuilles fraîches ou sèches ; gel ou extrait aqueux/alcoolique"}
+  origin={"cosmopolite, feuilles largement utilisées en Europe, Asie et Amérique du Nord"}
+  image={"/img/principes/plantain.jpg"}
+  imageAlt={"Plantain"}
+  path={"/docs/principes/plantain"}
+/>
 
 ---
 

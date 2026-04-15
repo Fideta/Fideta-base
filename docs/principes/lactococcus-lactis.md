@@ -8,21 +8,18 @@ popular: false
 slug: /principes/lactococcus-lactis
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lactococcus lactis</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> *Lactococcus lactis* (notamment *subsp. lactis* et *subsp. cremoris*)<br/>
-      <strong>Partie utilisée :</strong> souches bactériennes spécifiques, vivantes ou inactivées (postbiotiques)<br/>
-      <strong>Origine :</strong> bactérie lactique historique des laits fermentés et fromages (levain technologique)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/Lactococcus-lactis.jpg" alt="Lactococcus lactis" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Lactococcus lactis"}
+  scientificName={"Lactococcus lactis (notamment subsp. lactis et subsp. cremoris)"}
+  partUsed={"souches bactériennes spécifiques, vivantes ou inactivées (postbiotiques)"}
+  origin={"bactérie lactique historique des laits fermentés et fromages (levain technologique)"}
+  image={"/img/principes/Lactococcus-lactis.jpg"}
+  imageAlt={"Lactococcus lactis"}
+  path={"/docs/principes/lactococcus-lactis"}
+/>
 
 ---
 

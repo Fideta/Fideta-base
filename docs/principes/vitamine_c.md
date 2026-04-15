@@ -7,20 +7,17 @@ synonyms: ["Acide ascorbique"]
 slug: /principes/vitamine_c
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Vitamine C</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Acide ascorbique <br/>
-      <strong>**Partie utilisée** :</strong> substance pure ou extraite de fruits <br/> 
-      <strong>****Origine**** :</strong> fruits (agrumes, baies), ou synthèse chimique (glucose microbien) <br/>
-	  </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/vitamine_c.jpg" alt="Vitamine C" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Vitamine C"}
+  scientificName={"Acide ascorbique"}
+  partUsed={"substance pure ou extraite de fruits"}
+  origin={"fruits (agrumes, baies), ou synthèse chimique (glucose microbien)"}
+  image={"/img/principes/vitamine_c.jpg"}
+  imageAlt={"Vitamine C"}
+  path={"/docs/principes/vitamine_c"}
+/>
 
 ---
 

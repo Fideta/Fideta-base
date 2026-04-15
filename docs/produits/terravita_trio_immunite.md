@@ -6,20 +6,17 @@ synopsis: "Vitamine C, D3 végétale, zinc bisglycinate et flavonoïdes de pomel
 ean: [0652733765383]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Trio Immunité</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Terravita<br/>
-      <strong>Catégorie :</strong> Mixte (vitamines + minéral + flavonoïdes)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/terravita_trio_immunite.jpg" alt="Trio Immunité" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Trio Immunité"}
+  brand={"Terravita"}
+  category={"Mixte (vitamines + minéral + flavonoïdes)"}
+  image={"/img/produits/terravita_trio_immunite.jpg"}
+  imageAlt={"Trio Immunité"}
+  path={"/docs/produits/terravita_trio_immunite"}
+/>
 
 ---
 

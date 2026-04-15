@@ -7,21 +7,18 @@ popular: false
 slug: /principes/caroube
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Caroube</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Ceratonia siliqua</em> L.<br/>
-      <strong>Partie utilisée :</strong> pulpe de gousse (poudre/farine), fibres ; graines → gomme de caroube (locust bean gum, E410)<br/>
-      <strong>Origine :</strong> bassin méditerranéen (usage alimentaire traditionnel)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/caroube.jpg" alt="Caroube (Ceratonia siliqua)" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Caroube"}
+  scientificName={"pulpe de gousse (poudre/farine), fibres ; graines → gomme de caroube (locust bean gum, E410)"}
+  partUsed={"pulpe de gousse (poudre/farine), fibres ; graines → gomme de caroube (locust bean gum, E410)"}
+  origin={"bassin méditerranéen (usage alimentaire traditionnel)"}
+  image={"/img/principes/caroube.jpg"}
+  imageAlt={"Caroube"}
+  path={"/docs/principes/caroube"}
+/>
 
 ---
 

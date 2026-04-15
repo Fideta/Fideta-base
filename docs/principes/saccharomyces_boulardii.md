@@ -7,21 +7,17 @@ synonyms: ["Saccharomyces boulardii"]
 slug: /principes/saccharomyces_boulardii
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Saccharomyces boulardii</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Saccharomyces boulardii CNCM I-745<br/>
-      <strong>**Partie utilisée** :</strong> Levure vivante (probiotique)<br/>
-      <strong>****Origine**** :</strong> Isolée initialement de la peau de fruits tropicaux (litchi, mangoustan), souche spécifique sélectionnée pour ses effets probiotiques<br/>  
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-    </p>
-  </div>
-
-<div className="product-hero__packshot">
-    <img src="/img/principes/saccharomyces_boulardii.jpg" alt="Saccharomyces boulardii" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Saccharomyces boulardii"}
+  scientificName={"Saccharomyces boulardii CNCM I-745"}
+  partUsed={"Levure vivante (probiotique)"}
+  origin={"Isolée initialement de la peau de fruits tropicaux (litchi, mangoustan), souche spécifique sélectionnée pour ses effets probiotiques"}
+  image={"/img/principes/saccharomyces_boulardii.jpg"}
+  imageAlt={"Saccharomyces boulardii"}
+  path={"/docs/principes/saccharomyces_boulardii"}
+/>
 ---
 
 ## Avis global

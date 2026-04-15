@@ -6,20 +6,17 @@ synopsis: "Analyse critique de Zytolia®, DADFMS formulée pour les besoins nutr
 ean: 3700111400269
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Zytolia®</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> CCD<br/>
-      <strong>Catégorie :</strong> DADFMS – Formule mixte (inositol + vitamines + minéraux)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/zytolia.jpg" alt="Zytolia - CCD" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Zytolia®"}
+  brand={"CCD"}
+  category={"DADFMS – Formule mixte (inositol + vitamines + minéraux)"}
+  image={"/img/produits/zytolia.jpg"}
+  imageAlt={"Zytolia®"}
+  path={"/docs/produits/zytolia"}
+/>
 
 ---
 

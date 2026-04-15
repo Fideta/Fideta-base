@@ -6,20 +6,17 @@ synopsis: "Extrait et poudre de rhizome de gingembre standardisé en gingérols 
 ean: [3400930241395]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Arkogélules® Gingembre</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Arkopharma<br/>
-      <strong>Catégorie :</strong> Plante (rhizome de Zingiber officinale)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/arkogelules_gingembre.jpg" alt="Arkogélules Gingembre" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Arkogélules® Gingembre"}
+  brand={"Arkopharma"}
+  category={"Plante (rhizome de Zingiber officinale)"}
+  image={"/img/produits/arkogelules_gingembre.jpg"}
+  imageAlt={"Arkogélules® Gingembre"}
+  path={"/docs/produits/arkogelules_gingembre"}
+/>
 
 ---
 

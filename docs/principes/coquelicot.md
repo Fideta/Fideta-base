@@ -7,20 +7,17 @@ synonyms: ["Papaver rhoeas", "Poppy red", "Corn poppy"]
 slug: /principes/coquelicot
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Coquelicot</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> *Papaver rhoeas* L.<br/>
-      <strong>**Partie utilisée** :</strong> Pétales (*Papaveris rhoeados flos*) 
-      <strong>****Origine**** :</strong> Europe, bassin méditerranéen
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/Coquelicot.jpg" alt="Coquelicot" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Coquelicot"}
+  scientificName={"Papaver rhoeas L."}
+  partUsed={"Pétales (Papaveris rhoeados flos)"}
+  origin={"Europe, bassin méditerranéen"}
+  image={"/img/principes/Coquelicot.jpg"}
+  imageAlt={"Coquelicot"}
+  path={"/docs/principes/coquelicot"}
+/>
 ---
 
 ## Avis global  

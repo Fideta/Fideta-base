@@ -8,21 +8,18 @@ popular: false
 slug: /principes/ribose
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Ribose</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> D-ribose<br/>
-      <strong>Partie utilisée :</strong> monosaccharide purifié ; il ne s’agit pas d’un extrait végétal<br/>
-      <strong>Origine :</strong> fermentation industrielle (souvent <em>Bacillus subtilis</em>) suivie de purification ; disponible en poudre, gélules ou comprimés
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/ribose.jpg" alt="Ribose" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Ribose"}
+  scientificName={"D-ribose"}
+  partUsed={"monosaccharide purifié ; il ne s’agit pas d’un extrait végétal"}
+  origin={"fermentation industrielle (souvent Bacillus subtilis ) suivie de purification ; disponible en poudre, gélules ou comprimés"}
+  image={"/img/principes/ribose.jpg"}
+  imageAlt={"Ribose"}
+  path={"/docs/principes/ribose"}
+/>
 
 ---
 

@@ -7,21 +7,18 @@ synonyms: ["Lutein", "Xanthophylle", "Luteine"]
 slug: /principes/luteine
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lutéine</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Lutein</em> (caroténoïde xanthophylle)<br/>
-      <strong>Partie utilisée :</strong> Extrait de fleurs de <em>Tagetes erecta</em><br/>
-      <strong>Origine :</strong> Végétale (souci d’Inde principalement)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/luteine.jpg" alt="Lutéine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Lutéine"}
+  scientificName={"Lutein (caroténoïde xanthophylle)"}
+  partUsed={"Extrait de fleurs de Tagetes erecta"}
+  origin={"Végétale (souci d’Inde principalement)"}
+  image={"/img/principes/luteine.jpg"}
+  imageAlt={"Lutéine"}
+  path={"/docs/principes/luteine"}
+/>
 
 ---
 

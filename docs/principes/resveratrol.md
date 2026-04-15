@@ -7,21 +7,18 @@ synonyms: ["Trans-resveratrol", "Resveratrol", "3,5,4'-trihydroxystilbene"]
 slug: /principes/resveratrol
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Resvératrol</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>trans-resveratrol</em> (3,5,4'-trihydroxystilbène)<br/>
-      <strong>Partie utilisée :</strong> Racine de <em>Polygonum cuspidatum</em> (Reynoutria japonica), peau de raisin (<em>Vitis vinifera</em>) ou forme synthétique<br/>
-      <strong>Origine :</strong> Végétale, synthétique ou issue de fermentation
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/resveratrol.jpg" alt="Resvératrol" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Resvératrol"}
+  scientificName={"trans-resveratrol (3,5,4'-trihydroxystilbène)"}
+  partUsed={"Racine de Polygonum cuspidatum (Reynoutria japonica), peau de raisin ( Vitis vinifera ) ou forme synthétique"}
+  origin={"Végétale, synthétique ou issue de fermentation"}
+  image={"/img/principes/resveratrol.jpg"}
+  imageAlt={"Resvératrol"}
+  path={"/docs/principes/resveratrol"}
+/>
 
 ---
 

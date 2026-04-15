@@ -7,22 +7,18 @@ synonyms: ["Satureja essential oil", "Huile essentielle de sarriette des montagn
 slug: /principes/huile_essentielle_sarriette
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Huile essentielle de sarriette</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Satureja montana</em> L. / <em>Satureja hortensis</em> L.<br/>
-      <strong>Partie utilisée :</strong> Sommités fleuries distillées<br/>
-      <strong>Molécules majoritaires :</strong> Carvacrol, thymol (phénols monoterpéniques)<br/>
-      <strong>Origine :</strong> Bassin méditerranéen, Europe du Sud
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/huile_essentielle_sarriette.jpg" alt="Huile essentielle de sarriette" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Huile essentielle de sarriette"}
+  scientificName={"Sommités fleuries distillées"}
+  partUsed={"Sommités fleuries distillées"}
+  origin={"Bassin méditerranéen, Europe du Sud"}
+  image={"/img/principes/huile_essentielle_sarriette.jpg"}
+  imageAlt={"Huile essentielle de sarriette"}
+  path={"/docs/principes/huile_essentielle_sarriette"}
+/>
 
 ---
 

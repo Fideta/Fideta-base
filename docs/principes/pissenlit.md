@@ -8,21 +8,18 @@ popular: false
 slug: /principes/pissenlit
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Pissenlit</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> Taraxacum officinale<br/>
-      <strong>Partie utilisée :</strong> racine, feuille ou plante entière selon les produits<br/>
-      <strong>Origine :</strong> plante médicinale et alimentaire largement répandue dans les régions tempérées
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/pissenlit.jpg" alt="Pissenlit" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Pissenlit"}
+  scientificName={"Taraxacum officinale"}
+  partUsed={"racine, feuille ou plante entière selon les produits"}
+  origin={"plante médicinale et alimentaire largement répandue dans les régions tempérées"}
+  image={"/img/principes/pissenlit.jpg"}
+  imageAlt={"Pissenlit"}
+  path={"/docs/principes/pissenlit"}
+/>
 
 ---
 

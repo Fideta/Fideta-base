@@ -7,21 +7,18 @@ synonyms: ["Calluna vulgaris", "Bruyère commune", "Common heather"]
 slug: /principes/bruyere
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bruyère (Calluna vulgaris)</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Calluna vulgaris</em><br/>
-      <strong>Partie utilisée :</strong> Sommités fleuries (tiges en floraison)<br/>
-      <strong>Origine :</strong> Europe (landes et sols acides)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/bruyere.jpg" alt="Bruyère" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Bruyère (Calluna vulgaris)"}
+  scientificName={"Sommités fleuries (tiges en floraison)"}
+  partUsed={"Sommités fleuries (tiges en floraison)"}
+  origin={"Europe (landes et sols acides)"}
+  image={"/img/principes/bruyere.jpg"}
+  imageAlt={"Bruyère (Calluna vulgaris)"}
+  path={"/docs/principes/bruyere"}
+/>
 
 ---
 

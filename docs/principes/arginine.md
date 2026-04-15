@@ -8,21 +8,18 @@ popular: false
 slug: /principes/arginine
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Arginine</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> L-arginine<br/>
-      <strong>Partie utilisée :</strong> substance pure (acide aminé libre)<br/>
-      <strong>Origine :</strong> fermentation industrielle
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/arginine.jpg" alt="Arginine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Arginine"}
+  scientificName={"L-arginine"}
+  partUsed={"substance pure (acide aminé libre)"}
+  origin={"fermentation industrielle"}
+  image={"/img/principes/arginine.jpg"}
+  imageAlt={"Arginine"}
+  path={"/docs/principes/arginine"}
+/>
 
 ---
 

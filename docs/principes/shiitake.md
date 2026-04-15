@@ -7,24 +7,18 @@ synonyms: ["Shiitaké", "Lentinula edodes", "Lentinus edodes", "シイタケ"]
 slug: /principes/shiitake
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{ margin: 0 }}>Shiitaké</h1>
-    <p style={{ margin: 0, fontSize: "0.9em", color: "#555" }}>
-      （シイタケ,椎茸）
-    </p>
-    <p style={{ margin: 0 }}>
-      <strong>Nom scientifique :</strong> <em>Lentinula edodes</em><br/>
-      <strong>Partie utilisée :</strong> carpophore (champignon) ; parfois mycélium (dans certains extraits standardisés comme AHCC®)<br/>
-      <strong>Origine :</strong> Asie de l’Est ; aujourd’hui cultivé mondialement
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/Shiitake.jpg" alt="Shiitaké" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Shiitaké"}
+  scientificName={"carpophore (champignon) ; parfois mycélium (dans certains extraits standardisés comme AHCC®)"}
+  partUsed={"carpophore (champignon) ; parfois mycélium (dans certains extraits standardisés comme AHCC®)"}
+  origin={"Asie de l’Est ; aujourd’hui cultivé mondialement"}
+  image={"/img/principes/Shiitake.jpg"}
+  imageAlt={"Shiitaké"}
+  path={"/docs/principes/shiitake"}
+/>
 
 ---
 
@@ -83,4 +77,3 @@ Ces résultats restent isolés et non confirmés. Les effets immunitaires observ
 3. Smith JA. et al. *Front Oncol*. 2022;12:881902 – ECR phase II : AHCC® 3 g/j, 6 mois, clairance HPV persistants ↑ vs placebo.  
 4. EFSA / Commission européenne. **EU Register of Nutrition and Health Claims** – immunité, cholestérol, glycémie : allégations refusées (2010–2014).  
 5. ANSES. **Avis 2015** – consommation crue → dermatite flagellée ; cuisson obligatoire.  
-

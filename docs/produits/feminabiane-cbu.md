@@ -6,21 +6,17 @@ synopsis: "Complément positionné en relais des cystites. La canneberge a un ef
 ean: 3701145600526 
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Feminabiane CBU</h1>
-    <p style={{margin:0}}>
-      <strong>Catégorie :</strong> Santé urinaire / Prévention des cystites<br/>
-      <strong>Positionnement revendiqué :</strong> Relais / entretien après épisode de cystite<br/>
-      <strong>Fabricant :</strong> PiLeJe
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/feminabiane-cbu.jpg" alt="Feminabiane CBU" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Feminabiane CBU"}
+  brand={"PiLeJe"}
+  category={"Santé urinaire / Prévention des cystites"}
+  image={"/img/produits/feminabiane-cbu.jpg"}
+  imageAlt={"Feminabiane CBU"}
+  path={"/docs/produits/feminabiane-cbu"}
+/>
 
 ---
 
@@ -127,4 +123,3 @@ Tolérance présumée correcte à court terme. Absence de données spécifiques 
 ---
 
 <sub><em>Dernière mise à jour : 19 février 2026</em></sub>
-

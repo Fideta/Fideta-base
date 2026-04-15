@@ -8,22 +8,18 @@ popular: false
 slug: /principes/cypres
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Cyprès</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> *Cupressus sempervirens* L. <br/>
-      <strong>**Partie utilisée** :</strong> huile essentielle (rameaux, cônes), extraits hydro-alcooliques, cônes secs ; pollen standardisé en immunothérapie spécifique  
-      <strong>****Origine**** :</strong> bassin méditerranéen oriental (Turquie, Chypre), aujourd’hui largement acclimaté en Europe du Sud
 
-    </p>
-  </div>
-
-<div className="product-hero__packshot">
-    <img src="/img/principes/cypres.jpg" alt="Cyprès" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Cyprès"}
+  scientificName={"Cupressus sempervirens L."}
+  partUsed={"huile essentielle (rameaux, cônes), extraits hydro-alcooliques, cônes secs ; pollen standardisé en immunothérapie spécifique"}
+  origin={"bassin méditerranéen oriental (Turquie, Chypre), aujourd’hui largement acclimaté en Europe du Sud"}
+  image={"/img/principes/cypres.jpg"}
+  imageAlt={"Cyprès"}
+  path={"/docs/principes/cypres"}
+/>
 
 ---
 

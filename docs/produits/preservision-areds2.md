@@ -6,21 +6,17 @@ synopsis: "Formule strictement conforme à l’étude AREDS2 (NEI/NIH). Indiqué
 ean : [324208697627 , 24208069762]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>PreserVision AREDS 2</h1>
-    <p style={{margin:0}}>
-      <strong>Catégorie :</strong> Sphère oculaire / Antioxydants<br/>
-      <strong>Positionnement revendiqué :</strong> Maintien de la vision – soutien en cas de DMLA<br/>
-      <strong>Fabricant :</strong> Bausch + Lomb
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/preservision-areds2.jpg" alt="PreserVision AREDS 2" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"PreserVision AREDS 2"}
+  brand={"Bausch + Lomb"}
+  category={"Sphère oculaire / Antioxydants"}
+  image={"/img/produits/preservision-areds2.jpg"}
+  imageAlt={"PreserVision AREDS 2"}
+  path={"/docs/produits/preservision-areds2"}
+/>
 
 ---
 

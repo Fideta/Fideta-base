@@ -8,21 +8,18 @@ popular: false
 slug: /principes/bifidobacterium-longum
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bifidobacterium longum</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> *Bifidobacterium longum* (incluant *subsp. longum*, *subsp. infantis*)<br/>
-      <strong>Partie utilisée :</strong> souches probiotiques vivantes (lyophilisées ou micro-encapsulées)<br/>
-      <strong>Origine :</strong> bactérie anaérobie Gram+, naturellement présente dans le microbiote intestinal humain
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/Bifidobacterium-longum.jpg" alt="Bifidobacterium longum" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Bifidobacterium longum"}
+  scientificName={"Bifidobacterium longum (incluant subsp. longum, subsp. infantis)"}
+  partUsed={"souches probiotiques vivantes (lyophilisées ou micro-encapsulées)"}
+  origin={"bactérie anaérobie Gram+, naturellement présente dans le microbiote intestinal humain"}
+  image={"/img/principes/Bifidobacterium-longum.jpg"}
+  imageAlt={"Bifidobacterium longum"}
+  path={"/docs/principes/bifidobacterium-longum"}
+/>
 
 ---
 
@@ -133,8 +130,4 @@ Un produit marqué uniquement “*B. longum*” n’a **aucune preuve interprét
     → Rejet des allégations “immunité / digestion / transit”.
 11. **EFSA BIOHAZ Panel.** *QPS list update – Bifidobacterium longum.* EFSA Journal, 2020 & maj.  
     → Confirme le statut QPS (présomption de sécurité).
-
----
-<sub><em>Dernière mise à jour : 22 Novembre 2025</em></sub>
-
 

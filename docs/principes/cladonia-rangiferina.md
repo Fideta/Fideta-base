@@ -8,21 +8,18 @@ popular: false
 slug: /principes/cladonia-rangiferina
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lichen des rennes</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Cladonia rangiferina</em> (L.) F.H.Wigg.<br/>
-      <strong>Partie utilisée :</strong> thalle (lichen entier séché)<br/>
-      <strong>Origine :</strong> zones boréales et arctiques (Scandinavie, Amérique du Nord, Russie)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/cladonia-rangiferina.jpg" alt="Lichen des rennes" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Lichen des rennes"}
+  scientificName={"thalle (lichen entier séché)"}
+  partUsed={"thalle (lichen entier séché)"}
+  origin={"zones boréales et arctiques (Scandinavie, Amérique du Nord, Russie)"}
+  image={"/img/principes/cladonia-rangiferina.jpg"}
+  imageAlt={"Lichen des rennes"}
+  path={"/docs/principes/cladonia-rangiferina"}
+/>
 
 ---
 

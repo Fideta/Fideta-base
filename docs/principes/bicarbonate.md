@@ -7,21 +7,18 @@ synonyms: ["Bicarbonate de sodium", "Hydrogénocarbonate de sodium", "Sodium bic
 slug: /principes/bicarbonate
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bicarbonate</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> Hydrogénocarbonate de sodium (<em>NaHCO₃</em>)<br/>
-      <strong>**Partie utilisée** :</strong> Minéral purifié<br/>
-      <strong>**Origine** :</strong> Naturelle (nahcolite) ou synthétique (procédé Solvay)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/bicarbonate.jpg" alt="Bicarbonate" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Bicarbonate"}
+  scientificName={"Minéral purifié"}
+  partUsed={"Minéral purifié"}
+  origin={"Naturelle (nahcolite) ou synthétique (procédé Solvay)"}
+  image={"/img/principes/bicarbonate.jpg"}
+  imageAlt={"Bicarbonate"}
+  path={"/docs/principes/bicarbonate"}
+/>
 ---
 
 ## Avis global  

@@ -5,21 +5,25 @@ categories: ["Sommeil", "Mélatonine", "Hormone"]
 synopsis: "Spray sublingual de mélatonine pour réduire la latence d’endormissement. Formule simple, conforme aux allégations EFSA, effet modeste mais documenté."
 ean: [3664524002017]
 hide_title: true
+status: B
+score: 78
+clinical:
+  - indication: endormissement
+    grade: A
+  - indication: alignement_circadien
+    grade: A
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYNUIT® Spray Flash</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Hormone (mélatonine)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/ergynuit_spray_flash.jpg" alt="Ergynuit Spray Flash" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYNUIT® Spray Flash"}
+  brand={"Nutergia"}
+  category={"Hormone (mélatonine)"}
+  image={"/img/produits/ergynuit_spray_flash.jpg"}
+  imageAlt={"ERGYNUIT® Spray Flash"}
+  path={"/docs/produits/ergynuit_spray_flash"}
+/>
 
 ---
 

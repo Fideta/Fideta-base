@@ -7,21 +7,18 @@ synonyms: ["N-acetyl-L-cysteine", "NAC", "Acétylcystéine"]
 slug: /principes/nac
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>N-acétyl-cystéine (NAC)</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> N-acetyl-L-cysteine<br/>
-      <strong>**Partie utilisée** :</strong> — (dérivé acétylé de la cystéine)<br/>
-      <strong>**Origine** :</strong> synthèse chimique à partir de L-cystéine naturelle
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/nac.jpg" alt="N-acétyl-cystéine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"N-acétyl-cystéine (NAC)"}
+  scientificName={"N-acetyl-L-cysteine"}
+  partUsed={"— (dérivé acétylé de la cystéine)"}
+  origin={"synthèse chimique à partir de L-cystéine naturelle"}
+  image={"/img/principes/nac.jpg"}
+  imageAlt={"N-acétyl-cystéine (NAC)"}
+  path={"/docs/principes/nac"}
+/>
 
 ---
 

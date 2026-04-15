@@ -8,20 +8,17 @@ popular: false
 slug: /principes/manganese
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Manganèse</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Manganèse (Mn)<br/>
-      <strong>**Partie utilisée** :</strong> — (minéral)<br/>
-      <strong>**Origine** :</strong> Oligo-élément essentiel, présent dans les céréales complètes, noix, légumineuses, thé, etc.
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/manganese.jpg" alt="Manganèse" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Manganèse"}
+  scientificName={"Manganèse (Mn)"}
+  partUsed={"— (minéral)"}
+  origin={"Oligo-élément essentiel, présent dans les céréales complètes, noix, légumineuses, thé, etc."}
+  image={"/img/principes/manganese.jpg"}
+  imageAlt={"Manganèse"}
+  path={"/docs/principes/manganese"}
+/>
 
 ---
 

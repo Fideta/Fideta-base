@@ -7,21 +7,18 @@ popular: false
 slug: /principes/ginkgo-biloba
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Ginkgo biloba</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Ginkgo biloba</em> L.<br/>
-      <strong>Partie utilisée :</strong> feuilles (folium)<br/>
-      <strong>Origine :</strong> arbre dioïque (Ginkgoaceae), feuilles récoltées puis extraites
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/ginkgo-biloba.jpg" alt="Ginkgo biloba" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Ginkgo biloba"}
+  scientificName={"feuilles (folium)"}
+  partUsed={"feuilles (folium)"}
+  origin={"arbre dioïque (Ginkgoaceae), feuilles récoltées puis extraites"}
+  image={"/img/principes/ginkgo-biloba.jpg"}
+  imageAlt={"Ginkgo biloba"}
+  path={"/docs/principes/ginkgo-biloba"}
+/>
 
 ---
 

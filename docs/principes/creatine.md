@@ -7,22 +7,18 @@ popular: true
 slug: /principes/creatine
 hide_title: true
 ---
-
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Créatine</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> Créatine (principalement créatine monohydrate)<br/>
-      <strong>Partie utilisée :</strong> composé isolé (non botanique)<br/>
-      <strong>Origine :</strong> synthèse (identique à la créatine endogène ; également présente dans la viande et le poisson)
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/creatine.jpg" alt="Créatine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Créatine"}
+  scientificName={"Créatine (principalement créatine monohydrate)"}
+  partUsed={"composé isolé (non botanique)"}
+  origin={"synthèse (identique à la créatine endogène ; également présente dans la viande et le poisson)"}
+  image={"/img/principes/creatine.jpg"}
+  imageAlt={"Créatine"}
+  path={"/docs/principes/creatine"}
+/>
 
 
 ---
@@ -33,9 +29,9 @@ La créatine est l’un des compléments alimentaires les mieux étudiés en nut
 
 Ces effets reposent sur un corpus important d’essais cliniques randomisés, cohérents entre eux, et sont **explicitement reconnus par les autorités sanitaires européennes (EFSA)**, sous réserve d’une **dose quotidienne minimale de 3 g** et d’une **population adulte réalisant des efforts intenses**.
 
-À l’inverse, les effets fréquemment revendiqués sur la **cognition, l’humeur, l’endurance aérobie** ou la **récupération musculaire** ne sont **pas étayés par des preuves cliniques robustes**. Les études humaines disponibles sur ces dimensions sont **hétérogènes**, souvent **peu robustes**, et montrent au mieux des **signaux faibles, contextuels ou non reproductibles**, sans bénéfice cliniquement pertinent démontré. Ces usages ne peuvent donc pas être considérés comme validés scientifiquement à ce jour.
+À l’inverse, les effets fréquemment revendiqués sur la **cognition, l’humeur, l’endurance aérobie** ou la **récupération musculaire** ne sont **pas étayés par des preuves cliniques robustes**. Les études humaines disponibles sur ces dimensions sont **hétérogènes**, souvent **peu robustes**, et montrent au mieux des **signaux faibles, contextuels ou non reproductibles**, sans bénéfice cliniquement pertinent démontré. Ces usages ne peuvent donc pas être considérés comme validés scientifiquement.
 
-Sur le plan de la sécurité, le **consensus scientifique actuel** indique que la créatine est **bien tolérée chez l’adulte sain**, sans signal de toxicité rénale lorsqu’elle est consommée aux doses usuelles étudiées. L’élévation de la créatinine sanguine observée chez certains utilisateurs reflète principalement une augmentation du pool de créatine et de sa conversion métabolique, sans atteinte démontrée de la fonction rénale chez l’adulte sain..
+Sur le plan de la sécurité, le **consensus scientifique actuel** indique que la créatine est **bien tolérée chez l’adulte sain**, sans signal de toxicité rénale lorsqu’elle est consommée aux doses usuelles étudiées. L’élévation de la créatinine sanguine observée chez certains utilisateurs reflète une **interférence biologique liée au métabolisme de la créatine**, et non une altération démontrée de la fonction rénale.
 
 En revanche, par **principe de précaution**, l’utilisation de la créatine doit être **évité ou strictement encadrée** chez les personnes présentant une **maladie rénale connue ou suspectée**, ou exposées à des facteurs de stress rénal, en l’absence de données cliniques suffisantes dans ces populations.
 
@@ -50,15 +46,15 @@ En revanche, par **principe de précaution**, l’utilisation de la créatine do
 | **Masse maigre** | ↑ masse maigre mesurée (partiellement liée à l’eau intracellulaire) | 🟢 B | 3–5 g/j |
 | **Personnes âgées (>55 ans)** | ↑ force et fonction musculaire si entraînement de résistance régulier | 🟢 B | 3 g/j |
 | **Tolérance à efforts répétés** | Meilleure capacité à enchaîner des séances intenses | 🟢 B | 3–5 g/j |
-| **Fatigue post-effort** | ↓ fatigue perçue | 🟠 D (effets principalement subjectifs, non corrélés de façon robuste à des facteurs objectifs de récupération)| 3–5 g/j |
+| **Fatigue post-effort** | ↓ fatigue perçue | 🟠 D | 3–5 g/j |
 | **Récupération musculaire** | ↓ courbatures, réparation plus rapide | 🔴 E | — |
 | **Endurance aérobie** | ↑ VO₂max, endurance prolongée | ⚫ F | — |
-| **Mémoire (court terme)** | Amélioration légère, contextuelle (stress, privation de sommeil) | 🟡 C (Effets observés principalement en conditions de stress métabolique, de privation de sommeil ou chez les végétariens.) | 3–5 g/j |
+| **Mémoire (court terme)** | Amélioration légère, contextuelle (stress, privation de sommeil) | 🟡 C | 3–5 g/j |
 | **Attention / concentration** | Amélioration cognitive générale | 🔴 E | — |
 | **Fonctions exécutives** | Amélioration de la cognition complexe | 🔴 E | — |
 | **Cognition globale** | Amélioration globale des capacités cognitives | ⚫ F | — |
 | **Humeur (population générale)** | Amélioration de l’humeur | ⚫ F | — |
-| **Dépression (adjuvant)** | Effet add-on possible à un traitement antidépresseur | 🟠 D (Données préliminaires, population clinique spécifique, non extrapolables à la population générale.) | 3–5 g/j (add-on) |
+| **Dépression (adjuvant)** | Effet add-on possible à un traitement antidépresseur | 🟠 D | 3–5 g/j (add-on) |
 
 ---
 
@@ -119,6 +115,5 @@ En revanche, par **principe de précaution**, l’utilisation de la créatine do
 7. NIH – Dietary Supplements for Exercise and Athletic Performance.
 
 ---
-
 
 <sub><em>Dernière mise à jour : 13 décembre 2025</em></sub>

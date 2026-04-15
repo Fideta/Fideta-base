@@ -8,21 +8,18 @@ popular: false
 slug: /principes/ilex-paraguariensis
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Ilex paraguariensis</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Ilex paraguariensis</em> A. St.-Hil.<br/>
-      <strong>Partie utilisée :</strong> feuilles séchées<br/>
-      <strong>Origine :</strong> plante originaire d’Amérique du Sud, traditionnellement consommée sous forme de maté
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/ilex-paraguariensis.jpg" alt="Ilex paraguariensis" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Ilex paraguariensis"}
+  scientificName={"feuilles séchées"}
+  partUsed={"feuilles séchées"}
+  origin={"plante originaire d’Amérique du Sud, traditionnellement consommée sous forme de maté"}
+  image={"/img/principes/ilex-paraguariensis.jpg"}
+  imageAlt={"Ilex paraguariensis"}
+  path={"/docs/principes/ilex-paraguariensis"}
+/>
 
 ---
 

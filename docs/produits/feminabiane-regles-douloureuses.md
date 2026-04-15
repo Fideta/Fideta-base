@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire à base de gingembre, achillée millefeuille 
 ean: 3701145601691
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Feminabiane Règles Douloureuses</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Plantes + Vitamine (gingembre, achillée millefeuille, vitamine B6)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/feminabiane-regles-douloureuses.jpg" alt="Feminabiane Règles Douloureuses - PiLeJe" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Feminabiane Règles Douloureuses"}
+  brand={"PiLeJe"}
+  category={"Plantes + Vitamine (gingembre, achillée millefeuille, vitamine B6)"}
+  image={"/img/produits/feminabiane-regles-douloureuses.jpg"}
+  imageAlt={"Feminabiane Règles Douloureuses"}
+  path={"/docs/produits/feminabiane-regles-douloureuses"}
+/>
 
 ---
 
@@ -45,7 +42,7 @@ Ainsi, malgré une formulation globalement plausible, **le niveau de preuve scie
 |------------|-------------------------------|--------------------|
 | [Poudre de gingembre (Zingiber officinale, rhizome)](/docs/principes/gingembre) | 750 mg | Ingrédient le mieux étayé du produit. Des méta-analyses d’essais randomisés montrent une réduction modérée de la douleur des dysménorrhées primaires. Niveau de preuve intermédiaire, hétérogénéité élevée. |
 | [Achillée millefeuille (Achillea millefolium, extrait + poudre CPSP-01)](/docs/principes/achillea) | 630 mg | Quelques essais cliniques positifs existent, mais de faible qualité méthodologique. Absence de standardisation comparable et de validation clinique robuste. Risque allergique (Astéracées) non compensé par un bénéfice démontré. |
-| [Vitamine B6](/docs/principes/vitamine_b6) | 0,63 mg (45 % VNR) | Allégation EFSA autorisée (« contribue à la régulation de l’activité hormonale »), mais aucune preuve clinique d’un effet sur les douleurs menstruelles. Dose nutritionnelle, non thérapeutique. |
+| [Vitamine B6](/docs/principes/achillea) | 0,63 mg (45 % VNR) | Allégation EFSA autorisée (« contribue à la régulation de l’activité hormonale »), mais aucune preuve clinique d’un effet sur les douleurs menstruelles. Dose nutritionnelle, non thérapeutique. |
 | Pulpe de baobab, maltodextrine, antiagglomérants | qsp | Excipients sans impact sur l’efficacité clinique. |
 
 ---
@@ -109,4 +106,3 @@ Pour toute décision de santé, consultez un professionnel qualifié.
 ---
 
 <sub><em>Dernière mise à jour : 9 Janvier 2026</em></sub>
-

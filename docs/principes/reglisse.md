@@ -7,21 +7,18 @@ synonyms: ["Glycyrrhiza glabra", "Glycyrrhiza uralensis", "Liquiritiae radix"]
 slug: /principes/reglisse
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Réglisse</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Glycyrrhiza glabra</em> L.<br/>
-      <strong>**Partie utilisée** :</strong> racine séchée<br/>
-      <strong>**Origine** :</strong> Asie occidentale et bassin méditerranéen, cultivée pour ses racines riches en glycyrrhizine et flavonoïdes
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/reglisse.jpg" alt="Réglisse" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Réglisse"}
+  scientificName={"racine séchée"}
+  partUsed={"racine séchée"}
+  origin={"Asie occidentale et bassin méditerranéen, cultivée pour ses racines riches en glycyrrhizine et flavonoïdes"}
+  image={"/img/principes/reglisse.jpg"}
+  imageAlt={"Réglisse"}
+  path={"/docs/principes/reglisse"}
+/>
 
 ---
 

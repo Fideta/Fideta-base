@@ -7,21 +7,18 @@ synonyms: ["Eruca sativa", "Eruca vesicaria subsp. sativa", "Arugula", "Rocket"]
 slug: /principes/roquette
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Roquette</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Eruca sativa</em> (syn. <em>Eruca vesicaria</em> subsp. <em>sativa</em>)<br/>
-      <strong>Partie utilisée :</strong> feuilles, parfois graines (huile de taramira)<br/>
-      <strong>Origine :</strong> Plante méditerranéenne de la famille des Brassicaceae
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/roquette.jpg" alt="Roquette" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Roquette"}
+  scientificName={"feuilles, parfois graines (huile de taramira)"}
+  partUsed={"feuilles, parfois graines (huile de taramira)"}
+  origin={"Plante méditerranéenne de la famille des Brassicaceae"}
+  image={"/img/principes/roquette.jpg"}
+  imageAlt={"Roquette"}
+  path={"/docs/principes/roquette"}
+/>
 
 ---
 

@@ -5,21 +5,28 @@ categories: ["Sommeil", "Plantes"]
 synopsis: "Complément alimentaire associant mélatonine, eschscholtzia, passiflore, magnésium et vitamines B, proposé pour favoriser le sommeil naturel et atténuer les effets du décalage horaire."
 ean: 3664524001782
 hide_title: true
+status: disqualified 
+score: 0
+clinical:
+  - indication: endormissement
+    grade: A
+  - indication: alignement_circadien
+    grade: A
+  - indication: sommeil_qualite
+    grade: E
+
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYNUIT® Sommeil</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Mixte (hormone, plantes, minéraux et vitamines)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/ergynuit_sommeil.jpg" alt="ERGYNUIT® Sommeil - Nutergia" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYNUIT® Sommeil"}
+  brand={"Nutergia"}
+  category={"Mixte (hormone, plantes, minéraux et vitamines)"}
+  image={"/img/produits/ergynuit_sommeil.jpg"}
+  imageAlt={"ERGYNUIT® Sommeil"}
+  path={"/docs/produits/ergynuit_sommeil"}
+/>
 
 ---
 

@@ -7,21 +7,18 @@ synonyms: ["Levure de riz rouge", "Red yeast rice", "Monascus", "Monacoline K"]
 slug: /principes/levure_riz_rouge  
 hide_title: true  
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Levure de riz rouge</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Monascus purpureus</em> (riz fermenté)<br/>
-      <strong>**Partie utilisée** :</strong> riz fermenté / extrait standardisé (fraction monacolines)<br/>
-      <strong>**Origine** :</strong> fermentation traditionnelle asiatique, usage moderne pour la régulation lipidique
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/levure-riz-rouge.jpg" alt="Levure de riz rouge" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Levure de riz rouge"}
+  scientificName={"riz fermenté / extrait standardisé (fraction monacolines)"}
+  partUsed={"riz fermenté / extrait standardisé (fraction monacolines)"}
+  origin={"fermentation traditionnelle asiatique, usage moderne pour la régulation lipidique"}
+  image={"/img/principes/levure-riz-rouge.jpg"}
+  imageAlt={"Levure de riz rouge"}
+  path={"/docs/principes/levure_riz_rouge"}
+/>
 
 ---
 

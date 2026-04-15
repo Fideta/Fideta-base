@@ -8,21 +8,18 @@ popular: false
 slug: /principes/lacticaseibacillus-paracasei
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lacticaseibacillus paracasei</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Lacticaseibacillus paracasei</em> (ex-<em>Lactobacillus paracasei</em>)<br/>
-      <strong>Partie utilisée :</strong> bactéries vivantes (souches probiotiques spécifiques)<br/>
-      <strong>Origine :</strong> isolats de flore intestinale humaine, de laits et de produits fermentés (laitiers ou végétaux)
-      </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/lacticaseibacillus-paracasei.jpg" alt="Lacticaseibacillus paracasei" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Lacticaseibacillus paracasei"}
+  scientificName={"bactéries vivantes (souches probiotiques spécifiques)"}
+  partUsed={"bactéries vivantes (souches probiotiques spécifiques)"}
+  origin={"isolats de flore intestinale humaine, de laits et de produits fermentés (laitiers ou végétaux)"}
+  image={"/img/principes/lacticaseibacillus-paracasei.jpg"}
+  imageAlt={"Lacticaseibacillus paracasei"}
+  path={"/docs/principes/lacticaseibacillus-paracasei"}
+/>
 
 ---
 

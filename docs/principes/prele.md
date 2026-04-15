@@ -7,21 +7,18 @@ synonyms: ["Equisetum arvense", "Prêle", "Prêle des champs", "Field horsetail"
 slug: /principes/prele
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Prêle des champs</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Equisetum arvense</em> L.<br/>
-      <strong>**Partie utilisée** :</strong> parties aériennes (herbe de prêle)<br/>
-      <strong>**Origine** :</strong> Plante herbacée vivace des régions tempérées d’Europe, d’Asie et d’Amérique du Nord.
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/prele.jpg" alt="Prêle des champs" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Prêle des champs"}
+  scientificName={"parties aériennes (herbe de prêle)"}
+  partUsed={"parties aériennes (herbe de prêle)"}
+  origin={"Plante herbacée vivace des régions tempérées d’Europe, d’Asie et d’Amérique du Nord."}
+  image={"/img/principes/prele.jpg"}
+  imageAlt={"Prêle des champs"}
+  path={"/docs/principes/prele"}
+/>
 ---
 
 ## Avis global  
@@ -35,8 +32,8 @@ Deux essais cliniques modernes appuient ces usages :
 
 Les données sont **encourageantes mais encore trop limitées** pour conclure à une efficacité thérapeutique solide.
 
-En revanche, la réputation de la prêle comme **plante fortifiante pour les cheveux et les ongles** est un **amalgame marketing**.  
-Les études positives sur la peau, les cheveux et les ongles concernent le **silicium organique stabilisé (ch-OSA)**, non la prêle.  
+En revanche, la réputation de la prêle comme **plante fortifiante pour les cheveux et les ongles** n'est basé sur **aucune preuve ni même un usage traditionnel** mais sur une extrapolation du fait que du silicium est présent dans la prêle.  
+Les études positives sur la peau, les cheveux et les ongles concernent le **silicium organique stabilisé (ch-OSA)** et non la prêle.  
 Le silicium naturellement présent dans la prêle est **quasi inassimilable** (< 1 % absorbé), et **aucune étude humaine** ne montre un effet sur la repousse ou la résistance capillaire.  
 
 En résumé : la prêle **peut aider à uriner un peu plus**, mais **ne fait pas repousser les cheveux**. Utilisée correctement, elle est **globalement sûre**, à condition d’éviter les produits non standardisés (risque théorique de déficit en vitamine B1) et de respecter les contre-indications EMA.
@@ -57,7 +54,7 @@ En résumé : la prêle **peut aider à uriner un peu plus**, mais **ne fait pas
 
 ## ⚠️ Sécurité et précautions  
 
-### Effets secondaires / Effets indésirables   
+### Effets secondaires / effets indésirables 
 Rares et bénins (troubles digestifs légers, éruptions cutanées).  
 
 ### Contre-indications (EMA)  
@@ -112,4 +109,3 @@ Certaines prêles contiennent une enzyme qui détruit la **vitamine B1** → rar
 ---
 
 <sub><em>Dernière mise à jour : 16 octobre 2025</em></sub>
-

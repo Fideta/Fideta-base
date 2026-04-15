@@ -8,21 +8,18 @@ popular: true
 slug: /principes/omega-3
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Oméga-3</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Acides gras polyinsaturés oméga-3</em> (EPA, DHA, ALA)<br/>
-      <strong>Partie utilisée :</strong> huiles de poissons gras (EPA, DHA), micro-algues (DHA), huiles végétales (ALA)<br/>
-      <strong>Origine :</strong> marine (poissons, algues) et végétale (lin, colza)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/omega-3.jpg" alt="Oméga-3" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Oméga-3"}
+  scientificName={"huiles de poissons gras (EPA, DHA), micro-algues (DHA), huiles végétales (ALA)"}
+  partUsed={"huiles de poissons gras (EPA, DHA), micro-algues (DHA), huiles végétales (ALA)"}
+  origin={"marine (poissons, algues) et végétale (lin, colza)"}
+  image={"/img/principes/omega-3.jpg"}
+  imageAlt={"Oméga-3"}
+  path={"/docs/principes/omega-3"}
+/>
 
 ---
 

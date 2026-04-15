@@ -3,23 +3,20 @@ title: "ERGYNUIT® Sommeil Profond"
 image: /img/produits/ergynuit_sommeil_profond.jpg
 categories: ["Sommeil", "Plantes", "Vitamines", "Minéraux"]
 synopsis: "Formule sans mélatonine (GABA + valériane + coquelicot). Preuves cliniques faibles et contradictoires sur l’efficacité réelle dans les troubles du sommeil."
-ean: [3664524001805]
+ean: [XXXXXXX]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYNUIT® Sommeil Profond</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Complément mixte (plantes + minéraux + vitamines + GABA)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/ergynuit_sommeil_profond.jpg" alt="Ergynuit Sommeil Profond" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYNUIT® Sommeil Profond"}
+  brand={"Nutergia"}
+  category={"Complément mixte (plantes + minéraux + vitamines + GABA)"}
+  image={"/img/produits/ergynuit_sommeil_profond.jpg"}
+  imageAlt={"ERGYNUIT® Sommeil Profond"}
+  path={"/docs/produits/ergynuit_sommeil_profond"}
+/>
 
 ---
 
@@ -109,5 +106,3 @@ Dans l’ensemble, la littérature actuelle ne permet pas d’affirmer un béné
 ## 🛡️ Note légale
 
 Cette fiche est établie à partir d’une **revue critique** des données scientifiques disponibles à la date d'analyse; Elles ne tiennent pas compte d’éventuelles données internes, non publiées ou confidentielles des laboratoires. Elle **ne constitue pas** un avis médical ni une recommandation personnalisée. Pour toute décision de santé (diagnostic d’une carence, supplémentation, interactions médicamenteuses), **consultez un professionnel de santé**.
-
-

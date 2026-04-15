@@ -7,20 +7,17 @@ synonyms: ["Chaga", "Inonotus obliquus", "Polypore du bouleau"]
 slug: /principes/chaga
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Chaga</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> *Inonotus obliquus*<br/>
-      <strong>**Partie utilisée** :</strong> sclérote (conk), corps fructifère 
-      <strong>****Origine**** :</strong> hampignon parasite du bouleau, zones boréales (Russie, Scandinavie, Canada)
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/Chaga.jpg" alt="Chaga" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Chaga"}
+  scientificName={"Inonotus obliquus"}
+  partUsed={"sclérote (conk), corps fructifère"}
+  origin={"hampignon parasite du bouleau, zones boréales (Russie, Scandinavie, Canada)"}
+  image={"/img/principes/Chaga.jpg"}
+  imageAlt={"Chaga"}
+  path={"/docs/principes/chaga"}
+/>
 
 ---
 

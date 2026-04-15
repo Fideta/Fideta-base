@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire à base de poudre de graine de marronnier d�
 ean: ["3578835502701", "3578835502718"]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Arkogélules® Marronnier d'Inde</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Arkopharma<br/>
-      <strong>Catégorie :</strong> Plante médicinale (poudre de graine)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/marronnier-arkogelules.jpg" alt="Arkogélules Marronnier d'Inde - Arkopharma" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Arkogélules® Marronnier d'Inde"}
+  brand={"Arkopharma"}
+  category={"Plante médicinale (poudre de graine)"}
+  image={"/img/produits/marronnier-arkogelules.jpg"}
+  imageAlt={"Arkogélules® Marronnier d'Inde"}
+  path={"/docs/produits/arkogelules_marronnier"}
+/>
 
 ---
 

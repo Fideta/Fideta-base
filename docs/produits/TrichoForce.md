@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire positionné comme inhibiteur de la DHT pour l
 ean: []
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>TRICHO-FORCE – DHT Blocker Anti-Chute Hormonale</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> MakeMyMask (France)<br/>
-      <strong>Catégorie :</strong> Complément alimentaire – plantes + probiotiques + vitamines / minéral
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/TrichoForce.jpg" alt="TRICHO-FORCE" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"TRICHO-FORCE – DHT Blocker Anti-Chute Hormonale"}
+  brand={"MakeMyMask (France)"}
+  category={"Complément alimentaire – plantes + probiotiques + vitamines / minéral"}
+  image={"/img/produits/TrichoForce.jpg"}
+  imageAlt={"TRICHO-FORCE – DHT Blocker Anti-Chute Hormonale"}
+  path={"/docs/produits/TrichoForce"}
+/>
 
 ---
 

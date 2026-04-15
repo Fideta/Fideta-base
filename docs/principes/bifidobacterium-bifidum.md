@@ -4,25 +4,22 @@ image: /img/principes/bifidobacterium-bifidum.jpg
 categories: ["Probiotiques"]
 synopsis: "Espèce sûre mais efficacité strictement souche-dépendante. Preuves solides uniquement pour le SII avec la souche MIMBb75. Autres allégations (immunité, TDAH, allergies, confort digestif) : preuves insuffisantes, fragiles ou absentes."
 synonyms: ["B. bifidum"]
-popular: true
+popular: false
 slug: /principes/bifidobacterium-bifidum
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bifidobacterium bifidum</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> *Bifidobacterium bifidum*<br/>
-      <strong>Partie utilisée :</strong> souches probiotiques vivantes ou inactivées (lyophilisées / paraprobiotiques)<br/>
-      <strong>Origine :</strong> bactérie commensale du microbiote intestinal humain
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/bifidobacterium-bifidum.jpg" alt="Bifidobacterium bifidum" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Bifidobacterium bifidum"}
+  scientificName={"Bifidobacterium bifidum"}
+  partUsed={"souches probiotiques vivantes ou inactivées (lyophilisées / paraprobiotiques)"}
+  origin={"bactérie commensale du microbiote intestinal humain"}
+  image={"/img/principes/bifidobacterium-bifidum.jpg"}
+  imageAlt={"Bifidobacterium bifidum"}
+  path={"/docs/principes/bifidobacterium-bifidum"}
+/>
 
 ---
 
@@ -113,5 +110,4 @@ La sécurité est globalement excellente, mais une prudence reste indiquée chez
 7. ANSES. Avis sur un cas d’endocardite associée à un probiotique, 2019.  
 8. Esaiassen E. et al. *Bifidobacterium* bacteraemia. J Clin Microbiol.  
 9. Bellomo et al. 2024 — essai nourrissons (rétracté). Microorganisms, 2025.  
-
 

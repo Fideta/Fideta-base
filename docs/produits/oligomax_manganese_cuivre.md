@@ -6,20 +6,17 @@ synopsis: "Solution d’oligoéléments marins enrichie en cuivre et manganèse,
 ean: 3664524000XXX
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>OLiGOMAX® Manganèse – Cuivre</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Mixte (oligoéléments minéraux d’origine marine)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/oligomax_mn_cu.jpg" alt="OLiGOMAX Manganèse - Cuivre - Nutergia" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"OLiGOMAX® Manganèse – Cuivre"}
+  brand={"Nutergia"}
+  category={"Mixte (oligoéléments minéraux d’origine marine)"}
+  image={"/img/produits/oligomax_mn_cu.jpg"}
+  imageAlt={"OLiGOMAX® Manganèse – Cuivre"}
+  path={"/docs/produits/oligomax_manganese_cuivre"}
+/>
 
 ---
 

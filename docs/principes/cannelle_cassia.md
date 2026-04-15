@@ -7,21 +7,18 @@ synonyms: ["Cinnamomum cassia", "Cinnamomum aromaticum", "Cannelle de Chine", "C
 slug: /principes/cannelle_cassia
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Cannelle de Chine (Cassia)</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Cinnamomum cassia</em> (syn. <em>C. aromaticum</em>)<br/>
-      <strong>Partie utilisée :</strong> Écorce séchée<br/>
-      <strong>Origine :</strong> Chine, Indonésie, Vietnam
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/cannelle_cassia.jpg" alt="Cannelle de Chine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Cannelle de Chine (Cassia)"}
+  scientificName={"Écorce séchée"}
+  partUsed={"Écorce séchée"}
+  origin={"Chine, Indonésie, Vietnam"}
+  image={"/img/principes/cannelle_cassia.jpg"}
+  imageAlt={"Cannelle de Chine (Cassia)"}
+  path={"/docs/principes/cannelle_cassia"}
+/>
 
 ---
 

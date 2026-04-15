@@ -7,20 +7,17 @@ synonyms: ["Fer élémentaire", "Fer héminique", "Fer non héminique"]
 slug: /principes/fer
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Fer</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> *Fer* (Fe)<br/>
-      <strong>**Partie utilisée** :</strong> Élément minéral essentiel 
-      <strong>****Origine**** :</strong> minérale, naturellement présent dans les aliments (viandes, poissons, légumineuses, céréales enrichies)
-	  </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/Fer.jpg" alt="Fer" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Fer"}
+  scientificName={"Fer (Fe)"}
+  partUsed={"Élément minéral essentiel"}
+  origin={"minérale, naturellement présent dans les aliments (viandes, poissons, légumineuses, céréales enrichies)"}
+  image={"/img/principes/Fer.jpg"}
+  imageAlt={"Fer"}
+  path={"/docs/principes/fer"}
+/>
 ---
 
 ## Avis global :  

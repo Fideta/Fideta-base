@@ -8,21 +8,18 @@ popular: true
 slug: /principes/bourrache
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bourrache</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Borago officinalis</em> L.<br/>
-      <strong>Partie utilisée :</strong> huile de graines (principalement) ; feuilles et fleurs (usages traditionnels déconseillés)<br/>
-      <strong>Origine :</strong> Europe et bassin méditerranéen
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/bourrache.jpg" alt="Bourrache" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Bourrache"}
+  scientificName={"huile de graines (principalement) ; feuilles et fleurs (usages traditionnels déconseillés)"}
+  partUsed={"huile de graines (principalement) ; feuilles et fleurs (usages traditionnels déconseillés)"}
+  origin={"Europe et bassin méditerranéen"}
+  image={"/img/principes/bourrache.jpg"}
+  imageAlt={"Bourrache"}
+  path={"/docs/principes/bourrache"}
+/>
 
 ---
 

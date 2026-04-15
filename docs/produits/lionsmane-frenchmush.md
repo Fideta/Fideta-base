@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire à base d’extrait de sporophore de Lion’s
 ean: 
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lion’s Mane</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> French Mush<br/>
-      <strong>Catégorie :</strong> Champignon médicinal (extrait de sporophore)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/lionsmane-frenchmush.jpg" alt="Lion’s Mane - French Mush" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Lion’s Mane"}
+  brand={"French Mush"}
+  category={"Champignon médicinal (extrait de sporophore)"}
+  image={"/img/produits/lionsmane-frenchmush.jpg"}
+  imageAlt={"Lion’s Mane"}
+  path={"/docs/produits/lionsmane-frenchmush"}
+/>
 
 ---
 
@@ -33,10 +30,10 @@ Le produit est par ailleurs **propre et conforme** sur le plan microbiologique e
 
 Cependant, les **données cliniques humaines** montrent :
 
-1. **Une absence d'efficacité chez les adultes sains**, même à des doses bien plus élevées (1,8 g/j d’extrait ou 10 g/j de poudre).  
+1. **Aucune efficacité chez les adultes sains**, même à des doses bien plus élevées (1,8 g/j d’extrait ou 10 g/j de poudre).  
 2. Les signaux positifs observés concernent des **populations malades** (MCI, Alzheimer débutant, anxiété ménopausique), avec **d’autres produits** et **des doses plus fortes** (2–3 g/j ou mycélium enrichi en erinacine A).  
 3. **Une étude indépendante (La Monica et al., 2023)** a évalué un extrait de fruiting body similaire à celui utilisé par French Mush (“Nordic Lion’s Mane”). **À la dose de 1 g en prise unique**, de petits effets cognitifs aigus ont été observés (amélioration modeste de la vitesse de réaction). Cependant ces **effets ponctuels**, limités à 60–120 min après ingestion, **ne sont pas transposables à l’usage quotidien du produit French Mush (800 mg/j).**  
-4. Le dosage (**0,8 g/j**) est **insuffisant pour correspondre aux protocoles positifs**, et aucune donnée ne permet d’affirmer une équivalence clinique.
+4. Le dosage (**0,8 g/j**) est **insuffisant pour reproduire les protocoles positifs**, et aucune donnée ne permet d’affirmer une équivalence clinique.
 
 L’efficacité est donc **non démontrée** selon la littérature disponible.
 
@@ -63,7 +60,7 @@ L’efficacité est donc **non démontrée** selon la littérature disponible.
 | **Sommeil** | ↑ qualité du sommeil | ⚫ **F** | Aucune preuve clinique solide. |
 | **Immunité / microbiote** | Modulation immunitaire / microbiote | ⚫ **F** | Aucun essai humain robuste. |
 | **“Neuroprotection” / NGF** | Stimulation NGF | ⚫ **F** | Effets observés **uniquement in vitro / animaux**. |
-
+| **La Monica 2023 (Nutrients)** (adultes sains) | Extrait “Nordic Lion’s Mane” (fournisseur commun selon marque) | **1 g (prise aiguë)** | Amélioration modeste de quelques paramètres à 1–2 h | FM = 0,8 g/j **usage chronique**, effet aigu non transposable |
 ---
 
 ### 🔬 Comparaison étude par étude vs French Mush  
@@ -77,7 +74,6 @@ L’efficacité est donc **non démontrée** selon la littérature disponible.
 | **Li 2020** (Alzheimer débutant) | Mycélium enrichi en erinacine A | **1,05 g/j** | Signaux cognitifs modestes | FM = sporophore sans erinacines → **non comparable** |
 | **Nagano 2010** (péri-ménopause) | Poudre de sporophore (cookies) | **2 g/j** | Baisse anxiété/dépression | FM = 0,8 g/j → dose insuffisante |
 | **Vigna 2019** (obésité + anxiété)** | 80 % mycélium + 20 % sporophore | **550 mg/j** | Amélioration humeur/sommeil | FM ≠ produit ≠ population → non transposable |
-| **La Monica 2023 (Nutrients)** (adultes sains) | Extrait “Nordic Lion’s Mane” (fournisseur commun selon marque) | **1 g (prise aiguë)** | Amélioration modeste de quelques paramètres à 1–2 h | FM = 0,8 g/j **usage chronique** mis en avant pour tous les jours, effet aigu non transposable |
 
 > **Conclusion globale :**  
 > Aucune étude clinique ne correspond au profil du produit French Mush.  
@@ -144,7 +140,4 @@ Pour toute décision de santé, consultez un professionnel.
 
 ---
 
-
 <sub><em>Dernière mise à jour : 13 novembre 2025</em></sub>
-
-

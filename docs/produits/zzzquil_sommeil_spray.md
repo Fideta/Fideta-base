@@ -5,21 +5,23 @@ categories: ["Sommeil", "Hormones"]
 synopsis: "Spray buccal de mélatonine (1–1,5 mg), utile pour réduire légèrement la latence d’endormissement mais à une dose en deçà de l’efficacité maximale observée."
 ean: 8700216275286
 hide_title: true
+status: B
+score: 75
+clinical:
+  - indication: endormissement
+    grade: A 
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ZzzQuil Sommeil Spray (Mélatonine)</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> ZzzQuil – Procter & Gamble<br/>
-      <strong>Catégorie :</strong> Hormone
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/zzzquil_sommeil_spray.jpg" alt="ZzzQuil Sommeil Spray - P&G" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ZzzQuil Sommeil Spray"}
+  brand={"ZzzQuil – Procter & Gamble"}
+  category={"Hormone"}
+  image={"/img/produits/zzzquil_sommeil_spray.jpg"}
+  imageAlt={"ZzzQuil Sommeil Spray"}
+  path={"/docs/produits/zzzquil_sommeil_spray"}
+/>
 
 ---
 

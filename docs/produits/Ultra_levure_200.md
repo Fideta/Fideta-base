@@ -6,19 +6,16 @@ synopsis: "Complément alimentaire à base de Saccharomyces boulardii."
 ean: 3400922096612
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Ultralevure 200mg</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Biocodex<br/>
-      <strong>Catégorie :</strong> Probiotique – Levure
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/produits/Ultra_levure_200.jpg" alt="Ultralevure 200 - Biocodex" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ULTRA-LEVURE 200 mg"}
+  brand={"Biocodex"}
+  category={"Probiotique – Levure"}
+  image={"/img/produits/Ultra_levure_200.jpg"}
+  imageAlt={"ULTRA-LEVURE 200 mg"}
+  path={"/docs/produits/Ultra_levure_200"}
+/>
 ---
 ## 🟢 **Note Fideta : B – Score : 76/100**  
 **Souche documentée, formulation correcte**  

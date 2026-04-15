@@ -8,21 +8,18 @@ popular: false
 slug: /principes/cumin
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Cumin</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Cuminum cyminum</em> L.<br/>
-      <strong>Partie utilisée :</strong> fruit (souvent appelé “graines”) ; plus rarement huile essentielle (distillation des fruits)<br/>
-      <strong>Origine :</strong> Région méditerranéenne / Asie occidentale
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/cumin.jpg" alt="Cumin" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Cumin"}
+  scientificName={"fruit (souvent appelé “graines”) ; plus rarement huile essentielle (distillation des fruits)"}
+  partUsed={"fruit (souvent appelé “graines”) ; plus rarement huile essentielle (distillation des fruits)"}
+  origin={"Région méditerranéenne / Asie occidentale"}
+  image={"/img/principes/cumin.jpg"}
+  imageAlt={"Cumin"}
+  path={"/docs/principes/cumin"}
+/>
 
 ---
 

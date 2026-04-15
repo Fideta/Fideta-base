@@ -7,20 +7,17 @@ synonyms: ["Acide folique", "Folates"]
 slug: /principes/vitamine_b9
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Vitamine B9</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Acide ptéroylmonoglutamique (forme synthétique) / Folates (formes naturelles)    <br/>
-      <strong>**Partie utilisée** :</strong> vitamine hydrosoluble <br/> 
-      <strong>****Origine**** :</strong> Alimentation (légumineuses, légumes verts, foie, céréales enrichies) et synthèse chimique (suppléments). <br/>
-	  </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/vitamine_b9.jpg" alt="Vitamine B9" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Vitamine B9"}
+  scientificName={"Acide ptéroylmonoglutamique (forme synthétique) / Folates (formes naturelles)"}
+  partUsed={"vitamine hydrosoluble"}
+  origin={"Alimentation (légumineuses, légumes verts, foie, céréales enrichies) et synthèse chimique (suppléments)."}
+  image={"/img/principes/vitamine_b9.jpg"}
+  imageAlt={"Vitamine B9"}
+  path={"/docs/principes/vitamine_b9"}
+/>
 
 ---
 

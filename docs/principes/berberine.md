@@ -7,22 +7,18 @@ synonyms: ["Berberine", "Berberis", "Coptis"]
 slug: /principes/berberine  
 hide_title: true  
 ---
-
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Berbérine</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> Berbérine (alcaloïde isoquinoléique)<br/>
-      <strong>**Partie utilisée** :</strong> principalement racines / rhizomes (extraits standardisés)<br/>
-      <strong>**Origine** :</strong> plantes du genre <em>Berberis</em>, <em>Coptis</em>, <em>Hydrastis</em>, <em>Phellodendron</em> (selon préparations)
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
 
- <div className="product-hero__packshot">
-    <img src="/img/principes/berberine.jpg" alt="Berbérine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Berbérine"}
+  scientificName={"Berbérine (alcaloïde isoquinoléique)"}
+  partUsed={"principalement racines / rhizomes (extraits standardisés)"}
+  origin={"plantes du genre Berberis , Coptis , Hydrastis , Phellodendron (selon préparations)"}
+  image={"/img/principes/berberine.jpg"}
+  imageAlt={"Berbérine"}
+  path={"/docs/principes/berberine"}
+/>
 
 ---
 

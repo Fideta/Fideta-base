@@ -6,20 +6,17 @@ synopsis: "Multivitamines + minéraux ; aucun bénéfice clinique démontré che
 ean: [3664524001911]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYTONIC® MultiCÉBÉ</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Mixte (multivitamines + minéraux)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/ergytonic_multicebe.jpg" alt="ERGYTONIC MultiCÉBÉ" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYTONIC® MultiCÉBÉ"}
+  brand={"Nutergia"}
+  category={"Mixte (multivitamines + minéraux)"}
+  image={"/img/produits/ergytonic_multicebe.jpg"}
+  imageAlt={"ERGYTONIC® MultiCÉBÉ"}
+  path={"/docs/produits/ergytonic_multicebe"}
+/>
 
 ---
 

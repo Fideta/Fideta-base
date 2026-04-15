@@ -7,21 +7,18 @@ popular: false
 slug: /principes/lactobacillus-johnsonii
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lactobacillus johnsonii</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Ligilactobacillus johnsonii</em> (anciennement <em>Lactobacillus johnsonii</em>)<br/>
-      <strong>Partie utilisée :</strong> micro-organisme vivant (probiotique, souche(s) spécifique(s))<br/>
-      <strong>Origine :</strong> bactérie lactique commensale ; usage alimentaire et compléments alimentaires<br/>
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/lactobacillus-johnsonii.jpg" alt="Lactobacillus johnsonii" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Lactobacillus johnsonii"}
+  scientificName={"micro-organisme vivant (probiotique, souche(s) spécifique(s))"}
+  partUsed={"micro-organisme vivant (probiotique, souche(s) spécifique(s))"}
+  origin={"bactérie lactique commensale ; usage alimentaire et compléments alimentaires"}
+  image={"/img/principes/lactobacillus-johnsonii.jpg"}
+  imageAlt={"Lactobacillus johnsonii"}
+  path={"/docs/principes/lactobacillus-johnsonii"}
+/>
 
 ---
 
@@ -52,7 +49,7 @@ En conséquence, **les revendications génériques associées à *Lactobacillus 
 
 ## ⚠️ Sécurité et précautions
 
-**Effets secondaires / Effets indésirables :**
+**Effets secondaires :**
 - Ballonnements, inconfort digestif transitoire.
 - Profil de tolérance globalement comparable au placebo dans les essais disponibles.
 
@@ -105,4 +102,3 @@ En conséquence, **les revendications génériques associées à *Lactobacillus 
 ---
 
 *Dernière mise à jour : 30 janvier 2026*
-

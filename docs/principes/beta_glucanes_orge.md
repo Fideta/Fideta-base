@@ -7,21 +7,18 @@ synonyms: ["Barley β-glucans", "β-glucanes de céréales"]
 slug: /principes/beta_glucanes_orge
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>β-glucanes d’orge</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> β-(1→3),(1→4)-D-glucanes<br/>
-      <strong>**Partie utilisée** :</strong> grain d’orge (*Hordeum vulgare* L.)<br/>
-      <strong>**Origine** :</strong> Céréales – fraction soluble de la paroi cellulaire de l’endosperme
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/beta_glucanes_orge.jpg" alt="β-glucanes d’orge" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"β-glucanes d’orge"}
+  scientificName={"β-(1→3),(1→4)-D-glucanes"}
+  partUsed={"grain d’orge (Hordeum vulgare L.)"}
+  origin={"Céréales – fraction soluble de la paroi cellulaire de l’endosperme"}
+  image={"/img/principes/beta_glucanes_orge.jpg"}
+  imageAlt={"β-glucanes d’orge"}
+  path={"/docs/principes/beta_glucanes_orge"}
+/>
 ---
 
 ## Avis global  
@@ -81,7 +78,7 @@ Les β-glucanes d’orge constituent une **intervention nutritionnelle sûre et 
 
 | Critère | Note | Commentaire |
 |----------|:----:|-------------|
-| **Efficacité** | ✅ **A** | Réduction du LDL démontrée et reconnue par l’EFSA (≥3 g/j). Effet glycémique secondaire. |
+| **Efficacité** |  | Réduction du LDL démontrée et reconnue par l’EFSA (≥3 g/j). Effet glycémique secondaire. |
 | **Sécurité** | 🟢 **B** | Excellente tolérance digestive, effets mineurs et transitoires. |
 | **Qualité** | 🟢 **B** | Efficacité dépendante du poids moléculaire et de la viscosité : titrage et traçabilité essentiels. |
 

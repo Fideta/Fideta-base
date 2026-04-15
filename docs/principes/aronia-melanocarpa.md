@@ -7,21 +7,18 @@ synonyms: ["Aronia melanocarpa", "Photinia melanocarpa", "Black chokeberry"]
 slug: /principes/aronia-melanocarpa
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Aronia</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Aronia melanocarpa</em> (syn. historique : <em>Photinia melanocarpa</em>)<br/>
-      <strong>Partie utilisée :</strong> fruits (baies) – jus, poudre, extraits (polyphénols / anthocyanes)<br/>
-      <strong>Origine :</strong> arbuste nord-américain, cultivé en Europe
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/aronia-melanocarpa.jpg" alt="Aronia melanocarpa" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Aronia (Photinia melanocarpa)"}
+  scientificName={"fruits (baies) – jus, poudre, extraits (polyphénols / anthocyanes)"}
+  partUsed={"fruits (baies) – jus, poudre, extraits (polyphénols / anthocyanes)"}
+  origin={"arbuste nord-américain, cultivé en Europe"}
+  image={"/img/principes/aronia-melanocarpa.jpg"}
+  imageAlt={"Aronia (Photinia melanocarpa)"}
+  path={"/docs/principes/aronia-melanocarpa"}
+/>
 
 ---
 

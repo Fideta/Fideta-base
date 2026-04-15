@@ -8,21 +8,18 @@ popular: false
 slug: /principes/hmb
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>HMB</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> β-hydroxy-β-méthylbutyrate (HMB)<br/>
-      <strong>Partie utilisée :</strong> métabolite de la leucine ; il ne s’agit pas d’un extrait végétal<br/>
-      <strong>Origine :</strong> composé endogène dérivé de la leucine, fabriqué pour les compléments alimentaires, surtout sous forme de calcium HMB (Ca-HMB) ou d’acide libre (HMB-FA)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/hmb.jpg" alt="HMB" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"HMB"}
+  scientificName={"β-hydroxy-β-méthylbutyrate (HMB)"}
+  partUsed={"métabolite de la leucine ; il ne s’agit pas d’un extrait végétal"}
+  origin={"composé endogène dérivé de la leucine, fabriqué pour les compléments alimentaires, surtout sous forme de calcium HMB (Ca-HMB) ou d’acide libre (HMB-FA)"}
+  image={"/img/principes/hmb.jpg"}
+  imageAlt={"HMB"}
+  path={"/docs/principes/hmb"}
+/>
 
 ---
 

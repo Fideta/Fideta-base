@@ -1,3 +1,6 @@
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
+
+
 ---
 title: "Lactibiane Imedia"
 image: "/img/produits/lactibiane-imedia.jpg"
@@ -6,19 +9,14 @@ synopsis: "Complément alimentaire à base de 4 souches microbiotiques (30 milli
 ean: [3401528534805 , 3401560080599]
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lactibiane Imedia</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Mélange de souches probiotiques
-    </p>
-  </div>
-
-  <div className="product-hero__packshot">
-    <img src="/img/produits/lactibiane-imedia.jpg" alt="Lactibiane Imedia - PiLeJe" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"lactibiane-imedia"}
+  brand={"PiLeJe"}
+  category={"Mélange de souches probiotiques"}
+  image={"/img/produits/default-produit.jpg"}
+  imageAlt={"lactibiane-imedia"}
+  path={"/docs/produits/lactibiane-imedia"}
+/>
 
 ---
 
@@ -54,7 +52,7 @@ Il est à noter que les souches présentes sont les mêmes que dans le [Lactibia
 | [**Bifidobacterium longum LA101**](/docs/principes/bifidobacterium-longum) | Inclus dans les 30 × 10⁹ UFC | Souche identifiée, mais **aucune étude clinique propre** ; pas de donnée dans la diarrhée aiguë. |
 | [**Lactobacillus helveticus LA102**](/docs/principes/lactobacillus-helveticus) | Inclus | Absence de donnée clinique digestive spécifique. |
 | [**Lactococcus lactis LA103**](/docs/principes/lactococcus-lactis) | Inclus | Espèce sûre, mais **aucune preuve** d’effet digestif clinique pour LA103. |
-| [**Streptococcus thermophilus LA104**](/docs/principes/streptococcus-thermophilus) | Inclus | Souche d’usage alimentaire ; effet antidiarrhéique **non démontré** chez l’humain. |
+| [**Streptococcus thermophilus LA104**](/docs/principes/Streptococcus-thermophilus) | Inclus | Souche d’usage alimentaire ; effet antidiarrhéique **non démontré** chez l’humain. |
 | **Total ferments lactiques** | 30 × 10⁹ UFC | Dose élevée, mais **aucune étude clinique** chez l'homme de ce mélange à ce dosage. |
 | Excipients (dextrose, maltodextrine) | — | Sans intérêt clinique ; attention chez les patients contrôlant les sucres simples. |
 

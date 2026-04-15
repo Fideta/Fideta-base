@@ -3,23 +3,20 @@ title: "Arkogélules BIO Levure de riz rouge"
 image: /img/produits/arkogelules-levure-riz-rouge.jpg
 categories: ["Cholestérol", "Santé cardiovasculaire"]
 synopsis: "Complément à base de levure de riz rouge fournissant 2,9 mg de monacolines par jour. Actif pharmacologique sous-dosé, sans efficacité clinique démontrée au dosage proposé et associé à des effets indésirables documentés, y compris à faibles doses."
-ean: [3401551411715 , 3578831411366 , 3401598893574 , 3578831419454]
+ean: []
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Arkogélules® BIO Levure de riz rouge</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Arkopharma<br/>
-      <strong>Catégorie :</strong> Plante / ferment (actif pharmacologique)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/arkogelules-levure-riz-rouge.jpg" alt="Arkogélules BIO Levure de riz rouge – Arkopharma" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Arkogélules BIO Levure de riz rouge"}
+  brand={"Arkopharma"}
+  category={"Plante / ferment (actif pharmacologique)"}
+  image={"/img/produits/arkogelules-levure-riz-rouge.jpg"}
+  imageAlt={"Arkogélules BIO Levure de riz rouge"}
+  path={"/docs/produits/arkogelules-levure-riz-rouge"}
+/>
 
 ---
 
@@ -130,4 +127,3 @@ Pour toute décision de santé, consultez un professionnel.
 ---
 
 <sub><em>Dernière mise à jour : 26 janvier 2026</em></sub>
-

@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire à base d’un extrait d’algue (Porphyral®
 ean: [3401578443102 , 3401577447262]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Proteochoc</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Mixte (algue marine + huile végétale + vitamine)
-    </p>
-  </div>
 
-<div className="product-hero__packshot">
-    <img src="/img/produits/Proteochoc.jpg" alt="Proteochoc - PiLeJe" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Proteochoc"}
+  brand={"PiLeJe"}
+  category={"Mixte (algue marine + huile végétale + vitamine)"}
+  image={"/img/produits/Proteochoc.jpg"}
+  imageAlt={"Proteochoc"}
+  path={"/docs/produits/Proteochoc"}
+/>
 
 ---
 

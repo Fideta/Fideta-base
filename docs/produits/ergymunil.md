@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire à base d’échinacée, d’achillée, de pl
 ean: 3401520524903
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYMUNYL</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Mixte (plantes + oligoéléments marins)
-    </p>
-  </div>
 
-<div className="product-hero__packshot">
-    <img src="/img/produits/ergymunyl.jpg" alt="ERGYMUNYL - Nutergia" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYMUNYL"}
+  brand={"Nutergia"}
+  category={"Mixte (plantes + oligoéléments marins)"}
+  image={"/img/produits/ergymunyl.jpg"}
+  imageAlt={"ERGYMUNYL"}
+  path={"/docs/produits/ergymunil"}
+/>
 
 ---
 

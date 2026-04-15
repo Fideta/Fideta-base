@@ -4,25 +4,22 @@ image: /img/principes/ravintsara.jpg
 categories: ["Plantes", "Huiles essentielles"]
 synopsis: "Huile essentielle de Cinnamomum camphora ct 1,8-cinéole. Profil de sécurité globalement bon aux doses usuelles, mais efficacité clinique non démontrée : aucune RCT sur les indications courantes (immunité, antiviral, ORL). Quelques données humaines exploratoires uniquement (stress, infections nosocomiales)."
 synonyms: ["Cinnamomum camphora ct cineole", "Ravintsara", "FE de camphrier (feuilles)"]
-popular: false
+popular: true
 slug: /principes/ravintsara
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Ravintsara</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Cinnamomum camphora</em> (feuilles), chémotype 1,8-cinéole<br/>
-      <strong>Partie utilisée :</strong> feuilles (huile essentielle)<br/>
-      <strong>Origine :</strong> arbre des Lauracées, cultivé surtout à Madagascar et en Asie
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/ravintsara.jpg" alt="Ravintsara" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Ravintsara"}
+  scientificName={"feuilles (huile essentielle)"}
+  partUsed={"feuilles (huile essentielle)"}
+  origin={"arbre des Lauracées, cultivé surtout à Madagascar et en Asie"}
+  image={"/img/principes/ravintsara.jpg"}
+  imageAlt={"Ravintsara"}
+  path={"/docs/principes/ravintsara"}
+/>
 
 ---
 
@@ -147,4 +144,3 @@ Données basées sur pratiques d'aromathérapie — **aucune posologie validée 
 ---
 
 <sub><em>Dernière mise à jour : 2 décembre 2025</em></sub>
-

@@ -7,20 +7,17 @@ ean: [3760304101236 , 3760304100017 , 3760304101243 , 3760304100000 , 3760304101
 , 3760304101120 , 3760304100819 , 3760304102349 , 3760304101021 , 3760304101168 , 3760304101977]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Hydratis® Pastilles</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Hydratis<br/>
-      <strong>Catégorie :</strong> Électrolytes & Minéraux
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/hydratis.jpg" alt="Hydratis® Pastilles" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Hydratis® Pastilles"}
+  brand={"Hydratis"}
+  category={"Électrolytes & Minéraux"}
+  image={"/img/produits/hydratis.jpg"}
+  imageAlt={"Hydratis® Pastilles"}
+  path={"/docs/produits/hydratis"}
+/>
 
 ---
 
@@ -165,5 +162,3 @@ Cette fiche repose sur une analyse critique des données scientifiques disponibl
 Elle ne constitue pas un avis médical ni une recommandation personnalisée.  
 
 <sub><em>Dernière mise à jour : 18 Novembre 2025</em></sub>
-
-

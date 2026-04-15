@@ -6,21 +6,17 @@ synopsis: "Complément alimentaire associant acides aminés soufrés, extraits v
 ean : [3770001283951 , 3401597732584]
 hide_title: true
 ---
-
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Effluvium</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> NHCO Nutrition<br/>
-      <strong>Catégorie :</strong> Mixte (acides aminés + vitamines / minéraux + extraits végétaux)
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/effluvium.jpg" alt="Effluvium" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Effluvium"}
+  brand={"NHCO Nutrition"}
+  category={"Mixte (acides aminés + vitamines / minéraux + extraits végétaux)"}
+  image={"/img/produits/effluvium.jpg"}
+  imageAlt={"Effluvium"}
+  path={"/docs/produits/effluvium"}
+/>
 
 ---
 

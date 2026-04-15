@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire à base de L-tyrosine, schizandra, vitamines 
 ean: 3401560256215
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYSTRESS® Activ</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Mixte (acides aminés, plante, vitamines et minéraux)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/ergystress-activ.jpg" alt="ERGYSTRESS Activ - Nutergia" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYSTRESS Activ"}
+  brand={"Nutergia"}
+  category={"Mixte (acides aminés, plante, vitamines et minéraux)"}
+  image={"/img/produits/ergystress-activ.jpg"}
+  imageAlt={"ERGYSTRESS Activ"}
+  path={"/docs/produits/ergystress-activ"}
+/>
 
 ---
 
@@ -64,7 +61,7 @@ En pratique, **le produit peut contribuer à un bon statut micronutritionnel**, 
 
 ## ⚠️ Sécurité et précautions  
 
-- **Effets indésirables / Effets secondaires possibles :** troubles digestifs légers (magnésium), céphalées, nausées rares.  
+- **Effets indésirables possibles :** troubles digestifs légers (magnésium), céphalées, nausées rares.  
 - **Contre-indications :**  
   - Polymédication (CYP3A/P-gp : schizandra, interactions pharmacocinétiques avec certaines espèces, principe de précaution)  
   - Insuffisance rénale (magnésium)  
@@ -122,5 +119,3 @@ Pour toute décision de santé (carence, supplémentation, interactions médicam
 ---
 
 <sub><em>Dernière mise à jour : 28 octobre 2025</em></sub>
-
-

@@ -6,22 +6,20 @@ synopsis: "Analyse critique de CycloPK, complément présenté pour l’équilib
 ean: 3770022237186
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>CycloPK</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Hollis – Les Ponctuelles<br/>
-      <strong>Catégorie :</strong> Formule mixte (plantes + micronutriments)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/cyclopk.jpg" alt="CycloPK - Hollis" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"CycloPK"}
+  brand={"Hollis – Les Ponctuelles"}
+  category={"Formule mixte (plantes + micronutriments)"}
+  image={"/img/produits/cyclopk.jpg"}
+  imageAlt={"CycloPK"}
+  path={"/docs/produits/cyclopk"}
+/>
 
 ---
+
 ⚫ **Note Fideta : F – Score : 10/100**
 
 **Pertinence clinique jugée très faible (données limitées et/ou sous-dosages)**
@@ -113,9 +111,9 @@ Posologie d’attaque : **3 gélules/jour** (doses ci-dessous pour 3 gélules).
 
 | Critère | Note | Commentaire |
 |--------|------|-------------|
-| **Efficacité** | ⚫ **F** | Actifs sous-dosés vs études, aucune étude CycloPK. Impact clinique faible. |
-| **Sécurité** | 🟡 **C**| Micronutriments sûrs ; risque théorique avec saw palmetto + houblon. |
-| **Qualité** | 🟡 **C** | Bonne galénique, mais manque de titrage et transparence, absence d’essais. |
+| **Efficacité** | 🔴 | Actifs sous-dosés vs études, aucune étude CycloPK. Impact clinique faible. |
+| **Sécurité** | 🟡 | Micronutriments sûrs ; risque théorique avec saw palmetto + houblon. |
+| **Qualité** | 🟡 | Bonne galénique, mais manque de titrage et transparence, absence d’essais. |
 
 ---
 
@@ -141,5 +139,4 @@ Cette fiche est établie à partir d’une revue critique des données scientifi
 
 ---
 
-<sub><em>Dernière mise à jour : 15 Novembre 2025</em></sub>
-
+<sub><em>Dernière mise à jour : 3 Novembre 2025</em></sub>

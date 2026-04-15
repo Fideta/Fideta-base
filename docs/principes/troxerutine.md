@@ -7,21 +7,18 @@ popular: false
 slug: /principes/troxerutine
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Troxérutine</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> troxérutine (hydroxyethylrutosides)<br/>
-      <strong>Partie utilisée :</strong> principe actif purifié (dérivé de la rutine)<br/>
-      <strong>Origine :</strong> flavonoïde semi-synthétique issu de la rutine (quercétine-glycoside)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/troxerutine.jpg" alt="Troxérutine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Troxérutine"}
+  scientificName={"troxérutine (hydroxyethylrutosides)"}
+  partUsed={"principe actif purifié (dérivé de la rutine)"}
+  origin={"flavonoïde semi-synthétique issu de la rutine (quercétine-glycoside)"}
+  image={"/img/principes/troxerutine.jpg"}
+  imageAlt={"Troxérutine"}
+  path={"/docs/principes/troxerutine"}
+/>
 
 ---
 

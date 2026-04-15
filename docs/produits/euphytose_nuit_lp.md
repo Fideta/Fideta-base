@@ -5,21 +5,27 @@ categories: ["Sommeil", "Mélatonine", "Plantes"]
 synopsis: "Complément à base de mélatonine (1,9 mg) + valériane + escholtzia ; efficacité limitée à la latence d’endormissement ; balance bénéfice–risque défavorable du fait de l’escholtzia."
 ean: [3534510001662 , 3534510001198]
 hide_title: true
+status: disqualified 
+score: 0
+clinical:
+  - indication: endormissement
+    grade: A
+  - indication: sommeil_qualite
+    grade: F
+  - indication: reveils_nocturnes
+    grade: F 
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Euphytose Nuit LP 1,9 mg</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Bayer<br/>
-      <strong>Catégorie :</strong> Mixte (Hormones + plantes)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/euphytose_nuit_lp.jpg" alt="Euphytose nuit LP" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Euphytose Nuit LP 1,9 mg"}
+  brand={"Bayer"}
+  category={"Mixte (Hormones + plantes)"}
+  image={"/img/produits/euphytose_nuit_lp.jpg"}
+  imageAlt={"Euphytose Nuit LP 1,9 mg"}
+  path={"/docs/produits/euphytose_nuit_lp"}
+/>
 
 ## **☠️ Note Fideta : Disqualifié – Score : 0/100**
 

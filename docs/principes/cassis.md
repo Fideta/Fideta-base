@@ -7,20 +7,17 @@ synonyms: ["Cassis", "Ribes nigrum"]
 slug: /principes/cassis
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Cassis</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> *Ribes nigrum*<br/>
-      <strong>**Partie utilisée** :</strong> fruits (baies), graines (huile), feuilles (usage traditionnel) 
-      <strong>****Origine**** :</strong> Europe centrale et boréale ; cultivé en Nouvelle-Zélande pour les extraits anthocyaniques
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/Cassis.jpg" alt="Cassis" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Cassis"}
+  scientificName={"Ribes nigrum"}
+  partUsed={"fruits (baies), graines (huile), feuilles (usage traditionnel)"}
+  origin={"Europe centrale et boréale ; cultivé en Nouvelle-Zélande pour les extraits anthocyaniques"}
+  image={"/img/principes/Cassis.jpg"}
+  imageAlt={"Cassis"}
+  path={"/docs/principes/cassis"}
+/>
 ---
 
 ## Avis global  

@@ -7,21 +7,18 @@ synonyms: ["Myo-inositol", "D-chiro-inositol", "Vitamine B7 (ancienne dénominat
 slug: /principes/inositol
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Inositol</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> myo-inositol (forme principale), D-chiro-inositol (isomère)<br/>
-      <strong>**Partie utilisée** :</strong> molécule purifiée (non issue directement d’une plante)<br/>
-      <strong>**Origine** :</strong> naturellement présente dans les aliments riches en lécithine (céréales, légumineuses, fruits secs) ; obtenue industriellement par hydrolyse de phytate ou fermentation.
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/inositol.jpg" alt="Inositol" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Inositol"}
+  scientificName={"myo-inositol (forme principale), D-chiro-inositol (isomère)"}
+  partUsed={"molécule purifiée (non issue directement d’une plante)"}
+  origin={"naturellement présente dans les aliments riches en lécithine (céréales, légumineuses, fruits secs) ; obtenue industriellement par hydrolyse de phytate ou fermentation."}
+  image={"/img/principes/inositol.jpg"}
+  imageAlt={"Inositol"}
+  path={"/docs/principes/inositol"}
+/>
 
 ---
 

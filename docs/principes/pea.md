@@ -5,24 +5,20 @@ categories: ["Lipides bioactifs"]
 synopsis: "Lipide endogène à activité anti-inflammatoire et analgésique. Les données humaines suggèrent un signal modeste dans certaines douleurs chroniques, mais les essais restent hétérogènes et souvent méthodologiquement fragiles. Aucune efficacité solide démontrée en dysménorrhée aiguë."
 synonyms: ["PEA", "Palmitoylethanolamide"]
 popular: false
-slug: /principes/pea
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Palmitoyléthanolamide (PEA)</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> Palmitoylethanolamide (N-palmitoyléthanolamide)<br/>
-      <strong>Partie utilisée :</strong> Substance isolée (lipide endogène)<br/>
-      <strong>Origine :</strong> Composé naturellement présent dans l’organisme, produit par synthèse pour usage complémentaire
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/pea.jpg" alt="Palmitoyléthanolamide" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Palmitoyléthanolamide (PEA)"}
+  scientificName={"Palmitoylethanolamide (N-palmitoyléthanolamide)"}
+  partUsed={"Substance isolée (lipide endogène)"}
+  origin={"Composé naturellement présent dans l’organisme, produit par synthèse pour usage complémentaire"}
+  image={"/img/principes/pea.jpg"}
+  imageAlt={"Palmitoyléthanolamide (PEA)"}
+  path={"/docs/principes/pea"}
+/>
 
 ---
 
@@ -120,4 +116,3 @@ Variabilité inter-produits importante.
 ---
 
 <sub><em>Dernière mise à jour : 17 février 2026</em></sub>
-

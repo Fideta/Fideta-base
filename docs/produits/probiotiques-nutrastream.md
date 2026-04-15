@@ -6,20 +6,17 @@ synopsis: "Complément probiotique multi-souches revendiquant digestion, immunit
 ean: []
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Probiotiques Nutrastream</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutrastream<br/>
-      <strong>Catégorie :</strong> Mixte (probiotiques, extraits végétaux, vitamine)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/probiotiques-nutrastream.jpg" alt="Probiotiques Nutrastream" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Probiotiques Nutrastream"}
+  brand={"Nutrastream"}
+  category={"Mixte (probiotiques, extraits végétaux, vitamine)"}
+  image={"/img/produits/probiotiques-nutrastream.jpg"}
+  imageAlt={"Probiotiques Nutrastream"}
+  path={"/docs/produits/probiotiques-nutrastream"}
+/>
 
 ---
 

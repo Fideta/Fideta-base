@@ -7,20 +7,17 @@ synonyms: ["Hericium erinaceus", "Crinière de lion"]
 slug: /principes/lion's_mane
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lion's mane</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> *Hericium erinaceus*<br/>
-      <strong>**Partie utilisée** :</strong> Sporophore (corps fructifère) ou mycélium (erinacine A)
-      <strong>****Origine**** :</strong> Champignon médicinal, Asie / Europe / Amérique du Nord
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/lion's_mane.jpg" alt="Hericium erinaceus" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Lion’s Mane"}
+  scientificName={"Hericium erinaceus"}
+  partUsed={"Sporophore (corps fructifère) ou mycélium (erinacine A)"}
+  origin={"Champignon médicinal, Asie / Europe / Amérique du Nord"}
+  image={"/img/principes/lion's_mane.jpg"}
+  imageAlt={"Lion’s Mane"}
+  path={"/docs/principes/lion's_mane"}
+/>
 ---
 
 ## 🧾 Avis global  

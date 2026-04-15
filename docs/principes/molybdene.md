@@ -8,21 +8,18 @@ popular: false
 slug: /principes/molybdene
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Molybdène</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> Molybdène (Mo)<br/>
-      <strong>**Partie utilisée** :</strong> Minéral (sels : molybdate de sodium, chélates)<br/>
-      <strong>**Origine** :</strong> Présent dans les légumineuses, céréales, abats, produits laitiers
-    </p>
-  </div>
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/molybdene.jpg" alt="Molybdène" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Molybdène"}
+  scientificName={"Molybdène (Mo)"}
+  partUsed={"Minéral (sels : molybdate de sodium, chélates)"}
+  origin={"Présent dans les légumineuses, céréales, abats, produits laitiers"}
+  image={"/img/principes/molybdene.jpg"}
+  imageAlt={"Molybdène"}
+  path={"/docs/principes/molybdene"}
+/>
 
 ---
 

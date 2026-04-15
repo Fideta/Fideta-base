@@ -7,21 +7,18 @@ synonyms: ["Olea europaea", "Feuille d’olivier", "Olive Leaf Extract"]
 slug: /principes/olivier
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Olivier (Feuille d’olivier)</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> *Olea europaea* L., folium<br/>
-      <strong>**Partie utilisée** :</strong> Feuille (extrait sec ou aqueux standardisé en oléuropéine)<br/>
-      <strong>**Origine** :</strong> Bassin méditerranéen
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/olivier.jpg" alt="Feuille d’olivier" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Olivier (Feuille d’olivier)"}
+  scientificName={"Olea europaea L., folium"}
+  partUsed={"Feuille (extrait sec ou aqueux standardisé en oléuropéine)"}
+  origin={"Bassin méditerranéen"}
+  image={"/img/principes/olivier.jpg"}
+  imageAlt={"Olivier (Feuille d’olivier)"}
+  path={"/docs/principes/olivier"}
+/>
 
 ---
 

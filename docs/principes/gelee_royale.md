@@ -4,24 +4,20 @@ image: /img/principes/gelee_royale.jpg
 categories: ["Produits de la ruche"]
 synopsis: "Sécrétion des abeilles nourricières, traditionnellement promue pour l’immunité et la fatigue hivernale. Les données cliniques humaines restent faibles : petits essais suggérant un effet modeste sur la ménopause et le syndrome prémenstruel, signaux inconstants sur la glycémie, mais aucune preuve convaincante pour l’immunité, la prévention des rhumes ou la fatigue."
 synonyms: ["Royal Jelly", "Lait des abeilles"]
-popular: false
 slug: /principes/gelee_royale
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Gelée royale</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> sécrétion hypopharyngienne des jeunes abeilles (*Apis mellifera*)<br/>
-      <strong>**Partie utilisée** :</strong> gelée royale fraîche ou lyophilisée<br/>
-      <strong>**Origine** :</strong> Produit de la ruche, alimentation exclusive de la reine
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/gelee_royale.jpg" alt="Gelée royale" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Gelée royale"}
+  scientificName={"sécrétion hypopharyngienne des jeunes abeilles (Apis mellifera)"}
+  partUsed={"gelée royale fraîche ou lyophilisée"}
+  origin={"Produit de la ruche, alimentation exclusive de la reine"}
+  image={"/img/principes/gelee_royale.jpg"}
+  imageAlt={"Gelée royale"}
+  path={"/docs/principes/gelee_royale"}
+/>
 ---
 
 ## Avis global  
@@ -105,5 +101,3 @@ La tolérance est généralement bonne, mais des **réactions allergiques sévè
 ---
 
 <sub><em>Dernière mise à jour : 28 septembre 2025</em></sub>
-
-

@@ -8,21 +8,18 @@ synonyms: ["Porphyra", "Nori", "Algue rouge"]
 slug: /principes/porphyra_umbilicalis
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Porphyra umbilicalis</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Porphyra umbilicalis</em><br/>
-      <strong>Partie utilisée :</strong> Thalle (algue entière)<br/>
-      <strong>Origine :</strong> Algues marines de l’Atlantique Nord (Europe)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/porphyra_umbilicalis.jpg" alt="Porphyra umbilicalis" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Porphyra umbilicalis"}
+  scientificName={"Thalle (algue entière)"}
+  partUsed={"Thalle (algue entière)"}
+  origin={"Algues marines de l’Atlantique Nord (Europe)"}
+  image={"/img/principes/porphyra_umbilicalis.jpg"}
+  imageAlt={"Porphyra umbilicalis"}
+  path={"/docs/principes/porphyra_umbilicalis"}
+/>
 
 ---
 

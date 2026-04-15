@@ -1,25 +1,29 @@
 ---
 title: "ERGYNUIT® Sommeil Fort"
 image: /img/produits/ergynuit_sommeil_fort.jpg
-categories: ["Sommeil", "Humeur", "Plantes"]
+categories: ["Sommeil", "Humeur", "Plantes et hormones"]
 synopsis: "Complément alimentaire associant mélatonine, eschscholtzia, passiflore, magnésium et vitamines B, présenté pour favoriser l’endormissement et le sommeil réparateur."
 ean: 3664524001799
 hide_title: true
+status: disqualified 
+score: 0
+clinical:
+  - indication: endormissement
+    grade: A
+  - indication: sommeil_qualite
+    grade: D
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYNUIT® Sommeil Fort</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Mixte (hormone, plantes, minéraux et vitamines)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/ergynuit_sommeil_fort.jpg" alt="ERGYNUIT® Sommeil Fort - Nutergia" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYNUIT® Sommeil Fort"}
+  brand={"Nutergia"}
+  category={"Mixte (hormone, plantes, minéraux et vitamines)"}
+  image={"/img/produits/ergynuit_sommeil_fort.jpg"}
+  imageAlt={"ERGYNUIT® Sommeil Fort"}
+  path={"/docs/produits/ergynuit_sommeil_fort"}
+/>
 
 ---
 
@@ -36,7 +40,7 @@ La **mélatonine seule**, en usage ponctuel, reste la seule composante pertinent
 
 | Ingrédient | Dose (2 gélules) | Commentaire Fideta |
 |-------------|------------------:|--------------------|
-| [**Mélatonine**](/docs/principes/mélatonine) (présentée comme « poudre de jus de cerise standardisée ») | 1,9 mg | Dose **efficace** pour **réduire la latence d’endormissement** (≥1 mg, allégation EFSA validée). **Pas de preuve d’effet** sur la qualité du sommeil ou les réveils nocturnes. ⚠️ La cerise apporte naturellement des **microgrammes** de mélatonine (~0,1 µg/dose), soit **plus de 10 000× moins** que la quantité ici : la présence d’une **mélatonine ajoutée** est indiquée sous le terme "poudre de jus de cerise standardiée en mélatonine. |
+| [**Mélatonine**](/docs/principes/mélatonine) (présentée comme « poudre de jus de cerise standardisée ») | 1,9 mg | Dose **efficace** pour **réduire la latence d’endormissement** (≥1 mg, allégation EFSA validée). **Pas de preuve d’effet** sur la qualité du sommeil ou les réveils nocturnes. ⚠️ La cerise apporte naturellement des **microgrammes** de mélatonine (~0,1 µg/dose), soit **plus de 10 000× moins** que la quantité ici : la présence d’une **mélatonine ajoutée** est donc quasi certaine et devrait être clairement mentionnée. |
 | [**Eschscholtzia**](/docs/principes/escholtzia) (*E. californica*, extrait) | 50 mg | **Aucun bénéfice démontré** sur le sommeil. Études anciennes, souvent en association avec d’autres plantes. Signal ANSES : **hallucinations et confusion** avec une formule combinant **mélatonine + eschscholtzia (Novanuit®)**. **À écarter.** |
 | [**Passiflore**](/docs/principes/passiflore) (*P. incarnata*, extrait) | 50 mg | **Preuves limitées et hétérogènes** : petits essais exploratoires sur stress et qualité du sommeil, sans résultats reproductibles. Impact clinique incertain. |
 | [**Magnésium**](/docs/principes/magnesium) (hydroxyde/carbonate + bisglycinate) | 140 mg (37 % VNR) | Peut être utile uniquement en cas d’**apports faibles** ; données cliniques peu convaincantes. La forme **bisglycinate** est bien tolérée mais est ici mélangée à des formes peu disponibles. |
@@ -120,5 +124,3 @@ Pour toute décision de santé, consultez un professionnel.
 ---
 
 <sub><em>Dernière mise à jour : 7 octobre 2025</em></sub>
-
-

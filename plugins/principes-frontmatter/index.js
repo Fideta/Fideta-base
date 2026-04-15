@@ -36,6 +36,7 @@ module.exports = function principesFrontmatterPlugin(context, options) {
           synopsis: data.synopsis || "",
           synonyms: data.synonyms || [],
           popular: !!data.popular,
+          clinical: Array.isArray(data.clinical) ? data.clinical : [],
           lastUpdatedAt,
         };
       });

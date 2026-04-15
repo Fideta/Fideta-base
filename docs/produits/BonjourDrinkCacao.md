@@ -6,19 +6,16 @@ synopsis: "Version cacao de la boisson fonctionnelle Bonjour Drink. Mélange d�
 ean: [3770033452028]
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bonjour – Boisson aux champignons – Goût cacao</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Bonjour Drink (France)<br/>
-      <strong>Catégorie :</strong> Mélange de champignons adaptogènes (boisson fonctionnelle)
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/BonjourDrinkCacao.jpg" alt="Bonjour – Boisson aux champignons - Goût cacao" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Bonjour – Boisson aux champignons - Goût cacao"}
+  brand={"Bonjour Drink (France)"}
+  category={"Mélange de champignons adaptogènes (boisson fonctionnelle)"}
+  image={"/img/produits/BonjourDrinkCacao.jpg"}
+  imageAlt={"Bonjour – Boisson aux champignons - Goût cacao"}
+  path={"/docs/produits/BonjourDrinkCacao"}
+/>
 ---
 
 ## ☠️ Note Fideta : **Disqualifié – Score : 0/100**  

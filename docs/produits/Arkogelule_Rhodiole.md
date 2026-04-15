@@ -6,19 +6,16 @@ synopsis: "Complément alimentaire à base de rhodiole bio titrée"
 ean: [3578835504453 , 3578835504460]
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Arkogélules® Rhodiole</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Arkopharma<br/>
-      <strong>Catégorie :</strong> Plante dite adaptogène (Rhodiola rosea L.)
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/produits/Arkogelule_Rhodiole.jpg" alt="Arkogélules® Rhodiole BIO" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Arkogélules® Rhodiole BIO"}
+  brand={"Arkopharma"}
+  category={"Plante dite adaptogène (Rhodiola rosea L.)"}
+  image={"/img/produits/Arkogelule_Rhodiole.jpg"}
+  imageAlt={"Arkogélules® Rhodiole BIO"}
+  path={"/docs/produits/Arkogelule_Rhodiole"}
+/>
 ---
 
 ## ⚫ Note Fideta : F – Score : 20/100

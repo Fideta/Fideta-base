@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire à base de roquette, de prêle des champs, de
 ean: [3760007336430]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>LUXEOL Pousse, Croissance & Fortification</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Luxéol<br/>
-      <strong>Catégorie :</strong> Mixte (plantes + vitamines / minéraux)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/luxeol-pousse-croissance.jpg" alt="LUXEOL Pousse, Croissance & Fortification" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"LUXEOL Pousse, Croissance & Fortification"}
+  brand={"Luxéol"}
+  category={"Mixte (plantes + vitamines / minéraux)"}
+  image={"/img/produits/luxeol-pousse-croissance.jpg"}
+  imageAlt={"LUXEOL Pousse, Croissance & Fortification"}
+  path={"/docs/produits/luxeol_pousse_croissance"}
+/>
 
 ---
 

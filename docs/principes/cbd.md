@@ -7,21 +7,18 @@ synonyms: ["CBD", "Cannabidiolum"]
 slug: /principes/cbd
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Cannabidiol (CBD)</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> cannabidiol<br/>
-      <strong>Partie utilisée :</strong> sommités fleuries et feuilles de <em>Cannabis sativa L.</em><br/>
-      <strong>Origine :</strong> extrait purifié ou isolat de chanvre industriel (< 0,3 % THC)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/cbd.jpg" alt="Cannabidiol" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Cannabidiol (CBD)"}
+  scientificName={"cannabidiol"}
+  partUsed={"sommités fleuries et feuilles de Cannabis sativa L."}
+  origin={"extrait purifié ou isolat de chanvre industriel (< 0,3 % THC)"}
+  image={"/img/principes/cbd.jpg"}
+  imageAlt={"Cannabidiol (CBD)"}
+  path={"/docs/principes/cbd"}
+/>
 
 ---
 
@@ -102,5 +99,3 @@ Le CBD est classé **« novel food » non autorisé** en Europe ; la vente en Fr
 ---
 
 <sub><em>Dernière mise à jour : 29 octobre 2025</em></sub>
-
-

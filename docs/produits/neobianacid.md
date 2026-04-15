@@ -6,20 +6,17 @@ synopsis: "Dispositif médical à base de polysaccharides, minéraux et extraits
 ean: [8032472028673 , 8032472028680 , 8032472034230]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>NeoBianacid® Menthe</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Aboca<br/>
-      <strong>Catégorie :</strong> Mixte (plantes, minéraux et polysaccharides)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/neobianacid.jpg" alt="NeoBianacid - Aboca" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"NeoBianacid® Menthe"}
+  brand={"Aboca"}
+  category={"Mixte (plantes, minéraux et polysaccharides)"}
+  image={"/img/produits/neobianacid.jpg"}
+  imageAlt={"NeoBianacid® Menthe"}
+  path={"/docs/produits/neobianacid"}
+/>
 
 ---
 

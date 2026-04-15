@@ -6,21 +6,17 @@ synopsis: "Association d’extraits végétaux et d’huiles essentielles par vo
 ean: 3701145600472
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Feminabiane CBU Flash</h1>
-    <p style={{margin:0}}>
-      <strong>Catégorie :</strong> Confort urinaire / Cystite aiguë<br/>
-      <strong>Positionnement revendiqué :</strong> Soutien court terme (5 jours)<br/>
-      <strong>Fabricant :</strong> PiLeJe
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/feminabiane-cbu-flash.jpg" alt="Feminabiane CBU Flash" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Feminabiane CBU Flash"}
+  brand={"PiLeJe"}
+  category={"Confort urinaire / Cystite aiguë"}
+  image={"/img/produits/feminabiane-cbu-flash.jpg"}
+  imageAlt={"Feminabiane CBU Flash"}
+  path={"/docs/produits/feminabiane-cbu-flash"}
+/>
 
 ---
 

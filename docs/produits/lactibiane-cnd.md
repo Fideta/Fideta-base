@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire à base de 2 souches probiotiques (10 milliar
 ean: [3701145600267]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lactibiane CND</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Mélange de souches probiotiques
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/lactibiane-cnd.jpg" alt="Lactibiane Cnd - PiLeJe" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Lactibiane Cnd 10M"}
+  brand={"PiLeJe"}
+  category={"Mélange de souches probiotiques"}
+  image={"/img/produits/lactibiane-cnd.jpg"}
+  imageAlt={"Lactibiane Cnd 10M"}
+  path={"/docs/produits/lactibiane-cnd"}
+/>
 ---
 
 ⚫ **Note Fideta :  F – Score : 10/100**  

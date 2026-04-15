@@ -8,21 +8,18 @@ popular: false
 slug: /principes/capsicum
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Capsicum</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Capsicum annuum</em> L. ; selon les monographies, certaines petites variétés de <em>Capsicum frutescens</em> L. peuvent aussi être concernées<br/>
-      <strong>Partie utilisée :</strong> fruit mûr séché (<em>Capsici fructus</em>), source de capsaïcinoïdes, dont la capsaïcine est le principal composé étudié<br/>
-      <strong>Origine :</strong> fruit de piment séché ou extrait standardisé en capsaïcinoïdes, utilisé en poudre, extrait sec ou gélules
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/capsicum.jpg" alt="Capsicum" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Capsicum"}
+  scientificName={"Capsicum annuum L. ; selon les monographies, certaines petites variétés de Capsicum frutescens L. peuvent aussi être concernées"}
+  partUsed={"fruit mûr séché ( Capsici fructus ), source de capsaïcinoïdes, dont la capsaïcine est le principal composé étudié"}
+  origin={"fruit de piment séché ou extrait standardisé en capsaïcinoïdes, utilisé en poudre, extrait sec ou gélules"}
+  image={"/img/principes/capsicum.jpg"}
+  imageAlt={"Capsicum"}
+  path={"/docs/principes/capsicum"}
+/>
 
 ---
 

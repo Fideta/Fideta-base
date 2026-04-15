@@ -22,3 +22,5 @@ yarn-error.log*
 
 .cache/
 .cache-loader
+.env
+recup.txt

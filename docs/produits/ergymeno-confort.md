@@ -6,21 +6,17 @@ synopsis: "Formule ménopause associant sauge, houblon, GABA, vitamines et miné
 ean : [3664524001607]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYMENO Confort</h1>
-    <p style={{margin:0}}>
-      <strong>Catégorie :</strong> Ménopause / Phyto-œstrogènes / Micronutrition<br/>
-      <strong>Positionnement revendiqué :</strong> Bouffées de chaleur – Sueurs nocturnes<br/>
-      <strong>Fabricant :</strong> Nutergia
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/ergymeno-confort.jpg" alt="ERGYMENO Confort" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYMENO Confort"}
+  brand={"Nutergia"}
+  category={"Ménopause / Phyto-œstrogènes / Micronutrition"}
+  image={"/img/produits/ergymeno-confort.jpg"}
+  imageAlt={"ERGYMENO Confort"}
+  path={"/docs/produits/ergymeno-confort"}
+/>
 
 ---
 

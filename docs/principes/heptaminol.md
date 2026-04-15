@@ -7,21 +7,18 @@ popular: false
 slug: /principes/heptaminol
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Heptaminol</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> heptaminol (INN), le plus souvent sous forme de chlorhydrate<br/>
-      <strong>Partie utilisée :</strong> substance active de synthèse (amine aliphatique)<br/>
-      <strong>Origine :</strong> molécule synthétique à usage médicamenteux historique
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/heptaminol.jpg" alt="Heptaminol" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Heptaminol"}
+  scientificName={"heptaminol (INN), le plus souvent sous forme de chlorhydrate"}
+  partUsed={"substance active de synthèse (amine aliphatique)"}
+  origin={"molécule synthétique à usage médicamenteux historique"}
+  image={"/img/principes/heptaminol.jpg"}
+  imageAlt={"Heptaminol"}
+  path={"/docs/principes/heptaminol"}
+/>
 
 ---
 

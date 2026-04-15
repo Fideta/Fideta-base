@@ -7,21 +7,18 @@ synonyms: ["Zeaxanthin", "Xanthophylle", "Zéaxanthine"]
 slug: /principes/zeaxanthine
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Zéaxanthine</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Zeaxanthin</em> (caroténoïde xanthophylle)<br/>
-      <strong>Partie utilisée :</strong> Extrait de fleurs de <em>Tagetes erecta</em> ou synthèse<br/>
-      <strong>Origine :</strong> Végétale (souci d’Inde principalement) ou synthétique
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/zeaxanthine.jpg" alt="Zéaxanthine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Zéaxanthine"}
+  scientificName={"Zeaxanthin (caroténoïde xanthophylle)"}
+  partUsed={"Extrait de fleurs de Tagetes erecta ou synthèse"}
+  origin={"Végétale (souci d’Inde principalement) ou synthétique"}
+  image={"/img/principes/zeaxanthine.jpg"}
+  imageAlt={"Zéaxanthine"}
+  path={"/docs/principes/zeaxanthine"}
+/>
 
 ---
 
@@ -57,7 +54,7 @@ La tolérance est bonne aux doses usuelles. L’intérêt est donc **ciblé et c
 
 ## ⚠️ Sécurité et précautions
 
-### Effets secondaires
+### Effets secondaires / Effets indésirables :
 - Très bonne tolérance générale  
 - Troubles digestifs mineurs possibles  
 - Coloration cutanée bénigne à fortes doses prolongées (rare)

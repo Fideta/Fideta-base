@@ -7,24 +7,18 @@ synonyms: ["Reishi", "Lingzhi", "Ganoderma lucidum", "レイシ", "靈芝"]
 slug: /principes/reishi
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{ margin: 0 }}>Reishi</h1>
-    <p style={{ margin: 0, fontSize: "0.9em", color: "#555" }}>
-      （レイシ / 靈芝）
-    </p>
-    <p style={{ margin: 0 }}>
-      <strong>Nom scientifique :</strong> <em>Ganoderma lucidum</em><br/>
-      <strong>Partie utilisée :</strong> carpophore (champignon) ; parfois spores ou mycélium (statut « novel food » en UE)<br/>
-      <strong>Origine :</strong> Asie de l’Est ; aujourd’hui cultivé mondialement
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/reishi.jpg" alt="Reishi" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Reishi"}
+  scientificName={"carpophore (champignon) ; parfois spores ou mycélium (statut « novel food » en UE)"}
+  partUsed={"carpophore (champignon) ; parfois spores ou mycélium (statut « novel food » en UE)"}
+  origin={"Asie de l’Est ; aujourd’hui cultivé mondialement"}
+  image={"/img/principes/reishi.jpg"}
+  imageAlt={"Reishi"}
+  path={"/docs/principes/reishi"}
+/>
 
 ---
 

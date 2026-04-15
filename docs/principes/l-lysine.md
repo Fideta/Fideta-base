@@ -7,21 +7,18 @@ synonyms: ["Lysine", "L-lysine HCl"]
 slug: /principes/l-lysine  
 hide_title: true  
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>L-lysine</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> L-lysine (acide aminé essentiel)<br/>
-      <strong>Partie utilisée :</strong> non applicable (acide aminé isolé)<br/>
-      <strong>Origine :</strong> fermentation microbienne industrielle (principalement <em>Corynebacterium glutamicum</em>) puis purification
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/l-lysine.jpg" alt="L-lysine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"L-lysine"}
+  scientificName={"L-lysine (acide aminé essentiel)"}
+  partUsed={"non applicable (acide aminé isolé)"}
+  origin={"fermentation microbienne industrielle (principalement Corynebacterium glutamicum ) puis purification"}
+  image={"/img/principes/l-lysine.jpg"}
+  imageAlt={"L-lysine"}
+  path={"/docs/principes/l-lysine"}
+/>
 
 ---
 

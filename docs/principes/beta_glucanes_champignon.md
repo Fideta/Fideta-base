@@ -7,21 +7,18 @@ synonyms: ["β-(1,3;1,6)-glucanes", "Wellmune", "Pleuran", "Yestimun"]
 slug: /principes/beta_glucanes_champignon
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>β-glucanes de champignons et levures</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> β-(1→3),(1→6)-D-glucanes<br/>
-      <strong>**Partie utilisée** :</strong> parois cellulaires de levures ou de champignons<br/>
-      <strong>**Origine** :</strong> fermentation (*Saccharomyces cerevisiae*) ou extraction aqueuse de mycélium (*Pleurotus*, *Lentinula*, etc.)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/beta_glucanes_champignon.jpg" alt="β-glucanes de champignons et levures" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"β-glucanes de champignons et levures"}
+  scientificName={"β-(1→3),(1→6)-D-glucanes"}
+  partUsed={"parois cellulaires de levures ou de champignons"}
+  origin={"fermentation (Saccharomyces cerevisiae) ou extraction aqueuse de mycélium (Pleurotus, Lentinula, etc.)"}
+  image={"/img/principes/beta_glucanes_champignon.jpg"}
+  imageAlt={"β-glucanes de champignons et levures"}
+  path={"/docs/principes/beta_glucanes_champignon"}
+/>
 ---
 
 ## Avis global  

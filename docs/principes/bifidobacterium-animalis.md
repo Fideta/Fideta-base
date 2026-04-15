@@ -7,21 +7,18 @@ popular: false
 slug: /principes/bifidobacterium-animalis
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bifidobacterium animalis</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Bifidobacterium animalis</em> (principalement <em>subsp. lactis</em>)<br/>
-      <strong>**Partie utilisée** :</strong> souches probiotiques vivantes (lyophilisées)<br/>
-      <strong>**Origine** :</strong> bactérie issue de cultures industrielles par fermentation contrôlée
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/bifidobacterium-animalis.jpg" alt="Bifidobacterium animalis" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Bifidobacterium animalis"}
+  scientificName={"souches probiotiques vivantes (lyophilisées)"}
+  partUsed={"souches probiotiques vivantes (lyophilisées)"}
+  origin={"bactérie issue de cultures industrielles par fermentation contrôlée"}
+  image={"/img/principes/bifidobacterium-animalis.jpg"}
+  imageAlt={"Bifidobacterium animalis"}
+  path={"/docs/principes/bifidobacterium-animalis"}
+/>
 
 ---
 

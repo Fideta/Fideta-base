@@ -7,20 +7,17 @@ synonyms: ["Cu", "Cuivre élémentaire", "Cuprum"]
 slug: /principes/cuivre
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Cuivre</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> *Cuivre* (Cu)<br/>
-      <strong>**Partie utilisée** :</strong> Élément minéral essentiel<br/>
-      <strong>**Origine** :</strong> sels de cuivre de grade alimentaire (gluconate, sulfate, bisglycinate, oxyde), naturellement présent dans abats, fruits de mer, noix, céréales complètes
-	  </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/cuivre.jpg" alt="Cuivre" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Cuivre"}
+  scientificName={"Cuivre (Cu)"}
+  partUsed={"Élément minéral essentiel"}
+  origin={"sels de cuivre de grade alimentaire (gluconate, sulfate, bisglycinate, oxyde), naturellement présent dans abats, fruits de mer, noix, céréales complètes"}
+  image={"/img/principes/cuivre.jpg"}
+  imageAlt={"Cuivre"}
+  path={"/docs/principes/cuivre"}
+/>
 ---
 
 ## Avis global :  

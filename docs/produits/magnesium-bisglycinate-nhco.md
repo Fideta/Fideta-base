@@ -6,20 +6,17 @@ ean : [3401079947369 , 3760196530060 , 3760196530022]
 synopsis: "Complément alimentaire à base de magnésium amino-chélaté sous forme de bisglycinate tamponné avec oxyde de magnésium, revendiquant un effet sur la fatigue, le système nerveux, les fonctions musculaires et le stress."
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Magnésium bisglycinate</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> NHCO Nutrition<br/>
-      <strong>Catégorie :</strong> Minéral
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/magnesium-bisglycinate-nhco.jpg" alt="Magnésium bisglycinate" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Magnésium bisglycinate"}
+  brand={"NHCO Nutrition"}
+  category={"Minéral"}
+  image={"/img/produits/magnesium-bisglycinate-nhco.jpg"}
+  imageAlt={"Magnésium bisglycinate"}
+  path={"/docs/produits/magnesium-bisglycinate-nhco"}
+/>
 
 ---
 

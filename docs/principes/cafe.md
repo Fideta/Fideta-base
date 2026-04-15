@@ -7,21 +7,18 @@ synonyms: ["Café", "Coffee", "Grain de café", "Coffea arabica", "Coffea caneph
 slug: /principes/cafe
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Café</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Coffea arabica</em> L. / <em>Coffea canephora</em> Pierre ex A.Froehner<br/>
-      <strong>Partie utilisée :</strong> graine (endosperme), torréfiée pour le café classique ; non torréfiée pour certains extraits de café vert<br/>
-      <strong>Origine :</strong> boisson et ingrédient issus des graines du caféier ; en complément, principalement sous forme d’extrait de café ou d’extrait de café vert standardisé en caféine et/ou en acides chlorogéniques
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/cafe.jpg" alt="Café" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Café"}
+  scientificName={"graine (endosperme), torréfiée pour le café classique ; non torréfiée pour certains extraits de café vert"}
+  partUsed={"graine (endosperme), torréfiée pour le café classique ; non torréfiée pour certains extraits de café vert"}
+  origin={"boisson et ingrédient issus des graines du caféier ; en complément, principalement sous forme d’extrait de café ou d’extrait de café vert standardisé en caféine et/ou en acides chlorogéniques"}
+  image={"/img/principes/cafe.jpg"}
+  imageAlt={"Café"}
+  path={"/docs/principes/cafe"}
+/>
 
 ---
 

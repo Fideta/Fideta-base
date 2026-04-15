@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire à base de créatine monohydratée associée 
 ean : [3401563192633 , 3760196530138]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Créatine RBX</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> NHCO Nutrition<br/>
-      <strong>Catégorie :</strong> Mixte (ergogène sportif : créatine + co-actifs)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/creatine-rbx.jpg" alt="Créatine RBX" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Créatine RBX"}
+  brand={"NHCO Nutrition"}
+  category={"Mixte (ergogène sportif : créatine + co-actifs)"}
+  image={"/img/produits/creatine-rbx.jpg"}
+  imageAlt={"Créatine RBX"}
+  path={"/docs/produits/creatine-rbx"}
+/>
 
 ---
 

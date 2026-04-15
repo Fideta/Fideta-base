@@ -8,21 +8,18 @@ popular: false
 slug: /principes/QuercusRobur
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Quercus robur</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> Quercus robur L.<br/>
-      <strong>Partie utilisée :</strong> écorce en phytothérapie traditionnelle ; bois pour certains extraits nutraceutiques standardisés<br/>
-      <strong>Origine :</strong> espèce européenne, principalement d’Europe tempérée
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/QuercusRobur.jpg" alt="Quercus robur" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Quercus robur"}
+  scientificName={"Quercus robur L."}
+  partUsed={"écorce en phytothérapie traditionnelle ; bois pour certains extraits nutraceutiques standardisés"}
+  origin={"espèce européenne, principalement d’Europe tempérée"}
+  image={"/img/principes/QuercusRobur.jpg"}
+  imageAlt={"Quercus robur"}
+  path={"/docs/principes/QuercusRobur"}
+/>
 
 ---
 

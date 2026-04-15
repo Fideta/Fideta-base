@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire associant bêta-glucanes de levure, champigno
 ean: 3664524000549
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYSTIMYL</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Mixte (bêta-glucanes, champignons, micronutriments)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/ergystimyl.jpg" alt="ERGYSTIMYL - Nutergia" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYSTIMYL"}
+  brand={"Nutergia"}
+  category={"Mixte (bêta-glucanes, champignons, micronutriments)"}
+  image={"/img/produits/ergystimyl.jpg"}
+  imageAlt={"ERGYSTIMYL"}
+  path={"/docs/produits/ergystimyl"}
+/>
 
 ---
 

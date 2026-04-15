@@ -1,27 +1,24 @@
 ---
 title: Capillaire de Montpellier
 image: /img/principes/capillaire_montpellier.jpg
-categories: ["Plantes"]
+categories: ["Plantes médicinales"]
 synopsis: "Fougère médicinale traditionnelle utilisée pour les affections respiratoires et la chute des cheveux. Aucune preuve clinique isolée d’efficacité. Une seule étude humaine multi-ingrédients, publiée dans une revue prédatrice, empêche toute conclusion scientifique robuste."
 synonyms: ["Adiantum capillus-veneris", "Capillaire", "Hair fern", "Venus hair fern"]
 slug: /principes/capillaire_montpellier
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Capillaire de Montpellier</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Adiantum capillus-veneris</em> L.<br/>
-      <strong>**Partie utilisée** :</strong> frondes (parties aériennes)<br/>
-      <strong>**Origine** :</strong> Fougère de la famille des Pteridaceae, spontanée dans les régions tempérées chaudes (Europe du Sud, Afrique du Nord, Asie de l’Ouest)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/capillaire_montpellier.jpg" alt="Capillaire de Montpellier" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Capillaire de Montpellier"}
+  scientificName={"frondes (parties aériennes)"}
+  partUsed={"frondes (parties aériennes)"}
+  origin={"Fougère de la famille des Pteridaceae, spontanée dans les régions tempérées chaudes (Europe du Sud, Afrique du Nord, Asie de l’Ouest)"}
+  image={"/img/principes/capillaire_montpellier.jpg"}
+  imageAlt={"Capillaire de Montpellier"}
+  path={"/docs/principes/capillaire_montpellier"}
+/>
 ---
 
 ## Avis global  
@@ -46,7 +43,7 @@ Ainsi, **aucune preuve clinique solide** ne soutient l’efficacité de cette pl
 
 ## ⚠️ Sécurité et précautions  
 
-### Effets secondaires / Effets indésirables  
+### Effets secondaires / Effets indésirables 
 - Aucun effet indésirable grave connu ; tolérance correcte aux doses traditionnelles (infusions, sirops).  
 - Possibles troubles digestifs mineurs ou réactions allergiques isolées.  
 
@@ -97,5 +94,3 @@ Ainsi, **aucune preuve clinique solide** ne soutient l’efficacité de cette pl
 ---
 
 <sub><em>Dernière mise à jour : 16 octobre 2025</em></sub>
-
-

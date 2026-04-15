@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire associant 8 souches probiotiques pour un appo
 ean: [3401560288322]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lactichoc</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Probiotiques multi-souches (ferments lactiques)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/lactichoc.jpg" alt="Lactichoc – PiLeJe" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Lactichoc"}
+  brand={"PiLeJe"}
+  category={"Probiotiques multi-souches (ferments lactiques)"}
+  image={"/img/produits/lactichoc.jpg"}
+  imageAlt={"Lactichoc"}
+  path={"/docs/produits/lactichoc"}
+/>
 
 ---
 

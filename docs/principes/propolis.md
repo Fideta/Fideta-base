@@ -7,20 +7,17 @@ synonyms: ["Résine d'abeille", "Bee glue"]
 slug: /principes/propolis
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Propolis</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> mélange résineux collecté par *Apis mellifera* à partir d’exsudats végétaux<br/>
-      <strong>**Partie utilisée** :</strong> résine purifiée / extrait hydroalcoolique<br/>
-      <strong>**Origine** :</strong> Produit de la ruche (type peuplier, type baccharis)
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/propolis.jpg" alt="Propolis" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Propolis"}
+  scientificName={"mélange résineux collecté par Apis mellifera à partir d’exsudats végétaux"}
+  partUsed={"résine purifiée / extrait hydroalcoolique"}
+  origin={"Produit de la ruche (type peuplier, type baccharis)"}
+  image={"/img/principes/propolis.jpg"}
+  imageAlt={"Propolis"}
+  path={"/docs/principes/propolis"}
+/>
 ---
 
 ## Avis global  
@@ -108,5 +105,3 @@ Aucune allégation santé n’a été validée par l’EFSA.
 ---
 
 <sub><em>Dernière mise à jour : 27 septembre 2025</em></sub>
-
-

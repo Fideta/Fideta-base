@@ -8,20 +8,17 @@ popular: false
 slug: /principes/selenium
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Sélénium</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> Sélénium (Se)<br/>
-      <strong>**Partie utilisée** :</strong> Oligo-élément minéral<br/>
-      <strong>**Origine** :</strong> Apport alimentaire (poissons, œufs, noix du Brésil, céréales) ; compléments sous forme organique (sélénométhionine) ou inorganique (sélénite/selénate)
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/selenium.jpg" alt="Sélénium" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Sélénium"}
+  scientificName={"Sélénium (Se)"}
+  partUsed={"Oligo-élément minéral"}
+  origin={"Apport alimentaire (poissons, œufs, noix du Brésil, céréales) ; compléments sous forme organique (sélénométhionine) ou inorganique (sélénite/selénate)"}
+  image={"/img/principes/selenium.jpg"}
+  imageAlt={"Sélénium"}
+  path={"/docs/principes/selenium"}
+/>
 
 ---
 
@@ -103,6 +100,5 @@ Conclusion : viser l’**apport alimentaire recommandé (70 µg/j)**, réserver 
 8. NIH ODS (2025) – Synthèse des formes et sécurité.  
 9. Vidal (2014) – Allégations validées/interdites par EFSA, prudence cancer prostate.  
 10. Examine (2025) – Revue : motilité spermatique (B), inefficacité sur lipides, migraines, dialyse.  
-
 
 

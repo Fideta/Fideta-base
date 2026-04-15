@@ -7,21 +7,18 @@ synonyms: ["Graines de chanvre", "Huile de chanvre", "Protéine de chanvre", "He
 slug: /principes/chanvre
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Chanvre alimentaire</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> *Cannabis sativa* L.<br/>
-      <strong>**Partie utilisée** :</strong> graines, huile de graine, farine/protéine, fibres<br/>
-      <strong>**Origine** :</strong> variétés industrielles cultivées dans l’Union européenne (≤0,3 % THC)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/chanvre.jpg" alt="Chanvre" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Chanvre (Cannabis sativa)"}
+  scientificName={"Cannabis sativa L."}
+  partUsed={"graines, huile de graine, farine/protéine, fibres"}
+  origin={"variétés industrielles cultivées dans l’Union européenne (≤0,3 % THC)"}
+  image={"/img/principes/chanvre.jpg"}
+  imageAlt={"Chanvre (Cannabis sativa)"}
+  path={"/docs/principes/chanvre"}
+/>
 
 ---
 

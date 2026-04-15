@@ -3,23 +3,20 @@ title: "ERGYSTRESS Seren"
 image: /img/produits/ergystress-seren.jpg
 categories: ["Système nerveux", "Stress", "Micronutriments"]
 synopsis: "Complément alimentaire à base de L-tryptophane, rhodiola, vitamines et minéraux, proposé pour la gestion du stress émotionnel et des pulsions sucrées."
-ean: 3401560256222
+ean: 3401560256208
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYSTRESS® Seren</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Mixte (acide aminé, plante, vitamines et minéraux)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/ergystress-seren.jpg" alt="ERGYSTRESS Seren - Nutergia" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYSTRESS Seren"}
+  brand={"Nutergia"}
+  category={"Mixte (acide aminé, plante, vitamines et minéraux)"}
+  image={"/img/produits/ergystress-seren.jpg"}
+  imageAlt={"ERGYSTRESS Seren"}
+  path={"/docs/produits/ergystress-seren"}
+/>
 
 ---
 
@@ -130,4 +127,3 @@ Pour toute décision de santé (carence, supplémentation, interactions médicam
 ---
 
 <sub><em>Dernière mise à jour : 28 octobre 2025</em></sub>
-

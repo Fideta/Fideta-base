@@ -7,21 +7,18 @@ popular: false
 slug: /principes/plasma-de-quinton
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Plasma de Quinton</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Aqua marina</em> (eau de mer)<br/>
-      <strong>Partie utilisée :</strong> eau de mer microfiltrée (fraction minérale et oligo-éléments)<br/>
-      <strong>Origine :</strong> prélèvement marin, microfiltration, conditionnement buvable
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/plasma-de-quinton.jpg" alt="Plasma de Quinton" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Plasma de Quinton"}
+  scientificName={"eau de mer microfiltrée (fraction minérale et oligo-éléments)"}
+  partUsed={"eau de mer microfiltrée (fraction minérale et oligo-éléments)"}
+  origin={"prélèvement marin, microfiltration, conditionnement buvable"}
+  image={"/img/principes/plasma-de-quinton.jpg"}
+  imageAlt={"Plasma de Quinton"}
+  path={"/docs/principes/plasma-de-quinton"}
+/>
 
 ---
 

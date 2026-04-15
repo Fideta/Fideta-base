@@ -8,7 +8,7 @@ import styles from "./produits.module.css";
 const ALL_CATEGORIES = [
   "Tous", "Sommeil", "Énergie",
   "Immunité", "Stress", "Beauté", "Articulations",
-  "Magnésium", "Phytothérapie", "Zinc", "Microbiote intestinal"
+  "Magnésium", "Phytothérapie", "Probiotiques", "Microbiote intestinal"
 ];
 
 export default function ProduitsPage() {

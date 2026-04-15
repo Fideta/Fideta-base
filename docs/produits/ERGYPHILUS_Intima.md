@@ -6,19 +6,16 @@ synopsis: "Complément alimentaire à base de lactobacilles et bifidobactéries 
 ean: 3664524000532
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYPHILUS® Intima</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Probiotiques multi-souches + prébiotique + vitamine
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/produits/ERGYPHILUS_Intima.jpg" alt="ERGYPHILUS Intima - Nutergia" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYPHILUS® Intima"}
+  brand={"Nutergia"}
+  category={"Probiotiques multi-souches + prébiotique + vitamine"}
+  image={"/img/produits/ERGYPHILUS_Intima.jpg"}
+  imageAlt={"ERGYPHILUS® Intima"}
+  path={"/docs/produits/ERGYPHILUS_Intima"}
+/>
 
 ---
 

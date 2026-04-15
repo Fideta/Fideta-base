@@ -8,21 +8,18 @@ popular: false
 slug: /principes/ligilactobacillus-salivarius
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Ligilactobacillus salivarius</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>*Ligilactobacillus salivarius* (ex-*Lactobacillus salivarius*) </em><br/>
-      <strong>Partie utilisée :</strong>souches probiotiques vivantes, lyophilisées<br/>
-      <strong>Origine :</strong>isolats du microbiote humain (cavité buccale, intestin, lait maternel) ou d’aliments fermentés
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/ligilactobacillus-salivarius.jpg" alt="Ligilactobacillus salivarius" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Ligilactobacillus salivarius"}
+  scientificName={"souches probiotiques vivantes, lyophilisées"}
+  partUsed={"souches probiotiques vivantes, lyophilisées"}
+  origin={"isolats du microbiote humain (cavité buccale, intestin, lait maternel) ou d’aliments fermentés"}
+  image={"/img/principes/ligilactobacillus-salivarius.jpg"}
+  imageAlt={"Ligilactobacillus salivarius"}
+  path={"/docs/principes/ligilactobacillus-salivarius"}
+/>
 
 ---
 

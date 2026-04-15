@@ -6,21 +6,18 @@ synopsis: "Ronce commune (mûre). Usage traditionnel ancien des feuilles comme a
 slug: /principes/rubus-fruticosus
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Rubus fruticosus</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Rubus fruticosus</em> L. (agrégat)<br/>
-      <strong>Partie utilisée :</strong> fruit (mûre) ; feuille (Rubi fruticosi folium)<br/>
-      <strong>Origine :</strong> Ronce commune européenne, usage alimentaire (fruit) et traditionnel (feuille)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/rubus-fruticosus.jpg" alt="Rubus fruticosus" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Rubus fruticosus"}
+  scientificName={"fruit (mûre) ; feuille (Rubi fruticosi folium)"}
+  partUsed={"fruit (mûre) ; feuille (Rubi fruticosi folium)"}
+  origin={"Ronce commune européenne, usage alimentaire (fruit) et traditionnel (feuille)"}
+  image={"/img/principes/rubus-fruticosus.jpg"}
+  imageAlt={"Rubus fruticosus"}
+  path={"/docs/principes/rubus-fruticosus"}
+/>
 
 ---
 

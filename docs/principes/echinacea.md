@@ -7,20 +7,17 @@ synonyms: ["Echinacea", "Échinacée pourpre", "Echinacea purpurea", "Purple con
 slug: /principes/echinacea
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Echinacée</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> *Echinacea purpurea* (principalement), *E. angustifolia*, *E. pallida*)<br/>
-      <strong>**Partie utilisée** :</strong> parties aériennes fraîches (jus/extrait), parfois racine <br/>
-      <strong>**Origine** :</strong> Amérique du Nord (Astéracées), aujourd'hui cultivée à travers le monde.
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/echinacea.jpg" alt="Echinacée" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Échinacée"}
+  scientificName={"Echinacea purpurea (principalement), E. angustifolia, E. pallida)"}
+  partUsed={"parties aériennes fraîches (jus/extrait), parfois racine"}
+  origin={"Amérique du Nord (Astéracées), aujourd'hui cultivée à travers le monde."}
+  image={"/img/principes/echinacea.jpg"}
+  imageAlt={"Échinacée"}
+  path={"/docs/principes/echinacea"}
+/>
 ---
 
 

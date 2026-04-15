@@ -7,20 +7,17 @@ synonyms: ["Plantago ovata", "Ispaghula", "Psyllium husk", "Tégument de psylliu
 slug: /principes/psyllium
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Psyllium</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Plantago ovata_ Forssk. (psyllium blond) / _Plantago psyllium_ L. (psyllium brun)<br/>
-      <strong>**Partie utilisée** :</strong> tégument (enveloppe de la graine) — **Extrait :** poudre brute<br/>
-      <strong>****Origine**** :</strong> Inde / Pakistan (blond) ; bassin méditerranéen (brun)<br/>
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/psyllium.jpg" alt="Psyllium" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Psyllium (Ispaghul)"}
+  scientificName={"Plantago ovata_ Forssk. (psyllium blond) / _Plantago psyllium_ L. (psyllium brun)"}
+  partUsed={"tégument (enveloppe de la graine) — Extrait : poudre brute"}
+  origin={"Inde / Pakistan (blond) ; bassin méditerranéen (brun)"}
+  image={"/img/principes/psyllium.jpg"}
+  imageAlt={"Psyllium (Ispaghul)"}
+  path={"/docs/principes/psyllium"}
+/>
 ---
 
 ## Avis global :  

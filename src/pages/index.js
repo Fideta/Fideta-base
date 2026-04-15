@@ -1,15 +1,12 @@
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import { usePluginData } from '@docusaurus/useGlobalData';
 import Head from '@docusaurus/Head';
 import styles from './index.module.css';
+import { useAuth } from '../context/AuthContext';
 
 export default function Home() {
-  const principesData = usePluginData('principes-frontmatter') || [];
-
-  // (Tu l’utilises si tu veux afficher des ingrédients populaires quelque part)
-  const popularItems = principesData.filter(item => item.popular).slice(0, 6);
+  const { loading, isPremium } = useAuth();
 
   const orgJsonLd = {
     '@context': 'https://schema.org',
@@ -19,6 +16,52 @@ export default function Home() {
     logo: 'https://fideta.fr/img/favicon-192.png',
     sameAs: ['https://www.linkedin.com/company/fideta-app/', 'https://x.com/Fideta_app'],
   };
+
+  function renderPremiumCardContent() {
+    if (loading) {
+      return (
+        <div className={styles.cardBody}>
+          <p className={styles.premiumText}>Chargement de votre accès…</p>
+
+          <div className={styles.cardBodyFooter}>
+            <span className={styles.premiumButton}>Chargement…</span>
+          </div>
+        </div>
+      );
+    }
+
+    if (isPremium) {
+      return (
+        <div className={styles.cardBody}>
+          <p className={styles.premiumText}>
+            Accédez directement à la recherche par indication clinique pour repérer rapidement
+            les ingrédients et produits les plus pertinents.
+          </p>
+
+          <div className={styles.cardBodyFooter}>
+            <Link className="button button--primary" to="/clinique">
+              Explorer les indications
+            </Link>
+          </div>
+        </div>
+      );
+    }
+
+    return (
+      <div className={styles.cardBody}>
+        <p className={styles.premiumText}>
+          Accédez à la recherche par indication clinique pour identifier plus rapidement
+          les ingrédients et produits les plus pertinents selon un besoin précis.
+        </p>
+
+        <div className={styles.cardBodyFooter}>
+          <Link className={styles.premiumButton} to="/clinique">
+            Découvrir Fideta Plus
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <>
@@ -41,216 +84,164 @@ export default function Home() {
       </Head>
 
       <Layout title="Fideta" description="Analyses indépendantes des compléments alimentaires">
-        {/* HERO */}
-        <header className={styles.heroBanner}>
-          <div className="container">
-            <div className={styles.heroContent}>
-              <div className={styles.heroText}>
-                <h1>
-                  Décortique la science des compléments alimentaires pour faire les bons choix
-                </h1>
+        <div className={styles.homePageShell}>
+          <header className={styles.heroBanner}>
+            <div className="container">
+              <div className={styles.heroContent}>
+                <div className={styles.heroText}>
+                  <h1>
+                    Décortique la science des compléments alimentaires pour faire les bons choix
+                  </h1>
 
-                <p className={styles.heroSubtitle}>
-                  Fideta décrypte les compléments alimentaires avec rigueur scientifique, en s’appuyant sur les données disponibles pour distinguer ce qui est étayé par la science de ce qui ne l’est pas, et vous aider à prendre des décisions éclairées.
-                </p>
+                  <p className={styles.heroSubtitle}>
+                    Fideta décrypte les compléments alimentaires avec rigueur scientifique, en
+                    s’appuyant sur les données disponibles pour distinguer ce qui est étayé par la
+                    science de ce qui ne l’est pas, et vous aider à prendre des décisions éclairées.
+                  </p>
 
-                <div className={styles.buttons}>
-                  <Link className="button button--primary" to="/principes-actifs">
-                    Explorer les analyses
-                  </Link>
-                  <Link className="button button--secondary" to="/docs/methodologie">
-                    Comprendre la méthode
-                  </Link>
-                </div>
-              </div>
-
-              <div className={styles.heroImage}>
-                <img
-                  src="/img/illustration-science.png"
-                  alt="Illustration : analyse scientifique des compléments alimentaires"
-                />
-              </div>
-            </div>
-          </div>
-        </header>
-
-        {/* CONTENU */}
-        <main className={styles.fullBackground}>
-          <div className="container">
-            <h2 className={styles.homeSectionTitle}>
-              Ce que vous trouverez sur Fideta
-            </h2>
-
-            <section className={styles.cardSection}>
-              {/* 1ère ligne : Ingrédients / Produits / Articles */}
-              <div className={styles.card}>
-                <div className={styles.cardHeader}>
-                  <h3>Analyses d'ingrédients</h3>
-                </div>
-                <div className={styles.cardBody}>
-                  <ul>
-                    <li>Effets documentés chez l'être humain</li>
-                    <li>Niveau de preuve selon le type d’études disponibles</li>
-                    <li>Classification des effets par indication</li>
-                    <li>Effets indésirables ou toxicité</li>
-                  </ul>
-
-                  <div className={styles.cardBodyFooter}>
+                  <div className={styles.buttons}>
                     <Link className="button button--primary" to="/principes-actifs">
                       Explorer les ingrédients
                     </Link>
-                  </div>
-                </div>
-              </div>
-
-              <div className={styles.card}>
-                <div className={styles.cardHeader}>
-                  <h3>Analyses de produits</h3>
-                </div>
-                <div className={styles.cardBody}>
-                  <ul>
-                    <li>Dosages comparés à ceux utilisés dans les études</li>
-                    <li>Cohérence globale entre formulation et allégations</li>
-                    <li>Risques existants pour la santé</li>
-                    <li>Une note globale de pertinence clinique</li>
-                  </ul>
-
-                  <div className={styles.cardBodyFooter}>
-                    <Link className="button button--primary" to="/produits">
+                    <Link className="button button--secondary" to="/produits">
                       Explorer les produits
                     </Link>
                   </div>
                 </div>
-              </div>
 
-              <div className={styles.card}>
-                <div className={styles.cardHeader}>
-                  <h3>Actualités et synthèses</h3>
+                <div className={styles.heroImage}>
+                  <img
+                    src="/img/illustration-science.png"
+                    alt="Illustration : analyse scientifique des compléments alimentaires"
+                  />
                 </div>
-                <div className={styles.cardBody}>
-                  <ul>
-                     <li>Décryptage des tendances et des idées reçues</li>
-                     <li>Résumés accessibles d'articles scientifiques</li>
-                     <li>Mise en contexte des résultats et de leurs limites</li>
-                     <li>Actualités du site fideta.fr</li>
-                  </ul>
+              </div>
+            </div>
+          </header>
 
-                  <div className={styles.cardBodyFooter}>
-                    <Link className="button button--primary" to="/blog">
-                      Voir les articles
-                    </Link>
+          <main className={styles.fullBackground}>
+            <div className="container">
+              <h2 className={styles.homeSectionTitle}>Ce que vous trouverez sur Fideta</h2>
+
+              <section className={styles.cardSection}>
+                <div className={styles.card}>
+                  <div className={styles.cardHeader}>
+                    <h3>Analyses de produits</h3>
                   </div>
-                </div>
-              </div>
 
-              {/* 2ème ligne : Derniers produits / Derniers ingrédients / Par thème */}
-              <div className={styles.card}>
-                <div className={styles.cardHeader}>
-                  <h3>Derniers produits</h3>
-                </div>
-                <div className={styles.cardBody}>
-                  <ul>
+                  <div className={styles.cardBody}>
+                    <div className={styles.cardIntro}>Derniers produits analysés</div>
+
+                    <ul className={styles.latestList}>
                       <li>
-    <Link to="/docs/produits/cytocore">Cytocore </Link> Pour fatigue intense, moins intense sur les preuves.
-  </li>
-  <li>
-    <Link to="/docs/produits/effluvium">Effluvium </Link> Peu de preuves pour les cheveux.
-  </li>
-  <li>
-    <Link to="/docs/produits/feminabiane-meno-confort">Feminabiane Méno’Confort </Link> Encore peu de confort prouvé.
-  </li>
-                  </ul>
+                        <Link to="/docs/produits/cytocore">Cytocore</Link> Pas intense sur les
+                        preuves.
+                      </li>
+                      <li>
+                        <Link to="/docs/produits/effluvium">Effluvium</Link> Peu de preuves pour
+                        les cheveux.
+                      </li>
+                      <li>
+                        <Link to="/docs/produits/feminabiane-meno-confort">
+                          Feminabiane Méno’Confort
+                        </Link>{' '}
+                        Peu de confort prouvé.
+                      </li>
+                    </ul>
 
-                  <div className={styles.cardBodyFooter}>
-                    <Link className="button button--primary" to="/produits">
-                      Parcourir les produits
-                    </Link>
+                    <div className={styles.cardBodyFooter}>
+                      <Link className="button button--primary" to="/produits">
+                        Explorer les produits
+                      </Link>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className={styles.card}>
-                <div className={styles.cardHeader}>
-                  <h3>Derniers ingrédients</h3>
-                </div>
-                <div className={styles.cardBody}>
-                  <div className={styles.tagList}>
-                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/docs/principes/creatine">
-                      Créatine
-                    </Link>
-                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/docs/principes/spiruline">
-                      Spiruline
-                    </Link>
-                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/docs/principes/ashwagandha">
-                      Ashwagandha
-                    </Link>
-                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/docs/principes/berberine">
-                      Berberine
-                    </Link>
-                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/docs/principes/chondroitine">
-                      Chondroitine
-                    </Link>
-                    <Link className={`${styles.tag} ${styles.tagButton}`} to="/docs/principes/omega-3">
-                      Omega 3
-                    </Link>
-
+                <div className={styles.card}>
+                  <div className={styles.cardHeader}>
+                    <h3>Analyses d&apos;ingrédients</h3>
                   </div>
 
-                  <div className={styles.cardBodyFooter}>
-                    <Link className="button button--primary" to="/principes-actifs">
-                      Parcourir les ingrédients
-                    </Link>
+                  <div className={styles.cardBody}>
+                    <div className={styles.cardIntro}>Derniers ingrédients analysés</div>
+
+                    <div className={styles.tagList}>
+                      <Link
+                        className={`${styles.tag} ${styles.tagButton}`}
+                        to="/docs/principes/creatine"
+                      >
+                        Créatine
+                      </Link>
+                      <Link
+                        className={`${styles.tag} ${styles.tagButton}`}
+                        to="/docs/principes/spiruline"
+                      >
+                        Spiruline
+                      </Link>
+                      <Link
+                        className={`${styles.tag} ${styles.tagButton}`}
+                        to="/docs/principes/ashwagandha"
+                      >
+                        Ashwagandha
+                      </Link>
+                      <Link
+                        className={`${styles.tag} ${styles.tagButton}`}
+                        to="/docs/principes/berberine"
+                      >
+                        Berberine
+                      </Link>
+                      <Link
+                        className={`${styles.tag} ${styles.tagButton}`}
+                        to="/docs/principes/chondroitine"
+                      >
+                        Chondroitine
+                      </Link>
+                      <Link
+                        className={`${styles.tag} ${styles.tagButton}`}
+                        to="/docs/principes/omega-3"
+                      >
+                        Omega 3
+                      </Link>
+                    </div>
+
+                    <div className={styles.cardBodyFooter}>
+                      <Link className="button button--primary" to="/principes-actifs">
+                        Explorer les ingrédients
+                      </Link>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div className={styles.card}>
-  <div className={styles.cardHeader}>
-    <h3>Explorer Fideta</h3>
-  </div>
+                <div className={`${styles.card} ${styles.premiumCard}`}>
+                  <div className={styles.premiumBadge}>
+                    {loading ? 'Fideta Plus' : isPremium ? 'Fideta Plus' : 'Fideta Plus 🔒'}
+                  </div>
 
-  <div className={styles.cardBody}>
-    <div className={styles.miniColumns}>
-      <div className={styles.miniCol}>
-        <div className={styles.miniTitle}>Recherche</div>
-        <div className={styles.miniText}>
-          Trouver un ingrédient ou un produit.
+                  <div className={styles.cardHeader}>
+                    <h3>Recherche par indication</h3>
+                  </div>
+
+                  {renderPremiumCardContent()}
+                </div>
+              </section>
+
+              <section className={styles.bottomActions}>
+                <Link className="button button--secondary" to="/docs/methodologie">
+                  Méthodologie
+                </Link>
+
+                <Link className="button button--secondary" to="/blog">
+                  Voir les articles
+                </Link>
+
+                <Link className="button button--primary" to="/soutenir">
+                  Soutenir Fideta
+                </Link>
+              </section>
+            </div>
+          </main>
         </div>
-        <Link className={styles.miniLink} to="/search">
-          Rechercher
-        </Link>
-      </div>
-
-      <div className={styles.miniCol}>
-        <div className={styles.miniTitle}>Par thème</div>
-        <div className={styles.miniText}>
-          Explorer par usage (sommeil, stress…).
-        </div>
-        <Link className={styles.miniLink} to="/principes-actifs">
-          Explorer
-        </Link>
-      </div>
-
-      <div className={`${styles.miniCol} ${styles.miniColSupport}`}>
-  <div className={styles.miniTitle}>Nous aider</div>
-  <div className={styles.miniText}>
-    Fideta est un projet indépendant, sans publicité.
-  </div>
-  <Link className={styles.miniLink} to="/soutenir">
-    Soutenir
-  </Link>
-</div>
-
-    </div>
-  </div>
-</div>
-
-
-            </section>
-          </div>
-        </main>
       </Layout>
     </>
   );
 }
-

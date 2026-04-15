@@ -6,20 +6,17 @@ synopsis: "Complément associant probiotiques multi-souches et vitamines C et D,
 ean: []
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lactibiane Immuno</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Probiotiques + vitamines (mixte)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/lactibiane-immuno.jpg" alt="Lactibiane Immuno – PiLeJe" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Lactibiane Immuno"}
+  brand={"PiLeJe"}
+  category={"Probiotiques + vitamines (mixte)"}
+  image={"/img/produits/lactibiane-immuno.jpg"}
+  imageAlt={"Lactibiane Immuno"}
+  path={"/docs/produits/lactibiane-immuno"}
+/>
 
 ---
 

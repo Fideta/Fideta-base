@@ -7,22 +7,28 @@ synonyms: ["L-theanine", "γ-L-glutamyl-L-ethylamide"]
 popular: true
 slug: /principes/l-theanine
 hide_title: true
+clinical:
+  - indication: endormissement
+    grade: C
+  - indication: sommeil_qualite
+    grade: C
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>L-théanine</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> L-γ-glutamyl-éthylamide<br/>
-      <strong>Partie utilisée :</strong> acide aminé extrait du thé ou obtenu par synthèse<br/>
-      <strong>Origine :</strong> naturellement présent dans <em>Camellia sinensis</em> (thé)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/l-theanine.jpg" alt="L-théanine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"L-théanine"}
+  scientificName={"L-γ-glutamyl-éthylamide"}
+  partUsed={"acide aminé extrait du thé ou obtenu par synthèse"}
+  origin={"naturellement présent dans Camellia sinensis (thé)"}
+  image={"/img/principes/l-theanine.jpg"}
+  imageAlt={"L-théanine"}
+  path={"/docs/principes/l-theanine"}
+/>
 
 ---
 
@@ -106,7 +112,7 @@ La L-théanine peut donc être considérée comme un **ingrédient sûr**, appor
 
 | Critère | Note | Commentaire |
 |--------|------|-------------|
-| **Efficacité** |   | Effets modestes mais plausibles sur stress aigu et sommeil ; pas d’efficacité démontrée sur anxiété chronique, cognition isolée, métabolisme. |
+| **Efficacité** | 🟡 C | Effets modestes mais plausibles sur stress aigu et sommeil ; pas d’efficacité démontrée sur anxiété chronique, cognition isolée, métabolisme. |
 | **Sécurité** | 🟢 B | Très bonne tolérance ; absence de signaux de toxicité ; données limitées mais cohérentes. |
 | **Qualité** | 🟡 C | Variabilité selon origine (synthèse/extraction) ; pureté parfois incomplètement documentée. |
 
@@ -123,6 +129,5 @@ La L-théanine peut donc être considérée comme un **ingrédient sûr**, appor
 7. Hidese S. et al. L-theanine on anxiety and stress markers — RCT, *Neuropharmacology*, 2020.
 
 ---
-
 
 <sub><em>Dernière mise à jour : 9 décembre 2025</em></sub>

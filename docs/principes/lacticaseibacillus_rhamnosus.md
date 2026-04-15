@@ -7,20 +7,17 @@ synonyms: ["Lactobacillus rhamnosus"]
 slug: /principes/lacticaseibacillus_rhamnosus
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lacticaseibacillus rhamnosus</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Lacticaseibacillus rhamnosus (ex. Lactobacillus rhamnosus)<br/>
-      <strong>**Partie utilisée** :</strong> souche bactérienne vivante (probiotique)   
-      <strong>****Origine**** :</strong> flore intestinale humaine ou produits laitiers fermentés
-	  </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/lacticaseibacillus_rhamnosus.jpg" alt="Lacticaseibacillus rhamnosus" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Lacticaseibacillus rhamnosus"}
+  scientificName={"Lacticaseibacillus rhamnosus (ex. Lactobacillus rhamnosus)"}
+  partUsed={"souche bactérienne vivante (probiotique)"}
+  origin={"flore intestinale humaine ou produits laitiers fermentés"}
+  image={"/img/principes/lacticaseibacillus_rhamnosus.jpg"}
+  imageAlt={"Lacticaseibacillus rhamnosus"}
+  path={"/docs/principes/lacticaseibacillus_rhamnosus"}
+/>
 
 ---
 

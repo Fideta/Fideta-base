@@ -5,23 +5,29 @@ categories: ["Plantes"]
 synopsis: "Plante européenne sédative traditionnelle. Aucune étude clinique en monothérapie ; bénéfice modeste observé uniquement dans des combinaisons multi-plantes (valériane, passiflore, aubépine, ballote). Tolérance globalement bonne, prudence pendant la grossesse et en cas d’atteinte hépatique."  
 synonyms: ["Ballote", "Ballota nigra", "Black horehound", "Ballotae nigrae herba"]  
 slug: /principes/ballote  
-hide_title: true  
+hide_title: true 
+clinical:
+  - indication: endormissement
+    grade: F
+  - indication: sommeil_qualite
+    grade: F
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Ballote</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> *Ballota nigra* L.<br/>
-      <strong>**Partie utilisée** :</strong> sommités fleuries (herba)<br/>
-      <strong>**Origine** :</strong> Europe et bassin méditerranéen ; famille des Lamiacées
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/ballote.jpg" alt="Ballote" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Ballote"}
+  scientificName={"Ballota nigra L."}
+  partUsed={"sommités fleuries (herba)"}
+  origin={"Europe et bassin méditerranéen ; famille des Lamiacées"}
+  image={"/img/principes/ballote.jpg"}
+  imageAlt={"Ballote"}
+  path={"/docs/principes/ballote"}
+/>
 
 ---
 

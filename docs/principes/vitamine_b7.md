@@ -7,20 +7,17 @@ synonyms: ["Biotine", "Vitamine H", "Vitamine B8"]
 slug: /principes/vitamine_b7
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Vitamine B7</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Biotine (vitamine B7, vitamine H, parfois appelée B8 en France)  <br/>
-      <strong>**Partie utilisée** :</strong> vitamine hydrosoluble, coenzyme <br/> 
-      <strong>****Origine**** :</strong> Apports alimentaires (jaune d’œuf, foie, levure, soja, avoine, champignons…) et synthèse partielle par la flore intestinale. <br/>
-	  </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/vitamine_b7.jpg" alt="Vitamine B7" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Vitamine B7"}
+  scientificName={"Biotine (vitamine B7, vitamine H, parfois appelée B8 en France)"}
+  partUsed={"vitamine hydrosoluble, coenzyme"}
+  origin={"Apports alimentaires (jaune d’œuf, foie, levure, soja, avoine, champignons…) et synthèse partielle par la flore intestinale."}
+  image={"/img/principes/vitamine_b7.jpg"}
+  imageAlt={"Vitamine B7"}
+  path={"/docs/principes/vitamine_b7"}
+/>
   
 
 ---
@@ -80,4 +77,3 @@ Les usages courants en compléments « beauté » (ongles, cheveux, vitalité) r
 - Mock DM (2017) – *Biotin: from nutrition to therapeutics*. J Nutr.  
 - Bolander FF (2019) – *Biotin, biotinidase deficiency, and false lab test results*. Ann Clin Biochem.  
 - EMA (2022) – *Biotin (vitamin B7): risk of interference with laboratory tests*.  
-

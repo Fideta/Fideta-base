@@ -7,21 +7,18 @@ synonyms: ["Saw Palmetto", "Sabal serrulata", "Serenoa serrulata", "Serenoa repe
 slug: /principes/palmier_de_floride
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Palmier de Floride</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Serenoa repens</em> (syn. <em>Sabal serrulata</em>)<br/>
-      <strong>**Partie utilisée** :</strong> fruit (baies)<br/>
-      <strong>**Origine** :</strong> Sud-Est des États-Unis (principalement Floride), Antilles
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/palmier_de_floride.jpg" alt="Palmier de Floride" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Palmier de Floride"}
+  scientificName={"fruit (baies)"}
+  partUsed={"fruit (baies)"}
+  origin={"Sud-Est des États-Unis (principalement Floride), Antilles"}
+  image={"/img/principes/palmier_de_floride.jpg"}
+  imageAlt={"Palmier de Floride"}
+  path={"/docs/principes/palmier_de_floride"}
+/>
 ---
 
 ## Avis global  

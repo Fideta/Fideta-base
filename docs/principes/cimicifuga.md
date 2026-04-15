@@ -7,21 +7,18 @@ synonyms: ["Cimicifuga", "Actée à grappes noires", "Black cohosh", "Actaea rac
 slug: /principes/cimicifuga  
 hide_title: true  
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Cimicifuga</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Cimicifuga racemosa</em> (syn. <em>Actaea racemosa</em>)<br/>
-      <strong>**Partie utilisée** :</strong> rhizome (racines/rhizomes)<br/>
-      <strong>**Origine** :</strong> Amérique du Nord ; usage traditionnel puis moderne surtout pour les troubles climatériques
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/cimicifuga.jpg" alt="Cimicifuga" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Cimicifuga"}
+  scientificName={"rhizome (racines/rhizomes)"}
+  partUsed={"rhizome (racines/rhizomes)"}
+  origin={"Amérique du Nord ; usage traditionnel puis moderne surtout pour les troubles climatériques"}
+  image={"/img/principes/cimicifuga.jpg"}
+  imageAlt={"Cimicifuga"}
+  path={"/docs/principes/cimicifuga"}
+/>
 
 ---
 

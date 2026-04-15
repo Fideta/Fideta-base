@@ -8,21 +8,18 @@ popular: false
 slug: /principes/leucine
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Leucine</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> L-leucine<br/>
-      <strong>Partie utilisée :</strong> acide aminé essentiel isolé ; il ne s’agit pas d’un extrait végétal<br/>
-      <strong>Origine :</strong> naturellement présente dans les protéines alimentaires ; dans les compléments, la leucine est généralement produite par fermentation puis purifiée sous forme cristalline
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/leucine.jpg" alt="Leucine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Leucine"}
+  scientificName={"L-leucine"}
+  partUsed={"acide aminé essentiel isolé ; il ne s’agit pas d’un extrait végétal"}
+  origin={"naturellement présente dans les protéines alimentaires ; dans les compléments, la leucine est généralement produite par fermentation puis purifiée sous forme cristalline"}
+  image={"/img/principes/leucine.jpg"}
+  imageAlt={"Leucine"}
+  path={"/docs/principes/leucine"}
+/>
 
 ---
 

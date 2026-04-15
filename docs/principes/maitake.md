@@ -1,31 +1,24 @@
 ---
 title: Maïtaké
-image: /img/principes/maitake.jpg
+image: /img/principes/Maitake.jpg
 categories: ["Champignons"]
 synopsis: "Champignon comestible traditionnellement utilisé comme tonique et immunostimulant, mais aucune allégation santé n’a été autorisée ; données cliniques limitées et peu concluantes."
 synonyms: ["Maïtaké", "Grifola frondosa", "マイタケ"]
 slug: /principes/maitake
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{ margin: 0 }}>Maïtaké</h1>
-    <p style={{ margin: 0, fontSize: "0.9em", color: "#555" }}>
-      （マイタケ,舞茸）
-    </p>
-    <p style={{ margin: 0 }}>
-      <strong>Nom scientifique :</strong> <em>Grifola frondosa</em><br/>
-      <strong>Partie utilisée :</strong> carpophore (champignon) ; parfois mycélium ou extraits enrichis en polysaccharides<br/>
-      <strong>Origine :</strong> Japon, Chine, Amérique du Nord ; aujourd’hui cultivé mondialement
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/maitake.jpg" alt="Maïtaké" loading="eager" />
-  </div>
-</div>
-
+<PrincipeHero
+  title={"Maïtaké"}
+  scientificName={"carpophore (champignon) ; parfois mycélium ou extraits enrichis en polysaccharides"}
+  partUsed={"carpophore (champignon) ; parfois mycélium ou extraits enrichis en polysaccharides"}
+  origin={"Japon, Chine, Amérique du Nord ; aujourd’hui cultivé mondialement"}
+  image={"/img/principes/Maitake.jpg"}
+  imageAlt={"Maïtaké"}
+  path={"/docs/principes/maitake"}
+/>
 
 ---
 
@@ -82,6 +75,3 @@ En résumé : **aucun bénéfice clinique convaincant** n’est établi à ce jo
 2. Konno S. *Alternative Medicine Review*. 2001 – Études pilotes ouvertes avec la « D-fraction » : modulation immunitaire, données humaines limitées.  
 3. EFSA / Commission européenne. EU Register of Nutrition and Health Claims – refus des allégations « immunité » et « glycémie » (2010–2014).  
 4. Vidal. *Guide des compléments alimentaires*. 2008 – Maïtaké cité comme immunostimulant traditionnel sans preuve clinique solide.  
-
-
-

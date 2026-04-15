@@ -7,21 +7,18 @@ popular: false
 slug: /principes/hibiscus
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Hibiscus</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Hibiscus sabdariffa</em> L.<br/>
-      <strong>Partie utilisée :</strong> calices (roselle, karkadé), principalement en infusion ou extrait aqueux<br/>
-      <strong>Origine :</strong> Afrique de l’Ouest et de l’Est, zones tropicales (usage alimentaire traditionnel)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/hibiscus.jpg" alt="Hibiscus (Hibiscus sabdariffa)" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Hibiscus"}
+  scientificName={"calices (roselle, karkadé), principalement en infusion ou extrait aqueux"}
+  partUsed={"calices (roselle, karkadé), principalement en infusion ou extrait aqueux"}
+  origin={"Afrique de l’Ouest et de l’Est, zones tropicales (usage alimentaire traditionnel)"}
+  image={"/img/principes/hibiscus.jpg"}
+  imageAlt={"Hibiscus"}
+  path={"/docs/principes/hibiscus"}
+/>
 
 ---
 
@@ -82,7 +79,7 @@ Aucune limite officielle. Par prudence EBM : **ne pas dépasser les doses utilis
 
 | Critère | Note | Commentaire |
 |--------|------|-------------|
-| Efficacité |   | Intérêt limité à la baisse modeste de la pression artérielle |
+| Efficacité | 🟢 B | Intérêt limité à la baisse modeste de la pression artérielle |
 | Sécurité | 🟡 C | Bonne tolérance globale mais interactions médicamenteuses humaines documentées |
 | Qualité des preuves | 🟡 C | Hétérogénéité des formes, doses et populations étudiées |
 
@@ -99,4 +96,3 @@ Aucune limite officielle. Par prudence EBM : **ne pas dépasser les doses utilis
 7. Nurfaradilla SA et al. Herb–drug interaction between *Hibiscus sabdariffa* and captopril in healthy volunteers. **Clinical Pharmacology**, 2020.  
 8. Fakeye TO et al. Interaction of *Hibiscus sabdariffa* beverage with diclofenac in humans. **European Journal of Drug Metabolism**, 2007.  
 9. Kolawole JA et al. Effect of *Hibiscus sabdariffa* drink on acetaminophen pharmacokinetics. **Human & Experimental Toxicology**, 2004.
-

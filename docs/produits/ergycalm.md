@@ -1,25 +1,27 @@
 ---
-title: "Ergycalm"
+title: "ERGYCALM"
 image: /img/produits/ergycalm.jpg
 categories: ["Sommeil", "Stress", "Phytothérapie"]
 synopsis: "Solution de phytominéraux à base d’aubépine, ballote, mélisse, magnésium et lithothamne, présentée comme favorisant la détente, le sommeil et le bien-être psychique."
 ean: 3401578036991
 hide_title: true
+status: F 
+score: 25
+clinical:
+  - indication: endormissement
+    grade: F
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYCALM</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Mixte (plantes et oligoéléments marins)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/ergycalm.jpg" alt="Ergycalm - Nutergia" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYCALM"}
+  brand={"Nutergia"}
+  category={"Mixte (plantes et oligoéléments marins)"}
+  image={"/img/produits/ergycalm.jpg"}
+  imageAlt={"ERGYCALM"}
+  path={"/docs/produits/ergycalm"}
+/>
 
 ---
 
@@ -28,7 +30,7 @@ hide_title: true
 **Pertinence clinique très faible**
 
 ERGYCALM associe trois extraits de plantes traditionnellement calmantes (aubépine, ballote, mélisse) à du magnésium et du lithothamne.  
-Le produit est mis en avant pour “**calmer et détendre**”, “**relaxer**” ou “**accompagner l'arrêt du tabac**”. 
+Le produit est mis en avant pour “**calmer et détendre**”, “**relaxer*” ou “**accompagner l'arrêt du tabac**”. 
 La dose équivalente de mélisse (1,12 g) est **inférieure** à celle (≥ 1,5 g de poudre standardisée) ayant montré des effets anxiolytiques modestes dans les essais contrôlés.  
 L’efficacité globale du produit sur le stress, le sommeil ou le sevrage tabagique n’est **pas démontrée** par des études dont le niveau de preuve est robuste.
 
@@ -43,7 +45,7 @@ L’efficacité globale du produit sur le stress, le sommeil ou le sevrage tabag
 | [**Ballote** (*Ballota nigra*)](/docs/principes/ballote) | 1 120 mg (équiv. plante sèche) | Usage traditionnel sédatif, **aucune étude clinique randomisée**. Données de sécurité limitées (grossesse/allaitement). |
 | [**Mélisse** (*Melissa officinalis*)](/docs/principes/melisse) | 1 120 mg (équiv. plante sèche) | Effets anxiolytiques démontrés à ≥1,5 g de poudre standardisée riche en acide rosmarinique. Ici, la dose et la forme **sont inférieures et non titrées**, rendant l’effet improbable. |
 | [**Magnésium** (forme non précisée, 30 % VNR)](/docs/principes/magnesium) | 112 mg | Apporte physiologique, mais **aucun bénéfice clinique démontré** sur le stress ou le sommeil chez des sujets non carencés. |
-| [**Lithothamne** (*Phymatolithon calcareum*)](/docs/principes/lithothamne) | traces | Source naturelle de minéraux marins. **Aucun effet relaxant ou calmant prouvé**. Dose insuffisante pour un effet neurophysiologique. |
+| [**Lithothamne** (*Phymatolithon calcareum*)] | traces | Source naturelle de minéraux marins. **Aucun effet relaxant ou calmant prouvé**. Dose insuffisante pour un effet neurophysiologique. |
 
 ---
 
@@ -113,5 +115,3 @@ En cas de stress, d’anxiété, de troubles du sommeil ou de sevrage tabagique,
 ---
 
 <sub><em>Dernière mise à jour : 10 octobre 2025</em></sub>
-
-

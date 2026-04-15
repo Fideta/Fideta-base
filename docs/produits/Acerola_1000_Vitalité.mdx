@@ -6,19 +6,16 @@ synopsis: "Complément alimentaire à base de poudre de jus d’acérola, source
 ean: 3585550000511
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Acérola 1000 Vitamine C</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> UPSA<br/>
-      <strong>Catégorie :</strong> Vitamine (source végétale : acérola)
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/produits/Acerola_1000_Vitalite.png" alt="ACÉROLA 1000 VITALITÉ - UPSA" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ACÉROLA 1000 VITALITÉ"}
+  brand={"UPSA"}
+  category={"Vitamine (source végétale : acérola)"}
+  image={"/img/produits/Acerola_1000_Vitalite.png"}
+  imageAlt={"ACÉROLA 1000 VITALITÉ"}
+  path={"/docs/produits/Acerola_1000_Vitalité"}
+/>
 ---
 
 ## 🔴 **Note Fideta : E – Score : 38/100**

@@ -6,21 +6,17 @@ synopsis: "Formule oculaire associant DHA, lutéine, zéaxanthine et antioxydant
 ean : [3401598332622 , 3770008240254 , 3770008240124 , 3401520193345]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Suvéal DUO</h1>
-    <p style={{margin:0}}>
-      <strong>Catégorie :</strong> Sphère oculaire / Antioxydants / Oméga-3<br/>
-      <strong>Positionnement revendiqué :</strong> Maintien d’une vision normale / vieillissement oculaire<br/>
-      <strong>Fabricant :</strong> Laboratoires Densmore
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/suveal-duo.jpg" alt="Suvéal DUO" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Suvéal DUO"}
+  brand={"Laboratoires Densmore"}
+  category={"Sphère oculaire / Antioxydants / Oméga-3"}
+  image={"/img/produits/suveal-duo.jpg"}
+  imageAlt={"Suvéal DUO"}
+  path={"/docs/produits/suveal-duo"}
+/>
 
 ---
 

@@ -7,21 +7,18 @@ synonyms: ["Cinnamomum verum", "Cinnamomum zeylanicum", "Cannelle de Ceylan", "T
 slug: /principes/cannelle_de_ceylan
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Cannelle de Ceylan</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Cinnamomum verum</em> (syn. <em>C. zeylanicum</em>)<br/>
-      <strong>Partie utilisée :</strong> Écorce interne séchée<br/>
-      <strong>Origine :</strong> Sri Lanka, Inde du Sud, Madagascar
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/cannelle_de_ceylan.jpg" alt="Cannelle de Ceylan" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Cannelle de Ceylan"}
+  scientificName={"Écorce interne séchée"}
+  partUsed={"Écorce interne séchée"}
+  origin={"Sri Lanka, Inde du Sud, Madagascar"}
+  image={"/img/principes/cannelle_de_ceylan.jpg"}
+  imageAlt={"Cannelle de Ceylan"}
+  path={"/docs/principes/cannelle_de_ceylan"}
+/>
 
 ---
 

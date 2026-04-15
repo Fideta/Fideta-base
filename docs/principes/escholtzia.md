@@ -6,21 +6,27 @@ synopsis: "Aucune preuve clinique en monothérapie (sommeil, anxiété). Un essa
 synonyms: ["Eschscholzia californica", "Pavot de Californie"]
 slug: /principes/escholtzia
 hide_title: true
+clinical:
+  - indication: endormissement
+    grade: F
+  - indication: sommeil_qualite
+    grade: F
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Escholtzia</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> **Eschscholzia californica* Cham.<br/>
-      <strong>**Partie utilisée** :</strong> parties aériennes (herba) 
-      <strong>****Origine**** :</strong> Amérique du Nord
-	  </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/Eschscholzia.jpg" alt="Escholtzia californica" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Escholtzia"}
+  scientificName={"Eschscholzia californica Cham."}
+  partUsed={"parties aériennes (herba)"}
+  origin={"Amérique du Nord"}
+  image={"/img/principes/Eschscholzia.jpg"}
+  imageAlt={"Escholtzia"}
+  path={"/docs/principes/escholtzia"}
+/>
 
 
 ---
@@ -29,7 +35,7 @@ hide_title: true
 Aucune efficacité clinique n’est démontrée en monothérapie (ni sur le sommeil, ni sur l’anxiété).  
 L’EMA/HMPC reconnaît uniquement un **usage traditionnel**.  
 
-Des études anciennes de faible puissance (Schulz 1998 ; Meolie 2005) suggèrent un effet sédatif aigu ou un usage traditionnel dans l’insomnie, sans démonstration clinique robuste. La seule RCT positive concerne une **association (eschscholtzia + aubépine + magnésium)**, avec un effet anxiolytique **modeste** non attribuable à l’eschscholtzia seule. Aucune preuve convaincante d’efficacité en monothérapie n’est disponible.
+Une unique étude randomisée existe sur une **association aubépine + escholtzia + magnésium**, avec un effet anxiolytique **modeste**, mais attribution impossible à l’escholtzia seule.  
 
 Des signalements **nutrivigilance (ANSES, 2018–2022)** rapportent des cas de **confusion et hallucinations**, imputabilité jugée **très vraisemblable** au produit (Novanuit®). Le mécanisme suspecté est une **interaction médicamenteuse** (inhibition CYP par les alcaloïdes d’escholtzia) ou une synergie avec la mélatonine.  
 

@@ -7,21 +7,18 @@ popular: false
 slug: /principes/bacillus-coagulans
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bacillus coagulans</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Weizmannia coagulans</em> (syn. <em>Bacillus coagulans</em>)<br/>
-      <strong>Partie utilisée :</strong> spores vivantes (probiotique sporulé)<br/>
-      <strong>Origine :</strong> bactérie sporulée utilisée en compléments alimentaires ; effets <strong>strictement souche-dépendants</strong>
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/bacillus-coagulans.jpg" alt="Bacillus coagulans" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Bacillus coagulans"}
+  scientificName={"Weizmannia coagulans (syn. Bacillus coagulans )"}
+  partUsed={"spores vivantes (probiotique sporulé)"}
+  origin={"bactérie sporulée utilisée en compléments alimentaires ; effets strictement souche-dépendants"}
+  image={"/img/principes/bacillus-coagulans.jpg"}
+  imageAlt={"Bacillus coagulans"}
+  path={"/docs/principes/bacillus-coagulans"}
+/>
 
 ---
 

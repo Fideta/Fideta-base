@@ -3,23 +3,19 @@ title: "Feminabiane Méno’Confort"
 image: /img/produits/feminabiane-meno-confort.jpg
 categories: ["Ménopause", "Compléments alimentaires"]
 synopsis: "Complément alimentaire à base d’actée à grappes noires, rhodiole et vitamines. Données cliniques hétérogènes et absence d’étude sur le produit final. Intérêt principalement nutritionnel."
-ean : 3701145600854
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Feminabiane Méno’Confort</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Complément alimentaire – Ménopause (Plantes + vitamines)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/feminabiane-meno-confort.jpg" alt="Feminabiane Méno’Confort" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Feminabiane Méno’Confort"}
+  brand={"PiLeJe"}
+  category={"Complément alimentaire – Ménopause (Plantes + vitamines)"}
+  image={"/img/produits/feminabiane-meno-confort.jpg"}
+  imageAlt={"Feminabiane Méno’Confort"}
+  path={"/docs/produits/feminabiane-meno-confort"}
+/>
 
 ---
 
@@ -128,4 +124,3 @@ Pour toute décision de santé, consultez un professionnel.
 ---
 
 <sub><em>Dernière mise à jour : 17 février 2026</em></sub>
-

@@ -7,20 +7,17 @@ synonyms: ["Thiamine"]
 slug: /principes/vitamine_b1
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Vitamine B1</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Thiamine (chlorhydrate ou mononitrate de thiamine) <br/>
-      <strong>**Partie utilisée** :</strong> souche bactérienne vivante (probiotique)   
-      <strong>****Origine**** :</strong> synthèse ou sources alimentaires (céréales complètes/fortifiées, légumineuses, porc, poissons)
-	  </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/vitamine_b1.jpg" alt="Vitamine B1" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Vitamine B1"}
+  scientificName={"Thiamine (chlorhydrate ou mononitrate de thiamine)"}
+  partUsed={"souche bactérienne vivante (probiotique)"}
+  origin={"synthèse ou sources alimentaires (céréales complètes/fortifiées, légumineuses, porc, poissons)"}
+  image={"/img/principes/vitamine_b1.jpg"}
+  imageAlt={"Vitamine B1"}
+  path={"/docs/principes/vitamine_b1"}
+/>
 ---
 
 ## Avis global :  

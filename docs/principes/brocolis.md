@@ -7,21 +7,18 @@ synonyms: ["Brassica oleracea var. italica", "Jeunes pousses de brocoli", "Brocc
 slug: /principes/brocolis
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Brocoli</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Brassica oleracea</em> var. <em>italica</em><br/>
-      <strong>**Partie utilisée** :</strong> inflorescences (têtes), jeunes pousses (germes), extraits standardisés (glucoraphanine ± myrosinase)<br/>
-      <strong>**Origine** :</strong> Plante potagère de la famille des Brassicacées, cultivée mondialement
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/brocolis.jpg" alt="Brocolis" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Brocolis"}
+  scientificName={"inflorescences (têtes), jeunes pousses (germes), extraits standardisés (glucoraphanine ± myrosinase)"}
+  partUsed={"inflorescences (têtes), jeunes pousses (germes), extraits standardisés (glucoraphanine ± myrosinase)"}
+  origin={"Plante potagère de la famille des Brassicacées, cultivée mondialement"}
+  image={"/img/principes/brocolis.jpg"}
+  imageAlt={"Brocolis"}
+  path={"/docs/principes/brocolis"}
+/>
 
 ---
 
@@ -98,4 +95,3 @@ La **tolérance est excellente**, sans effet sur la thyroïde chez les sujets co
 ---
 
 <sub><em>Dernière mise à jour : 21 octobre 2025</em></sub>
-

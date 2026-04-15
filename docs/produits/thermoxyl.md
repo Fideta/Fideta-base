@@ -6,20 +6,17 @@ ean : 3401560265989
 synopsis: "Complément alimentaire associant thé vert, guarana, café vert, capsicum, acides aminés, plantes dites drainantes et vitamines B, revendiquant un effet sur les kilos superflus, le déstockage des graisses et la silhouette."
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Thermoxyl</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> NHCO Nutrition<br/>
-      <strong>Catégorie :</strong> Mixte (plantes stimulantes + vitamines / minéraux + acides aminés)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/thermoxyl.jpg" alt="Thermoxyl" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Thermoxyl"}
+  brand={"NHCO Nutrition"}
+  category={"Mixte (plantes stimulantes + vitamines / minéraux + acides aminés)"}
+  image={"/img/produits/thermoxyl.jpg"}
+  imageAlt={"Thermoxyl"}
+  path={"/docs/produits/thermoxyl"}
+/>
 
 ---
 

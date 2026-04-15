@@ -6,21 +6,17 @@ synopsis: "Formule oculaire inspirée des travaux AREDS2 associant DHA, lutéine
 ean : [3662042006067 , 3662042006074]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Nutrof Total</h1>
-    <p style={{margin:0}}>
-      <strong>Catégorie :</strong> Sphère oculaire / Antioxydants / Oméga-3<br/>
-      <strong>Positionnement revendiqué :</strong> Maintien d’une vision normale<br/>
-      <strong>Fabricant :</strong> Laboratoires Théa
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/nutrof-total.jpg" alt="Nutrof Total" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Nutrof Total"}
+  brand={"Laboratoires Théa"}
+  category={"Sphère oculaire / Antioxydants / Oméga-3"}
+  image={"/img/produits/nutrof-total.jpg"}
+  imageAlt={"Nutrof Total"}
+  path={"/docs/produits/nutrof-total"}
+/>
 
 ---
 
@@ -142,6 +138,13 @@ Aux doses recommandées, le produit reste sous les limites de sécurité, hors c
 3. Cochrane Database Syst Rev. Antioxidants for slowing progression of AMD. 2023 update.
 4. EFSA Scientific Opinion on Tolerable Upper Intake Level for Zinc.
 5. EFSA Dietary Reference Values for Vitamin D.
+
+---
+
+🛡️ Note légale
+
+Cette fiche est établie à partir d’une revue critique des données scientifiques disponibles à la date d'analyse. Elles ne tiennent pas compte d’éventuelles données internes, non publiées ou confidentielles des laboratoires. Elle ne constitue pas un avis médical ni une recommandation personnalisée. Pour toute décision de santé (diagnostic d’une carence, supplémentation, interactions médicamenteuses), consultez un professionnel de santé.
+
 
 ---
 

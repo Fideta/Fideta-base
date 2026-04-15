@@ -7,21 +7,18 @@ synonyms: ["Salvia rosmarinus", "Rosmarinus officinalis", "Romarin officinal"]
 slug: /principes/romarin
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Romarin</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> *Salvia rosmarinus* Spenn. (syn. *Rosmarinus officinalis* L.)<br/>
-      <strong>**Partie utilisée** :</strong> Feuille (tisane, décoction) ; Huile essentielle (usage cutané)<br/>
-      <strong>**Origine** :</strong> Bassin méditerranéen, cultivé et naturalisé ailleurs dans l’hémisphère Nord
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/romarin.jpg" alt="Romarin" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Romarin"}
+  scientificName={"Salvia rosmarinus Spenn. (syn. Rosmarinus officinalis L.)"}
+  partUsed={"Feuille (tisane, décoction) ; Huile essentielle (usage cutané)"}
+  origin={"Bassin méditerranéen, cultivé et naturalisé ailleurs dans l’hémisphère Nord"}
+  image={"/img/principes/romarin.jpg"}
+  imageAlt={"Romarin"}
+  path={"/docs/principes/romarin"}
+/>
 
 ---
 

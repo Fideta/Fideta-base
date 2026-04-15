@@ -7,21 +7,18 @@ synonyms: ["Turmeric", "Curcumine", "Curcuminoïdes"]
 slug: /principes/curcuma  
 hide_title: true  
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Curcuma</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> *Curcuma longa* L.<br/>
-      <strong>**Partie utilisée** :</strong> Rhizome<br/>
-      <strong>**Origine** :</strong> Asie du Sud (Inde, Sri Lanka, Indonésie)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/curcuma.jpg" alt="Curcuma" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Curcuma"}
+  scientificName={"Curcuma longa L."}
+  partUsed={"Rhizome"}
+  origin={"Asie du Sud (Inde, Sri Lanka, Indonésie)"}
+  image={"/img/principes/curcuma.jpg"}
+  imageAlt={"Curcuma"}
+  path={"/docs/principes/curcuma"}
+/>
 
 ---
 
@@ -30,12 +27,12 @@ Le curcuma est une plante rhizomateuse utilisée depuis des siècles pour les tr
 Les données cliniques humaines (plusieurs dizaines d’essais randomisés et méta-analyses récentes) montrent une **efficacité modérée mais reproductible** sur la **douleur et la fonction dans l’arthrose du genou**, et des **signaux positifs** pour la **dépression légère à modérée** et la **stéatose hépatique (NAFLD)**.  
 Les effets sur les paramètres métaboliques, digestifs ou l’anxiété sont **faibles ou contradictoires**.  
 
-En revanche, le **cadre réglementaire européen** limite fortement l’usage thérapeutique en raison d'effets indésirables graves possibles : la **DJA (EFSA)** pour la **curcumine** est fixée à **3 mg/kg/j** (≈ **180 mg/j** pour 60 kg).  
+En revanche, le **cadre réglementaire européen** limite fortement l’usage thérapeutique : la **DJA (EFSA)** pour la **curcumine** est fixée à **3 mg/kg/j** (≈ **180 mg/j** pour 60 kg).  
 Les **doses efficaces observées dans les RCT** (souvent **≥ 500–1 000 mg/j** de curcuminoïdes/curcumine) **dépassent cette DJA**, rendant **impossible pour un complément alimentaire conforme** d’atteindre les niveaux testés dans les études.  
 Tout dosage dépassant ces seuils relèverait juridiquement du **médicament non autorisé**.  
 
 Des cas documentés d’**hépatites médicamenteuses** ont été observés, principalement avec des **formulations à biodisponibilité augmentée** (pipérine, nano-, phytosome).  
-Ainsi, le curcuma reste un ingrédient d’intérêt **symptomatique limité** mais **cliniquement plausible** pour l’arthrose, à **utiliser avec prudence**, sur **durées courtes** et **doses modérées**. 
+Ainsi, le curcuma reste un ingrédient d’intérêt **symptomatique limité** mais **cliniquement plausible** pour l’arthrose, à **utiliser avec prudence**, sur **durées courtes** et **doses modérées**.
 
 ---
 
@@ -59,7 +56,7 @@ Ainsi, le curcuma reste un ingrédient d’intérêt **symptomatique limité** m
 ---
 
 ## ⚠️ Sécurité et précautions  
-**Effets secondaires / Effets indésirables :** digestifs (nausées, diarrhées, flatulences, brûlures d’estomac), coloration jaune des selles.  
+**Effets secondaires :** digestifs (nausées, diarrhées, flatulences, brûlures d’estomac), coloration jaune des selles.  
 **Signal d’alerte :** cas d’**hépatite médicamenteuse** documentés, surtout avec **formules enrichies en biodisponibilité** (pipérine, nanoformes).  
 **Contre-indications :** obstruction biliaire, cholangite, lithiase vésiculaire, maladie hépatique active, ulcère gastro-duodénal, hypersensibilité.  
 **Grossesse / allaitement :** usage alimentaire uniquement.  
@@ -135,4 +132,3 @@ Cependant :
 ---
 
 <sub><em>Dernière mise à jour : 12 octobre 2025</em></sub>
-

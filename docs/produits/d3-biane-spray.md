@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire à base de vitamine D3."
 ean: 3701145600618
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>D3 Biane Spray 1000 UI</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Vitamine – Vitamine D3
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/d3-biane-spray.jpg" alt="D3 Biane Spray 1000 UI - PiLeJe" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"D3 Biane Spray 1000 UI"}
+  brand={"PiLeJe"}
+  category={"Vitamine – Vitamine D3"}
+  image={"/img/produits/d3-biane-spray.jpg"}
+  imageAlt={"D3 Biane Spray 1000 UI"}
+  path={"/docs/produits/d3-biane-spray"}
+/>
 
 ---
 
@@ -29,7 +26,7 @@ hide_title: true
 
 Produit reposant sur un **micronutriment essentiel** dont l’efficacité est **clairement démontrée uniquement pour corriger une carence en vitamine D**.  
 
-En revanche, **aucun bénéfice clinique pertinent n’est démontré à ce jour chez les sujets non carencés**, notamment pour les usages suggérés en prévention générale ou pour le « soutien de l’immunité ».   
+En revanche, **aucun bénéfice clinique pertinent n’est démontré chez les sujets non carencés**, notamment pour les usages suggérés en prévention générale ou pour le « soutien de l’immunité ».   
 
 **La forme spray n’a pas montré d’influence démontrée sur l’absorption ou l’efficacité par rapport aux formes gouttes ou gélules**, à dose équivalente : le choix galénique relève essentiellement du confort et de l’observance.
 
@@ -105,5 +102,3 @@ Elle ne constitue ni un avis médical ni une recommandation personnalisée et ne
 ---
 
 <sub><em>Dernière mise à jour : 7 janvier 2026</em></sub>
-
-

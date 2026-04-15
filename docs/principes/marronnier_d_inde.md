@@ -4,25 +4,21 @@ image: /img/principes/marronnier_d_inde.jpg
 categories: ["Plantes"]
 synopsis: "Graines du marronnier d’Inde standardisées en escine. L’un des rares veinotoniques avec essais cliniques et méta-analyses solides dans l’insuffisance veineuse chronique. Bonne tolérance à court terme pour les extraits standardisés, mais plante brute toxique et qualité très variable en complément."
 synonyms: ["Aesculus hippocastanum", "Aesculus hippocastanum L.", "Marronnier d’Inde", "Horse Chestnut"]
-popular: false
 slug: /principes/marronnier_d_inde
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Marronnier d’Inde</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Aesculus hippocastanum</em> L.<br/>
-      <strong>Partie utilisée :</strong> graines (semences) standardisées en extrait sec (escine) ; écorce en usage traditionnel.<br/>
-      <strong>Origine :</strong> arbre originaire des Balkans / Europe du Sud-Est, largement planté en Europe.
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/marronnier_d_inde.jpg" alt="Marronnier d’Inde" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Marronnier d’Inde"}
+  scientificName={"graines (semences) standardisées en extrait sec (escine) ; écorce en usage traditionnel."}
+  partUsed={"graines (semences) standardisées en extrait sec (escine) ; écorce en usage traditionnel."}
+  origin={"arbre originaire des Balkans / Europe du Sud-Est, largement planté en Europe."}
+  image={"/img/principes/marronnier_d_inde.jpg"}
+  imageAlt={"Marronnier d’Inde"}
+  path={"/docs/principes/marronnier_d_inde"}
+/>
 
 ---
 
@@ -146,6 +142,4 @@ Sur la sécurité :
 6. NCCIH (NIH). *Horse Chestnut – Safety & Usefulness.*  
 7. Examine.com. *Horse Chestnut – benefits, dosage, side effects.*  
 8. Vidal Phytothérapie. *Marronnier d’Inde.*
-
-
 

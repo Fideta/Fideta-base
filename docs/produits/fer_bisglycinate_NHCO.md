@@ -6,20 +6,17 @@ ean : [3401520188433 , 3760196530039 , 3760196535393]
 synopsis: "Complément alimentaire à base de fer bisglycinate, dosé à 7 mg ou 14 mg par gélule."
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Fer bisglycinate NHCO</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> NHCO Nutrition<br/>
-      <strong>Catégorie :</strong> Minéral (Fer)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/Fer_bisglycinate_NHCO.jpg" alt="Fer bisglycinate NHCO" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Fer bisglycinate NHCO"}
+  brand={"NHCO Nutrition"}
+  category={"Minéral (Fer)"}
+  image={"/img/produits/Fer_bisglycinate_NHCO.jpg"}
+  imageAlt={"Fer bisglycinate NHCO"}
+  path={"/docs/produits/fer_bisglycinate_NHCO"}
+/>
 
 ---
 

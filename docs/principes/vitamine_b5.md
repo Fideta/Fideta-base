@@ -7,20 +7,17 @@ synonyms: ["Acide pantothénique"]
 slug: /principes/vitamine_b5
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Vitamine B5</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Acide pantothénique (D-pantothénate de calcium)<br/>
-      <strong>**Partie utilisée** :</strong> Vitamine hydrosoluble
-      <strong>****Origine**** :</strong> synthèse ou sources alimentaires (foie, œufs, céréales, légumineuses)
-	  </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/vitamine_b5.jpg" alt="Vitamine B5" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Vitamine B5"}
+  scientificName={"Acide pantothénique (D-pantothénate de calcium)"}
+  partUsed={"Vitamine hydrosoluble"}
+  origin={"synthèse ou sources alimentaires (foie, œufs, céréales, légumineuses)"}
+  image={"/img/principes/vitamine_b5.jpg"}
+  imageAlt={"Vitamine B5"}
+  path={"/docs/principes/vitamine_b5"}
+/>
 ---
 
 ## Avis global :  

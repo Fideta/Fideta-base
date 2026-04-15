@@ -6,20 +6,17 @@ synopsis: "Association d’extraits de Cyprès et d’Échinacée présentée po
 ean: [3401542119699]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Phytostandard® – Cyprès / Échinacée</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Extraits de plantes
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/phytostandard-cypres-echinacee.jpg" alt="Phytostandard Cyprès Echinacée" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Phytostandard® – Cyprès / Échinacée"}
+  brand={"PiLeJe"}
+  category={"Extraits de plantes"}
+  image={"/img/produits/phytostandard-cypres-echinacee.jpg"}
+  imageAlt={"Phytostandard® – Cyprès / Échinacée"}
+  path={"/docs/produits/phytostandard-cypres-echinacee"}
+/>
 
 ---
 
@@ -60,7 +57,7 @@ Ainsi, si la démarche botanique est encadrée, la **pertinence clinique reste d
 
 > Aucun essai clinique chez l’humain n’étant disponible pour le cyprès, la pertinence scientifique ne peut être appréciée qu’à partir des données existantes sur l’échinacée, sans préjuger d’un effet propre au cyprès.
 > 
-> Ces fonctions sont issues des usages décrits dans la littérature scientifique et ne constituent pas des allégations du fabricant, dont la page produit ne mentionne pas d’indication particulière.
+>Ces fonctions sont issues des usages décrits dans la littérature scientifique et ne constituent pas des allégations du fabricant, dont la page produit ne mentionne pas d’indication particulière.
 ---
 
 # ⚠️ Sécurité et précautions
@@ -123,4 +120,3 @@ Cette fiche est fondée sur une revue critique des données scientifiques dispon
 Elle ne constitue pas un avis médical et ne remplace pas une consultation professionnelle.
 
 <sub><em>Dernière mise à jour : 20 novembre 2025</em></sub>
-

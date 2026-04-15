@@ -8,21 +8,18 @@ popular: false
 slug: /principes/betaine
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bétaïne</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> triméthylglycine (bétaïne anhydre)<br/>
-      <strong>Partie utilisée :</strong> sans objet pour la molécule purifiée ; source historique surtout alimentaire, notamment la betterave sucrière<br/>
-      <strong>Origine :</strong> composé naturel présent dans l’alimentation et l’organisme humain, utilisé en complément sous forme purifiée
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/betaine.jpg" alt="Bétaïne" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Bétaïne"}
+  scientificName={"triméthylglycine (bétaïne anhydre)"}
+  partUsed={"sans objet pour la molécule purifiée ; source historique surtout alimentaire, notamment la betterave sucrière"}
+  origin={"composé naturel présent dans l’alimentation et l’organisme humain, utilisé en complément sous forme purifiée"}
+  image={"/img/principes/betaine.jpg"}
+  imageAlt={"Bétaïne"}
+  path={"/docs/principes/betaine"}
+/>
 
 ---
 

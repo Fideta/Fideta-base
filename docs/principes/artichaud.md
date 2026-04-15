@@ -7,21 +7,18 @@ popular: false
 slug: /principes/artichaud
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Artichaud</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Cynara cardunculus</em> L. (syn. <em>Cynara scolymus</em> L.)<br/>
-      <strong>Partie utilisée :</strong> feuille (folium) – poudre ou extraits aqueux / hydro-alcooliques<br/>
-      <strong>Origine :</strong> plante cultivée, bassin méditerranéen (usage alimentaire et médicinal traditionnel)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/artichaud.jpg" alt="Artichaud (Cynara cardunculus)" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Artichaud"}
+  scientificName={"feuille (folium) – poudre ou extraits aqueux / hydro-alcooliques"}
+  partUsed={"feuille (folium) – poudre ou extraits aqueux / hydro-alcooliques"}
+  origin={"plante cultivée, bassin méditerranéen (usage alimentaire et médicinal traditionnel)"}
+  image={"/img/principes/artichaud.jpg"}
+  imageAlt={"Artichaud"}
+  path={"/docs/principes/artichaud"}
+/>
 
 
 ---

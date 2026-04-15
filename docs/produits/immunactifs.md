@@ -6,20 +6,17 @@ synopsis: "Complexe associant échinacée, propolis, shiitaké, éleuthérocoque
 ean: [3401520288249]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>IMMUN•ACTIFS®</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Synactifs (Aragan)<br/>
-      <strong>Catégorie :</strong> Mixte (plantes, champignon, vitamines, oligo-éléments, huile essentielle)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/immunactifs.jpg" alt="Immun•Actifs - Synactifs" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"IMMUN•ACTIFS® – Immunité"}
+  brand={"Synactifs (Aragan)"}
+  category={"Mixte (plantes, champignon, vitamines, oligo-éléments, huile essentielle)"}
+  image={"/img/produits/immunactifs.jpg"}
+  imageAlt={"IMMUN•ACTIFS® – Immunité"}
+  path={"/docs/produits/immunactifs"}
+/>
 
 ---
 

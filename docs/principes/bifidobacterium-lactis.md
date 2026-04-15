@@ -8,21 +8,18 @@ popular: false
 slug: /principes/bifidobacterium-lactis
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bifidobacterium lactis</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> *Bifidobacterium animalis* subsp. *lactis*<br/>
-      <strong>Partie utilisée :</strong> micro-organisme vivant (lyophilisé)<br/>
-      <strong>Origine :</strong> bactérie commensale du microbiote humain, également isolée de laits fermentés
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/Bifidobacterium-lactis.jpg" alt="Bifidobacterium lactis" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Bifidobacterium lactis"}
+  scientificName={"Bifidobacterium animalis subsp. lactis"}
+  partUsed={"micro-organisme vivant (lyophilisé)"}
+  origin={"bactérie commensale du microbiote humain, également isolée de laits fermentés"}
+  image={"/img/principes/Bifidobacterium-lactis.jpg"}
+  imageAlt={"Bifidobacterium lactis"}
+  path={"/docs/principes/bifidobacterium-lactis"}
+/>
 
 ---
 

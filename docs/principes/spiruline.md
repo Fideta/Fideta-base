@@ -7,21 +7,18 @@ synonyms: ["Arthrospira", "Arthrospira platensis", "Spirulina", "Spirulina plate
 slug: /principes/spiruline  
 hide_title: true  
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Spiruline</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Arthrospira platensis</em> (souvent commercialisée sous le nom “spiruline”)<br/>
-      <strong>Partie utilisée :</strong> biomasse entière séchée (poudre, comprimés), parfois extraits (moins fréquent)<br/>
-      <strong>Origine :</strong> cyanobactérie cultivée en bassins (production contrôlée variable selon filières)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/spiruline.jpg" alt="Spiruline" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Spiruline"}
+  scientificName={"biomasse entière séchée (poudre, comprimés), parfois extraits (moins fréquent)"}
+  partUsed={"biomasse entière séchée (poudre, comprimés), parfois extraits (moins fréquent)"}
+  origin={"cyanobactérie cultivée en bassins (production contrôlée variable selon filières)"}
+  image={"/img/principes/spiruline.jpg"}
+  imageAlt={"Spiruline"}
+  path={"/docs/principes/spiruline"}
+/>
 
 ---
 

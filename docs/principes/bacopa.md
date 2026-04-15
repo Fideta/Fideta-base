@@ -8,21 +8,18 @@ popular: true
 slug: /principes/bacopa
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bacopa</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Bacopa monnieri</em> (L.) Wettst.<br/>
-      <strong>Partie utilisée :</strong> parties aériennes (extraits secs standardisés en bacosides)<br/>
-      <strong>Origine :</strong> Inde et Asie du Sud (médecine ayurvédique)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/bacopa.jpg" alt="Bacopa" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Bacopa"}
+  scientificName={"parties aériennes (extraits secs standardisés en bacosides)"}
+  partUsed={"parties aériennes (extraits secs standardisés en bacosides)"}
+  origin={"Inde et Asie du Sud (médecine ayurvédique)"}
+  image={"/img/principes/bacopa.jpg"}
+  imageAlt={"Bacopa"}
+  path={"/docs/principes/bacopa"}
+/>
 
 ---
 

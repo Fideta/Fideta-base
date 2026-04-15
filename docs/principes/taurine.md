@@ -7,21 +7,18 @@ synonyms: ["Taurine"]
 slug: /principes/taurine
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Taurine</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> 2‑aminoéthanesulfonic acid<br/>
-      <strong>**Partie utilisée** :</strong> composé naturel — **Extrait :** synthétique ou alimentaire<br/>
-      <strong>****Origine**** :</strong> synthèse, poisson, viande, lait, algues<br/>  
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-    </p>
-  </div>
+<PrincipeHero
+  title={"Taurine"}
+  scientificName={"2‑aminoéthanesulfonic acid"}
+  partUsed={"composé naturel — Extrait : synthétique ou alimentaire"}
+  origin={"synthèse, poisson, viande, lait, algues"}
+  image={"/img/principes/taurine.jpg"}
+  imageAlt={"Taurine"}
+  path={"/docs/principes/taurine"}
+/>
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/taurine.jpg" alt="Taurine" loading="eager" />
-  </div>
-</div>
 ---
 
 ## 🧾 Avis global  

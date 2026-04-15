@@ -7,21 +7,18 @@ synonyms: ["Choline", "Bitartrate de choline", "Phosphatidylcholine", "Lécithin
 slug: /principes/choline
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Choline</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> Choline (nutriment essentiel ; cation 2-hydroxyéthyltriméthylammonium)<br/>
-      <strong>Partie utilisée :</strong> sans objet (ingrédient non botanique)<br/>
-      <strong>Origine :</strong> nutriment endogène et alimentaire ; en complément, principalement sous forme de bitartrate de choline, phosphatidylcholine ou lécithine
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/choline.jpg" alt="Choline" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Choline"}
+  scientificName={"Choline (nutriment essentiel ; cation 2-hydroxyéthyltriméthylammonium)"}
+  partUsed={"sans objet (ingrédient non botanique)"}
+  origin={"nutriment endogène et alimentaire ; en complément, principalement sous forme de bitartrate de choline, phosphatidylcholine ou lécithine"}
+  image={"/img/principes/choline.jpg"}
+  imageAlt={"Choline"}
+  path={"/docs/principes/choline"}
+/>
 
 ---
 

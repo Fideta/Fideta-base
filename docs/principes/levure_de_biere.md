@@ -4,24 +4,21 @@ image: /img/principes/levure_de_biere.jpg
 categories: ["Bactérie"]
 synopsis: "Source naturelle de vitamines B et minéraux, mais bénéfices cliniques spécifiques non démontrés."
 synonyms: ["Saccharomyces cerevisiae", "Brewer’s yeast"]
-popular: false
-slug: /principes/levure_de_biere
+popular: true
+slug: /principes/levure_de_bière
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Levure de bière</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> *Saccharomyces cerevisiae* (levure inactivée, complément alimentaire)<br/>
-      <strong>**Partie utilisée** :</strong> Cellules entières de levure (séchées/inactivées)   
-      <strong>****Origine**** :</strong> Fermentation sur mélasse, céréales ou supports sucrés
-	  </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/levure_de_biere.jpg" alt="Saccharomyces cerevisiae" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Levure de bière"}
+  scientificName={"Saccharomyces cerevisiae (levure inactivée, complément alimentaire)"}
+  partUsed={"Cellules entières de levure (séchées/inactivées)"}
+  origin={"Fermentation sur mélasse, céréales ou supports sucrés"}
+  image={"/img/principes/levure_de_biere.jpg"}
+  imageAlt={"Levure de bière"}
+  path={"/docs/principes/levure_de_bière"}
+/>
 ---
 
 ## Avis global

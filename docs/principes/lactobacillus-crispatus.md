@@ -3,25 +3,22 @@ title: Lactobacillus crispatus
 image: /img/principes/lactobacillus-crispatus.jpg
 categories: ["Probiotiques"]
 synopsis: "Espèce clé du microbiote vaginal sain. Preuves cliniques limitées mais crédibles uniquement par voie intravaginale avec une souche spécifique (CTV-05 / Lactin-V) en prévention des récidives de vaginose bactérienne après antibiothérapie. Par voie orale : aucune preuve clinique convaincante d’efficacité sur la flore vaginale."
-popular: false
+popular: true
 slug: /principes/lactobacillus-crispatus
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lactobacillus crispatus</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Lactobacillus crispatus</em> Mill.<br/>
-      <strong>**Partie utilisée** :</strong> souches probiotiques vivantes (lyophilisées)<br/>
-      <strong>**Origine** :</strong> bactérie commensale du microbiote vaginal humain
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/lactobacillus-crispatus.jpg" alt="Lactobacillus crispatus" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Lactobacillus crispatus"}
+  scientificName={"souches probiotiques vivantes (lyophilisées)"}
+  partUsed={"souches probiotiques vivantes (lyophilisées)"}
+  origin={"bactérie commensale du microbiote vaginal humain"}
+  image={"/img/principes/lactobacillus-crispatus.jpg"}
+  imageAlt={"Lactobacillus crispatus"}
+  path={"/docs/principes/lactobacillus-crispatus"}
+/>
 
 ---
 
@@ -108,4 +105,3 @@ La tolérance est globalement bonne chez l’adulte sain, mais comme pour tous l
 ---
 
 <sub><em>Dernière mise à jour : 15 décembre 2025</em></sub>
-

@@ -7,21 +7,18 @@ popular: false
 slug: /principes/lactobacillus-fermentum
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lactobacillus fermentum</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Limosilactobacillus fermentum</em><br/>
-      <strong>**Partie utilisée** :</strong> souches probiotiques vivantes (lyophilisées)<br/>
-      <strong>**Origine** :</strong> bactérie lactique issue de la fermentation, parfois isolée du lait maternel humain
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/lactobacillus-fermentum.jpg" alt="Lactobacillus fermentum" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Lactobacillus fermentum"}
+  scientificName={"souches probiotiques vivantes (lyophilisées)"}
+  partUsed={"souches probiotiques vivantes (lyophilisées)"}
+  origin={"bactérie lactique issue de la fermentation, parfois isolée du lait maternel humain"}
+  image={"/img/principes/lactobacillus-fermentum.jpg"}
+  imageAlt={"Lactobacillus fermentum"}
+  path={"/docs/principes/lactobacillus-fermentum"}
+/>
 
 ---
 

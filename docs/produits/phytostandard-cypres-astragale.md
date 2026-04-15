@@ -6,20 +6,17 @@ synopsis: "Association d’extraits de Cyprès et d’Astragale présentée pour
 ean: [3701145690077]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Phytostandard® – Cyprès / Astragale</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Extraits de plantes (Immunité)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/phytostandard-cypres-astragale.jpg" alt="Phytostandard Cyprès Astragale" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Phytostandard® – Cyprès / Astragale"}
+  brand={"PiLeJe"}
+  category={"Extraits de plantes (Immunité)"}
+  image={"/img/produits/phytostandard-cypres-astragale.jpg"}
+  imageAlt={"Phytostandard® – Cyprès / Astragale"}
+  path={"/docs/produits/phytostandard-cypres-astragale"}
+/>
 
 ---
 

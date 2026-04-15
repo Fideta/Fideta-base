@@ -8,20 +8,17 @@ popular: true
 slug: /principes/vitamine_a
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Vitamine A</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> Rétinol, Rétinyl palmitate/acetate (préformée), β-carotène, α-carotène, β-cryptoxanthine (pro-vitamine A)<br/>
-      <strong>**Partie utilisée** :</strong> Nutriment (pas de partie végétale spécifique)<br/> 
-      <strong>**Origine** :</strong> Produits animaux (foie, poissons gras, œufs, lait) pour la forme préformée ; fruits et légumes colorés pour les caroténoïdes<br/>
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/vitamine_a.jpg" alt="Vitamine A" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Vitamine A"}
+  scientificName={"Rétinol, Rétinyl palmitate/acetate (préformée), β-carotène, α-carotène, β-cryptoxanthine (pro-vitamine A)"}
+  partUsed={"Nutriment (pas de partie végétale spécifique)"}
+  origin={"Produits animaux (foie, poissons gras, œufs, lait) pour la forme préformée ; fruits et légumes colorés pour les caroténoïdes"}
+  image={"/img/principes/vitamine_a.jpg"}
+  imageAlt={"Vitamine A"}
+  path={"/docs/principes/vitamine_a"}
+/>
 
 ---
 

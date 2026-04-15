@@ -8,21 +8,18 @@ popular: true
 slug: /principes/the-vert
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Thé vert</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Camellia sinensis</em><br/>
-      <strong>Partie utilisée :</strong> jeunes feuilles et bourgeons (infusion ou extraits)<br/>
-      <strong>Origine :</strong> Asie de l’Est, aujourd’hui cultivé mondialement
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/the-vert.jpg" alt="Thé vert" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Thé vert"}
+  scientificName={"jeunes feuilles et bourgeons (infusion ou extraits)"}
+  partUsed={"jeunes feuilles et bourgeons (infusion ou extraits)"}
+  origin={"Asie de l’Est, aujourd’hui cultivé mondialement"}
+  image={"/img/principes/the-vert.jpg"}
+  imageAlt={"Thé vert"}
+  path={"/docs/principes/the-vert"}
+/>
 
 ---
 

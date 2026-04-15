@@ -5,23 +5,29 @@ categories: ["Plantes"]
 synopsis: "Herbe sédative et digestive traditionnelle européenne. Données cliniques humaines soutenant modérément ses effets anxiolytiques, sur le sommeil et les palpitations bénignes ; bénéfice probable en topique contre l’herpès labial. Sécurité bonne à court terme, prudence en cas de sédatifs ou de troubles thyroïdiens."  
 synonyms: ["Mélisse", "Melissa officinalis", "Melissae folium", "Lemon balm"]  
 slug: /principes/melisse  
-hide_title: true  
+hide_title: true 
+clinical:
+  - indication: endormissement
+    grade: F
+  - indication: sommeil_qualite
+    grade: C
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Mélisse</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> *Melissa officinalis* L.<br/>
-      <strong>**Partie utilisée** :</strong> feuille (drogue végétale sèche et extraits)<br/>
-      <strong>**Origine** :</strong> Lamiacées ; Europe méridionale et Asie occidentale, aujourd’hui cultivée
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/melisse.jpg" alt="Mélisse" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Mélisse"}
+  scientificName={"Melissa officinalis L."}
+  partUsed={"feuille (drogue végétale sèche et extraits)"}
+  origin={"Lamiacées ; Europe méridionale et Asie occidentale, aujourd’hui cultivée"}
+  image={"/img/principes/melisse.jpg"}
+  imageAlt={"Mélisse"}
+  path={"/docs/principes/melisse"}
+/>
 
 ---
 

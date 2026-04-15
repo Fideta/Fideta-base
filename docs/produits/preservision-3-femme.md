@@ -6,21 +6,17 @@ synopsis: "Formule oculaire associant DHA, lutéine, zéaxanthine et antioxydant
 ean : [3614790000255 , 3614790000576]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>PreserVision 3 Femme</h1>
-    <p style={{margin:0}}>
-      <strong>Catégorie :</strong> Sphère oculaire / Antioxydants / Oméga-3<br/>
-      <strong>Positionnement revendiqué :</strong> Maintien d’une vision normale<br/>
-      <strong>Fabricant :</strong> Bausch + Lomb
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/preservision-3-femme.jpg" alt="PreserVision 3 Femme" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"PreserVision 3 Femme"}
+  brand={"Bausch + Lomb"}
+  category={"Sphère oculaire / Antioxydants / Oméga-3"}
+  image={"/img/produits/preservision-3-femme.jpg"}
+  imageAlt={"PreserVision 3 Femme"}
+  path={"/docs/produits/preservision-3-femme"}
+/>
 
 ---
 

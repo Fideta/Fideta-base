@@ -7,21 +7,18 @@ synonyms: ["Rhodiola rosea", "Orpin rose", "Racine dorée"]
 slug: /principes/rhodiole
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Rhodiole</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Rhodiola rosea L.<br/>
-      <strong>**Partie utilisée** :</strong> rhizomes et racines<br/>
-      <strong>****Origine**** :</strong> Plante alpine/circumpolaire (Europe, Asie, Amérique du Nord)<br/>  
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-    </p>
-  </div>
+<PrincipeHero
+  title={"Rhodiole"}
+  scientificName={"Rhodiola rosea L."}
+  partUsed={"rhizomes et racines"}
+  origin={"Plante alpine/circumpolaire (Europe, Asie, Amérique du Nord)"}
+  image={"/img/principes/rhodiole.jpg"}
+  imageAlt={"Rhodiole"}
+  path={"/docs/principes/rhodiole"}
+/>
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/rhodiole.jpg" alt="Rhodiole" loading="eager" />
-  </div>
-</div>
 ---
 
 ## Avis global  

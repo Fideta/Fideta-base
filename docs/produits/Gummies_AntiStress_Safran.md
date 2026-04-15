@@ -6,22 +6,19 @@ synopsis: "Gummies sans sucre à base de safran titré et vitamines B, présent�
 ean: 3770010539360 
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Gummies Anti-Stress au Safran</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Naali<br/>
-      <strong>Catégorie :</strong> Plante ([Safran](/docs/principes/safran)) + Vitamines hydrosolubles ([B3](/docs/principes/vitamine_b3), [B6](/docs/principes/vitamine_b6), [B9](/docs/principes/vitamine_b9), [B12](/docs/principes/vitamine_b12))
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/produits/Gummies_AntiStress_Safran.jpg" alt="Azeol Gummies Anti-Stress au Safran - Naali" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Gummies Anti-Stress au Safran"}
+  brand={"Naali"}
+  category={"Plante ([Safran](/docs/principes/safran)) + Vitamines hydrosolubles ([B3](/docs/principes/vitamine_b3), [B6](/docs/principes/vitamine_b6), [B9](/docs/principes/vitamine_b9), [B12](/docs/principes/vitamine_b12))"}
+  image={"/img/produits/Gummies_AntiStress_Safran.jpg"}
+  imageAlt={"Gummies Anti-Stress au Safran"}
+  path={"/docs/produits/Gummies_AntiStress_Safran"}
+/>
 ---
 
-## 🟠 Note Fideta : **D** – Score : **45/100**  
+## 🟠 Note Fideta : **D** – Score : **42/100**  
 >**Preuve limitée et extrapolée**  
 >Ce produit contient 30 mg/j de [safran](/docs/principes/safran) (2 % safranal, 5 % crocine), dose utilisée dans plusieurs essais cliniques.  
 >Les résultats sont encourageants dans la **dépression légère à modérée**, avec un effet comparable à certains antidépresseurs de référence (fluoxétine, imipramine) dans des essais de petite taille.  

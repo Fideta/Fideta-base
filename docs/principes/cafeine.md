@@ -8,20 +8,17 @@ popular: false
 slug: /principes/cafeine
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Caféine</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> 1,3,7-triméthylxanthine<br/>
-      <strong>**Partie utilisée** :</strong> Alcaloïde purifié (sources : café, thé, guarana, maté, cacao) ou synthèse<br/>
-      <strong>**Origine** :</strong> végétale ou synthétique
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/cafeine.jpg" alt="Caféine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Caféine"}
+  scientificName={"1,3,7-triméthylxanthine"}
+  partUsed={"Alcaloïde purifié (sources : café, thé, guarana, maté, cacao) ou synthèse"}
+  origin={"végétale ou synthétique"}
+  image={"/img/principes/cafeine.jpg"}
+  imageAlt={"Caféine"}
+  path={"/docs/principes/cafeine"}
+/>
 
 ---
 

@@ -8,20 +8,17 @@ popular: true
 slug: /principes/vitamine_d
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Vitamine D</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Cholécalciférol (D₃), Ergocalciférol (D₂) <br/>
-      <strong>**Partie utilisée** :</strong> substance pure ou extraite de fruits <br/> 
-      <strong>****Origine**** :</strong> synthèse cutanée (UVB) ou extraite de lanoline, lichen (D₃), levures (D₂) <br/>
-	  </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/vitamine_d.jpg" alt="Vitamine D" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Vitamine D"}
+  scientificName={"Cholécalciférol (D₃), Ergocalciférol (D₂)"}
+  partUsed={"substance pure ou extraite de fruits"}
+  origin={"synthèse cutanée (UVB) ou extraite de lanoline, lichen (D₃), levures (D₂)"}
+  image={"/img/principes/vitamine_d.jpg"}
+  imageAlt={"Vitamine D"}
+  path={"/docs/principes/vitamine_d"}
+/>
 
 ---
 
@@ -43,7 +40,7 @@ Enfin, les **prises quotidiennes à dose modérée sont préférables aux bolus 
 |------------------------|----------------------------------------------------------------------------------|----------------------|---------------------|
 | Santé osseuse          | Réduction du risque de fracture chez les personnes âgées carencées              | ✅ A                 | 800–2000 UI/j       |
 | Immunité (prévention) chez carencés  | Réduction modeste des infections respiratoires *chez les sujets carencés*       | 🟢 B (contextuel)    | 400–1000 UI/j       |
-| Prévention des infections respiratoires    | Absence d'effet en population générale                   | ⚫ F                 | Non établi          |	
+| Prévention des infections respiratoires    | Absence d'effet en population générale                   | ⚫ F                 | Non établi          | 
 | Humeur/dépression      | Amélioration de symptômes dépressifs modérés                                    | 🟡 C                 | ≥2000 UI/j          |
 | Cancer (prévention)    | Réduction supposée du risque colorectal, sein (non démontré)                    | ⚫ F                 | Non établi          |
 | Santé cardiovasculaire | Diminution des événements cardiovasculaires                                      | ⚫ F                 | Non établi          |

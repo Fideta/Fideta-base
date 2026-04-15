@@ -3,23 +3,20 @@ title: "Azinc® Vitalité Gélules"
 image: /img/produits/azinc_vitalite.jpg
 categories: ["Énergie", "Vitamines", "Minéraux"]
 synopsis: "Multivitamines + minéraux ; utilité démontrée seulement en cas de carence, bénéfices généraux limités chez l’adulte en bonne santé."
-ean: [3401540148554 , 3401540148493 , 3578835502800]
+ean: [3401540148554 , 3401540148493]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Azinc® Vitalité Gélules</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Arkopharma<br/>
-      <strong>Catégorie :</strong> Mixte (multivitamines + minéraux)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/azinc_vitalite.jpg" alt="Azinc Vitalité" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Azinc® Vitalité Gélules"}
+  brand={"Arkopharma"}
+  category={"Mixte (multivitamines + minéraux)"}
+  image={"/img/produits/azinc_vitalite.jpg"}
+  imageAlt={"Azinc® Vitalité Gélules"}
+  path={"/docs/produits/azinc_vitalite"}
+/>
 
 ---
 
@@ -40,7 +37,7 @@ Les données indépendantes récentes ne montrent **pas d’effet consistant des
 |---|---:|---|
 | [**Vitamine C**](/docs/principes/vitamine_c) | 120 mg (150 % VNR) | Dose correcte ; utile si apports bas, pas de preuve d’effet anti-fatigue en population générale. |
 | **Complexe B** ([B1](/docs/principes/vitamine_b1), [B2](/docs/principes/vitamine_b2), [B3](/docs/principes/vitamine_b3), [B5](/docs/principes/vitamine_b5), [B6](/docs/principes/vitamine_b6), [B8](/docs/principes/vitamine_b7), [B9](/docs/principes/vitamine_b9), [B12](/docs/principes/vitamine_b12)) | 40–300 % VNR | Entretiennent les fonctions normales. Pas de bénéfice clinique hors carence. |
-| [**Vitamine A** (via β-carotène)](/docs/principes/vitamine_a) | 800 µg RE (100 % VNR) | ⚠️ Déconseillé aux fumeurs (sur-risque pulmonaire observé dans essais cliniques). |
+| **Vitamine A** (via β-carotène) | 800 µg RE (100 % VNR) | ⚠️ Déconseillé aux fumeurs (sur-risque pulmonaire observé dans essais cliniques). |
 | [**Vitamine D3**](/docs/principes/vitamine_d) | 5 µg (200 UI) | Apport modeste ; pertinence surtout si déficit documenté. |
 | [**Vitamine E**](/docs/principes/vitamine_e) | 10 mg (83 % VNR) | Pas de bénéfice clinique sur fatigue/énergie. |
 | [**Fer**](/docs/principes/fer) (fumarate) | 8 mg (57 % VNR) | Utile uniquement si carence. Interagit avec lévothyroxine/antibiotiques. |
@@ -107,5 +104,3 @@ Les données indépendantes récentes ne montrent **pas d’effet consistant des
 ## 🛡️ Note légale
 
 Cette fiche est établie à partir d’une **revue critique** des données scientifiques disponibles à la date d'analyse; Elles ne tiennent pas compte d’éventuelles données internes, non publiées ou confidentielles des laboratoires. Elle **ne constitue pas** un avis médical ni une recommandation personnalisée. Pour toute décision de santé (diagnostic d’une carence, supplémentation, interactions médicamenteuses), **consultez un professionnel de santé**.
-
-

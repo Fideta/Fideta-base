@@ -6,20 +6,16 @@ synopsis: "Complément alimentaire à base de quercétine, cassis et ortie."
 ean: 3664524001751
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYAlleR’</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Mixte (extraits végétaux + oligoéléments + vitamine)
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-    </p>
-  </div>
-
-<div className="product-hero__packshot">
-    <img src="/img/produits/ERGYAller'.jpg" alt="ERGYAlleR’ - Nutergia" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYAller"}
+  brand={"Nutergia"}
+  category={"Mixte (extraits végétaux + oligoéléments + vitamine)"}
+  image={"/img/produits/ERGYAller'.jpg"}
+  imageAlt={"ERGYAller"}
+  path={"/docs/produits/ERGYAller'"}
+/>
 ---
 
 ## ⚫ Note Fideta : F – Score : 20/100  

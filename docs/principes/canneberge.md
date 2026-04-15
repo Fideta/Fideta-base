@@ -8,21 +8,18 @@ popular: true
 slug: /principes/canneberge
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Canneberge</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Vaccinium macrocarpon</em> Aiton<br/>
-      <strong>Partie utilisée :</strong> fruit (baie), jus, extrait sec standardisé en proanthocyanidines (PAC)<br/>
-      <strong>Origine :</strong> Amérique du Nord
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/canneberge.jpg" alt="Canneberge" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Canneberge"}
+  scientificName={"fruit (baie), jus, extrait sec standardisé en proanthocyanidines (PAC)"}
+  partUsed={"fruit (baie), jus, extrait sec standardisé en proanthocyanidines (PAC)"}
+  origin={"Amérique du Nord"}
+  image={"/img/principes/canneberge.jpg"}
+  imageAlt={"Canneberge"}
+  path={"/docs/principes/canneberge"}
+/>
 
 ---
 

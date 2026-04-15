@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire associant guarana, ginseng, magnésium, vitam
 ean: [3770001283012, 3401548679609]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>TagviC</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> NHCO Nutrition<br/>
-      <strong>Catégorie :</strong> Mixte (plantes + vitamines / minéral + acides aminés)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/tagvic.jpg" alt="TagviC" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"TagviC"}
+  brand={"NHCO Nutrition"}
+  category={"Mixte (plantes + vitamines / minéral + acides aminés)"}
+  image={"/img/produits/tagvic.jpg"}
+  imageAlt={"TagviC"}
+  path={"/docs/produits/tagvic"}
+/>
 
 ---
 

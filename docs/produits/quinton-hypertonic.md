@@ -6,20 +6,17 @@ synopsis: "Solution hypertonique d’eau de mer microfiltrée apportant une quan
 ean : 3401565989262
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Quinton® Hypertonic</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Laboratoires Quinton<br/>
-      <strong>Catégorie :</strong> Minéraux – Eau de mer microfiltrée (solution hypertonique)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/quinton-hypertonic.jpg" alt="Quinton Hypertonic" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Quinton® Hypertonic"}
+  brand={"Laboratoires Quinton"}
+  category={"Minéraux – Eau de mer microfiltrée (solution hypertonique)"}
+  image={"/img/produits/quinton-hypertonic.jpg"}
+  imageAlt={"Quinton® Hypertonic"}
+  path={"/docs/produits/quinton-hypertonic"}
+/>
 
 ---
 

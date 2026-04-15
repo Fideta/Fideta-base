@@ -8,21 +8,18 @@ popular: false
 slug: /principes/MangiferaIndica
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Mangifera indica</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> Mangifera indica L.<br/>
-      <strong>Partie utilisée :</strong> surtout feuille sous forme d’extrait standardisé en mangiférine dans les études cliniques exploitables ; plus marginalement fruit ou pulpe lyophilisée<br/>
-      <strong>Origine :</strong> arbre tropical de la famille des Anacardiaceae, largement cultivé en Asie du Sud et dans les zones tropicales
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/MangiferaIndica.jpg" alt="Mangifera indica" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Mangifera indica"}
+  scientificName={"Mangifera indica L."}
+  partUsed={"surtout feuille sous forme d’extrait standardisé en mangiférine dans les études cliniques exploitables ; plus marginalement fruit ou pulpe lyophilisée"}
+  origin={"arbre tropical de la famille des Anacardiaceae, largement cultivé en Asie du Sud et dans les zones tropicales"}
+  image={"/img/principes/MangiferaIndica.jpg"}
+  imageAlt={"Mangifera indica"}
+  path={"/docs/principes/MangiferaIndica"}
+/>
 
 ---
 
@@ -88,7 +85,7 @@ Les usages larges sur la **glycémie**, l’**inflammation**, la **perte de poid
 
 | Critère | Note | Commentaire |
 |---------|------|-------------|
-| **Efficacité** |     | Dossier clinique trop fragmenté et trop hétérogène pour soutenir un bénéfice global fiable ; quelques signaux existent, mais ils restent limités à certaines préparations spécifiques et insuffisamment confirmés |
+| **Efficacité** | 🔴 **E** | Dossier clinique trop fragmenté et trop hétérogène pour soutenir un bénéfice global fiable ; quelques signaux existent, mais ils restent limités à certaines préparations spécifiques et insuffisamment confirmés |
 | **Sécurité** | 🟡 **C** | Tolérance plutôt rassurante à court terme dans les essais disponibles, mais recul clinique limité, effectifs modestes et documentation insuffisante pour un usage prolongé ou large |
 | **Qualité** | 🟠 **D** | Forte variabilité des produits ; nécessité absolue de préciser la partie utilisée et la standardisation, sans quoi l’extrapolation des essais cliniques à un complément commercial est peu fiable |
 

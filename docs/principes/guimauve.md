@@ -7,21 +7,18 @@ synonyms: ["Althaea officinalis", "Guimauve officinale", "Guimauve vraie"]
 slug: /principes/guimauve
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Guimauve</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Althaea officinalis</em> L.<br/>
-      <strong>**Partie utilisée** :</strong> racine (radix) principalement, parfois feuille ou fleur<br/>
-      <strong>**Origine** :</strong> Eurasie – cultivée en Europe pour usage pharmaceutique
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/guimauve.jpg" alt="Guimauve" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Guimauve"}
+  scientificName={"racine (radix) principalement, parfois feuille ou fleur"}
+  partUsed={"racine (radix) principalement, parfois feuille ou fleur"}
+  origin={"Eurasie – cultivée en Europe pour usage pharmaceutique"}
+  image={"/img/principes/guimauve.jpg"}
+  imageAlt={"Guimauve"}
+  path={"/docs/principes/guimauve"}
+/>
 ---
 
 ## Avis global  

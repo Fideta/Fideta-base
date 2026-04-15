@@ -5,20 +5,17 @@ categories: ["Ménopause", "Compléments alimentaires"]
 synopsis: "Complément alimentaire positionné sur les symptômes de la ménopause. Absence de preuve clinique démontrée sur le produit final. Ingrédients à intérêt nutritionnel général uniquement."
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Taïdo MénoActiv</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Taïdo<br/>
-      <strong>Catégorie :</strong> Complément alimentaire – Ménopause
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/taido-menoactiv.jpg" alt="Taïdo MénoActiv" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Taïdo MénoActiv"}
+  brand={"Taïdo"}
+  category={"Complément alimentaire – Ménopause"}
+  image={"/img/produits/taido-menoactiv.jpg"}
+  imageAlt={"Taïdo MénoActiv"}
+  path={"/docs/produits/taido-menoactiv"}
+/>
 
 ---
 

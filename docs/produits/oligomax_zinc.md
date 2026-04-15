@@ -6,20 +6,17 @@ synopsis: "Solution d’oligoéléments marins enrichie en zinc, manganèse, cui
 ean: 3664524000XXX
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>OLiGOMAX® Zinc</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Mixte (oligoéléments minéraux d’origine marine)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/oligomax_zinc.jpg" alt="OLiGOMAX Zinc - Nutergia" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"OLiGOMAX® Zinc"}
+  brand={"Nutergia"}
+  category={"Mixte (oligoéléments minéraux d’origine marine)"}
+  image={"/img/produits/oligomax_zinc.jpg"}
+  imageAlt={"OLiGOMAX® Zinc"}
+  path={"/docs/produits/oligomax_zinc"}
+/>
 
 ---
 

@@ -7,21 +7,27 @@ synonyms: ["Passiflora incarnata", "Passionflower"]
 popular: false
 slug: /principes/passiflore
 hide_title: true
+clinical:
+  - indication: endormissement
+    grade: F
+  - indication: sommeil_qualite
+    grade: D
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Passiflore</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Passiflora incarnata L<br/>
-      <strong>**Partie utilisée** :</strong> Parties aériennes (feuilles, tiges, fleurs)<br/>
-      <strong>****Origine**** :</strong> Amériques (aujourd’hui cultivée en Europe)<br/>
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/passiflore.jpg" alt="Passiflore" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Passiflore"}
+  scientificName={"Passiflora incarnata L"}
+  partUsed={"Parties aériennes (feuilles, tiges, fleurs)"}
+  origin={"Amériques (aujourd’hui cultivée en Europe)"}
+  image={"/img/principes/passiflore.jpg"}
+  imageAlt={"Passiflore"}
+  path={"/docs/principes/passiflore"}
+/>
 
 ---
 

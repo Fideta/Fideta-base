@@ -3,24 +3,19 @@ title: Feminabiane Endocalm
 image: /img/produits/feminabiane-endocalm.jpg
 categories: ["Produits"]
 synopsis: "Complément positionné sur le confort menstruel et pelvien. Les ingrédients principaux (PEA, achillée, probiotiques) reposent sur des niveaux de preuve faibles à insuffisants pour la dysménorrhée. Aucune étude clinique publiée sur la formule complète."
-ean : 3701145600700
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Feminabiane Endocalm</h1>
-    <p style={{margin:0}}>
-      <strong>Catégorie :</strong> Confort menstruel / pelvien<br/>
-      <strong>Positionnement revendiqué :</strong> Apaisement des douleurs menstruelles, soutien du cycle féminin<br/>
-      <strong>Fabricant :</strong> PiLeJe
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/feminabiane-endocalm.jpg" alt="Feminabiane Endocalm" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Feminabiane Endocalm"}
+  brand={"PiLeJe"}
+  category={"Confort menstruel / pelvien"}
+  image={"/img/produits/feminabiane-endocalm.jpg"}
+  imageAlt={"Feminabiane Endocalm"}
+  path={"/docs/produits/feminabiane-endocalm"}
+/>
 
 ---
 
@@ -50,7 +45,7 @@ Le produit ne présente pas de signal de danger particulier aux doses usuelles, 
 |------------|--------------------|--------------------|
 | [Palmitoyléthanolamide (PEA)](/docs/principes/pea) | 300 mg | Signal modeste en douleur chronique neuropathique. Données fragiles et non convaincantes en dysménorrhée primaire. |
 | [Achillée millefeuille (extrait)](/docs/principes/achillea) | 150 mg | Usage traditionnel antispasmodique. Petits essais cliniques hétérogènes en dysménorrhée, faible puissance et reproductibilité limitée. |
-| Probiotiques ([Lactobacillus gasseri LA806](/docs/principes/lactobacillus-gasseri) ; [Lactobacillus acidophilus LA807](/docs/principes/lactobacillus-acidophilus) ; [Streptococcus thermophilus LA902](/docs/principes/streptococcus-thermophilus)) | ≥ 1 milliard UFC | Aucune preuve clinique robuste démontrant une réduction de la douleur menstruelle. Effets souche-dépendants et non extrapolables. |
+| Probiotiques ([Lactobacillus gasseri LA806](/docs/principes/lactobacillus-gasseri) ; [Lactobacillus acidophilus LA807](/docs/principes/lactobacillus-acidophilus) ; [Streptococcus thermophilus LA902](/docs/principes/Streptococcus-thermophilus)) | ≥ 1 milliard UFC | Aucune preuve clinique robuste démontrant une réduction de la douleur menstruelle. Effets souche-dépendants et non extrapolables. |
 
 ---
 
@@ -115,4 +110,3 @@ Tolérance globale présumée correcte à court terme, absence de données long 
 ---
 
 <sub><em>Dernière mise à jour : 17 février 2026</em></sub>
-

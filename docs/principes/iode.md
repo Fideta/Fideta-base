@@ -7,21 +7,18 @@ synonyms: ["Iode", "Iodure de potassium", "Iodate de potassium", "Iodure", "Kelp
 slug: /principes/iode
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Iode</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> Iode (I) ; en complément, principalement sous forme d’iodure de potassium, d’iodate de potassium ou d’iodure de sodium<br/>
-      <strong>Partie utilisée :</strong> sans objet (oligo-élément minéral)<br/>
-      <strong>Origine :</strong> minérale ou issue d’algues marines ; les formes minérales standardisées sont les plus prévisibles, tandis que les sources algales ont une teneur en iode plus variable
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/iode.jpg" alt="Iode" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Iode"}
+  scientificName={"Iode (I) ; en complément, principalement sous forme d’iodure de potassium, d’iodate de potassium ou d’iodure de sodium"}
+  partUsed={"sans objet (oligo-élément minéral)"}
+  origin={"minérale ou issue d’algues marines ; les formes minérales standardisées sont les plus prévisibles, tandis que les sources algales ont une teneur en iode plus variable"}
+  image={"/img/principes/iode.jpg"}
+  imageAlt={"Iode"}
+  path={"/docs/principes/iode"}
+/>
 
 ---
 

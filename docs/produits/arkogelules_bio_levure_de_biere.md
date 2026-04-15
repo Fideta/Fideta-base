@@ -1,24 +1,21 @@
 ---
 title: "Arkogélules® BIO Levure de Bière"
 image: /img/produits/arkogelules_levure_biere.jpg
-categories: ["Beauté", "Cheveux", "Ongles"]
+categories: ["Beauté", "Cheveux", "Ongles", "Complément alimentaire"]
 synopsis: "Complément alimentaire BIO à base de levure de bière revivifiable ; bénéfices cheveux/ongles non démontrés cliniquement."
 ean: [3578835500585 , 3578835500530]
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}> Arkogélules® BIO Levure de Bière</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Arkopharma<br/>
-      <strong>Catégorie :</strong> Levure (micro-organisme / source de nutriments)
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/produits/arkogelules_levure_biere.jpg" alt="Arkogélules® BIO Levure de Bière" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Arkogélules® BIO Levure de Bière"}
+  brand={"Arkopharma"}
+  category={"Levure (micro-organisme / source de nutriments)"}
+  image={"/img/produits/arkogelules_levure_biere.jpg"}
+  imageAlt={"Arkogélules® BIO Levure de Bière"}
+  path={"/docs/produits/arkogelules_bio_levure_de_biere"}
+/>
 ---
 
 ## ⚫ Note Fideta : F – Score : 13/100
@@ -35,7 +32,7 @@ La souche utilisée (levure **revivifiable** *Saccharomyces cerevisiae*) **n’a
 
 | Ingrédient                                                    | Quantité (3 gélules) | Commentaire Fideta                                                                                                                                                                                                                  |
 | ------------------------------------------------------------- | -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Levure de bière BIO revivifiable (*Saccharomyces cerevisiae*)](/docs/principes/levure_de_biere) | 1335 mg              | Aliment riche en vitamines B et minéraux. La forme « revivifiable » n’a pas démontré d’effet probiotique significatif dans les essais cliniques. Les bénéfices cosmétiques (cheveux/ongles) ne sont pas confirmés par la recherche. |
+| [Levure de bière BIO revivifiable (*Saccharomyces cerevisiae*)](/docs/principes/levure_de_bière) | 1335 mg              | Aliment riche en vitamines B et minéraux. La forme « revivifiable » n’a pas démontré d’effet probiotique significatif dans les essais cliniques. Les bénéfices cosmétiques (cheveux/ongles) ne sont pas confirmés par la recherche. |
 
 > **Posologie fabricant** : Adultes 3 gélules/jour ; 13–18 ans 2/j ; 6–12 ans 1/j, au cours du repas.
 

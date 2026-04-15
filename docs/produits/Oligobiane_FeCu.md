@@ -7,19 +7,16 @@ ean: [3401579222577 , 3401560504019]
 hide_title: true
 ---
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Oligobiane FeCu</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Minéraux (Fer + Cuivre)
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/Oligobiane_FeCu.jpg" alt="Oligobiane FeCu - PiLeJe" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Oligobiane FeCu"}
+  brand={"PiLeJe"}
+  category={"Minéraux (Fer + Cuivre)"}
+  image={"/img/produits/Oligobiane_FeCu.jpg"}
+  imageAlt={"Oligobiane FeCu"}
+  path={"/docs/produits/Oligobiane_FeCu"}
+/>
 ---
 
 ## 🔴 Note Fideta : E – Score : 32/100

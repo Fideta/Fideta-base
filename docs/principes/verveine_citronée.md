@@ -6,22 +6,28 @@ synopsis: "La verveine citronnée (Aloysia citrodora) dispose de données cliniq
 popular: false
 slug: /principes/verveine_citronee
 hide_title: true
+clinical:
+  - indication: endormissement
+    grade: C
+  - indication: sommeil_qualite
+    grade: C
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Verveine citronée</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Aloysia citrodora</em> Paláu (syn. <em>Lippia citriodora</em>)<br/>
-      <strong>**Partie utilisée** :</strong> feuille<br/>
-      <strong>**Origine** :</strong> plante cultivée (origine Amérique du Sud)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/verveine-citronee.jpg" alt="Verveine citronée" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Verveine citronée"}
+  scientificName={"feuille"}
+  partUsed={"feuille"}
+  origin={"plante cultivée (origine Amérique du Sud)"}
+  image={"/img/principes/verveine-citronee.jpg"}
+  imageAlt={"Verveine citronée"}
+  path={"/docs/principes/verveine_citronée"}
+/>
 
 ---
 

@@ -8,21 +8,18 @@ popular: false
 slug: /principes/shilajit
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Shilajit</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> non applicable (complexe phytominéral)<br/>
-      <strong>**Partie utilisée** :</strong> résine naturelle purifiée<br/>
-      <strong>****Origine**** :</strong> exsudat de roches montagneuses (Himalaya, Caucase, Altaï…), riche en composés organo-minéraux<br/>  
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-    </p>
-  </div>
+<PrincipeHero
+  title={"Shilajit"}
+  scientificName={"non applicable (complexe phytominéral)"}
+  partUsed={"résine naturelle purifiée"}
+  origin={"exsudat de roches montagneuses (Himalaya, Caucase, Altaï…), riche en composés organo-minéraux"}
+  image={"/img/principes/shilajit.jpg"}
+  imageAlt={"Shilajit"}
+  path={"/docs/principes/shilajit"}
+/>
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/shilajit.jpg" alt="Shilajit" loading="eager" />
-  </div>
-</div>
 ---
 
 ## Avis global

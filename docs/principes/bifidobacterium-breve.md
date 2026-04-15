@@ -7,21 +7,18 @@ popular: false
 slug: /principes/bifidobacterium-breve
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Bifidobacterium breve</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Bifidobacterium breve</em> (espèce ; effets <strong>souche-dépendants</strong>)<br/>
-      <strong>**Partie utilisée** :</strong> micro-organisme vivant (probiotique) – cellules viables (UFC/CFU)<br/>
-      <strong>**Origine** :</strong> isolement humain (microbiote du nourrisson / lait maternel), puis fermentation industrielle et lyophilisation
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/bifidobacterium-breve.jpg" alt="Bifidobacterium breve" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Bifidobacterium breve"}
+  scientificName={")"}
+  partUsed={"micro-organisme vivant (probiotique) – cellules viables (UFC/CFU)"}
+  origin={"isolement humain (microbiote du nourrisson / lait maternel), puis fermentation industrielle et lyophilisation"}
+  image={"/img/principes/bifidobacterium-breve.jpg"}
+  imageAlt={"Bifidobacterium breve"}
+  path={"/docs/principes/bifidobacterium-breve"}
+/>
 
 ---
 
@@ -29,7 +26,7 @@ hide_title: true
 
 *Bifidobacterium breve* est une espèce de bifidobactérie historiquement associée au microbiote du nourrisson. Sur le plan clinique, **il n’existe pas “un” effet générique démontré de l’espèce** : les résultats varient selon **la souche**, la **dose (UFC/j)**, la **durée**, et l’**indication** (prévention vs traitement, nourrisson vs adulte).
 
-Les données humaines les plus consistantes concernent certaines souches ciblant des **paramètres métaboliques/adiposité** notamment la souche **B-3**, avec plusieurs essais randomisés montrant des effets modestes mais reporductibles sur la masse grasse chez des adultes “pré-obèses” (– 0,2 à – 0,4 kg/m² pour l'IMC avec ≈  –0,5 à – 1,5 kg de masse grasse par rapport au placebo selon les essais, mesuré par DEXA / impédancemétrie et variable selon le protocole).
+Les données humaines les plus consistantes concernent certaines souches ciblant des **paramètres métaboliques/adiposité** notamment la souche **B-3**, avec plusieurs essais randomisés montrant des effets modestes mais reporductibles sur la masse grasse chez des adultes “pré-obèses” (– 0,2 à – 0,4 kg/m² pour l'IMC avec ≈  –0,5 à – 1,5 kg de masse grasse par rapport au placebo).
 
 À l’inverse, pour des indications néonatales graves (ex. prévention de l’entérocolite nécrosante), **la souche M-16V prise isolément ne montre pas de bénéfice robuste** dans les essais randomisés et les synthèses dédiées.
 
@@ -41,12 +38,12 @@ En pratique, l’intérêt de *B. breve* est donc **conditionnel** : il dépend 
 
 | Fonction ciblée | Effet revendiqué (population / souche) | Niveau de preuve | Dose efficace étudiée |
 |---|---|---:|---|
-| Composition corporelle | ↓ masse grasse / adiposité (adultes “pré-obèses”, **B-3**) | 🟢 B — preuve probable mais effet faible et hétérogène| ≈ 2×10¹⁰ UFC/j pendant ~12 semaines |
+| Composition corporelle | ↓ masse grasse / adiposité (adultes “pré-obèses”, **B-3**) | 🟢 B — preuve probable | ≈ 2×10¹⁰ UFC/j pendant ~12 semaines |
 | Métabolisme glucidique | Amélioration de marqueurs métaboliques (obésité pédiatrique, **BR03 + B632**) | 🟡 C — preuve modérée | Probiotique quotidien ~8 semaines (dose selon étude) |
 | Diabète de type 2 | Amélioration glycémie/lipides (DT2, *B. breve* souche variable) | 🟠 D — preuve faible | Variable selon protocole |
-| Nourrisson – coliques | ↓ pleurs/coliques (nourrissons, **BR03 + B632**) | 🟠 D — preuve faible et non attribuable à B. breve isolément | Doses quotidiennes sur plusieurs semaines (selon produit) |
+| Nourrisson – coliques | ↓ pleurs/coliques (nourrissons, **BR03 + B632**) | 🟠 D — preuve faible | Doses quotidiennes sur plusieurs semaines (selon produit) |
 | Constipation de l’enfant | ↑ fréquence des selles / symptômes (enfants, souche souvent non précisée) | 🔴 E — pas de preuve convaincante | Non établi de façon fiable |
-| Néonatalogie (prématurés) | Prévention NEC / complications (prématurés, **M-16V seul**) | ⚫ F — pas de bénéfice cliniquement établi en monothérapie | — |
+| Néonatalogie (prématurés) | Prévention NEC / complications (prématurés, **M-16V seul**) | ⚫ F — absence de preuve clinique | — |
 | Tolérance des formules infantiles | Tolérance/croissance adéquates (formule + synbiotique, ex. **M-16V + scGOS/lcFOS**) | 🟡 C — preuve modérée | Dans la formule (durées de suivi de plusieurs mois) |
 
 ---
@@ -108,4 +105,3 @@ En pratique, l’intérêt de *B. breve* est donc **conditionnel** : il dépend 
 ---
 
 <sub><em>Dernière mise à jour : 10 janvier 2026</em></sub>
-

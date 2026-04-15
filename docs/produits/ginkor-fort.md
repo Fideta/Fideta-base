@@ -6,21 +6,17 @@ synopsis: "Association veinotonique historique (troxérutine, heptaminol, ginkgo
 popular: false
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>GINKOR FORT</h1>
-    <p style={{margin:0}}>
-      <strong>Famille :</strong> Médicament veinotonique / vasculoprotecteur<br/>
-      <strong>Laboratoire :</strong> Bouchara-Recordati<br/>
-      <strong>Indications revendiquées :</strong> insuffisance veineuse légère, crises hémorroïdaires
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/ginkor-fort.jpg" alt="GINKOR FORT" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"GINKOR FORT"}
+  brand={"Bouchara-Recordati"}
+  category={"Médicament veinotonique / vasculoprotecteur"}
+  image={"/img/produits/ginkor-fort.jpg"}
+  imageAlt={"GINKOR FORT"}
+  path={"/docs/produits/ginkor-fort"}
+/>
 
 ---
 

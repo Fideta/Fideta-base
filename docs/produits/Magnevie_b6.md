@@ -7,19 +7,16 @@ synopsis: "Complément alimentaire à base de magnésium et vitamine B6."
 ean: 3400932646487
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Magnevie B6</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Sanofi<br/>
-      <strong>Catégorie :</strong> Mixte (Minéral + vitamines)
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/produits/Magnevie_b6.jpg" alt="MAGNEVIE B6 - Sanofi" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"MAGNEVIE B6 100 mg/10 mg"}
+  brand={"Sanofi"}
+  category={"Mixte (Minéral + vitamines)"}
+  image={"/img/produits/Magnevie_b6.jpg"}
+  imageAlt={"MAGNEVIE B6 100 mg/10 mg"}
+  path={"/docs/produits/Magnevie_b6"}
+/>
 ---
 
 ## ☠️ Note Fideta : **Disqualifié – Score : 0/100**

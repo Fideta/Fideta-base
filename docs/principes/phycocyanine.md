@@ -7,21 +7,18 @@ synonyms: ["C-phycocyanine", "Phycocyanin"]
 slug: /principes/phycocyanine  
 hide_title: true  
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Phycocyanine</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> C-phycocyanine (phycobiliprotéine)<br/>
-      <strong>Partie utilisée :</strong> extrait aqueux de biomasse d’<em>Arthrospira platensis</em> (spiruline), parfois extrait enrichi en phycocyanine<br/>
-      <strong>Origine :</strong> pigment bleu naturel produit par des cyanobactéries du genre <em>Arthrospira</em>
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/phycocyanine.jpg" alt="Phycocyanine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Phycocyanine"}
+  scientificName={"C-phycocyanine (phycobiliprotéine)"}
+  partUsed={"extrait aqueux de biomasse d’ Arthrospira platensis (spiruline), parfois extrait enrichi en phycocyanine"}
+  origin={"pigment bleu naturel produit par des cyanobactéries du genre Arthrospira"}
+  image={"/img/principes/phycocyanine.jpg"}
+  imageAlt={"Phycocyanine"}
+  path={"/docs/principes/phycocyanine"}
+/>
 
 ---
 

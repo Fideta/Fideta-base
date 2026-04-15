@@ -9,20 +9,17 @@ slug: /principes/collagène
 hide_title: true
 ---
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Collagène</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> Peptides de collagène hydrolysé (types I et III principalement) ; pour certaines formulations articulaires, collagène de type II non dénaturé<br/>
-      <strong>Partie utilisée :</strong> peaux, os ou cartilages d’origine animale<br/>
-      <strong>Origine :</strong> bovine, porcine, marine ou aviaire
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/Collagene.jpg" alt="Collagène" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Collagène"}
+  scientificName={"Peptides de collagène hydrolysé (types I et III principalement) ; pour certaines formulations articulaires, collagène de type II non dénaturé"}
+  partUsed={"peaux, os ou cartilages d’origine animale"}
+  origin={"bovine, porcine, marine ou aviaire"}
+  image={"/img/principes/Collagene.jpg"}
+  imageAlt={"Collagène"}
+  path={"/docs/principes/collagène"}
+/>
 
 ---
 
@@ -78,6 +75,13 @@ En pratique, le collagène peut donc être présenté comme un ingrédient à **
   - **aucune supériorité clinique humaine constante** n’a été démontrée par rapport aux autres origines
   - l’efficacité dépend davantage de la **forme**, du **degré d’hydrolyse**, de la **dose** et du **produit réellement étudié**
   - il peut présenter un **risque allergique** spécifique chez les personnes sensibles au poisson
+
+- **Conclusion EBM :**  
+  👉 Le **collagène peut être utile**, mais **tous les collagènes ne se valent pas**.  
+  Les effets les mieux étayés concernent :
+  - les **peptides de collagène hydrolysé** pour la **peau**
+  - certaines formes de collagène pour les **douleurs articulaires**, selon le produit étudié
+
 ---
 
 ## 📊 Résumé des évaluations

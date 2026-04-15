@@ -7,21 +7,18 @@ synonyms: ["Citrus × paradisi", "Grapefruit", "Jus de pamplemousse"]
 slug: /principes/pamplemousse
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Pamplemousse</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> *Citrus × paradisi*<br/>
-      <strong>**Partie utilisée** :</strong> Fruit (pulpe, jus, zeste)<br/>
-      <strong>**Origine** :</strong> Agrume hybride (Barbade, 18ᵉ siècle), cultivé mondialement
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/pamplemousse.jpg" alt="Pamplemousse" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Pamplemousse (Fruit et jus)"}
+  scientificName={"Citrus × paradisi"}
+  partUsed={"Fruit (pulpe, jus, zeste)"}
+  origin={"Agrume hybride (Barbade, 18ᵉ siècle), cultivé mondialement"}
+  image={"/img/principes/pamplemousse.jpg"}
+  imageAlt={"Pamplemousse (Fruit et jus)"}
+  path={"/docs/principes/pamplemousse"}
+/>
 
 ---
 

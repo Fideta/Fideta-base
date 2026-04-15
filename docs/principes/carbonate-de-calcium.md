@@ -7,21 +7,18 @@ synonyms: ["Calcium carbonicum", "Carbonate de calcium", "CaCO3"]
 slug: /principes/carbonate-de-calcium
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Carbonate de calcium</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Calcium carbonicum</em> (CaCO₃)<br/>
-      <strong>**Partie utilisée** :</strong> substance minérale purifiée (qualité pharmaceutique)<br/>
-      <strong>**Origine** :</strong> minérale (roches calcaires, craie, carbonates précipités)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/carbonate-de-calcium.jpg" alt="Carbonate de calcium" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Carbonate de calcium"}
+  scientificName={"substance minérale purifiée (qualité pharmaceutique)"}
+  partUsed={"substance minérale purifiée (qualité pharmaceutique)"}
+  origin={"minérale (roches calcaires, craie, carbonates précipités)"}
+  image={"/img/principes/carbonate-de-calcium.jpg"}
+  imageAlt={"Carbonate de calcium"}
+  path={"/docs/principes/carbonate-de-calcium"}
+/>
 
 ---
 

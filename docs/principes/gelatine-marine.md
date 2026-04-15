@@ -7,21 +7,18 @@ synonyms: ["Collagène marin", "Gélatine de poisson", "Fish gelatin", "Marine c
 slug: /principes/gelatine-marine
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Gélatine marine</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> gélatine d’origine marine issue d’une hydrolyse partielle du collagène de poisson<br/>
-      <strong>Partie utilisée :</strong> peau de poisson principalement, parfois arêtes ou écailles<br/>
-      <strong>Origine :</strong> sous-produits de poissons marins ou d’aquaculture, transformés par extraction puis hydrolyse partielle
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/gelatine-marine.jpg" alt="Gélatine marine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Gélatine marine"}
+  scientificName={"gélatine d’origine marine issue d’une hydrolyse partielle du collagène de poisson"}
+  partUsed={"peau de poisson principalement, parfois arêtes ou écailles"}
+  origin={"peau de poisson principalement, parfois arêtes ou écailles"}
+  image={"/img/principes/gelatine-marine.jpg"}
+  imageAlt={"Gélatine marine"}
+  path={"/docs/principes/gelatine-marine"}
+/>
 
 ---
 

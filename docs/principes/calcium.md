@@ -8,20 +8,17 @@ popular: false
 slug: /principes/calcium
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Calcium</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Calcium (Ca²⁺)<br/>
-      <strong>**Partie utilisée** :</strong> Minéral (sels : carbonate, citrate, citrate-malate, lactate, gluconate…)<br/>
-      <strong>**Origine** :</strong> Sources minérales ou synthèse industrielle
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/calcium.jpg" alt="Calcium" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Calcium"}
+  scientificName={"Calcium (Ca²⁺)"}
+  partUsed={"Minéral (sels : carbonate, citrate, citrate-malate, lactate, gluconate…)"}
+  origin={"Sources minérales ou synthèse industrielle"}
+  image={"/img/principes/calcium.jpg"}
+  imageAlt={"Calcium"}
+  path={"/docs/principes/calcium"}
+/>
 
 ---
 

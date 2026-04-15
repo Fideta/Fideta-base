@@ -6,20 +6,17 @@ ean : 3760196531104
 synopsis: "Complément alimentaire associant magnésium, vitamines, acides aminés, extraits végétaux adaptogènes et Robuvit®, revendiquant un effet sur la fatigue intense, l’épuisement et les périodes de stress prolongé."
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Cytocore</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> NHCO Nutrition<br/>
-      <strong>Catégorie :</strong> Mixte (plantes adaptogènes + vitamines / minéral + acides aminés)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/produits/cytocore.jpg" alt="Cytocore" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Cytocore"}
+  brand={"NHCO Nutrition"}
+  category={"Mixte (plantes adaptogènes + vitamines / minéral + acides aminés)"}
+  image={"/img/produits/cytocore.jpg"}
+  imageAlt={"Cytocore"}
+  path={"/docs/produits/cytocore"}
+/>
 
 ---
 

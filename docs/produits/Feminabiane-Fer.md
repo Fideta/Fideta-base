@@ -3,23 +3,20 @@ title: "Feminabiane Fer"
 image: /img/produits/Feminabiane-Fer.jpg
 categories: ["Minéraux", "Fer", "Santé des femmes"]
 synopsis: "Complément alimentaire apportant 14 mg de fer (100% VNR) et 0,5 mg de cuivre via le complexe Guanylor®. Intérêt limité à la couverture des apports ou à la prévention d’un déficit léger. Dose insuffisante pour corriger une carence martiale avérée."
-ean: 3701145600663
+ean: ""
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Feminabiane Fer</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Minéraux (Fer + Cuivre)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/Feminabiane-Fer.jpg" alt="Feminabiane Fer - PiLeJe" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Feminabiane Fer"}
+  brand={"PiLeJe"}
+  category={"Minéraux (Fer + Cuivre)"}
+  image={"/img/produits/Feminabiane-Fer.jpg"}
+  imageAlt={"Feminabiane Fer"}
+  path={"/docs/produits/Feminabiane-Fer"}
+/>
 
 ---
 
@@ -134,4 +131,3 @@ Pour toute décision de santé (diagnostic de carence, supplémentation, interac
 ---
 
 <sub><em>Dernière mise à jour : 16 février 2026</em></sub>
-

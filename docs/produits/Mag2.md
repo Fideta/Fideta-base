@@ -6,19 +6,16 @@ synopsis: "Complément alimentaire à base de magnésium."
 ean: 3614810005611
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Mag 2</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Cooper<br/>
-      <strong>Catégorie :</strong> Mixte (Minéral + Vitamines)
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/produits/Mag2.jpg" alt="Mag 2 - Cooper" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Mag2"}
+  brand={"Cooper"}
+  category={"Mixte (Minéral + Vitamines)"}
+  image={"/img/produits/Mag2.jpg"}
+  imageAlt={"Mag2"}
+  path={"/docs/produits/Mag2"}
+/>
 ---
 
 ## 🔴 Note Fideta : E – Score : 35/100
@@ -55,7 +52,7 @@ La formulation repose sur des **formes peu biodisponibles** et intègre un excip
 | **Carence avérée** | Correction de la carence          | ✅ A    | Efficace pour normaliser les taux de magnésium chez les personnes présentant une carence confirmée par bilan médical. |
 | **Fatigue**       | Réduction de la fatigue           | 🔴 E | Amélioration possible uniquement si la fatigue est liée à une carence en magnésium. Aucun effet démontré chez les sujets avec statut normal. |
 | **Système nerveux**    | Fonction normale         | ⚫ F  | Allégation réglementaire autorisée, mais absence de bénéfice démontré chez les personnes non carencées. |
-| **Stress / sommeil**   | Relaxation, détente      | 🔴 E  | Allégation réglementaire autorisée, mais absence de bénéfice démontré chez les personnes non carencées. |
+| **Stress / sommeil**   | Relaxation, détente      | ⚫ F  | Allégation réglementaire autorisée, mais absence de bénéfice démontré chez les personnes non carencées. |
 
 ---
 

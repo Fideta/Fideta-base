@@ -8,21 +8,18 @@ popular: false
 slug: /principes/beta-alanine
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Beta-alanine</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> β-alanine<br/>
-      <strong>Partie utilisée :</strong> acide aminé libre purifié ; il ne s’agit pas d’un extrait végétal<br/>
-      <strong>Origine :</strong> synthèse ou fermentation industrielle ; parfois formulée en poudre, gélules, comprimés ou formes à libération prolongée
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/beta-alanine.jpg" alt="Beta-alanine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Beta-alanine"}
+  scientificName={"β-alanine"}
+  partUsed={"acide aminé libre purifié ; il ne s’agit pas d’un extrait végétal"}
+  origin={"synthèse ou fermentation industrielle ; parfois formulée en poudre, gélules, comprimés ou formes à libération prolongée"}
+  image={"/img/principes/beta-alanine.jpg"}
+  imageAlt={"Beta-alanine"}
+  path={"/docs/principes/beta-alanine"}
+/>
 
 ---
 

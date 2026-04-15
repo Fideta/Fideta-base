@@ -7,21 +7,18 @@ synonyms: ["Phymatolithon calcareum", "Lithothamnion calcareum"]
 slug: /principes/lithothamne
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lithothamne</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> *Phymatolithon calcareum* (algue rouge corallinacée)<br/>
-      <strong>**Partie utilisée** :</strong> thalle calcifié (squelette minéralisé)<br/>
-      <strong>**Origine** :</strong> gisements benthiques d’Atlantique Nord-Est (récolte post-mortem, séchage, broyage)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/lithothamne.jpg" alt="Lithothamne" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Lithothamne"}
+  scientificName={"Phymatolithon calcareum (algue rouge corallinacée)"}
+  partUsed={"thalle calcifié (squelette minéralisé)"}
+  origin={"gisements benthiques d’Atlantique Nord-Est (récolte post-mortem, séchage, broyage)"}
+  image={"/img/principes/lithothamne.jpg"}
+  imageAlt={"Lithothamne"}
+  path={"/docs/principes/lithothamne"}
+/>
 
 ---
 

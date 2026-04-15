@@ -8,20 +8,17 @@ popular: true
 slug: /principes/zinc
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Zinc</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> *Zinc* (divers sels : picolinate, bisglycinate, gluconate, sulfate…)<br/>
-      <strong>**Partie utilisée** :</strong> minéral <br/> 
-      <strong>****Origine**** :</strong> roches, eaux, aliments (viande, fruits de mer, graines) <br/>
-	  </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/zinc.jpg" alt="Zinc" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Zinc"}
+  scientificName={"Zinc (divers sels : picolinate, bisglycinate, gluconate, sulfate…)"}
+  partUsed={"minéral"}
+  origin={"roches, eaux, aliments (viande, fruits de mer, graines)"}
+  image={"/img/principes/zinc.jpg"}
+  imageAlt={"Zinc"}
+  path={"/docs/principes/zinc"}
+/>
 
 ---
 

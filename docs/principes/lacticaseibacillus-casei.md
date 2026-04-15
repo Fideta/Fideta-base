@@ -8,21 +8,18 @@ popular: false
 slug: /principes/lacticaseibacillus-casei
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Lacticaseibacillus casei</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Lacticaseibacillus casei</em> (ex-<em>Lactobacillus casei</em>)<br/>
-      <strong>Partie utilisée :</strong> bactéries vivantes (souches probiotiques spécifiques)<br/>
-      <strong>Origine :</strong> bactéries lactiques du microbiote humain et de produits fermentés
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/lacticaseibacillus-casei.jpg" alt="Lacticaseibacillus casei" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Lacticaseibacillus casei"}
+  scientificName={"bactéries vivantes (souches probiotiques spécifiques)"}
+  partUsed={"bactéries vivantes (souches probiotiques spécifiques)"}
+  origin={"bactéries lactiques du microbiote humain et de produits fermentés"}
+  image={"/img/principes/lacticaseibacillus-casei.jpg"}
+  imageAlt={"Lacticaseibacillus casei"}
+  path={"/docs/principes/lacticaseibacillus-casei"}
+/>
 
 ---
 
@@ -133,6 +130,4 @@ Cas isolés de bactériémie / endocardite, généralement chez :
 
 ---
 
-
 <sub><em>Dernière mise à jour : 28 novembre 2025</em></sub>
-

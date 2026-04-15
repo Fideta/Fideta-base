@@ -7,22 +7,28 @@ synonyms: ["Acide aminoacétique"]
 popular: false
 slug: /principes/glycine
 hide_title: true
+clinical:
+  - indication: endormissement
+    grade: F
+  - indication: sommeil_qualite
+    grade: D
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Glycine</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> Glycine (acide aminoacétique)<br/>
-      <strong>Partie utilisée :</strong> substance pure (acide aminé libre)<br/>
-      <strong>Origine :</strong> synthèse chimique ou fermentation industrielle
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-      <img src="/img/principes/glycine.jpg" alt="Glycine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Glycine"}
+  scientificName={"Glycine (acide aminoacétique)"}
+  partUsed={"substance pure (acide aminé libre)"}
+  origin={"synthèse chimique ou fermentation industrielle"}
+  image={"/img/principes/glycine.jpg"}
+  imageAlt={"Glycine"}
+  path={"/docs/principes/glycine"}
+/>
 
 ---
 

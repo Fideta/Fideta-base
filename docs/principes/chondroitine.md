@@ -7,21 +7,18 @@ synonyms: ["Chondroïtine", "Chondroitin sulfate", "Chondroitine sulfate"]
 slug: /principes/chondroitine
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Chondroitine</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> chondroïtine sulfate<br/>
-      <strong>Partie utilisée :</strong> extrait de cartilage (glycosaminoglycane sulfaté)<br/>
-      <strong>Origine :</strong> cartilages animaux (bovin, porcin ou poisson)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/chondroitine.jpg" alt="Chondroitine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Chondroitine"}
+  scientificName={"chondroïtine sulfate"}
+  partUsed={"extrait de cartilage (glycosaminoglycane sulfaté)"}
+  origin={"cartilages animaux (bovin, porcin ou poisson)"}
+  image={"/img/principes/chondroitine.jpg"}
+  imageAlt={"Chondroitine"}
+  path={"/docs/principes/chondroitine"}
+/>
 
 ---
 

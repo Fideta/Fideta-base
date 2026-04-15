@@ -7,22 +7,28 @@ synonyms: ["Crocus sativus L."]
 popular: true
 slug: /principes/safran
 hide_title: true
+clinical:
+  - indication: endormissement
+    grade: F
+  - indication: sommeil_qualite
+    grade: C
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Safran</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> Crocus sativus L.<br/>
-      <strong>**Partie utilisée** :</strong> Stigmates (fils rouges du pistil)<br/>
-      <strong>****Origine**** :</strong> Plante herbacée vivace (Iridaceae), cultivée principalement en Iran, Espagne, Maroc, Inde<br/>  
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-    </p>
-  </div>
+<PrincipeHero
+  title={"Safran"}
+  scientificName={"Crocus sativus L."}
+  partUsed={"Stigmates (fils rouges du pistil)"}
+  origin={"Plante herbacée vivace (Iridaceae), cultivée principalement en Iran, Espagne, Maroc, Inde"}
+  image={"/img/principes/safran.jpg"}
+  imageAlt={"Safran"}
+  path={"/docs/principes/safran"}
+/>
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/safran.jpg" alt="Crocus sativus" loading="eager" />
-  </div>
-</div>
 ---
 
 ## Avis global

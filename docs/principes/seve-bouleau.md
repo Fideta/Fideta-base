@@ -7,21 +7,18 @@ synonyms: ["Sève de bouleau", "Birch sap", "Eau de bouleau", "Betula pendula", 
 slug: /principes/seve-bouleau
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Sève de bouleau</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Betula pendula</em> Roth / <em>Betula pubescens</em> Ehrh.<br/>
-      <strong>Partie utilisée :</strong> sève xylémienne de printemps, recueillie au tronc<br/>
-      <strong>Origine :</strong> liquide naturellement prélevé sur le bouleau au début du printemps ; en complément, surtout proposé sous forme de sève fraîche, pasteurisée, stabilisée ou parfois concentrée
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/seve-bouleau.jpg" alt="Sève de bouleau" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Sève de bouleau"}
+  scientificName={"sève xylémienne de printemps, recueillie au tronc"}
+  partUsed={"sève xylémienne de printemps, recueillie au tronc"}
+  origin={"liquide naturellement prélevé sur le bouleau au début du printemps ; en complément, surtout proposé sous forme de sève fraîche, pasteurisée, stabilisée ou parfois concentrée"}
+  image={"/img/principes/seve-bouleau.jpg"}
+  imageAlt={"Sève de bouleau"}
+  path={"/docs/principes/seve-bouleau"}
+/>
 
 ---
 

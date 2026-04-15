@@ -7,21 +7,18 @@ synonyms: ["Cinnamomum burmannii", "Cannelle d’Indonésie", "Cassia indonésie
 slug: /principes/cannelle_burmannii
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Cannelle d’Indonésie (Cinnamomum burmannii)</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Cinnamomum burmannii</em><br/>
-      <strong>Partie utilisée :</strong> Écorce séchée<br/>
-      <strong>Origine :</strong> Indonésie
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/cannelle_burmannii.jpg" alt="Cannelle d’Indonésie" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Cannelle d’Indonésie (Cinnamomum burmannii)"}
+  scientificName={"Écorce séchée"}
+  partUsed={"Écorce séchée"}
+  origin={"Indonésie"}
+  image={"/img/principes/cannelle_burmannii.jpg"}
+  imageAlt={"Cannelle d’Indonésie (Cinnamomum burmannii)"}
+  path={"/docs/principes/cannelle_burmannii"}
+/>
 
 ---
 
@@ -99,8 +96,8 @@ Absence de dosage de coumarine = qualité insuffisante.
 | Critère | Note | Commentaire |
 |---------|:-----:|-------------|
 | **Efficacité** |   | Données humaines spécifiques insuffisantes et non reproductibles |
-| **Sécurité** | 🟡 C | Risque hépatotoxique dose-dépendant lié à la coumarine |
-| **Qualité** | 🟠 D | Forte variabilité des produits ; contrôle de coumarine rarement documenté |
+| **Sécurité** | 🟡 **C** | Risque hépatotoxique dose-dépendant lié à la coumarine |
+| **Qualité** | 🟠 **D** | Forte variabilité des produits ; contrôle de coumarine rarement documenté |
 
 ---
 

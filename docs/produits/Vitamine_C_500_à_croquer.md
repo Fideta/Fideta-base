@@ -6,19 +6,16 @@ synopsis: "Complément alimentaire à base de vitamine C à croquer, arôme oran
 ean: 3585550000528
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}> VITAMINE C 500 mg (à croquer)</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> UPSA<br/>
-      <strong>Catégorie :</strong> Vitamine hydrosoluble – Acide ascorbique (ascorbate de sodium + acide ascorbique)
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/produits/Vitamine_C_500_croquer.jpg" alt="Vitamine C 500 à croquer - UPSA" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Vitamine C 500 à croquer"}
+  brand={"UPSA"}
+  category={"Vitamine hydrosoluble – Acide ascorbique (ascorbate de sodium + acide ascorbique)"}
+  image={"/img/produits/Vitamine_C_500_croquer.jpg"}
+  imageAlt={"Vitamine C 500 à croquer"}
+  path={"/docs/produits/Vitamine_C_500_à_croquer"}
+/>
 ---
 
 ## 🟡 Note Fideta : C **– Score : 68/100**

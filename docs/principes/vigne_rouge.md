@@ -7,21 +7,18 @@ synonyms: ["Vitis vinifera folium", "Feuille de vigne rouge", "Red Vine Leaf"]
 slug: /principes/vigne_rouge
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Vigne rouge</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Vitis vinifera L., folium</em><br/>
-      <strong>Partie utilisée :</strong> Feuille séchée<br/>
-      <strong>Origine :</strong> Régions viticoles d’Europe et du bassin méditerranéen
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/vigne_rouge.jpg" alt="Vigne rouge" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Vigne rouge"}
+  scientificName={"Feuille séchée"}
+  partUsed={"Feuille séchée"}
+  origin={"Régions viticoles d’Europe et du bassin méditerranéen"}
+  image={"/img/principes/vigne_rouge.jpg"}
+  imageAlt={"Vigne rouge"}
+  path={"/docs/principes/vigne_rouge"}
+/>
 
 ---
 

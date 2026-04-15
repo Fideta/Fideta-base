@@ -7,21 +7,27 @@ synonyms: ["Acide γ-aminobutyrique"]
 popular: false
 slug: /principes/gaba
 hide_title: true
+clinical:
+  - indication: endormissement
+    grade: D
+  - indication: sommeil_qualite
+    grade: D
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>GABA</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> acide γ-aminobutyrique (GABA)<br/>
-      <strong>**Partie utilisée** :</strong> molécule isolée<br/> 
-      <strong>**Origine** :</strong> Synthèse chimique ou fermentation bactérienne<br/>
-    </p>
-  </div>
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/gaba.jpg" alt="GABA" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"GABA"}
+  scientificName={"acide γ-aminobutyrique (GABA)"}
+  partUsed={"molécule isolée"}
+  origin={"Synthèse chimique ou fermentation bactérienne"}
+  image={"/img/principes/gaba.jpg"}
+  imageAlt={"GABA"}
+  path={"/docs/principes/gaba"}
+/>
 
 ---
 

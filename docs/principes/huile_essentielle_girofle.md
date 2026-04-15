@@ -7,22 +7,18 @@ synonyms: ["Huile essentielle de clou de girofle", "Clove essential oil", "Syzyg
 slug: /principes/huile_essentielle_girofle
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Huile essentielle de girofle</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> <em>Syzygium aromaticum</em><br/>
-      <strong>Partie utilisée :</strong> Boutons floraux séchés distillés<br/>
-      <strong>Molécule majoritaire :</strong> Eugénol (70–85 %)<br/>
-      <strong>Origine :</strong> Madagascar, Indonésie, Tanzanie
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/huile_essentielle_girofle.jpg" alt="Huile essentielle de girofle" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Huile essentielle de girofle"}
+  scientificName={"Boutons floraux séchés distillés"}
+  partUsed={"Boutons floraux séchés distillés"}
+  origin={"Madagascar, Indonésie, Tanzanie"}
+  image={"/img/principes/huile_essentielle_girofle.jpg"}
+  imageAlt={"Huile essentielle de girofle"}
+  path={"/docs/principes/huile_essentielle_girofle"}
+/>
 
 ---
 

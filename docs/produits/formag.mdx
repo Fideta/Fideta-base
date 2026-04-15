@@ -6,19 +6,16 @@ synopsis: "Complément alimentaire à base de magnésium."
 ean: [3401597192302 , 3401547456652] 
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Formag</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Minéral – Magnésium
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/formag.jpg" alt="Formag - PiLeJe" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Formag"}
+  brand={"PiLeJe"}
+  category={"Minéral – Magnésium"}
+  image={"/img/produits/formag.jpg"}
+  imageAlt={"Formag"}
+  path={"/docs/produits/formag"}
+/>
 ---
 
 ## 🔴 Note Fideta : **E** – Score : **38/100** 

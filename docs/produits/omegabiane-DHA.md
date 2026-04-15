@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire à base de DHA (huile de poisson)."
 ean : 3701145600489
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Omegabiane DHA</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Lipides – Oméga-3 (DHA)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/omegabiane-dha.jpg" alt="Omegabiane DHA - PiLeJe" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Omegabiane DHA"}
+  brand={"PiLeJe"}
+  category={"Lipides – Oméga-3 (DHA)"}
+  image={"/img/produits/omegabiane-dha.jpg"}
+  imageAlt={"Omegabiane DHA"}
+  path={"/docs/produits/omegabiane-DHA"}
+/>
 
 ---
 

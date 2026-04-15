@@ -6,19 +6,16 @@ synopsis: "Complément alimentaire à base de zinc."
 ean: 3701145600779
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Forzinc</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> PiLeJe<br/>
-      <strong>Catégorie :</strong> Oligo-élément – Zinc
-    </p>
-  </div>
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/forzinc.jpg" alt="Forzinc - PiLeJe" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"Forzinc"}
+  brand={"PiLeJe"}
+  category={"Oligo-élément – Zinc"}
+  image={"/img/produits/forzinc.jpg"}
+  imageAlt={"Forzinc"}
+  path={"/docs/produits/forzinc"}
+/>
 ---
 
 ## 🔴 Note Fideta : **E** – Score : **41/100** 

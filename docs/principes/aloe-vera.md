@@ -7,21 +7,18 @@ synonyms: ["Aloe barbadensis", "Aloe vera", "Aloes folii succus siccatus"]
 slug: /principes/aloe-vera
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Aloé vera</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Aloe barbadensis</em> Mill.<br/>
-      <strong>**Partie utilisée** :</strong> latex foliaire (suc séché) et gel interne (parenchyme foliaire)<br/>
-      <strong>**Origine** :</strong> Afrique orientale et australe, cultivée mondialement dans les zones arides et subtropicales
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/aloe-vera.jpg" alt="Aloé vera" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Aloé vera"}
+  scientificName={"latex foliaire (suc séché) et gel interne (parenchyme foliaire)"}
+  partUsed={"latex foliaire (suc séché) et gel interne (parenchyme foliaire)"}
+  origin={"Afrique orientale et australe, cultivée mondialement dans les zones arides et subtropicales"}
+  image={"/img/principes/aloe-vera.jpg"}
+  imageAlt={"Aloé vera"}
+  path={"/docs/principes/aloe-vera"}
+/>
 
 ---
 
@@ -55,8 +52,8 @@ L’usage cosmétique et apaisant du gel est sûr, alors que le **latex est déc
 
 ## ⚠️ Sécurité et précautions  
 
-### Effets secondaires / Effets indésirables   
-- **Latex/HAD (HydroxyAnthracene Dérivés ou en anglais Hydroxyanthracene Derivatives, ce sont les principes actifs laxatifs présents dans le latex de l’Aloé vera) :** diarrhée, crampes, hypokaliémie → troubles cardiaques possibles ; dépendance au long cours.  
+### Effets secondaires  
+- **Latex/HAD :** diarrhée, crampes, hypokaliémie → troubles cardiaques possibles ; dépendance au long cours.  
 - **Gel oral :** généralement bien toléré ; rares **hépatites aiguës** (réversibles).  
 - **Topique :** réactions cutanées allergiques rares.  
 
@@ -120,5 +117,3 @@ L’usage cosmétique et apaisant du gel est sûr, alors que le **latex est déc
 ---
 
 <sub><em>Dernière mise à jour : 31 octobre 2025</em></sub>
-
-

@@ -6,20 +6,17 @@ synopsis: "Complément alimentaire à base de curcuma, poivre noir, NAC, brocoli
 ean: 3401560261158
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>ERGYCARE</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Nutergia<br/>
-      <strong>Catégorie :</strong> Mixte (plante, antioxydants, micronutriments)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/ergycare.jpg" alt="ERGYCARE - Nutergia" loading="eager" />
-  </div>
-</div>
+<ProduitHero
+  title={"ERGYCARE"}
+  brand={"Nutergia"}
+  category={"Mixte (plante, antioxydants, micronutriments)"}
+  image={"/img/produits/ergycare.jpg"}
+  imageAlt={"ERGYCARE"}
+  path={"/docs/produits/ergycare"}
+/>
 
 ---
 
@@ -54,7 +51,7 @@ Le risque dépasse ici le bénéfice attendu.
 
 | Fonction étudiée | Effet attendu | Niveau de preuve | Commentaire |
 |------------------|---------------|:--:|---------------|
-| Fonctionnement du système nerveux | Soutien métabolique | 🔴 **E** | Seule la B3 soutient légalement l’allégation ; effet strictement nutritionnel. Curcuma, NAC, brocoli sous-dosés. |
+| Fonctionnement du système nerveux | Soutien métabolique | ⚫ **F** | Seule la B3 soutient légalement l’allégation ; effet strictement nutritionnel. Curcuma, NAC, brocoli sous-dosés. |
 | Protection antioxydante | Réduction du stress oxydatif | 🔴 **E** | Zinc : effet nutritionnel mais pas d'amélioration attendue hors traitement de carence. les autres ingrédients n'ont pas d'effets supplémentaires. |
 | Bon équilibre nerveux | Régulation neurochimique | ⚫ **F** | Données in vitro seulement ; aucun essai humain concluant à ces doses. |
 
@@ -111,4 +108,3 @@ Pour toute décision de santé (carence, supplémentation, interactions), consul
 ---
 
 <sub><em>Dernière mise à jour : 23 octobre 2025</em></sub>
-

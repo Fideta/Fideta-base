@@ -7,21 +7,18 @@ synonyms: ["L-Methionine", "Méthionine", "Acide α-amino-γ-méthylthiobutyriqu
 slug: /principes/methionine
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>L-méthionine</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> L-methionine (acide α-amino-γ-méthylthiobutyrique)<br/>
-      <strong>**Partie utilisée** :</strong> acide aminé essentiel (molécule pure, non végétale)<br/>
-      <strong>**Origine** :</strong> synthèse ou fermentation microbienne (forme <em>L</em> biologiquement active)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/methionine.jpg" alt="L-méthionine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"L-méthionine"}
+  scientificName={"L-methionine (acide α-amino-γ-méthylthiobutyrique)"}
+  partUsed={"acide aminé essentiel (molécule pure, non végétale)"}
+  origin={"synthèse ou fermentation microbienne (forme L biologiquement active)"}
+  image={"/img/principes/methionine.jpg"}
+  imageAlt={"L-méthionine"}
+  path={"/docs/principes/methionine"}
+/>
 ---
 
 ## Avis global

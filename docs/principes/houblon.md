@@ -6,22 +6,28 @@ synopsis: "Plante sédative et phytoestrogénique modérément étudiée. Les se
 synonyms: ["Humulus lupulus", "Cônes de houblon", "Hop plant", "Lupuli flos"]
 slug: /principes/houblon
 hide_title: true
+clinical:
+  - indication: endormissement
+    grade: E
+  - indication: sommeil_qualite
+    grade: F
+  - indication: reveils_nocturnes
+    grade: F 
+  - indication: alignement_circadien
+    grade: F 
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Houblon</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> <em>Humulus lupulus</em> L.<br/>
-      <strong>**Partie utilisée** :</strong> cônes femelles séchés (*Lupuli flos*)<br/>
-      <strong>**Origine** :</strong> Plante grimpante vivace d’Eurasie tempérée, cultivée pour la bière et la phytothérapie.
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/houblon.jpg" alt="Houblon" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"Houblon"}
+  scientificName={"cônes femelles séchés (Lupuli flos)"}
+  partUsed={"cônes femelles séchés (Lupuli flos)"}
+  origin={"Plante grimpante vivace d’Eurasie tempérée, cultivée pour la bière et la phytothérapie."}
+  image={"/img/principes/houblon.jpg"}
+  imageAlt={"Houblon"}
+  path={"/docs/principes/houblon"}
+/>
 
 ---
 

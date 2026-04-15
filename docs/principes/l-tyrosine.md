@@ -7,21 +7,18 @@ synonyms: ["p-hydroxy-L-phénylalanine", "Tyrosine", "L-Tyrosine"]
 slug: /principes/l-tyrosine
 hide_title: true
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>L-tyrosine</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique** :</strong> p-hydroxy-L-phénylalanine<br/>
-      <strong>**Partie utilisée** :</strong> acide aminé libre (forme L)<br/>
-      <strong>**Origine** :</strong> synthèse endogène à partir de la phénylalanine ou fermentation microbienne (compléments)
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/l-tyrosine.jpg" alt="L-tyrosine" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"L-tyrosine"}
+  scientificName={"p-hydroxy-L-phénylalanine"}
+  partUsed={"acide aminé libre (forme L)"}
+  origin={"synthèse endogène à partir de la phénylalanine ou fermentation microbienne (compléments)"}
+  image={"/img/principes/l-tyrosine.jpg"}
+  imageAlt={"L-tyrosine"}
+  path={"/docs/principes/l-tyrosine"}
+/>
 
 ---
 

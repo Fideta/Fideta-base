@@ -8,20 +8,18 @@ popular: false
 slug: /principes/astragale
 hide_title: true
 ---
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Astragale</h1>
-    <p style={{margin:0}}>
-      <strong>**Nom scientifique**:</strong> *Astragalus membranaceus*<br/>
-      <strong>**Partie utilisée** :</strong> racine (Radix Astragali)  
-      <strong>****Origine**** :</strong> Chine, Mongolie (plante majeure en Médecine Traditionnelle Chinoise — MTC)
-      </p>
-  </div>
+import FicheAccountActions from '@site/src/components/account/FicheAccountActions';
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero__packshot">
-    <img src="/img/principes/astragale.jpg" alt="Astragale" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title="Astragale"
+  scientificName="Astragalus membranaceus"
+  partUsed="sommités fleuries / parties aériennes"
+  origin=" Chine, Mongolie (plante majeure en Médecine Traditionnelle Chinoise — MTC)"
+  image="/img/principes/astragale.jpg"
+  imageAlt="Astragale"
+  path="/docs/principes/astragale"
+/>
 
 ---
 
@@ -122,5 +120,3 @@ La **sécurité** est généralement bonne chez l’adulte sain, mais les **inte
 6. de Jaeger C et al. **Astragalus-based supplement and telomere length** (RCT négatif). *Nutrients*.  
 7. Sécurité / interactions : Memorial Sloan Kettering Cancer Center – Astragalus monograph.  
 8. NCCIH (NIH) – Astragalus Fact Sheet.  
-
-

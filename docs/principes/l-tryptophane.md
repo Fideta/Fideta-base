@@ -6,22 +6,28 @@ synopsis: "Acide aminé essentiel précurseur de la sérotonine et de la mélato
 synonyms: ["Tryptophane", "L-Tryptophane", "L-Trp"]
 slug: /principes/l-tryptophane
 hide_title: true
+clinical:
+  - indication: endormissement
+    grade: F
+  - indication: sommeil_qualite
+    grade: D
+  - indication: reveils_nocturnes
+    grade: C 
+  - indication: alignement_circadien
+    grade: F 
 ---
+import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>L-tryptophane</h1>
-    <p style={{margin:0}}>
-      <strong>Nom scientifique :</strong> acide (S)-α-amino-3-indole-propionique<br/>
-      <strong>Partie utilisée :</strong> acide aminé essentiel purifié<br/>
-      <strong>Origine :</strong> fermentation microbienne (souches d’<em>E. coli</em>) et purification selon Pharmacopée européenne / USP
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/principes/l-tryptophane.jpg" alt="L-tryptophane" loading="eager" />
-  </div>
-</div>
+<PrincipeHero
+  title={"L-tryptophane"}
+  scientificName={"acide (S)-α-amino-3-indole-propionique"}
+  partUsed={"acide aminé essentiel purifié"}
+  origin={"fermentation microbienne (souches d’ E. coli ) et purification selon Pharmacopée européenne / USP"}
+  image={"/img/principes/l-tryptophane.jpg"}
+  imageAlt={"L-tryptophane"}
+  path={"/docs/principes/l-tryptophane"}
+/>
 
 ---
 
