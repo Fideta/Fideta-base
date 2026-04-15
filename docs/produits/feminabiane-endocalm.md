@@ -45,7 +45,7 @@ Le produit ne présente pas de signal de danger particulier aux doses usuelles, 
 |------------|--------------------|--------------------|
 | [Palmitoyléthanolamide (PEA)](/docs/principes/pea) | 300 mg | Signal modeste en douleur chronique neuropathique. Données fragiles et non convaincantes en dysménorrhée primaire. |
 | [Achillée millefeuille (extrait)](/docs/principes/achillea) | 150 mg | Usage traditionnel antispasmodique. Petits essais cliniques hétérogènes en dysménorrhée, faible puissance et reproductibilité limitée. |
-| Probiotiques ([Lactobacillus gasseri LA806](/docs/principes/lactobacillus-gasseri) ; [Lactobacillus acidophilus LA807](/docs/principes/lactobacillus-acidophilus) ; [Streptococcus thermophilus LA902](/docs/principes/Streptococcus-thermophilus)) | ≥ 1 milliard UFC | Aucune preuve clinique robuste démontrant une réduction de la douleur menstruelle. Effets souche-dépendants et non extrapolables. |
+| Probiotiques ([Lactobacillus gasseri LA806](/docs/principes/lactobacillus-gasseri) ; [Lactobacillus acidophilus LA807](/docs/principes/lactobacillus-acidophilus) ; [Streptococcus thermophilus LA902](/docs/principes/streptococcus-thermophilus)) | ≥ 1 milliard UFC | Aucune preuve clinique robuste démontrant une réduction de la douleur menstruelle. Effets souche-dépendants et non extrapolables. |
 
 ---
 
