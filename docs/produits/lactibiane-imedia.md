@@ -52,7 +52,7 @@ Il est à noter que les souches présentes sont les mêmes que dans le [Lactibia
 | [**Bifidobacterium longum LA101**](/docs/principes/bifidobacterium-longum) | Inclus dans les 30 × 10⁹ UFC | Souche identifiée, mais **aucune étude clinique propre** ; pas de donnée dans la diarrhée aiguë. |
 | [**Lactobacillus helveticus LA102**](/docs/principes/lactobacillus-helveticus) | Inclus | Absence de donnée clinique digestive spécifique. |
 | [**Lactococcus lactis LA103**](/docs/principes/lactococcus-lactis) | Inclus | Espèce sûre, mais **aucune preuve** d’effet digestif clinique pour LA103. |
-| [**Streptococcus thermophilus LA104**](/docs/principes/Streptococcus-thermophilus) | Inclus | Souche d’usage alimentaire ; effet antidiarrhéique **non démontré** chez l’humain. |
+| [**Streptococcus thermophilus LA104**](/docs/principes/streptococcus-thermophilus) | Inclus | Souche d’usage alimentaire ; effet antidiarrhéique **non démontré** chez l’humain. |
 | **Total ferments lactiques** | 30 × 10⁹ UFC | Dose élevée, mais **aucune étude clinique** chez l'homme de ce mélange à ce dosage. |
 | Excipients (dextrose, maltodextrine) | — | Sans intérêt clinique ; attention chez les patients contrôlant les sucres simples. |
 
