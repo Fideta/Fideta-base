@@ -203,6 +203,12 @@ export default function Home() {
                         Omega 3
                       </Link>
                     </div>
+                          <Link
+                        className={`${styles.tag} ${styles.tagButton}`}
+                        to="/docs/principes/miel"
+                      >
+                        Miel
+                      </Link>
 
                     <div className={styles.cardBodyFooter}>
                       <Link className="button button--primary" to="/principes-actifs">
