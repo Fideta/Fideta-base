@@ -71,7 +71,7 @@ Sur le plan de la sécurité, le miel est globalement bien toléré chez l’adu
 
 | Critère | Note | Commentaire |
 |--------|:----:|-------------|
-| Efficacité | 🟡 **C** | Intérêt clinique réel mais étroit ; la majorité des allégations santé larges ne sont pas confirmées. |
+| Efficacité |    | Intérêt clinique réel mais étroit ; la majorité des allégations santé larges ne sont pas confirmées. |
 | Sécurité | 🟡 **C** | Tolérance globalement bonne après 1 an, mais contre-indication nette avant 12 mois et prudence glycémique. |
 | Qualité | 🟡 **C** | Dépend fortement de la traçabilité, de l’absence d’adultération et de la standardisation du produit. |
 
