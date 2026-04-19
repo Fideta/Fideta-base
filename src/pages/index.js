@@ -134,18 +134,15 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
+                        <Link to="/docs/produits/azeol-gorge-spray">Azéol Gorge-Spray</Link> Peu de preuves robustes.
+                      </li>
+                      <li>
                         <Link to="/docs/produits/cytocore">Cytocore</Link> Pas intense sur les
                         preuves.
                       </li>
                       <li>
                         <Link to="/docs/produits/effluvium">Effluvium</Link> Peu de preuves pour
                         les cheveux.
-                      </li>
-                      <li>
-                        <Link to="/docs/produits/feminabiane-meno-confort">
-                          Feminabiane Méno’Confort
-                        </Link>{' '}
-                        Peu de confort prouvé.
                       </li>
                     </ul>
 
