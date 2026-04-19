@@ -208,6 +208,12 @@ export default function Home() {
                       >
                         Miel
                       </Link>
+                      <Link
+                        className={`${styles.tag} ${styles.tagButton}`}
+                        to="/docs/principes/sureau"
+                      >
+                        Sureau
+                      </Link>
                     </div>   
 
                     <div className={styles.cardBodyFooter}>
