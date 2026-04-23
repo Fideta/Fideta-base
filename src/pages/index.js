@@ -134,14 +134,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
+                        <Link to="/docs/produits/hydrafizz-hydra">Hydrafizz Hydra</Link> Presque assez concentré.
+                      </li>
+                      <li>
                         <Link to="/docs/produits/hydrafizz-boost">Hydrafizz boost</Link> Petit coup de fouet possible.
                       </li>
                       <li>
                         <Link to="/docs/produits/azeol-gorge-spray">Azéol Gorge-Spray</Link> Peu de preuves robustes.
-                      </li>
-                      <li>
-                        <Link to="/docs/produits/cytocore">Cytocore</Link> Pas intense sur les
-                        preuves.
                       </li>
                     </ul>
 
