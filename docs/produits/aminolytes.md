@@ -3,6 +3,7 @@ title: AminoLytes
 image: /img/produits/aminolytes.jpg
 categories: ["Hydratation", "Électrolytes", "Acides aminés"]
 synopsis: "Poudre à diluer associant acides aminés, sodium, potassium, chlorure, magnésium et vitamine C. La formule présente une plausibilité physiologique partielle pour des situations de pertes hydriques modérées, mais ne correspond ni à une boisson glucides-électrolytes d’effort validée par le cadre européen, ni à une SRO/ORS."
+ean : [3760196535430 , 3760196535447 , 3760196535423]
 hide_title: true
 ---
 
