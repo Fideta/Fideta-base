@@ -23,36 +23,22 @@ import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
 # ⚫ Note Fideta : F – Score : 1/100
 
-**Pertinence très faible**
+**preuve clinique directe insuffisante – Pertinence limitée**
 
-Hydratis est commercialement présenté comme une solution d’hydratation améliorée, basée sur un apport en électrolytes (sodium, potassium, magnésium) et un peu de glucose.
+Hydratis® est un complément alimentaire effervescent à diluer dans l’eau, apportant notamment sodium, potassium, magnésium, chlorure, zinc, manganèse et glucides. Le fabricant recommande notamment 1 pastille dans 250 mL d’eau pour le quotidien et 2 pastilles dans 500 mL pour le sport, les fortes chaleurs ou le voyage, dans la limite de 5 pastilles par jour.
 
-Cependant en France et en Europe, la population générale **n’a pas de déficit en électrolytes** : sodium, potassium et magnésium sont largement couverts par l’alimentation quotidienne.  
-Dans ces conditions, **aucune autorité sanitaire (EFSA, ANSES, OMS)** ne recommande un apport quotidien d’électrolytes, car **l’eau suffit à couvrir les besoins hydriques** chez l’adulte sain.
+L’analyse Fideta porte sur deux questions distinctes :
 
-Hydratis n’apporte donc **aucun bénéfice fonctionnel dans la vie quotidienne**, puisqu’il ne corrige aucun déficit réel et n’hydrate pas mieux que l’eau chez un individu en bonne santé.
+1. Hydratis correspond-il aux critères de composition des solutions glucides-électrolytes dont les bénéfices sont reconnus pour l’exercice physique ?
+2. Hydratis peut-il être assimilé à une solution de réhydratation orale médicale en cas de diarrhée, vomissements ou déshydratation ?
 
-Dans les situations où une boisson électrolyte est réellement utile — **canicule, effort prolongé > 1 h, forte sudation, diarrhée aiguë, vomissements** — l’efficacité repose sur des formulations **normées** comme :
+À la dilution recommandée par le fabricant, Hydratis apporte environ 230–240 mg/L de sodium, soit environ 10 mmol/L, et environ 7,6 g/L de glucides, soit environ 30 kcal/L.
 
-- les **Solutions de Réhydratation Orale (ORS) de l’OMS**,  
-- les **boissons glucides-électrolytes conformes aux critères EFSA** (sport d’endurance).
+Ces valeurs sont inférieures aux critères européens applicables aux boissons glucides-électrolytes pouvant porter les allégations relatives au maintien de la performance d’endurance ou à l’amélioration de l’absorption de l’eau pendant l’exercice : 80–350 kcal/L de glucides, 20–50 mmol/L de sodium et 200–330 mOsm/kg.
 
-Or, Hydratis est **très en-dessous** des dosages recommandés et aux bénéfices démontrés :
+Hydratis ne correspond pas non plus à la composition d’une solution de réhydratation orale de référence, dont la formule à osmolarité réduite recommandée par l’OMS repose notamment sur 75 mmol/L de sodium, 75 mmol/L de glucose et une osmolarité totale d’environ 245 mOsm/kg.
 
-- ≈ **14 mmol/L de sodium** (4–5× trop faible),  
-- ≈ **30 kcal/L de glucides** (≈ 10× trop faible).
-
-➡️ Hydratis **ne remplit aucune des normes d’efficacité reconnues** : ni ORS, ni boisson EFSA, ni compensation réelle des pertes sudorales.
-
-**Conclusion** : Hydratis est un produit globalement sûr, mais **sans utilité démontrée dans la vie quotidienne**, et **insuffisamment dosé** pour être pertinent dans les situations où une solution électrolyte aurait réellement un intérêt (canicule, effort prolongé, diarrhée, vomissements).
-À ce jour, **il n’existe aucun contexte d’usage où son efficacité ait été démontrée** par des données cliniques publiées.
-
-Le positionnement du produit — notamment le fait qu’il soit présenté comme utilisable dès **3 ans** ou chez la **femme enceinte** — est particulièrement problématique. Ces publics vulnérables nécessitent, en cas de déshydratation vraie, des **solutions de réhydratation orale (SRO ou ORS en anglais)** conformes aux standards validés **(ex. Adiaril®, ORS OMS)**, dont la composition est précisément définie pour garantir l’efficacité clinique.
-
-Hydratis, qui est **nettement sous-dosé** en sodium et en glucides par rapport à ces solutions, **ne peut en aucun cas jouer ce rôle**.
-Son positionnement marketing (enfants, fatigue, chaleur, hiver, épisodes digestifs) pourrait être interprété comme une alternative utilisable lors d’une **gastro-entérite ou d’une intoxication alimentaire** chez l’enfant ou l’adulte, alors qu’il **ne possède pas les caractéristiques nécessaires pour corriger une déshydratation.**
-
-Même si le fabricant invite à demander l’avis d’un professionnel de santé, cela **ne corrige pas la communication qui peut prêter à confusion** : certaines situations évoquées laissent penser, à tort, qu’Hydratis pourrait remplacer une SRO, ce qui **peut représenter un risque** en cas de retard de prise en charge ou d’utilisation inadaptée chez un jeune enfant.
+Conclusion Fideta : Hydratis peut constituer une boisson aromatisée faiblement sucrée enrichie en électrolytes. En revanche, sur la base des données publiques disponibles, sa composition ne permet pas de l’assimiler à une boisson glucides-électrolytes conforme aux critères EFSA pour l’endurance, ni à une SRO destinée à la réhydratation médicale. Aucun essai clinique publié spécifique à Hydratis n’a été identifié pour démontrer un bénéfice supérieur à l’eau, à volume égal, chez l’adulte sain.
 
 ---
 
@@ -158,7 +144,12 @@ Même si le fabricant invite à demander l’avis d’un professionnel de santé
 ---
 
 # 🛡️ Note légale  
-Cette fiche repose sur une analyse critique des données scientifiques disponibles et ne tient pas compte d'eventuelles données internes au laboratoire non publiées. Elle est à but informatif. 
-Elle ne constitue pas un avis médical ni une recommandation personnalisée.  
+Cette fiche est une analyse critique indépendante fondée sur les informations publiques disponibles au jour de sa rédaction : étiquetage, pages commerciales accessibles publiquement, textes réglementaires applicables aux allégations nutritionnelles et de santé, et recommandations sanitaires relatives à la réhydratation.
+
+La note Fideta n’évalue pas la conformité juridique globale du produit, ni la qualité de fabrication, ni d’éventuelles données internes non publiées. Elle évalue uniquement la cohérence entre la composition publique du produit, les usages revendiqués ou suggérés, et les niveaux de preuve publiés identifiés.
+
+Cette fiche ne constitue pas un avis médical. En cas de diarrhée, vomissements, grossesse, enfant jeune, personne âgée, pathologie rénale, cardiaque, diabète, traitement modifiant la kaliémie ou signes de déshydratation, un professionnel de santé doit être consulté.
+
+---
 
 <sub><em>Dernière mise à jour : 18 Novembre 2025</em></sub>
