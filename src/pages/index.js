@@ -134,7 +134,7 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/hydrafizz-sport">Hydrafizz Sport</Link> Si c'est sport c'est mieux non ?
+                        <Link to="/docs/produits/aminolytes">Aminolytes</Link> Sommes-nous assez concentrés ? 
                       </li>
                       <li>
                         <Link to="/docs/produits/hydrafizz-hydra">Hydrafizz Hydra</Link> Presque assez concentré.
