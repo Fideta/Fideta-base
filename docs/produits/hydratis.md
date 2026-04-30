@@ -109,6 +109,8 @@ Les SRO OMS/UNICEF à osmolarité réduite présentent une osmolarité totale d�
 
 D’après les calculs Fideta réalisés à partir des données publiques disponibles, Hydratis apparaît inférieur à ces références à la dilution recommandée. Cette observation ne signifie pas que le produit serait dangereux ; elle signifie qu’il ne correspond pas aux critères de composition des solutions dont l’efficacité clinique ou réglementaire est documentée.
 
+À partir des données publiques, 1 pastille dans 250 mL correspond approximativement à 10 mmol/L de Na⁺, 15 mmol/L de K⁺, 10 mmol/L de Cl⁻, 5 mmol/L de Mg²⁺ et 38–42 mmol/L de glucides. Le sous-total osmotique directement quantifiable est d’environ 80 mOsm/L, auquel s’ajoutent les contre-ions non chlorure et les excipients non quantifiés. L’ordre de grandeur reste donc estimatif et ne remplace pas une mesure d’osmolalité du produit fini.
+
 L’estimation d’osmolarité/osmolalité est donnée à titre indicatif : elle repose sur les données publiques disponibles et ne remplace pas une mesure analytique en laboratoire du produit reconstitué, d’autant que la composition quantitative complète de l’ensemble des sels, acides, édulcorants et excipients n’est pas publiquement disponible.
 
 ### 4. Pertes sudorales : usage à individualiser
