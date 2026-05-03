@@ -25,10 +25,6 @@ import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
 **Preuve clinique directe insuffisante – Pertinence clinique limitée**
 
-> Cette note est une évaluation Fideta de la **pertinence clinique démontrée** du produit pour les usages revendiqués ou suggérés.
-> Elle ne constitue pas une accusation de dangerosité, de fraude, d’illégalité ou de mauvaise qualité de fabrication.
-> Elle reflète l’écart entre la composition publique du produit, les usages analysés, les références scientifiques disponibles et la méthodologie Fideta.
-
 Hydratis® est un complément alimentaire effervescent à diluer dans l’eau, apportant notamment sodium, potassium, magnésium, chlorure, zinc, manganèse et glucides.
 
 D’après les informations publiques du fabricant et de distributeurs, les usages suggérés incluent notamment l’hydratation quotidienne, le sport, les fortes chaleurs, le voyage, la fatigue, la concentration, la récupération, les crampes, les courbatures et la peau déshydratée. Le fabricant recommande notamment 1 pastille dans 250 mL d’eau pour le quotidien, ou 2 pastilles dans 500 mL pour certains usages comme le sport, les fortes chaleurs ou le voyage, dans la limite de 5 pastilles par jour.
