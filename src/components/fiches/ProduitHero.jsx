@@ -41,15 +41,21 @@ export default function ProduitHero({
       <details className="product-note-disclaimer">
         <summary className="product-note-disclaimer__summary">
           <span className="product-note-disclaimer__icon">ⓘ</span>
-          <span>La note Fideta est issue d’une évaluation fondée sur les faits.</span>
+          <span>Fideta synthétise les preuves publiques disponibles : la note juge un usage, pas la marque ni la fabrication.</span>
         </summary>
 
         <div className="product-note-disclaimer__content">
           <p>
-            La note Fideta évalue la pertinence clinique du produit pour les usages
-            revendiqués ou suggérés. Une note faible ne signifie pas nécessairement
-            danger, fraude, illégalité ou défaut de fabrication : elle peut simplement
-            refléter un niveau de preuve insuffisant pour l’usage analysé.
+            La note Fideta est établie à partir des informations publiquement
+      accessibles : composition déclarée, dosages, usages revendiqués ou
+      suggérés, données réglementaires et études scientifiques disponibles.
+      Elle ne constitue pas un jugement personnel sur une marque, un laboratoire
+      ou un produit. Une note faible ne signifie pas nécessairement danger,
+      fraude, illégalité ou défaut de fabrication : elle peut simplement traduire
+      un niveau de preuve clinique insuffisant pour l’usage analysé selon le
+      barème Fideta.
+       Seule la mention « Disqualifié » signale un risque bloquant identifié selon
+      la méthodologie Fideta.
           </p>
 
           <a className="product-note-disclaimer__link" href="/docs/methodologie">
