@@ -701,18 +701,218 @@ function LockedCliniqueView() {
   );
 }
 
-function CliniquePremiumContent() {
+
+function getIndicationLabel(indicationKey) {
+  for (const theme of CLINICAL_THEMES) {
+    const found = theme.indications.find((item) => item.key === indicationKey);
+    if (found) return found.label;
+  }
+
+  return "cette indication";
+}
+
+function LockedResultCard({ index, mode, indicationLabel }) {
+  const label = mode === "ingredients" ? "principe actif" : "produit";
+
+  return (
+    <article
+      className={styles.rowCard}
+      style={{
+        cursor: "default",
+        background: "#fbfcfb",
+        borderStyle: "dashed",
+        opacity: 0.92,
+      }}
+    >
+      <div className={styles.rowMain}>
+        <div
+          className={styles.thumb}
+          aria-hidden="true"
+          style={{
+            display: "grid",
+            placeItems: "center",
+            background: "#eef3ef",
+            color: "#49604d",
+            fontSize: "1.15rem",
+            fontWeight: 800,
+            flexShrink: 0,
+          }}
+        >
+          🔒
+        </div>
+
+        <div className={styles.rowContent}>
+          <div className={styles.rowTop}>
+            <div>
+              <h3 className={styles.cardTitle}>
+                {label.charAt(0).toUpperCase() + label.slice(1)} réservé à Fideta Plus
+              </h3>
+            </div>
+          </div>
+
+          <p className={styles.synopsis}>
+            Résultat #{index + 2} du classement clinique pour {indicationLabel}.
+            Passez à Fideta Plus pour afficher le nom, le résumé et le grade.
+          </p>
+        </div>
+      </div>
+
+      <div className={styles.rightRail}>
+        <GradeBadge grade="?" muted />
+      </div>
+    </article>
+  );
+}
+
+function FreemiumUnlockCard({
+  hiddenCount,
+  mode,
+  indicationLabel,
+  isLoggedIn,
+  checkoutBusy,
+  checkoutError,
+  onCheckout,
+}) {
+  const hiddenLabel = mode === "ingredients" ? "résultats principes actifs" : "résultats produits";
+
+  return (
+    <div
+      style={{
+        marginTop: "1rem",
+        padding: "1.1rem",
+        borderRadius: "20px",
+        background: "linear-gradient(180deg, #fbfaf5 0%, #f6f4ea 100%)",
+        border: "1px solid #e2d7b5",
+        boxShadow: "0 10px 24px rgba(76, 69, 42, 0.06)",
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "flex-start",
+          gap: "1rem",
+          flexWrap: "wrap",
+        }}
+      >
+        <div style={{ maxWidth: "62ch" }}>
+          <div
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.4rem",
+              marginBottom: "0.55rem",
+              padding: "0.35rem 0.65rem",
+              borderRadius: "999px",
+              background: "#e6ddb7",
+              color: "#38443a",
+              fontWeight: 800,
+              fontSize: "0.88rem",
+            }}
+          >
+            Fideta Plus 🔒
+          </div>
+
+          <h2
+            style={{
+              margin: "0 0 0.45rem",
+              color: "#173f1f",
+              fontSize: "1.35rem",
+              lineHeight: 1.2,
+            }}
+          >
+            Débloquer les {hiddenCount} autres {hiddenLabel}
+          </h2>
+
+          <p
+            style={{
+              margin: 0,
+              color: "#475247",
+              lineHeight: 1.65,
+              fontSize: "0.98rem",
+            }}
+          >
+            L’aperçu gratuit affiche le premier résultat pour {indicationLabel}.
+            Fideta Plus affiche le classement complet, les filtres par grade,
+            les produits associés et la pagination.
+          </p>
+        </div>
+
+        <div
+          style={{
+            display: "grid",
+            gap: "0.65rem",
+            width: "min(100%, 300px)",
+          }}
+        >
+          {!isLoggedIn ? (
+            <>
+              <Link
+                to="/connexion"
+                className={`${styles.lockedCta} ${styles.lockedCtaPrimary}`}
+              >
+                Créer un compte gratuit
+              </Link>
+
+              <Link
+                to="/connexion"
+                className={`${styles.lockedCta} ${styles.lockedCtaSecondary}`}
+              >
+                J’ai déjà un compte
+              </Link>
+            </>
+          ) : (
+            <button
+              type="button"
+              onClick={onCheckout}
+              disabled={checkoutBusy}
+              className={`${styles.lockedCta} ${styles.lockedCtaPrimary} ${
+                checkoutBusy ? styles.lockedCtaDisabled : ""
+              }`}
+            >
+              {checkoutBusy ? "Redirection…" : "Débloquer avec Fideta Plus"}
+            </button>
+          )}
+        </div>
+      </div>
+
+      {checkoutError && (
+        <p
+          style={{
+            margin: "0.9rem 0 0",
+            color: "crimson",
+            fontSize: "0.95rem",
+            lineHeight: 1.5,
+          }}
+        >
+          {checkoutError}
+        </p>
+      )}
+    </div>
+  );
+}
+
+function CliniqueContent({ isPremium }) {
+  const { isLoggedIn, user, session } = useAuth();
+  const defaultTheme = CLINICAL_THEMES[0] || null;
+  const defaultIndication = defaultTheme?.indications?.[0]?.key || null;
+
   const [mode, setMode] = useState("ingredients");
-  const [themeKey, setThemeKey] = useState(null);
-  const [expandedThemeKey, setExpandedThemeKey] = useState(null);
-  const [indication, setIndication] = useState(null);
+  const [themeKey, setThemeKey] = useState(isPremium ? null : defaultTheme?.key || null);
+  const [expandedThemeKey, setExpandedThemeKey] = useState(
+    isPremium ? null : defaultTheme?.key || null
+  );
+  const [indication, setIndication] = useState(isPremium ? null : defaultIndication);
   const [query, setQuery] = useState("");
   const [page, setPage] = useState(1);
   const [selectedGrades, setSelectedGrades] = useState(ALL_GRADES);
   const [isGradeMenuOpen, setIsGradeMenuOpen] = useState(false);
+  const [checkoutBusy, setCheckoutBusy] = useState(false);
+  const [checkoutError, setCheckoutError] = useState("");
 
   const gradeFilterRef = useRef(null);
   const perPage = 9;
+  const previewLimit = 1;
 
   const principesPluginData = usePluginData("principes-frontmatter");
   const produitsPluginData = usePluginData("produits-frontmatter");
@@ -742,6 +942,44 @@ function CliniquePremiumContent() {
     };
   }, [isGradeMenuOpen]);
 
+  async function handleStartCheckout() {
+    if (!session?.access_token) {
+      window.location.href = "/connexion";
+      return;
+    }
+
+    setCheckoutBusy(true);
+    setCheckoutError("");
+
+    try {
+      const res = await fetch(
+        "https://jrbaeawbpehqdqsecjon.supabase.co/functions/v1/create-checkout-session",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            Authorization: `Bearer ${session.access_token}`,
+          },
+        }
+      );
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data?.message || data?.error || "Erreur checkout");
+      }
+
+      if (!data?.url) {
+        throw new Error("Aucune URL de paiement reçue.");
+      }
+
+      window.location.href = data.url;
+    } catch (err) {
+      setCheckoutError(err.message || "Erreur checkout");
+      setCheckoutBusy(false);
+    }
+  }
+
   const filtered = useMemo(() => {
     if (!indication) return [];
 
@@ -766,6 +1004,12 @@ function CliniquePremiumContent() {
   const totalPages = Math.ceil(filtered.length / perPage) || 1;
   const start = (page - 1) * perPage;
   const paginated = filtered.slice(start, start + perPage);
+  const visibleResults = isPremium ? paginated : filtered.slice(0, previewLimit);
+  const hiddenCount = !isPremium && indication
+    ? Math.max(filtered.length - visibleResults.length, 0)
+    : 0;
+  const lockedRowsCount = Math.min(hiddenCount, 4);
+  const indicationLabel = getIndicationLabel(indication);
 
   function clearSelection() {
     setThemeKey(null);
@@ -805,6 +1049,8 @@ function CliniquePremiumContent() {
   }
 
   function toggleGrade(grade) {
+    if (!isPremium) return;
+
     setSelectedGrades((prev) => {
       const next = prev.includes(grade)
         ? prev.filter((g) => g !== grade)
@@ -815,6 +1061,7 @@ function CliniquePremiumContent() {
   }
 
   function resetAllGrades() {
+    if (!isPremium) return;
     setSelectedGrades(ALL_GRADES);
   }
 
@@ -824,8 +1071,9 @@ function CliniquePremiumContent() {
         <div className={styles.heroInner}>
           <h1>Recherche clinique</h1>
           <p className={styles.subtitle}>
-            Choisissez un type, ouvrez un thème clinique, puis sélectionnez une
-            indication pour classer les principes actifs ou les produits.
+            {isPremium
+              ? "Choisissez un type, ouvrez un thème clinique, puis sélectionnez une indication pour classer les principes actifs ou les produits."
+              : "Explorez gratuitement la structure du module clinique. Le premier résultat de chaque indication est visible ; le classement complet est réservé à Fideta Plus."}
           </p>
 
           <div className={styles.toolbar}>
@@ -860,6 +1108,29 @@ function CliniquePremiumContent() {
               </button>
             </div>
           </div>
+
+          {!isPremium && (
+            <div
+              style={{
+                marginTop: "1rem",
+                padding: "0.9rem 1rem",
+                borderRadius: "18px",
+                background: "rgba(255, 255, 255, 0.72)",
+                border: "1px solid rgba(226, 215, 181, 0.9)",
+                color: "#475247",
+                lineHeight: 1.6,
+                fontSize: "0.98rem",
+              }}
+            >
+              <strong>Aperçu gratuit.</strong> Les thèmes, indications, modes
+              Principes/Produits et le premier résultat restent consultables.
+              Les résultats suivants, les filtres par grade et la pagination
+              sont débloqués avec Fideta Plus.
+              {isLoggedIn && user?.email ? (
+                <span> Vous êtes connecté avec <strong>{user.email}</strong>.</span>
+              ) : null}
+            </div>
+          )}
         </div>
       </section>
 
@@ -937,7 +1208,11 @@ function CliniquePremiumContent() {
                   aria-label="Filtrer par grade clinique"
                   aria-expanded={isGradeMenuOpen}
                   aria-haspopup="true"
-                  title="Filtrer par grade clinique"
+                  title={
+                    isPremium
+                      ? "Filtrer par grade clinique"
+                      : "Filtres par grade réservés à Fideta Plus"
+                  }
                 >
                   <svg
                     viewBox="0 0 24 24"
@@ -953,55 +1228,101 @@ function CliniquePremiumContent() {
                     />
                   </svg>
 
-                  {selectedGrades.length !== ALL_GRADES.length && (
+                  {isPremium && selectedGrades.length !== ALL_GRADES.length && (
                     <span className={styles.filterCounter}>
                       {selectedGrades.length}
                     </span>
+                  )}
+
+                  {!isPremium && (
+                    <span className={styles.filterCounter}>🔒</span>
                   )}
                 </button>
 
                 {isGradeMenuOpen && (
                   <div className={styles.filterPopover}>
-                    <div className={styles.filterPopoverHeader}>
-                      <div className={styles.filterPopoverTitle}>
-                        Grades visibles
-                      </div>
-                      <button
-                        type="button"
-                        className={styles.filterPopoverReset}
-                        onClick={resetAllGrades}
-                      >
-                        Tout afficher
-                      </button>
-                    </div>
-
-                    <div className={styles.gradeFilterGrid}>
-                      {ALL_GRADES.map((grade) => {
-                        const isActive = selectedGrades.includes(grade);
-
-                        return (
+                    {isPremium ? (
+                      <>
+                        <div className={styles.filterPopoverHeader}>
+                          <div className={styles.filterPopoverTitle}>
+                            Grades visibles
+                          </div>
                           <button
-                            key={grade}
                             type="button"
-                            className={`${styles.gradeFilterChip} ${
-                              isActive ? styles.gradeFilterChipActive : ""
-                            }`}
-                            onClick={() => toggleGrade(grade)}
+                            className={styles.filterPopoverReset}
+                            onClick={resetAllGrades}
                           >
-                            <span className={styles.gradeFilterCheck}>
-                              {isActive ? "✓" : ""}
-                            </span>
-                            <span
-                              className={`${styles.gradeFilterSwatch} ${
-                                styles[`grade${grade}`]
-                              }`}
-                            >
-                              {grade}
-                            </span>
+                            Tout afficher
                           </button>
-                        );
-                      })}
-                    </div>
+                        </div>
+
+                        <div className={styles.gradeFilterGrid}>
+                          {ALL_GRADES.map((grade) => {
+                            const isActive = selectedGrades.includes(grade);
+
+                            return (
+                              <button
+                                key={grade}
+                                type="button"
+                                className={`${styles.gradeFilterChip} ${
+                                  isActive ? styles.gradeFilterChipActive : ""
+                                }`}
+                                onClick={() => toggleGrade(grade)}
+                              >
+                                <span className={styles.gradeFilterCheck}>
+                                  {isActive ? "✓" : ""}
+                                </span>
+                                <span
+                                  className={`${styles.gradeFilterSwatch} ${
+                                    styles[`grade${grade}`]
+                                  }`}
+                                >
+                                  {grade}
+                                </span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      </>
+                    ) : (
+                      <div style={{ maxWidth: "260px" }}>
+                        <div className={styles.filterPopoverTitle}>
+                          Filtres réservés
+                        </div>
+                        <p
+                          style={{
+                            margin: "0.45rem 0 0.85rem",
+                            color: "#58665b",
+                            fontSize: "0.92rem",
+                            lineHeight: 1.55,
+                          }}
+                        >
+                          Les filtres par grade clinique sont inclus dans
+                          Fideta Plus. L’aperçu gratuit affiche le premier
+                          résultat du classement complet.
+                        </p>
+
+                        {!isLoggedIn ? (
+                          <Link
+                            to="/connexion"
+                            className={`${styles.lockedCta} ${styles.lockedCtaPrimary}`}
+                          >
+                            Créer un compte
+                          </Link>
+                        ) : (
+                          <button
+                            type="button"
+                            onClick={handleStartCheckout}
+                            disabled={checkoutBusy}
+                            className={`${styles.lockedCta} ${styles.lockedCtaPrimary} ${
+                              checkoutBusy ? styles.lockedCtaDisabled : ""
+                            }`}
+                          >
+                            {checkoutBusy ? "Redirection…" : "Passer à Fideta Plus"}
+                          </button>
+                        )}
+                      </div>
+                    )}
                   </div>
                 )}
               </div>
@@ -1019,8 +1340,10 @@ function CliniquePremiumContent() {
             </div>
           ) : (
             <>
-              {paginated.map((item) =>
-                mode === "ingredients" ? (
+              {visibleResults.map((item) => {
+                const isProduct = mode === "products";
+
+                return (
                   <Link
                     key={item.slug || item.id}
                     to={item.slug}
@@ -1041,43 +1364,11 @@ function CliniquePremiumContent() {
                           <div className={styles.rowTop}>
                             <div>
                               <h3 className={styles.cardTitle}>{item.title}</h3>
-                            </div>
-                          </div>
-
-                          <p className={styles.synopsis}>{item.synopsis}</p>
-                        </div>
-                      </div>
-
-                      <div className={styles.rightRail}>
-                        <GradeBadge grade={getGrade(item, indication)} />
-                      </div>
-                    </article>
-                  </Link>
-                ) : (
-                  <Link
-                    key={item.slug || item.id}
-                    to={item.slug}
-                    className={styles.cardLink}
-                  >
-                    <article className={styles.rowCard}>
-                      <div className={styles.rowMain}>
-                        <img
-                          src={item.image}
-                          alt={item.title}
-                          className={styles.thumb}
-                          width={56}
-                          height={56}
-                          loading="lazy"
-                        />
-
-                        <div className={styles.rowContent}>
-                          <div className={styles.rowTop}>
-                            <div>
-                              <h3 className={styles.cardTitle}>{item.title}</h3>
-                              <div className={styles.rowMeta}>
-                                Score :{" "}
-                                {item.score != null ? `${item.score}/100` : "—"}
-                              </div>
+                              {isProduct && (
+                                <div className={styles.rowMeta}>
+                                  Score : {item.score != null ? `${item.score}/100` : "—"}
+                                </div>
+                              )}
                             </div>
                           </div>
 
@@ -1088,15 +1379,37 @@ function CliniquePremiumContent() {
                       <div className={styles.rightRail}>
                         <GradeBadge
                           grade={getGrade(item, indication)}
-                          muted={Number(item.score ?? 0) === 0}
+                          muted={isProduct && Number(item.score ?? 0) === 0}
                         />
                       </div>
                     </article>
                   </Link>
-                )
+                );
+              })}
+
+              {!isPremium && hiddenCount > 0 &&
+                Array.from({ length: lockedRowsCount }, (_, index) => (
+                  <LockedResultCard
+                    key={`locked-${mode}-${indication}-${index}`}
+                    index={index}
+                    mode={mode}
+                    indicationLabel={indicationLabel}
+                  />
+                ))}
+
+              {!isPremium && hiddenCount > 0 && (
+                <FreemiumUnlockCard
+                  hiddenCount={hiddenCount}
+                  mode={mode}
+                  indicationLabel={indicationLabel}
+                  isLoggedIn={isLoggedIn}
+                  checkoutBusy={checkoutBusy}
+                  checkoutError={checkoutError}
+                  onCheckout={handleStartCheckout}
+                />
               )}
 
-              {paginated.length === 0 && (
+              {visibleResults.length === 0 && (
                 <div className={styles.empty}>
                   Aucun résultat. Modifiez la recherche, l’indication ou les
                   grades visibles.
@@ -1107,7 +1420,7 @@ function CliniquePremiumContent() {
         </div>
       </section>
 
-      {indication && totalPages > 1 && (
+      {isPremium && indication && totalPages > 1 && (
         <nav className={styles.pagination} aria-label="Pagination">
           <button
             className={styles.pageBtn}
@@ -1164,7 +1477,7 @@ export default function CliniquePage() {
       title="Recherche clinique"
       description="Explorer les ingrédients et produits par indication clinique"
     >
-      {loading ? null : isPremium ? <CliniquePremiumContent /> : <LockedCliniqueView />}
+      {loading ? null : <CliniqueContent isPremium={isPremium} />}
     </Layout>
   );
 }
