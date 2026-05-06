@@ -209,6 +209,12 @@ export default function Home() {
                       >
                         Sureau
                       </Link>
+                          <Link
+                        className={`${styles.tag} ${styles.tagButton}`}
+                        to="/docs/principes/coenzyme-q10"
+                      >
+                        Co-enzyme Q10
+                      </Link>
                     </div>   
 
                     <div className={styles.cardBodyFooter}>
