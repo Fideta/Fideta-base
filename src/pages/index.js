@@ -134,13 +134,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
+                        <Link to="/docs/produits/ma-05">MA-05</Link> Boost de métabolisme ? 
+                      </li>
+                      <li>
                         <Link to="/docs/produits/electrolytes-hydratation-nutriandco">Electrolytes Nutri&Co</Link> Efficace sans sucre ? 
                       </li>
                       <li>
                         <Link to="/docs/produits/aminolytes">Aminolytes</Link> Sommes-nous assez concentrés ? 
-                      </li>
-                      <li>
-                        <Link to="/docs/produits/hydrafizz-boost">Hydrafizz boost</Link> Petit coup de fouet possible.
                       </li>
                     </ul>
 
