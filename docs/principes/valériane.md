@@ -115,6 +115,7 @@ La monographie EMA concerne des **médicaments à base de plantes** répondant �
 - Miyasaka L.S. et al. (2006) – *Valerian for anxiety disorders*, Cochrane Database of Systematic Reviews.
 - NIH Office of Dietary Supplements – *Valerian: Fact Sheet for Health Professionals*.
 - NCCIH – *Valerian: Usefulness and Safety*.
+- Ziegler G. et al. (2002) – Essai randomisé double aveugle comparant 600 mg/j d’extrait de valériane LI 156 à 10 mg/j d’oxazépam pendant 6 semaines chez 202 patients avec insomnie non organique. Résultats favorables sur la qualité subjective du sommeil, avec efficacité jugée comparable à l’oxazépam, mais absence de bras placebo : l’étude soutient un signal clinique, sans démontrer robustement l’efficacité absolue de la valériane.
 
 ---
 
