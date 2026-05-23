@@ -22,13 +22,22 @@ import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
 ---
 
-## Avis global
+import Admonition from '@theme/Admonition';
+
+## Avis global ☠️
+
 
 Le **cannabidiol (CBD)** est un phytocannabinoïde non psychoactif du chanvre.  
+
 Les preuves d’efficacité reposent uniquement sur des **essais randomisés** de **qualité pharmaceutique** (Epidyolex®/Epidiolex®) démontrant un bénéfice **dans certaines épilepsies rares** à **10–25 mg/kg/j**.  
+
 Les usages grand public (stress, sommeil, douleur) ne disposent **d’aucune preuve clinique reproductible**, en particulier aux **doses ≤ 10 mg/j** (seuil toxicologique de sécurité fixé par la FSA britannique).  
+
 Les autorités sanitaires (EFSA, EMA, ANSES, FSA) soulignent des **incertitudes toxicologiques** : atteinte hépatique dose-dépendante, interactions CYP/UGT, possible **reprotoxicité (cat. 1B)** et effets sur la **thyroïde**.  
-Le CBD est classé **« novel food » non autorisé** en Europe ; la vente en France est **tolérée** sous conditions (THC indétectable, pas d’allégations thérapeutiques).  
+
+<Admonition type="caution" title="Point sécurité">
+Le CBD est classé **« novel food » non autorisé** en Europe ; la vente en France était **tolérée** sous conditions (THC indétectable, pas d’allégations thérapeutiques) mais est **interdite depuis le 15 Mai 2026.**
+</Admonition>
 
 ---
 
@@ -78,7 +87,7 @@ Le CBD est classé **« novel food » non autorisé** en Europe ; la vente en Fr
 | Critère | Note | Commentaire |
 |----------|:----:|-------------|
 | **Efficacité (hors indication médicamenteuse)** |    | Effets cliniques non démontrés aux doses alimentaires |
-| **Sécurité** | 🟡 **C** | Signal hépatique et reprotoxique ; interactions multiples ; sécurité alimentaire non établie |
+| **Sécurité** | ☠️ | Signal hépatique et reprotoxique ; interactions multiples ; sécurité alimentaire non établie |
 | **Qualité** | 🟡 **C** | Variabilité inter-produits ; importance du COA et de la conformité Novel Food |
 
 ---
@@ -98,4 +107,4 @@ Le CBD est classé **« novel food » non autorisé** en Europe ; la vente en Fr
 
 ---
 
-<sub><em>Dernière mise à jour : 29 octobre 2025</em></sub>
+<sub><em>Dernière mise à jour : 23 Mai 2026</em></sub>
