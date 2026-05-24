@@ -134,13 +134,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
+                        <Link to="/docs/produits/Azeol_ALR">Azeol ALR</Link> Sans preuves solides pour l'allergie
+                      </li>
+                      <li>
                         <Link to="/docs/produits/melioran_noctesia">Melioran® Noctesia®</Link> Pour le sommeil 
                       </li>
                       <li>
                         <Link to="/docs/produits/phytostandard_eschscholtzia_valeriane">Phytostandard® Eschscholtzia / Valériane</Link> Pour sommeil et relaxation 
-                      </li>
-                      <li>
-                        <Link to="/docs/produits/ma-05">MA-05</Link> Boost de métabolisme ? 
                       </li>
                     </ul>
 
