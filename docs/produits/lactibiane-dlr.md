@@ -20,7 +20,7 @@ import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
 ---
 
-## 🔴 Note Fideta : **D – Score : 52/100**
+## 🟠 Note Fideta : **D – Score : 52/100**
 
 **Preuve faible – données humaines limitées**
 
