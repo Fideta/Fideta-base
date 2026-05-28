@@ -6,27 +6,30 @@ synopsis: "Complément à base d’acérola BIO, apportant 180 mg de vitamine C 
 ean: [3455540002804 , 3455540003405]
 hide_title: true
 ---
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
-<div className="product-hero">
-  <div className="product-hero__titlewrap">
-    <h1 style={{margin:0}}>Acérola Bio 1000</h1>
-    <p style={{margin:0}}>
-      <strong>Marque / Laboratoire :</strong> Santarome<br/>
-      <strong>Catégorie :</strong> Vitamine
-    </p>
-  </div>
 
-  <div className="product-hero__packshot">
-    <img src="/img/produits/acerola_bio1000.jpg" alt="Acérola Bio 1000" loading="eager" />
-  </div>
-</div>
-
+<ProduitHero
+  title={"Acérola Bio 1000"}
+  brand={"Santarome"}
+  category={"Vitamine"}
+  image={"/img/produits/acerola_bio1000.jpg"}
+  imageAlt={"Acerola Bio 1000"}
+  path={"/docs/produits/acerola_bio1000"}
+/>
 ---
 
 ## 🔴 **Note Fideta : E – Score : 38/100**
 
 ### Pertinence faible
-Produit “propre” (BIO, 5 ingrédients) apportant **180 mg de vitamine C** par comprimé à partir de poudre de jus d’acérola. Malgré l’appellation “1000” dans son nom commercial, **ce produit ne contient pas 1000 mg de vitamine C mais bien 180 mg**, ce qui peut prêter à confusion. **Aucune preuve solide** ne montre que la vitamine C “naturelle” issue de l’acérola soit cliniquement supérieure à la forme synthétique. De plus, avec une dose de vitamine C **inférieure à 200 mg/j, aucune donnée scientifique robuste** ne permet de démontrer un effet significatif sur la fatigue ou l’immunité dans la  la **population générale bien nourrie** à cette **dose** et **ce schéma d’usage**.
+
+Produit  apportant **180 mg de vitamine C** par comprimé à partir de poudre de jus d’acérola. 
+
+Malgré l’appellation “1000” dans son nom commercial, **ce produit ne contient pas 1000 mg de vitamine C mais bien 180 mg**, ce qui peut prêter à confusion. 
+
+**Aucune preuve solide** ne montre que la vitamine C “naturelle” issue de l’acérola soit cliniquement supérieure à la forme synthétique. 
+
+De plus, avec une dose de vitamine C **inférieure à 200 mg/j, aucune donnée scientifique robuste** ne permet de démontrer un effet significatif sur la fatigue ou l’immunité dans la  la **population générale bien nourrie** à cette **dose** et **ce schéma d’usage**.
 
 ---
 
