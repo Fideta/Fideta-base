@@ -1,6 +1,3 @@
-import ProduitHero from '@site/src/components/fiches/ProduitHero';
-
-
 ---
 title: "Lactibiane Imedia"
 image: "/img/produits/lactibiane-imedia.jpg"
@@ -9,6 +6,10 @@ synopsis: "Complément alimentaire à base de 4 souches microbiotiques (30 milli
 ean: [3401528534805 , 3401560080599]
 hide_title: true
 ---
+
+import ProduitHero from '@site/src/components/fiches/ProduitHero';
+
+
 <ProduitHero
   title={"lactibiane-imedia"}
   brand={"PiLeJe"}
