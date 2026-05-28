@@ -14,7 +14,7 @@ import ProduitHero from '@site/src/components/fiches/ProduitHero';
   title={"lactibiane-imedia"}
   brand={"PiLeJe"}
   category={"Mélange de souches probiotiques"}
-  image={"/img/produits/default-produit.jpg"}
+  image={"/img/produits/lactibiane-imedia.jpg"}
   imageAlt={"lactibiane-imedia"}
   path={"/docs/produits/lactibiane-imedia"}
 />
