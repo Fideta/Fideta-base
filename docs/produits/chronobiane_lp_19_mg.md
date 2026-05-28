@@ -48,9 +48,9 @@ La forme à libération prolongée apporte une plausibilité supplémentaire, ma
 
 | Ingrédient | Quantité (par 1 cp) | Commentaire Fideta |
 |---|---:|---|
-| [**Mélatonine totale**](/docs/principes/melatonine) | **1,9 mg** | Dose proche de la limite française applicable aux compléments alimentaires contenant de la mélatonine. Pertinente pour l’aide à l’endormissement, mais insuffisante pour conclure à une efficacité sur les réveils nocturnes. |
-| [**Mélatonine à libération rapide**](/docs/principes/melatonine) | **0,4 mg** | Fraction annoncée comme libérée rapidement après la prise. Elle vise l’endormissement, mais cette dose seule est inférieure au seuil de **1 mg** associé à l’allégation européenne sur la réduction du temps d’endormissement. |
-| [**Mélatonine à libération prolongée**](/docs/principes/melatonine) | **1,5 mg** | Fraction annoncée comme libérée progressivement pendant la nuit. L’idée est logique pour cibler le maintien du sommeil, mais l’efficacité clinique sur les réveils nocturnes n’est pas démontrée. |
+| [**Mélatonine totale**](/docs/principes/mélatonine) | **1,9 mg** | Dose proche de la limite française applicable aux compléments alimentaires contenant de la mélatonine. Pertinente pour l’aide à l’endormissement, mais insuffisante pour conclure à une efficacité sur les réveils nocturnes. |
+| [**Mélatonine à libération rapide**](/docs/principes/mélatonine) | **0,4 mg** | Fraction annoncée comme libérée rapidement après la prise. Elle vise l’endormissement, mais cette dose seule est inférieure au seuil de **1 mg** associé à l’allégation européenne sur la réduction du temps d’endormissement. |
+| [**Mélatonine à libération prolongée**](/docs/principes/mélatonine) | **1,5 mg** | Fraction annoncée comme libérée progressivement pendant la nuit. L’idée est logique pour cibler le maintien du sommeil, mais l’efficacité clinique sur les réveils nocturnes n’est pas démontrée. |
 | **Alginate de sodium, carboxyméthylcellulose de sodium réticulée** | Non précisé | Excipients probablement impliqués dans la libération prolongée. Rôle technologique, sans effet propre démontré sur le sommeil. |
 | **Phosphates de calcium, cellulose microcristalline** | Non précisé | Agents de charge classiques. Aucun intérêt clinique spécifique. |
 | **Poudre de baobab, poudre de bambou** | Non précisé | Ingrédients d’accompagnement ou technologiques. Pas de justification clinique spécifique pour le sommeil aux doses non précisées. |
