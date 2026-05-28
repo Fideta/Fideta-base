@@ -41,7 +41,7 @@ L’apport via l’alimentation (oléagineux, légumineuses, céréales complèt
 
 Il est courrant de voir partagé que “deux tiers de la population manquent de magnésium”, en s’appuyant sur un rapport de l’ANSES souvent mal interprété : l’agence a montré que les **apports alimentaires sont parfois inférieurs aux recommandations**, ce qui ne signifie pas une carence biologique, encore moins un déficit nécessitant un complément. La majorité des personnes compensent via l’absorption digestive, les réserves corporelles et l’ajustement rénal, ce qui explique pourquoi les vraies carences restent rares malgré des apports parfois modestes.
 
-Un complément peut être utile uniquement si un déficit est suspecté ou documenté, ou si certains symptômes concordants apparaissent dans un contexte à risque.
+Le magnésium n’est pas inutile : l’hypomagnésémie existe, peut être fréquente dans certains contextes médicaux, et doit être corrigée lorsqu’elle est documentée. Mais cela ne valide pas l’usage des compléments de magnésium pour fatigue, stress, sommeil ou crampes chez des personnes sans hypomagnésémie avéré ou facteur de risque clairement identifié médicalement.
 
 ---
 
