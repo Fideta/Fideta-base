@@ -40,7 +40,9 @@ Ces valeurs sont inférieures aux critères européens applicables aux solutions
 
 Hydratis ne correspond pas non plus à la composition d’une solution de réhydratation orale de référence, dont la formule OMS/UNICEF à osmolarité réduite repose notamment sur **75 mmol/L de sodium**, **75 mmol/L de glucose** et une osmolarité totale d’environ **245 mOsm/L**.
 
-**Conclusion Fideta :** Hydratis peut constituer une boisson aromatisée faiblement sucrée enrichie en électrolytes. En revanche, sur la base des données publiques disponibles, sa composition ne permet pas de l’assimiler à une solution glucides-électrolytes conforme aux critères EFSA/UE pour l’endurance, ni à une solution de réhydratation orale destinée à la réhydratation médicale. Aucun essai clinique publié spécifique à Hydratis n’a été identifié pour démontrer un bénéfice supérieur à l’eau, à volume égal, chez l’adulte sain.
+**Conclusion Fideta :** Hydratis peut constituer une boisson aromatisée faiblement sucrée enrichie en électrolytes. En revanche, sur la base des données publiques disponibles, sa composition ne permet pas de l’assimiler à une solution glucides-électrolytes conforme aux critères EFSA/UE pour l’endurance, ni à une solution de réhydratation orale destinée à la réhydratation médicale. 
+
+Aucun essai clinique publié, spécifique ou non à Hydratis, n’a été identifié comme démontrant un bénéfice supérieur à celui de l’eau chez l’adulte sain. Par ailleurs, aucun apport insuffisant en sodium — c’est-à-dire en sel — n’a été identifié en population générale ; les données disponibles suggèrent plutôt la situation inverse. Ainsi la pertinence d'Hydratis est jugée très faible. 
 
 ---
 
