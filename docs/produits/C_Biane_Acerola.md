@@ -3,7 +3,7 @@ title: "C BIANE ACÉROLA"
 image: /img/produits/C_Biane_Acerola.jpg
 categories: ["Énergie", "Immunité", "Vitamine C"]
 synopsis: "Complément alimentaire à base d’acérola apportant 120 mg de vitamine C par comprimé."
-ean: 3401529507921
+ean: [3401529507860 , 3401529507921]
 hide_title: true
 ---
 import ProduitHero from '@site/src/components/fiches/ProduitHero';
@@ -38,11 +38,6 @@ Enfin, la dose de **120 mg/j** est inférieure au seuil de **≥ 200 mg/j** gén
 | Ingrédient | Quantité | Commentaire Fideta |
 |---|---:|---|
 | [**Extrait d’acérola** (*Malpighia glabra*, fruit) — **dont vitamine C**](/docs/principes/vitamine_c) | **552 mg** — **120 mg de vitamine C** (150 % VNR) | Source végétale de vitamine C. La dose est cohérente avec un apport nutritionnel quotidien, mais ne démontre pas d’effet clinique additionnel chez les personnes non carencées. Aucune supériorité clinique robuste de l’acérola par rapport à une vitamine C classique n’est démontrée. |
-
-### **Excipients notables**
-
-| Excipient | Rôle | Commentaire Fideta |
-|---|---|---|
 | **Saccharose** | Agent de charge / goût | Apport sucré, attendu pour un comprimé à croquer. À prendre en compte en cas de limitation des sucres ou d’usage quotidien prolongé. |
 | **Fructose** | Agent de charge / goût | Apport sucré supplémentaire. Pas d’intérêt clinique propre. |
 | **Maltodextrines** | Support technologique | Excipient courant. Pas d’effet attendu sur l’efficacité. |
