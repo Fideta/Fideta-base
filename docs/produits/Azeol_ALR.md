@@ -7,6 +7,8 @@ ean: 3701145690497
 hide_title: true
 ---
 import ProduitHero from '@site/src/components/fiches/ProduitHero';
+import InfoTip from '@site/src/components/InfoTip';
+
 
 <ProduitHero
   title={"Azeol ALR"}
