@@ -7,6 +7,8 @@ ean: [3578835504453 , 3578835504460]
 hide_title: true
 ---
 import ProduitHero from '@site/src/components/fiches/ProduitHero';
+import InfoTip from '@site/src/components/InfoTip';
+
 
 <ProduitHero
   title={"Arkogélules® Rhodiole BIO"}
