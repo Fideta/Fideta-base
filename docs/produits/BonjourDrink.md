@@ -58,6 +58,8 @@ Arômes naturels, cacao/céréales selon la recette : uniquement rôle gustatif.
 
 ## ⚠️ Sécurité et précautions  
 
+**Effets secondaires / Effets indésirables possibles :** <InfoTip text="Les effets listés ici sont potentiellement associés aux ingrédients du produit d’après les données disponibles. Ils constituent un repère informatif et ne signifient pas qu’ils sont systématiques ni formellement démontrés pour ce produit dans tous les cas." /> 
+
 - **Chaga** : signal de néphropathie oxalique (atteinte rénale grave) → critère bloquant.  
 - **Cordyceps** : manque de recul sur consommation prolongée.  
 - **Lion’s Mane** : bonne tolérance rapportée, mais efficacité absente.  
@@ -97,3 +99,7 @@ En l’absence de données publiées sur le **dosage en oxalates** de l’extrai
 
 ## 🛡️ Note légale  
 Cette fiche est établie à partir d’une revue critique des données scientifiques disponibles. Elle ne constitue ni un avis médical ni une recommandation personnalisée. Pour toute décision de santé, consultez un professionnel.  
+
+---
+
+<sub><em>Dernière mise à jour : 30 Mai 2026</em></sub>
