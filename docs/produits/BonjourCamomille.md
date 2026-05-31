@@ -7,6 +7,8 @@ ean: []
 hide_title: true
 ---
 import ProduitHero from '@site/src/components/fiches/ProduitHero';
+import InfoTip from '@site/src/components/InfoTip';
+
 
 
 <ProduitHero
