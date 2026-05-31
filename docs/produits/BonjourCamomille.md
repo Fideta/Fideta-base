@@ -64,7 +64,7 @@ En l’absence d’essais cliniques sur la formule complète et compte tenu du n
 
 ## ⚠️ Sécurité et précautions
 
-**Effets secondaires / Effets indésirables :** 
+**Effets secondaires / Effets indésirables possibles:** <InfoTip text="Les effets listés ici sont potentiellement associés aux ingrédients du produit d’après les données disponibles. Ils constituent un repère informatif et ne signifient pas qu’ils sont systématiques ni formellement démontrés pour ce produit dans tous les cas." />
 - Troubles digestifs légers (nausées, inconfort).  
 - Somnolence légère.  
 - Réactions allergiques possibles à la camomille (Astéracées).
