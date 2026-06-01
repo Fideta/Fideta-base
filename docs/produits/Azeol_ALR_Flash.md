@@ -52,7 +52,7 @@ La formule **ne repose sur aucune recommandation officielle (EFSA, ANSES, NIH)**
 
 ## ⚠️ Sécurité et précautions
 
-- **Effets secondaires / Effets indésirables possibles** :<InfoTip text="Les effets listés ici sont potentiellement associés aux ingrédients du produit d’après les données disponibles. Ils constituent un repère informatif et ne signifient pas qu’ils sont systématiques ni formellement démontrés pour ce produit dans tous les cas." /> globalement bien toléré. Aucun effet indésirable rapporté à ces doses.  
+- **Effets secondaires / Effets indésirables possibles** : globalement bien toléré. Aucun effet indésirable rapporté à ces doses.  
 - **Contre-indications** :  
   - Allergie croisée possible chez les personnes sensibles aux pollens de plantain.  
   - Population allergique : prudence en cas d’exposition connue au Plal1.  
