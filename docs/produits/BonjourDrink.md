@@ -60,8 +60,7 @@ Arômes naturels, cacao/céréales selon la recette : uniquement rôle gustatif.
 
 ## ⚠️ Sécurité et précautions  
 
-**Effets secondaires / Effets indésirables possibles :** <InfoTip text="Les effets listés ici sont potentiellement associés aux ingrédients du produit d’après les données disponibles. Ils constituent un repère informatif et ne signifient pas qu’ils sont systématiques ni formellement démontrés pour ce produit dans tous les cas." /> 
-
+**Effets secondaires / Effets indésirables possibles :** 
 - **Chaga** : signal de néphropathie oxalique (atteinte rénale grave) → critère bloquant.  
 - **Cordyceps** : manque de recul sur consommation prolongée.  
 - **Lion’s Mane** : bonne tolérance rapportée, mais efficacité absente.  
