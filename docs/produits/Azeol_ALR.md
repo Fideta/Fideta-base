@@ -61,7 +61,7 @@ La formule ne repose donc sur **aucune preuve clinique spécifique**, **aucune r
 
 ## ⚠️ Sécurité et précautions
 
-- **Effets secondaires / Effets indésirables** : <InfoTip text="Les effets listés ici sont potentiellement associés aux ingrédients du produit d’après les données disponibles. Ils constituent un repère informatif et ne signifient pas qu’ils sont systématiques ni formellement démontrés pour ce produit dans tous les cas." /> 
+- **Effets secondaires / Effets indésirables** : 
   - Globalement bien toléré aux doses proposées.  
   - Possibles troubles digestifs mineurs.  
   - Le zinc peut entraîner des nausées ou des troubles digestifs à doses élevées, mais la dose ici est faible.
