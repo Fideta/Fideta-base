@@ -7,6 +7,7 @@ ean: [3770033452028]
 hide_title: true
 ---
 import ProduitHero from '@site/src/components/fiches/ProduitHero';
+import InfoTip from '@site/src/components/InfoTip';
 
 <ProduitHero
   title={"Bonjour – Boisson aux champignons - Goût cacao"}
@@ -74,7 +75,7 @@ Extrait de graine de Cacaoyer (Theobroma cacao), Extrait de corps fructifère de
 
 ## ⚠️ Sécurité et précautions  
 
-**Effets secondaires ou indésirables :**
+**Effets secondaires / Effets indésirables possibles :** <InfoTip text="Les effets listés ici sont potentiellement associés aux ingrédients du produit d’après les données disponibles. Ils constituent un repère informatif et ne signifient pas qu’ils sont systématiques ni formellement démontrés pour ce produit dans tous les cas." />
 
 - **[Chaga](/docs/principes/chaga)** : risque de **néphropathie oxalique** rapporté ; absence de données humaines → **critère bloquant**.  
 - **[Cordyceps](/docs/principes/cordyceps)** : données insuffisantes sur l’usage prolongé.  
