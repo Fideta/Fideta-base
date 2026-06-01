@@ -53,7 +53,7 @@ Le produit Arkogélules® Rhodiole BIO utilise un extrait titré mais moins conc
 
 ## ⚠️ Sécurité et précautions
 
-- **Effets secondaires / Effets indésirables** :<InfoTip text="Les effets listés ici sont potentiellement associés aux ingrédients du produit d’après les données disponibles. Ils constituent un repère informatif et ne signifient pas qu’ils sont systématiques ni formellement démontrés pour ce produit dans tous les cas." /> céphalées, nervosité/insomnie, nausées, vertiges, sécheresse buccale.  
+- **Effets secondaires / Effets indésirables** : céphalées, nervosité/insomnie, nausées, vertiges, sécheresse buccale.  
 - **Contre-indications** : < 18 ans, grossesse et allaitement (par précaution), hypersensibilité connue.  
 - **Interactions** : vigilance avec antihypertenseurs (cas rapporté avec losartan), psychotropes (potentiel additif théorique).  
 - **Dose maximale recommandée** : non établie. EMA-HMPC recommande 144–200 mg par prise d’extrait hydroalcoolique DER 1,5–5:1.  
