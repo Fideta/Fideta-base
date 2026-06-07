@@ -79,7 +79,7 @@ export default function AccountSignupPrompt({
 
         <ul className="account-prompt__list">
           <li>Favoris pour retrouver les fiches importantes</li>
-          <li>Historique de consultation conservé dans votre espace</li>
+          <li>Historique de consultation</li>
           <li>Création rapide par code email</li>
         </ul>
 
