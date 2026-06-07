@@ -591,3 +591,165 @@ a:hover{ color:var(--ifm-color-primary-dark); }
     right: 1rem;
   }
 }
+
+/* Compte gratuit : popup favoris / engagement */
+.account-prompt {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+}
+
+.account-prompt__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(8, 24, 18, 0.42);
+  backdrop-filter: blur(3px);
+}
+
+.account-prompt__dialog {
+  position: relative;
+  width: min(100%, 470px);
+  border-radius: 26px;
+  background: #ffffff;
+  border: 1px solid #dce6dc;
+  box-shadow: 0 22px 70px rgba(9, 31, 23, 0.24);
+  padding: 28px;
+  color: #173d30;
+}
+
+.account-prompt__close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  width: 34px;
+  height: 34px;
+  border: none;
+  border-radius: 999px;
+  background: #eef4ef;
+  color: #284539;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.account-prompt__badge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-bottom: 14px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: #e8f1e8;
+  color: #2f6f52;
+  font-weight: 800;
+  font-size: 0.86rem;
+}
+
+.account-prompt__title {
+  margin: 0 38px 10px 0;
+  font-size: 1.85rem;
+  line-height: 1.08;
+  color: #123d2f;
+}
+
+.account-prompt__text {
+  margin: 0;
+  color: #5d6c66;
+  line-height: 1.65;
+  font-size: 1rem;
+}
+
+.account-prompt__list {
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 9px;
+  color: #334f43;
+  font-size: 0.96rem;
+}
+
+.account-prompt__list li {
+  display: flex;
+  gap: 9px;
+  align-items: flex-start;
+}
+
+.account-prompt__list li::before {
+  content: '✓';
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 22px;
+  width: 22px;
+  height: 22px;
+  border-radius: 999px;
+  background: #e8f1e8;
+  color: #2f7d56;
+  font-weight: 900;
+  font-size: 0.82rem;
+}
+
+.account-prompt__actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.account-prompt__primary,
+.account-prompt__primary:hover {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 12px 17px;
+  border-radius: 13px;
+  background: #2f7d56;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.account-prompt__secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 12px 8px;
+  border: none;
+  background: transparent;
+  color: #587066;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+@media (max-width: 560px) {
+  .account-prompt {
+    align-items: flex-end;
+    padding: 12px;
+  }
+
+  .account-prompt__dialog {
+    padding: 23px;
+    border-radius: 24px;
+  }
+
+  .account-prompt__title {
+    font-size: 1.55rem;
+  }
+
+  .account-prompt__actions {
+    display: grid;
+  }
+
+  .account-prompt__primary,
+  .account-prompt__secondary {
+    width: 100%;
+  }
+}
