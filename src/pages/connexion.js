@@ -3,9 +3,11 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import { useAuth } from '../context/AuthContext';
+import { addFavorite } from '../lib/accountData';
 
 export default function ConnexionPage() {
   const {
+    supabase,
     loading,
     user,
     plan,
@@ -15,6 +17,7 @@ export default function ConnexionPage() {
     signInWithPassword,
     sendPasswordReset,
     signOut,
+    refreshAuth,
   } = useAuth();
 
   const accountUrl = useBaseUrl('/compte');
@@ -29,12 +32,80 @@ export default function ConnexionPage() {
   const [message, setMessage] = useState('');
   const [error, setError] = useState('');
   const [busy, setBusy] = useState(false);
+  const [intent, setIntent] = useState(null);
+  const [redirectPath, setRedirectPath] = useState('');
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+
+    const params = new URLSearchParams(window.location.search);
+    const nextIntent = params.get('intent');
+    const nextRedirect = params.get('redirect');
+
+    if (nextIntent === 'favorite' || nextIntent === 'engagement') {
+      setIntent(nextIntent);
+      setMode('otp');
+    }
+
+    if (
+      nextRedirect &&
+      nextRedirect.startsWith('/') &&
+      !nextRedirect.startsWith('//')
+    ) {
+      setRedirectPath(nextRedirect);
+    }
+  }, []);
 
   useEffect(() => {
     if (isLoggedIn) {
       setStep('connected');
     }
   }, [isLoggedIn]);
+
+  async function completePostLogin(authUserId) {
+    let nextMessage = 'Connexion réussie.';
+    let nextRedirectPath = redirectPath;
+
+    if (typeof window !== 'undefined' && authUserId) {
+      const rawPendingFavorite = window.sessionStorage.getItem(
+        'fideta_pending_favorite'
+      );
+
+      if (rawPendingFavorite) {
+        try {
+          const pendingFavorite = JSON.parse(rawPendingFavorite);
+          const { error: favoriteError } = await addFavorite(
+            supabase,
+            authUserId,
+            pendingFavorite
+          );
+
+          if (favoriteError) {
+            console.error('Erreur ajout favori après connexion :', favoriteError.message);
+          } else {
+            window.sessionStorage.removeItem('fideta_pending_favorite');
+            nextMessage = 'Connexion réussie. Fiche ajoutée à vos favoris.';
+            if (pendingFavorite?.path) {
+              nextRedirectPath = pendingFavorite.path;
+            }
+          }
+        } catch (parseError) {
+          console.error('Favori en attente illisible :', parseError);
+          window.sessionStorage.removeItem('fideta_pending_favorite');
+        }
+      }
+    }
+
+    await refreshAuth();
+    setMessage(nextMessage);
+    setStep('connected');
+
+    if (intent && nextRedirectPath && typeof window !== 'undefined') {
+      window.setTimeout(() => {
+        window.location.href = nextRedirectPath;
+      }, 600);
+    }
+  }
 
   async function handlePasswordLogin(e) {
     e.preventDefault();
@@ -44,7 +115,7 @@ export default function ConnexionPage() {
 
     const cleanEmail = email.trim().toLowerCase();
 
-    const { error } = await signInWithPassword(cleanEmail, password);
+    const { data, error } = await signInWithPassword(cleanEmail, password);
 
     if (error) {
       setError(error.message || 'Connexion impossible.');
@@ -54,8 +125,7 @@ export default function ConnexionPage() {
 
     setEmail(cleanEmail);
     setPassword('');
-    setMessage('Connexion réussie.');
-    setStep('connected');
+    await completePostLogin(data?.user?.id || user?.id);
     setBusy(false);
   }
 
@@ -121,7 +191,7 @@ export default function ConnexionPage() {
     setError('');
     setMessage('');
 
-    const { error } = await verifyLoginCode(
+    const { data, error } = await verifyLoginCode(
       email.trim().toLowerCase(),
       token.trim()
     );
@@ -133,8 +203,7 @@ export default function ConnexionPage() {
     }
 
     setToken('');
-    setMessage('Connexion réussie.');
-    setStep('connected');
+    await completePostLogin(data?.user?.id || user?.id);
     setBusy(false);
   }
 
@@ -168,14 +237,30 @@ export default function ConnexionPage() {
     setStep('email');
   }
 
+  const pageTitle = intent === 'favorite'
+    ? 'Sauvegarder cette fiche'
+    : intent === 'engagement'
+      ? 'Créer un compte Fideta gratuit'
+      : 'Connexion à Fideta';
+
+  const pageSubtitle = intent === 'favorite'
+    ? 'Entrez votre email pour créer un compte gratuit ou vous connecter, puis retrouver cette fiche dans vos favoris.'
+    : intent === 'engagement'
+      ? 'Entrez votre email pour créer un compte gratuit ou vous connecter. Vous pourrez conserver vos favoris et votre historique.'
+      : 'Connectez-vous par mot de passe ou avec un code envoyé par email.';
+
+  const otpButtonLabel = intent
+    ? 'Créer mon compte gratuit'
+    : 'Recevoir un code';
+
   return (
-    <Layout title="Connexion">
+    <Layout title={pageTitle}>
       <main
         className="container margin-vert--xl"
         style={{ maxWidth: 900 }}
       >
         <header style={{ marginBottom: '26px' }}>
-          <h1 style={{ marginBottom: '10px' }}>Connexion à Fideta</h1>
+          <h1 style={{ marginBottom: '10px' }}>{pageTitle}</h1>
           <p
             style={{
               margin: 0,
@@ -183,7 +268,7 @@ export default function ConnexionPage() {
               fontSize: '1.02rem',
             }}
           >
-            Connectez-vous par mot de passe ou avec un code envoyé par email.
+            {pageSubtitle}
           </p>
         </header>
 
@@ -580,7 +665,7 @@ export default function ConnexionPage() {
                       fontWeight: 700,
                     }}
                   >
-                    {busy ? 'Envoi...' : 'Recevoir un code'}
+                    {busy ? 'Envoi...' : otpButtonLabel}
                   </button>
                 </form>
               )}
