@@ -11,7 +11,7 @@ export default function AccountNavbarItem({ mobile, className }) {
   const compteUrl = useBaseUrl('/compte');
 
   const to = isLoggedIn ? compteUrl : connexionUrl;
-  const label = loading ? '...' : isLoggedIn ? 'Compte' : 'Se connecter';
+  const label = loading ? '...' : isLoggedIn ? 'Mes fiches' : 'Compte gratuit';
 
   return (
     <Link
