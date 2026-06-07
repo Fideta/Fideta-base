@@ -4,6 +4,7 @@ import Head from '@docusaurus/Head';
 import {useLocation} from '@docusaurus/router';
 import Link from '@docusaurus/Link';
 import {AuthProvider} from '../context/AuthContext';
+import AccountEngagementPrompt from '../components/account/AccountEngagementPrompt';
 
 const SAFETY_INFO_TEXT =
   "Les effets indésirables mentionnés sont issus des données disponibles dans la littérature sur les ingrédients du produit. Ils constituent un repère de sécurité, sans démontrer nécessairement que ces effets ont été observés avec le produit fini.";
@@ -110,6 +111,7 @@ export default function Root({children}) {
         </Head>
 
         <SafetyInfoInjector />
+        <AccountEngagementPrompt />
 
         {children}
         <ScannerFAB />
