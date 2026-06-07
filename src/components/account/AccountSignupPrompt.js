@@ -1,15 +1,21 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import {createPortal} from 'react-dom';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import {useLocation} from '@docusaurus/router';
 
 function buildSafeRedirect(location, explicitRedirectPath) {
-  if (explicitRedirectPath && explicitRedirectPath.startsWith('/') && !explicitRedirectPath.startsWith('//')) {
+  if (
+    explicitRedirectPath &&
+    explicitRedirectPath.startsWith('/') &&
+    !explicitRedirectPath.startsWith('//')
+  ) {
     return explicitRedirectPath;
   }
 
   const pathname = location?.pathname || '/';
   const search = location?.search || '';
   const hash = location?.hash || '';
+
   return `${pathname}${search}${hash}`;
 }
 
@@ -22,12 +28,22 @@ export default function AccountSignupPrompt({
 }) {
   const location = useLocation();
   const connexionUrl = useBaseUrl('/connexion');
+  const [mounted, setMounted] = useState(false);
 
-  if (!open) return null;
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!open || !mounted || typeof document === 'undefined') {
+    return null;
+  }
 
   const isFavorite = variant === 'favorite';
   const safeRedirect = buildSafeRedirect(location, redirectPath);
-  const href = `${connexionUrl}?intent=${isFavorite ? 'favorite' : 'engagement'}&redirect=${encodeURIComponent(safeRedirect)}`;
+
+  const href = `${connexionUrl}?intent=${
+    isFavorite ? 'favorite' : 'engagement'
+  }&redirect=${encodeURIComponent(safeRedirect)}`;
 
   const title = isFavorite
     ? 'Sauvegarder cette fiche'
@@ -51,9 +67,10 @@ export default function AccountSignupPrompt({
     }
   }
 
-  return (
+  const prompt = (
     <div className="account-prompt" role="presentation">
       <div className="account-prompt__backdrop" onClick={onClose} />
+
       <section
         className="account-prompt__dialog"
         role="dialog"
@@ -79,7 +96,7 @@ export default function AccountSignupPrompt({
 
         <ul className="account-prompt__list">
           <li>Favoris pour retrouver les fiches importantes</li>
-          <li>Historique de consultation</li>
+          <li>Historique de consultation conservé dans votre espace</li>
           <li>Création rapide par code email</li>
         </ul>
 
@@ -103,4 +120,6 @@ export default function AccountSignupPrompt({
       </section>
     </div>
   );
+
+  return createPortal(prompt, document.body);
 }
