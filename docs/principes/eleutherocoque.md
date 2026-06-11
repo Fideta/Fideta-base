@@ -13,7 +13,7 @@ import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
 <PrincipeHero
   title={"Eleuthérocoque"}
-  scientificName={"racine / rhizome (radix)"}
+  scientificName={"Eleutherococcus senticosus (Rupr. & Maxim.) Maxim."}
   partUsed={"racine / rhizome (radix)"}
   origin={"arbuste des régions froides d’Asie du Nord-Est (Sibérie, Chine, Corée, Japon)"}
   image={"/img/principes/eleutherocoque.jpg"}
@@ -63,11 +63,11 @@ Ainsi, l’eleuthérocoque apparaît plutôt comme un **tonique traditionnel ave
 
 | Fonction ciblée | Effet revendiqué (population / contexte) | Niveau de preuve Fideta | Dose / schéma étudié* |
 |-----------------|-------------------------------------------|:------------------------:|------------------------|
-| **Fatigue / asthénie légère chez le sujet âgé** | Amélioration de certains domaines de qualité de vie et de la sensation de fatigue chez des ≥ 65 ans fatigués, hypertendus, en traitement digitalique | 🟡 **C — Preuve modérée** (un petit RCT positif, n = 20, résultats limités) | Extrait sec de racine 300 mg/j pendant 8 semaines |
-| **Asthénie fonctionnelle, fatigue banale de l’adulte** | « Tonique / adaptogène » pour mieux supporter stress, surcharge, convalescence | 🟠 **D — Preuve faible** (nombreuses études anciennes non contrôlées ; RCT modernes peu convaincants) | Usages traditionnels ≈ 0,5–2 g de racine/j ou extraits secs équivalents (≈ 300–600 mg/j), souvent en cures de 4–8 semaines |
+| **Fatigue / asthénie légère chez le sujet âgé** | Amélioration de certains domaines de qualité de vie et de la sensation de fatigue chez des ≥ 65 ans fatigués, hypertendus, en traitement digitalique | 🔴 **E — Pas de preuve convaincante** (un petit RCT positif, n = 20, résultats limités) | Extrait sec de racine 300 mg/j pendant 8 semaines |
+| **Asthénie fonctionnelle, fatigue banale de l’adulte** | « Tonique / adaptogène » pour mieux supporter stress, surcharge, convalescence | 🔴 **E — Pas de preuve convaincante** (nombreuses études anciennes non contrôlées ; RCT modernes peu convaincants) | Usages traditionnels ≈ 0,5–2 g de racine/j ou extraits secs équivalents (≈ 300–600 mg/j), souvent en cures de 4–8 semaines |
 | **Fatigue chronique** (type fatigue persistante ≥ 6 mois, incluant CFS non spécifiquement définie) | Réduction durable de la fatigue versus placebo | ⚫ **F — Inefficacité démontrée** (un RCT bien conduit ne montre pas de bénéfice global vs placebo ; seules analyses de sous-groupes exploratoires suggèrent un effet possible) | ≈ 2 g/j d’eleuthérocoque (racine) en gélules pendant 2 mois |
 | **Fatigue liée au stress / troubles fonctionnels de type « burnout léger »** | Amélioration de la fatigue, de la concentration et du bien-être chez des adultes stressés | ⚫ **F — Inefficacité démontrée** (ajout d’eleuthérocoque à un programme de gestion du stress : aucune supériorité vs programme seul) | Extrait sec standardisé (dose équivalente à ≈ 2 g de racine/j), 2 mois |
-| **Performance physique / endurance** | Augmentation de la VO₂max, du temps d’effort, amélioration de la performance chez sportifs ou sujets entraînés | 🔴 **E — Pas de preuve convaincante** (quelques études anciennes positives mais plusieurs RCTs ne montrent aucun effet reproductible) | Extraits liquides ou secs, ≈ 0,8–1,2 g/j d’extrait ou 1–4 g/j de racine, 4–8 semaines |
+| **Performance physique / endurance** | Augmentation de la VO₂max, du temps d’effort, amélioration de la performance chez sportifs ou sujets entraînés | ⚫ **F — Pas de preuve convaincante et parfois in** (quelques études anciennes positives mais plusieurs RCTs ne montrent aucun effet reproductible) | Extraits liquides ou secs, ≈ 0,8–1,2 g/j d’extrait ou 1–4 g/j de racine, 4–8 semaines |
 | **Infections respiratoires hautes** (rhume, états grippaux) | Diminution de la durée et de la sévérité des symptômes | 🔴 **E — Pas de preuve convaincante pour l’eleuthérocoque seul** (essais positifs uniquement avec des combinaisons *Eleutherococcus* + *Andrographis* ou autres plantes) | Combinaisons standardisées (type Kan Jang), cures courtes (4–10 jours) — effet non attribuable spécifiquement à l’eleuthérocoque |
 
 \*Les doses indiquées sont celles utilisées dans les études ou monographies et **ne constituent pas des recommandations individuelles**.
@@ -186,5 +186,5 @@ En pratique, la **variabilité considérable entre extraits** (composition, dosa
 
 ---
 
-<sub><em>Dernière mise à jour : 30 novembre 2025</em></sub>
+<sub><em>Dernière mise à jour : 11 Juin 2026</em></sub>
 
