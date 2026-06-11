@@ -552,7 +552,7 @@ export default function ConnexionPage() {
                         }
                   }
                 >
-                  Code email
+                  Première connexion
                 </button>
               </div>
 
