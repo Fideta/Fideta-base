@@ -5,6 +5,7 @@ image: /img/produits/ergytonic-fatigue-intense.jpg
 categories: ["Fatigue", "Énergie", "Performances", "Antioxydant", "Vitamines", "Minéraux", "Plantes"]
 synopsis: "Complexe associant éleuthérocoque, coenzyme Q10, acides aminés, minéraux et vitamines. Le produit est positionné sur l’énergie cellulaire, les performances physiques et mentales, l’antioxydant et la fatigue intense, mais les preuves cliniques disponibles ne démontrent pas d’efficacité dans les contextes spécifiques revendiqués."
 hide_title: true
+ean : 3664524002109
 ---
 import ProduitHero from '@site/src/components/fiches/ProduitHero';
 import Admonition from '@theme/Admonition';
