@@ -11,7 +11,7 @@ import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
 <ProduitHero
   title={"Cartimotil Structure"}
-  brand={"Nutergia"}
+  brand={"Pileje"}
   category={"Vitamine / Molécule souffrée et cartilage"}
   image={"/img/produits/cartimotil-structure.jpg"}
   imageAlt={"Cartimotil Structure Nutergia"}
@@ -87,7 +87,7 @@ Elle indique seulement que le manganèse participe normalement à certains proce
   * les personnes présentant une allergie alimentaire aux crustacés ou aux insectes ;
   * les personnes dont l’alimentation est contrôlée pour le sodium, le potassium ou le calcium.
 
-* **Interactions (exemples)** :
+* **Interactions** :
 
   * Prudence avec les **anti-vitamine K** en raison de signalements d’interactions et d’un risque potentiel de déséquilibre de l’anticoagulation avec les compléments à base de chondroïtine et/ou glucosamine.
   * Prudence en cas de traitement chronique, pathologie métabolique, asthme, antécédent allergique ou maladie rénale.
