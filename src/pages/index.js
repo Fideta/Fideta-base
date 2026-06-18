@@ -134,13 +134,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
+                        <Link to="/docs/produits/cartimotil-structure">Cartimonil Structure</Link> Peu de preuves
+                      </li>
+                      <li>
                         <Link to="/docs/produits/phytobiane-griffonia">Phytobiane Griffonia</Link> Sans preuves de sécurité
                       </li>
                       <li>
                         <Link to="/docs/produits/Azeol_ALR">Azeol ALR</Link> Sans preuves solides pour l'allergie 
-                      </li>
-                      <li>
-                        <Link to="/docs/produits/melioran_noctesia">Melioran® Noctesia®</Link> Pour le sommeil 
                       </li>
                     </ul>
 
