@@ -42,7 +42,7 @@ En pratique, le collagène peut donc être présenté comme un ingrédient à **
 | Fonction ciblée | Effet revendiqué | Niveau de preuve | Dose efficace |
 |-----------------|------------------|:------------------:|---------------|
 | **Peau (esthétique, collagène hydrolysé)** | Amélioration modeste de l’hydratation, de l’élasticité et réduction des rides superficielles | 🟡 **C** | **2,5 à 10 g/j** pendant **8 à 12 semaines** |
-| **Articulations (arthrose du genou)** | Réduction modeste de la douleur et amélioration fonctionnelle symptomatique | 🟢 **B** | **Hydrolysat : 3 à 10 g/j** pendant **3 à 6 mois** ; **type II non dénaturé : 40 mg/j** |
+| **Articulations (arthrose du genou)** | Réduction modeste de la douleur et amélioration fonctionnelle symptomatique | 🟡 **C** | **Hydrolysat : 3 à 10 g/j** pendant **3 à 6 mois** ; **type II non dénaturé : 40 mg/j** |
 | **Cartilage / structure articulaire** | Régénération du cartilage ou ralentissement structurel de l’arthrose | 🔴 **E** | **Dose non établie** |
 | **Masse musculaire (avec entraînement)** | Augmentation modeste de la masse maigre et de certains paramètres de force lorsqu’il est associé à un entraînement | 🟡 **C** | Souvent **15 g/j** + entraînement pendant **12 semaines** |
 | **Cicatrisation / escarres** | Signal possible dans certains contextes cliniques, surtout escarres, mais données insuffisantes pour généraliser | 🟠 **D** | **Non établie** |
