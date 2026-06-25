@@ -63,7 +63,7 @@ Même si Babybiane Imedia est présenté comme utilisable dès la naissance et s
 
 | Ingrédient | Quantité | Commentaire Fideta |
 |---|---:|---|
-| **Lacticaseibacillus rhamnosus GG LA801** |  10 milliards d’UFC | Souche microbiotique pertinente, à une dose cohérente avec les données pédiatriques sur *L. rhamnosus* GG. L’intérêt clinique est surtout défendable en prévention de la diarrhée associée aux antibiotiques. En gastroentérite aiguë curative, les données récentes sont insuffisantes pour soutenir un bénéfice robuste. Prudence supplémentaire : les bénéfices des probiotiques sont souche-dépendants et l’extrapolation depuis les essais LGG vers LA801 doit rester prudente si l’équivalence clinique n’est pas publiquement démontrée. |
+| [**Lacticaseibacillus rhamnosus GG LA801**](/docs/principes/lacticaseibacillus_rhamnosus) |  10 milliards d’UFC | Souche microbiotique pertinente, à une dose cohérente avec les données pédiatriques sur *L. rhamnosus* GG. L’intérêt clinique est surtout défendable en prévention de la diarrhée associée aux antibiotiques. En gastroentérite aiguë curative, les données récentes sont insuffisantes pour soutenir un bénéfice robuste. Prudence supplémentaire : les bénéfices des probiotiques sont souche-dépendants et l’extrapolation depuis les essais LGG vers LA801 doit rester prudente si l’équivalence clinique n’est pas publiquement démontrée. |
 | Maltodextrine | Excipient principal | Support technologique de la poudre. Apport glucidique faible à la dose d’un sachet. Aucun intérêt thérapeutique propre dans la diarrhée. |
 
 ---
