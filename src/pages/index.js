@@ -134,13 +134,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
+                        <Link to="/docs/produits/ergy-d">Ergy D</Link> N'est pas un médicament
+                      </li>
+                      <li>
                         <Link to="/docs/produits/babybiane-imedia">Babybiane imedia</Link> Attention à bien cadrer l'usage
                       </li>
                       <li>
-                        <Link to="/docs/produits/phytobiane-griffonia">Phytobiane Griffonia</Link> Sans preuves de sécurité
-                      </li>
-                      <li>
-                        <Link to="/docs/produits/Azeol_ALR">Azeol ALR</Link> Sans preuves solides pour l'allergie 
+                        <Link to="/docs/produits/phytobiane-griffonia">Phytobiane Griffonia</Link> Sans preuves de sécurité 
                       </li>
                     </ul>
 
