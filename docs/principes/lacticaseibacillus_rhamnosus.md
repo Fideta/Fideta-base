@@ -29,7 +29,7 @@ Le niveau de preuve le plus favorable concerne la **prévention de la diarrhée 
 
 En revanche, l’usage dans la **gastroentérite aiguë ou les diarrhées infectieuses aiguës de l’enfant** doit être nettement revu à la baisse. Des études plus anciennes suggéraient un bénéfice, notamment dans certains contextes de diarrhée virale, mais les données récentes de meilleure qualité ne montrent pas de bénéfice clinique suffisamment robuste sur la durée ou l’intensité de la diarrhée. Cet usage ne doit donc pas être considéré comme une indication solide.
 
-Les autres usages — diarrhée du voyageur, récidives de *Clostridioides difficile*, syndrome de l’intestin irritable, immunité, santé mentale — reposent sur des données plus fragmentaires, indirectes ou non concluantes.
+Les autres usages suivants : diarrhée du voyageur, récidives de *Clostridioides difficile*, syndrome de l’intestin irritable, immunité et santé mentale, reposent sur des données plus fragmentaires, indirectes ou non concluantes.
 
 Le profil de sécurité est globalement bon chez les sujets sains, mais il ne doit pas être présenté comme anodin dans les populations vulnérables : prématurés, nourrissons fragiles, immunodéprimés, patients hospitalisés ou porteurs de cathéter veineux central. Les effets des probiotiques sont souche-dépendants : une souche commerciale ne peut pas être considérée comme équivalente à LGG ATCC 53103 sans caractérisation et données cliniques propres.
 
