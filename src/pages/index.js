@@ -134,7 +134,7 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/cartimotil-structure">Cartimonil Structure</Link> Peu de preuves
+                        <Link to="/docs/produits/babybiane-imedia">Babybiane imedia</Link> Attention à bien cadrer l'usage
                       </li>
                       <li>
                         <Link to="/docs/produits/phytobiane-griffonia">Phytobiane Griffonia</Link> Sans preuves de sécurité
