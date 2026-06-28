@@ -3,7 +3,7 @@ title: Hydrafizz Hydra
 image: /img/produits/hydrafizz-hydra.jpg
 categories: ["Hydratation", "Électrolytes"]
 synopsis: "Comprimés effervescents associant sucre, sels de sodium, potassium, magnésium et vitamine C. La formule est physiologiquement plausible pour une boisson d’effort légère, mais l’étiquette ne permet pas à elle seule d’établir complètement la conformité au cadre européen des boissons glucides-électrolytes ni la comparabilité à une SRO/ORS."
-ean : 3585550001334
+ean : [3585550001334 , 3585550001778]
 hide_title: true
 ---
 
