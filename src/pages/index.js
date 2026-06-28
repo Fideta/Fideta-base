@@ -205,9 +205,9 @@ export default function Home() {
                       </Link>
                       <Link
                         className={`${styles.tag} ${styles.tagButton}`}
-                        to="/docs/principes/sureau"
+                        to="/docs/principes/fucus-vesiculosus"
                       >
-                        Sureau
+                        Fucus
                       </Link>
                           <Link
                         className={`${styles.tag} ${styles.tagButton}`}
