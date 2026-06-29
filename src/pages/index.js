@@ -134,13 +134,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
+                        <Link to="/docs/produits/slim-my-body">Kosbiotic Slim my body</Link> Slim My Portefeuille, le body reste à démontrer.   
+                      </li>
+                      <li>
                         <Link to="/docs/produits/glp1_protect">GLP1•PROTECT</Link> Il y a GLP-1 dans le titre, rien à craindre non ? 
                       </li>
                       <li>
                         <Link to="/docs/produits/ergy-d">Ergy D</Link> N'est pas un médicament
-                      </li>
-                      <li>
-                        <Link to="/docs/produits/babybiane-imedia">Babybiane imedia</Link> Attention à bien cadrer l'usage
                       </li>
                     </ul>
 
