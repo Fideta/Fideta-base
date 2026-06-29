@@ -32,7 +32,7 @@ Slim My Body est présenté comme un complément permettant de favoriser la **pe
 
 L'argument principal repose sur la souche probiotique **[Bifidobacterium animalis subsp. lactis B420®](/docs/principes/bifidobacterium-lactis)**. Si cette souche a bien été évaluée dans un essai clinique chez des personnes en surpoids, **aucune perte de poids significative n'a été observée par rapport au placebo**. Quelques différences ont été rapportées sur certains paramètres de composition corporelle, mais elles proviennent d'analyses secondaires et restent insuffisantes pour démontrer une efficacité clinique sur la perte de poids.
 
-Les autres ingrédients ne permettent pas de renforcer le niveau de preuve. Le **[fucus](/docs/principes/fucus-vesiculus)** ne dispose pas de preuves convaincantes pour favoriser l'amaigrissement, la **[caféine](/docs/principes/cafeine)** possède au mieux un effet métabolique modeste sans démonstration d'une perte de poids cliniquement pertinente, tandis que le **[chrome](/docs/principes/chrome)** contribue au métabolisme normal des macronutriments mais ne démontre pas d'effet minceur chez l'adulte non carencé.
+Les autres ingrédients ne permettent pas de renforcer le niveau de preuve. Le **[fucus](/docs/principes/fucus-vesiculosus)** ne dispose pas de preuves convaincantes pour favoriser l'amaigrissement, la **[caféine](/docs/principes/cafeine)** possède au mieux un effet métabolique modeste sans démonstration d'une perte de poids cliniquement pertinente, tandis que le **[chrome](/docs/principes/chrome)** contribue au métabolisme normal des macronutriments mais ne démontre pas d'effet minceur chez l'adulte non carencé.
 
 Dans le cadre des indications revendiquées par le fabricant, **les preuves disponibles sont insuffisantes pour conclure à une efficacité clinique du produit** contrairement à ce qui est revendiqué.
 
@@ -54,7 +54,7 @@ Enfin, cette étude portait sur la **souche B420® seule (avec ou sans fibre)**,
 | Ingrédient | Quantité | Commentaire Fideta |
 |------------|----------:|--------------------|
 | [**Bifidobacterium animalis subsp. lactis B420®**](/docs/principes/bifidobacterium-lactis) | **10 milliards UFC** | Souche brevetée étudiée chez des adultes en surpoids. L'essai clinique principal ne montre pas de perte de poids significative versus placebo. Quelques résultats secondaires existent sur la composition corporelle mais restent insuffisants pour justifier les promesses mises en avant. |
-| [**Fucus vesiculosus**](/docs/principes/fucus) | **50 mg** | Algue traditionnellement utilisée dans les produits minceur. Les essais cliniques ne démontrent pas d'efficacité convaincante sur la perte de poids. |
+| [**Fucus vesiculosus**](/docs/principes/fucus-vesiculosus) | **50 mg** | Algue traditionnellement utilisée dans les produits minceur. Les essais cliniques ne démontrent pas d'efficacité convaincante sur la perte de poids. |
 | [**Caféine**](/docs/principes/cafeine) | **100 mg** | Dose active sur la vigilance. Pour la perte de poids, les preuves restent peu convaincantes et l'effet attendu est faible. |
 | [**Chrome**](/docs/principes/chrome) | **80 µg** | Contribue au métabolisme normal des macronutriments. Aucun bénéfice clinique démontré sur la perte de poids chez les personnes non carencées. |
 | [**Iode**](/docs/principes/iode) | **75 µg (50 % AR)** | Contribue au fonctionnement normal de la thyroïde. Ne justifie pas une allégation de perte de poids. |
