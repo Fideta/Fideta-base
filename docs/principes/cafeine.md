@@ -103,3 +103,5 @@ La **sécurité** est bien documentée : l’EFSA considère comme sûres les do
 12. Healy DP et al. (1989) – *Ciprofloxacin–caffeine interaction*. Antimicrob Agents Chemother. → Ralentissement clairance caféine.  
 
 ---
+
+<sub><em>Dernière mise à jour : 29 juin 2026</em></sub>
