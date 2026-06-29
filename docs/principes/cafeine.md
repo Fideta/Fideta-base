@@ -25,7 +25,7 @@ import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 ## Avis global :  
 La caféine est l’un des stimulants les mieux étudiés. Les preuves sont solides pour l’**amélioration de la vigilance et de l’attention**, l’**effet analgésique en association** (céphalées, migraine), ainsi que pour l’**amélioration de la performance sportive d’endurance**. Les effets sur la force sont plus modestes mais réels.  
 
-Pour la **gestion du poids**, les données indiquent un effet limité et de faible ampleur. En application cutanée (crèmes/gels de type *percutaféine*), quelques essais cliniques suggèrent une réduction modeste de la cellulite ou du tour de cuisse, mais la qualité méthodologique reste faible.  
+Pour la **gestion du poids**, les preuves restent peu convaincantes. La caféine peut augmenter légèrement la dépense énergétique à court terme, mais les essais disponibles ne démontrent pas clairement qu’une supplémentation orale en caféine seule entraîne une perte de poids cliniquement pertinente. En application cutanée (crèmes/gels de type *percutaféine*), quelques essais cliniques suggèrent une réduction modeste de la cellulite ou du tour de cuisse, mais la qualité méthodologique reste faible.  
 
 La **sécurité** est bien documentée : l’EFSA considère comme sûres les doses de **≤200 mg par prise** et **≤400 mg/j chez l’adulte sain** ; la limite est de **≤200 mg/j** pendant la grossesse et l’allaitement. Les principaux effets indésirables sont l’insomnie, l’anxiété, les palpitations et les troubles digestifs, avec un risque accru en cas d’interactions médicamenteuses (inhibiteurs du CYP1A2, p. ex. fluvoxamine, quinolones).  
 
@@ -38,8 +38,9 @@ La **sécurité** est bien documentée : l’EFSA considère comme sûres les do
 | Douleur (adjuvant) | Potentialise antalgiques (migraine, céphalée de tension) | ✅ A | 100–130 mg ajoutés à paracétamol/ibuprofène/aspirine |
 | Performance sportive – endurance | ↑ performance, ↓ temps de course | ✅ A | 2–6 mg/kg, 30–60 min avant effort |
 | Performance sportive – force/puissance | Gain modeste mais significatif | 🟢 B | 3–6 mg/kg, 30–60 min avant effort |
-| Gestion du poids (oral) | Effet faible et hétérogène | 🟡 C | 100–400 mg/j |
+| Gestion du poids (oral) | Effet très faible et hétérogène selon les études. | 🔴 E  | 100–400 mg/j |
 | Effet cutané (topique) | Réduction cellulite / tour de cuisse (petits essais) | 🟠 D | Crèmes/gels 3–7 % caféine, ≥6 semaines |
+ 
 
 ---
 
