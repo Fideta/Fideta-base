@@ -55,8 +55,8 @@ Au final, *L. paracasei* apparaît comme un **ferment globalement sûr**, avec *
 | Immunité / infections ORL (enfant) | Réduction des infections communes avec *L. paracasei* **CBA L74** (postbiotique, lait/boisson fermentée inactivée) | 🟢 B – Preuve probable | 10⁹–10¹⁰ cellules inactivées/j |
 | Infections respiratoires (adulte) | Réduction modeste des épisodes de rhume avec **CNCM I-1518** ou mélanges HEAL9 + 8700:2 | 🟢 B – Preuve probable | 10⁹–10¹⁰ CFU/j |
 | Rhinite allergique | Amélioration de la qualité de vie avec **LP-33**, **NCC2461**, **ST11**, **HF.A00232**, **KW3110** | 🟢 B – Preuve probable | ~2×10⁹ CFU/j |
-| Stress / anxiété | Réduction du stress perçu avec **Lpc-37**, **K56**, **207-27** | 🟡 C – Preuve modérée | 10⁹–10¹⁰ CFU/j |
-| Sommeil | Amélioration modeste avec **207-27**, secondairement **K56** | 🟡 C – Preuve modérée | 10⁹–10¹⁰ CFU/j |
+| Stress / anxiété | Réduction du stress perçu avec **Lpc-37**, **K56**, **207-27** | 🔴 E – Pas de preuve convaincante | 10⁹–10¹⁰ CFU/j |
+| Sommeil | Amélioration modeste avec **207-27**, secondairement **K56** | 🟠 D – Preuve faible | 10⁹–10¹⁰ CFU/j |
 | Transit / confort digestif | ↑ fréquence des selles avec **327** (inactivée) | 🟡 C – Preuve modérée | 5×10¹⁰ cellules inactivées/j |
 | Poids / métabolisme | Effets modestes (gras viscéral, HbA1c) avec **K56** ou mélange **BN-202M** | 🟠 D – Preuve faible | 10⁹ CFU/j |
 | Prévention de l’eczéma atopique | Résultats contradictoires, non reproductibles (F19) | 🔴 E – Pas de preuve convaincante | – |
