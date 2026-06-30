@@ -112,7 +112,7 @@ Enfin, l’étude portait sur la **souche Lpc-37® seule**, et non sur la formul
 | Critère        |   Note   | Commentaire                                                                                                                                                                                                               |
 | -------------- | :------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Efficacité** |  ⚫ **F** | L’étude mise en avant est négative sur son critère principal. Les résultats positifs reposent surtout sur des critères secondaires, des sous-groupes et un effet modeste sur le stress perçu.                             |
-| **Sécurité**   | 🔴 **E** | Lpc-37® seul paraît bien toléré dans l’étude Sisu, mais la formule contient de l’eschscholtzia, disqualifiée par principe de précaution Fideta en raison d’une efficacité non démontrée et d’incertitudes d’interactions. |
+| **Sécurité**   | ☠️ | Lpc-37® seul paraît bien toléré dans l’étude Sisu, mais la formule contient de l’eschscholtzia, disqualifiée par principe de précaution Fideta en raison d’une efficacité non démontrée et d’incertitudes d’interactions. |
 | **Qualité**    | 🟡 **C** | Souche brevetée et galénique gastro-résistante, mais absence d’étude sur le produit fini et transparence insuffisante sur les doses et la caractérisation de l’extrait végétal.                                           |
 
 ---
