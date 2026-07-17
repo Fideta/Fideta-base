@@ -283,9 +283,9 @@ export default function Home() {
                       </Link>
                       <Link
                         className={`${styles.tag} ${styles.tagButton}`}
-                        to="/docs/principes/miel"
+                        to="/docs/principes/morosil"
                       >
-                        Miel
+                        Morosil
                       </Link>
                       <Link
                         className={`${styles.tag} ${styles.tagButton}`}
