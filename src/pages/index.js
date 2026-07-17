@@ -1,12 +1,88 @@
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Head from '@docusaurus/Head';
+import { usePluginData } from '@docusaurus/useGlobalData';
 import styles from './index.module.css';
 import { useAuth } from '../context/AuthContext';
 
+function AnimatedCount({ value, duration = 1200 }) {
+  const [displayedValue, setDisplayedValue] = useState(0);
+  const countRef = useRef(null);
+
+  useEffect(() => {
+    const element = countRef.current;
+    if (!element) return undefined;
+
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reduceMotion) {
+      setDisplayedValue(value);
+      return undefined;
+    }
+
+    let animationFrame;
+    let hasStarted = false;
+
+    const startAnimation = () => {
+      if (hasStarted) return;
+      hasStarted = true;
+      const startTime = performance.now();
+
+      const animate = (now) => {
+        const progress = Math.min((now - startTime) / duration, 1);
+        const easedProgress = 1 - Math.pow(1 - progress, 3);
+        setDisplayedValue(Math.round(value * easedProgress));
+
+        if (progress < 1) {
+          animationFrame = requestAnimationFrame(animate);
+        }
+      };
+
+      animationFrame = requestAnimationFrame(animate);
+    };
+
+    if (!('IntersectionObserver' in window)) {
+      startAnimation();
+      return () => {
+        if (animationFrame) cancelAnimationFrame(animationFrame);
+      };
+    }
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          startAnimation();
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.4 },
+    );
+
+    observer.observe(element);
+
+    return () => {
+      observer.disconnect();
+      if (animationFrame) cancelAnimationFrame(animationFrame);
+    };
+  }, [duration, value]);
+
+  return (
+    <span ref={countRef} className={styles.counterNumber} aria-hidden="true">
+      {displayedValue}
+    </span>
+  );
+}
+
 export default function Home() {
   const { loading, isPremium } = useAuth();
+  const principesData = usePluginData('principes-frontmatter');
+  const produitsPluginData = usePluginData('produits-frontmatter');
+  const produitsData = Array.isArray(produitsPluginData)
+    ? produitsPluginData
+    : produitsPluginData?.items || [];
+
+  const ingredientCount = Array.isArray(principesData) ? principesData.length : 0;
+  const productCount = produitsData.length;
 
   const orgJsonLd = {
     '@context': 'https://schema.org',
@@ -100,11 +176,19 @@ export default function Home() {
                   </p>
 
                   <div className={styles.buttons}>
-                    <Link className="button button--primary" to="/principes-actifs">
-                      Explorer les ingrédients
+                    <Link
+                      className="button button--primary"
+                      to="/principes-actifs"
+                      aria-label={`${ingredientCount} ingrédients analysés`}
+                    >
+                      <AnimatedCount value={ingredientCount} /> ingrédients analysés
                     </Link>
-                    <Link className="button button--secondary" to="/produits">
-                      Explorer les produits
+                    <Link
+                      className="button button--secondary"
+                      to="/produits"
+                      aria-label={`${productCount} produits analysés`}
+                    >
+                      <AnimatedCount value={productCount} /> produits analysés
                     </Link>
                   </div>
                 </div>
