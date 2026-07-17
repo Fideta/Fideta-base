@@ -117,6 +117,13 @@
   fill: currentColor;
 }
 
+.counterNumber {
+  min-width: 3ch;
+  margin-right: 0.3em;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
 .heroImage {
   flex: 1;
   text-align: center;
