@@ -218,7 +218,7 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/digest-delight">Kosbiotic Digest Delight</Link> Sans preuve d'efficacité.    
+                        <Link to="/docs/produits/BonjourDrink">Café Bonjour Drink</Link> Nouvelle formule, anciens problèmes.    
                       </li>
                       <li>
                         <Link to="/docs/produits/calm-my-mind">Kosbiotic Calm my mind</Link> Sans preuve d'efficacité non plus. 
