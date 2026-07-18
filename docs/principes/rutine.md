@@ -227,7 +227,7 @@ Privilégier un produit indiquant séparément **la masse de l’extrait et la q
 
 | Critère | Note | Commentaire |
 |---|:---:|---|
-| **Efficacité globale** | 🟠 **D** | Signal potentiellement intéressant sur la pression artérielle, mais issu d’un seul essai de 50 personnes diabétiques, sans réplication indépendante ni démonstration d’un bénéfice cardiovasculaire concret. Les autres allégations reposent sur des biomarqueurs, des associations ou des dérivés différents de la rutine. |
+| **Efficacité globale** |   | Signal potentiellement intéressant sur la pression artérielle, mais issu d’un seul essai de 50 personnes diabétiques, sans réplication indépendante ni démonstration d’un bénéfice cardiovasculaire concret. Les autres allégations reposent sur des biomarqueurs, des associations ou des dérivés différents de la rutine. |
 | **Sécurité adulte court terme** | 🟢 **B** | Tolérance rassurante jusqu’à 500 mg/j pendant trois mois dans de petits essais, mais données insuffisantes pour exclure les effets rares ou garantir la sécurité d’une utilisation prolongée. |
 | **Qualité des produits** | 🟡 **C** | Molécule facilement identifiable et dosable, mais biodisponibilité limitée, standardisation variable et confusion fréquente entre rutine, extraits végétaux et dérivés semi-synthétiques. |
 
