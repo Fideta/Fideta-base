@@ -218,10 +218,10 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/BonjourDrink">Café Bonjour Drink</Link> Nouvelle formule, anciens problèmes.    
+                        <Link to="/docs/produits/BonjourKids">Bonjour Kids</Link> On ne devrait pas cibler les enfants.     
                       </li>
                       <li>
-                        <Link to="/docs/produits/calm-my-mind">Kosbiotic Calm my mind</Link> Sans preuve d'efficacité non plus. 
+                        <Link to="/docs/produits/BonjourDrink">Café Bonjour Drink</Link> Nouvelle formule, anciens problèmes.  
                       </li>
                       <li>
                         <Link to="/docs/produits/slim-my-body">Kosbiotic Slim my body</Link> Slim My Portefeuille, le body reste à démontrer.   
