@@ -218,13 +218,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/BonjourKids">Bonjour Kids</Link> On ne devrait pas cibler les enfants.     
+                        <Link to="/docs/produits/phleboxan">Phleboxan</Link> Sous-dosé et sans preuves robustes.      
                       </li>
                       <li>
-                        <Link to="/docs/produits/BonjourDrink">Café Bonjour Drink</Link> Nouvelle formule, anciens problèmes.  
+                        <Link to="/docs/produits/BonjourKids">Bonjour Kids</Link> On ne devrait pas cibler les enfants. .  
                       </li>
                       <li>
-                        <Link to="/docs/produits/slim-my-body">Kosbiotic Slim my body</Link> Slim My Portefeuille, le body reste à démontrer.   
+                        <Link to="/docs/produits/BonjourDrink">Café Bonjour Drink</Link> Nouvelle formule, anciens problèmes.   
                       </li>
                     </ul>
 
