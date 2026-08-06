@@ -218,7 +218,7 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/novanuit_triple_action">Novanuit Triple Action</Link> Un produit avec de potentiels risques.      
+                        <Link to="/docs/produits/novanuit_triple_action">Novanuit Triple Action</Link> Un produit avec des signaux de risques.      
                       </li>
                       <li>
                         <Link to="/docs/produits/phleboxan">Phleboxan</Link> Sous-dosé et sans preuves robustes.  
