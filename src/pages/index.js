@@ -218,13 +218,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/phleboxan">Phleboxan</Link> Sous-dosé et sans preuves robustes.      
+                        <Link to="/docs/produits/novanuit_triple_action">Novanuit Triple Action</Link> Un produit avec de potentiels risques.      
                       </li>
                       <li>
-                        <Link to="/docs/produits/BonjourKids">Bonjour Kids</Link> On ne devrait pas cibler les enfants. .  
+                        <Link to="/docs/produits/phleboxan">Phleboxan</Link> Sous-dosé et sans preuves robustes.  
                       </li>
                       <li>
-                        <Link to="/docs/produits/BonjourDrink">Café Bonjour Drink</Link> Nouvelle formule, anciens problèmes.   
+                        <Link to="/docs/produits/BonjourKids">Bonjour Kids</Link> On ne devrait pas cibler les enfants.   
                       </li>
                     </ul>
 
