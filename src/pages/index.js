@@ -218,13 +218,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/forcapil_anti_chute">Forcapil Anti-Chute</Link> Ce qui doit tomber tombera.      
+                        <Link to="/docs/produits/ergymag">Ergymag</Link> Un peu survendu.      
                       </li>
                       <li>
-                        <Link to="/docs/produits/novanuit_triple_action">Novanuit Triple Action</Link> Un produit avec des signaux de risques.
+                        <Link to="/docs/produits/forcapil_anti_chute">Forcapil Anti-Chute</Link> Ce qui doit tomber tombera. 
                       </li>
                       <li>
-                        <Link to="/docs/produits/phleboxan">Phleboxan</Link> Sous-dosé et sans preuves robustes. 
+                        <Link to="/docs/produits/novanuit_triple_action">Novanuit Triple Action</Link> Un produit avec des signaux de risques. 
                       </li>
                     </ul>
 
