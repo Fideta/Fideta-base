@@ -218,13 +218,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/ergymag">Ergymag</Link> Un peu survendu.      
+                        <Link to="/docs/produits/luxeol-gummies-pousse-cheveux">Luxeol Gummies Pousse cheveux</Link> Au moins ça a bon goût.      
+                      </li>
+                      <li>
+                        <Link to="/docs/produits/ergymag">Ergymag</Link> Un peu survendu.
                       </li>
                       <li>
                         <Link to="/docs/produits/forcapil_anti_chute">Forcapil Anti-Chute</Link> Ce qui doit tomber tombera. 
-                      </li>
-                      <li>
-                        <Link to="/docs/produits/novanuit_triple_action">Novanuit Triple Action</Link> Un produit avec des signaux de risques. 
                       </li>
                     </ul>
 
