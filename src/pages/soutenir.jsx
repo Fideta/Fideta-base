@@ -1,13 +1,13 @@
 import React from 'react';
 import Layout from '@theme/Layout';
-import Link from '@docusaurus/Link';
+import DonationButtons from '../components/support/DonationButtons';
 import styles from './soutenir.module.css';
 
 export default function Soutenir() {
   return (
     <Layout
       title="Soutenir Fideta"
-      description="Soutenez Fideta par un don, des suggestions d’ingrédients/produits, ou des idées d’amélioration."
+      description="Soutenez l’indépendance de Fideta et contribuez à la publication de nouvelles analyses scientifiques."
     >
       {/* HERO */}
   <header className={styles.hero}>
@@ -27,7 +27,7 @@ export default function Soutenir() {
         </p>
 
         <p className={styles.heroText}>
-          Si Fideta vous est utile, vous pouvez soutenir le projet de plusieurs façons : par un don, en suggérant des ingrédients
+          Si Fideta vous est utile, vous pouvez soutenir le projet de plusieurs façons : par une contribution, en suggérant des ingrédients
           ou des produits à analyser, ou en proposant des améliorations.
         </p>
       </div>
@@ -43,13 +43,13 @@ export default function Soutenir() {
         <div className="container">
           <section className={styles.grid}>
             {/* CARD 1 */}
-            <article className={styles.card}>
+            <article className={`${styles.card} ${styles.cardWide}`}>
               <div className={styles.cardHeader}>
                 <span className={styles.icon} aria-hidden="true">💚</span>
                 <h2>Soutenir financièrement le projet</h2>
               </div>
 
-              <p className={styles.lead}>Les dons permettent de :</p>
+              <p className={styles.lead}>Les contributions permettent de :</p>
               <ul className={styles.list}>
                 <li>financer l’hébergement et le développement du site</li>
                 <li>améliorer les outils d’analyse et de recherche</li>
@@ -57,20 +57,10 @@ export default function Soutenir() {
               </ul>
 
               <p className={styles.meta}>
-                Don libre, ponctuel ou récurrent. <br />
-                Aucun contenu n’est réservé aux donateurs.
+                Choisissez un montant ponctuel ou saisissez librement votre contribution. Aucun contenu n’est réservé aux contributeurs et ce paiement n’ouvre pas droit à une réduction fiscale.
               </p>
 
-              <div className={styles.actions}>
-                <a
-                  className={`button button--primary ${styles.buttonPrimary}`}
-                  href="https://buy.stripe.com/eVqeVfccT82N21Ba1DfrW00"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  💚 Faire un don
-                </a>
-              </div>
+              <DonationButtons />
             </article>
 
             {/* CARD 2 */}
