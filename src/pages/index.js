@@ -331,7 +331,7 @@ export default function Home() {
                   Voir les articles
                 </Link>
 
-                <Link className="button button--primary" to="/soutenirre">
+                <Link className="button button--primary" to="/soutenir">
                   Soutenir Fideta
                 </Link>
               </section>

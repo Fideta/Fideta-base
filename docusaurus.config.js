@@ -127,6 +127,7 @@ const config = {
           title: 'More',
           items: [
             { label: 'Actu', to: '/blog' },
+            { label: 'Soutenir Fideta', to: '/soutenir' },
             { label: 'Nous contacter', to: '/contact' },
           ],
         },
