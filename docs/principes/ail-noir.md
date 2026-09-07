@@ -65,8 +65,6 @@ En pratique, l’ail noir peut être consommé comme aliment. Son intérêt thé
 - L’étude de 2023 utilisant environ 12 g/j de gousses entières n’avait pas de groupe placebo. Ses variations de biomarqueurs, parfois opposées, ne démontrent pas un bénéfice attribuable à l’ail noir.[4]
 - Un essai industriel de 2024 rapporte plusieurs résultats favorables, mais présente des incohérences d’effectifs et un compte rendu insuffisant des résultats. Les trois auteurs sont dirigeants d’entreprises impliquées dans le produit. Cette étude ne suffit pas à établir son efficacité.[6]
 
-La catégorie d’absence de preuve ne signifie pas que toutes les préparations sont définitivement inefficaces : elle indique qu’un bénéfice n’est pas établi pour l’usage considéré.
-
 ---
 
 ## ⚠️ Sécurité et précautions
