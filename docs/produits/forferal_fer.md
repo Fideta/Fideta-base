@@ -23,7 +23,7 @@ import ProduitHero from '@site/src/components/fiches/ProduitHero';
 ## ⚫ Note Fideta : F – Score : 22/100
 **Absence de preuve clinique pour les usages proposés**
 
-FORFERAL apporte **14 mg de fer Sucrosomial® SiderAL®** et **80 mg de vitamine C** par jour. Le fer possède un rôle nutritionnel indispensable et une supplémentation est efficace lorsqu’elle répond à une carence ou à un risque de carence correctement identifié. La forme sucrosomiale dispose par ailleurs de données humaines encourageantes, principalement sur la **tolérance digestive**. Ces éléments justifient que le produit conserve quelques points.
+FORFERAL apporte **14 mg de fer Sucrosomial® SiderAL®** et **80 mg de vitamine C** par jour. Le fer possède un rôle nutritionnel indispensable et une supplémentation est efficace lorsqu’elle répond à une carence ou à un risque de carence correctement identifié. La forme sucrosomiale dispose par ailleurs de données humaines encourageantes, principalement sur la **tolérance digestive**.
 
 Ils ne démontrent toutefois pas l’efficacité de **FORFERAL à sa posologie commercialisée** dans les deux situations mises en avant : la **mauvaise tolérance à une supplémentation en fer de première intention** et le contexte **péri-opératoire**.
 
@@ -130,3 +130,9 @@ Une carence martiale chez un homme adulte ou une femme ménopausée doit notamme
 ## 🛡️ Note légale
 
 Cette fiche est établie à partir d’une **revue critique** des données scientifiques disponibles à la date d’analyse. Elles ne tiennent pas compte d’éventuelles données internes, non publiées ou confidentielles des laboratoires. Elle **ne constitue pas** un avis médical ni une recommandation personnalisée. Pour toute décision de santé — diagnostic d’une carence, supplémentation ou gestion d’interactions médicamenteuses — **consultez un professionnel de santé**.
+
+---
+
+<sub><em>Dernière mise à jour : 25 septembre 2026</em></sub>
+
+
