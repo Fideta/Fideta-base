@@ -20,9 +20,9 @@ import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
 ---
 
-## 🔴 Note Fideta : E – Score : 30/100  
+## ⚫ Note Fideta : F – Score : 29/100  
 
-**Pertinence limitée**
+**Pertinence très limitée**
 
 Ce complément alimentaire combine le complexe Guanylor® (levure + sulfate ferreux) au sulfate de cuivre (complexé Guanylor®). Les effets cliniques démontrés du fer concernent essentiellement la **correction d’une carence documentée** (avec des doses bien supérieures à celles de ce produit) et la **prévention** en contextes spécifiques (grossesse, nourrissons). Hors déficit, les bénéfices sont **faibles ou absents**. Les allégations “fer : globules rouges, oxygène, fatigue” et “cuivre : transport du fer” sont **autorisées** au titre du règlement (UE) 432/2012, mais **ne préjugent pas d’un bénéfice clinique** chez les sujets sans déficit. Aucune **donnée clinique publiée** n’a été trouvée pour la forme propriétaire **Guanylor® FeCu** revendiquant une meilleure biodisponibilité par rapport au sulfate ferreux.
 
@@ -38,6 +38,14 @@ L’ajout de **cuivre (0,5 mg)** n’est justifié qu’en prévention d’une c
 > Le produit est présenté comme spécifiquement destiné aux femmes. Toutefois, la composition (14 mg de fer et 0,5 mg de cuivre) et la forme des actifs sont identiques à celles d’[Oligobiane FeCu](/docs/produits/Oligobiane_FeCu) du même laboratoire.  
 > Il n’existe pas de métabolisme du fer différent entre l’homme et la femme ; seuls les besoins nutritionnels peuvent varier selon les situations (ex. pertes menstruelles, grossesse).  
 > En l’absence d’adaptation particulière de formulation ou de dosage, cette différenciation relève davantage d’un positionnement de gamme que d’une spécificité scientifique démontrée.
+
+:::danger ATTENTION
+
+Feminabiane Fer peut compléter les apports alimentaires en fer. Toutefois, ses 14 mg par jour sont inférieurs aux 30 à 60 mg recommandés par l’OMS pour prévenir l’anémie pendant la grossesse. Le produit ne contient pas non plus l’acide folique associé à cette recommandation. Son efficacité comme seule supplémentation préventive pendant la grossesse n’est donc pas établie.
+
+Feminabiane Fer est un complément alimentaire : il est soumis à des règles de sécurité et à des contrôles, mais sa mise sur le marché ne nécessite pas de démontrer une efficacité thérapeutique pour cette indication, contrairement à un médicament.
+
+:::
 
 
 ---
@@ -130,4 +138,4 @@ Pour toute décision de santé (diagnostic de carence, supplémentation, interac
 
 ---
 
-<sub><em>Dernière mise à jour : 16 février 2026</em></sub>
+<sub><em>Dernière mise à jour : 25 Septembre 2026</em></sub>
