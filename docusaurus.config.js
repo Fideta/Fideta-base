@@ -106,7 +106,7 @@ const config = {
         { to: '/blog', label: 'Actu', position: 'left' },
         { to: '/scan', label: 'Scanner', position: 'right', className: 'fab-scan' },
         { to: '/search', label: '🔍 Rechercher', position: 'right' },
-        { to: '/soutenir', label: 'Soutenir', position: 'right' },
+        { to: '/soutenir', label: 'Soutenir', position: 'right', className: 'fideta-navbar-support' },
         { type: 'custom-account', position: 'right' },
       ],
     },

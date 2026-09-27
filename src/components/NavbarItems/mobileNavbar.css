@@ -1,0 +1,86 @@
+/* Keep account and support accessible alongside the hamburger menu. */
+@media (max-width: 996px) {
+  .navbar .navbar__inner {
+    flex-wrap: nowrap;
+    gap: 6px;
+  }
+
+  .navbar .navbar__inner > .navbar__items:first-child {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .navbar .navbar__inner > .navbar__items--right {
+    flex: 0 0 auto;
+    gap: 6px;
+    padding: 0;
+  }
+
+  .navbar .navbar__brand {
+    margin-right: 0;
+    min-width: 0;
+  }
+
+  .navbar .navbar__inner .fideta-navbar-account,
+  .navbar .navbar__inner .fideta-navbar-support {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    min-height: 44px;
+    padding: 8px 6px;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: var(--ifm-font-weight-bold, 700);
+    line-height: inherit;
+    white-space: nowrap;
+    text-decoration: none;
+  }
+
+  .navbar .navbar__inner .fideta-navbar-account,
+  .navbar .navbar__inner .fideta-navbar-account:visited {
+    order: 1;
+    color: var(--ifm-font-color-base);
+    background: transparent;
+  }
+
+  .navbar .navbar__inner .fideta-navbar-support,
+  .navbar .navbar__inner .fideta-navbar-support:visited {
+    order: 2;
+    color: var(--ifm-font-color-base);
+    background: transparent;
+  }
+
+  .navbar .navbar__inner .fideta-navbar-account:is(:hover, :focus-visible, :active),
+  .navbar .navbar__inner .fideta-navbar-support:is(:hover, :focus-visible, :active) {
+    color: var(--ifm-color-primary);
+    background: transparent;
+  }
+
+  .navbar .navbar__inner .fideta-navbar-account:focus-visible,
+  .navbar .navbar__inner .fideta-navbar-support:focus-visible {
+    outline: 2px solid var(--ifm-font-color-base);
+    outline-offset: 2px;
+  }
+
+  /* The support action already appears in the top bar. */
+  .navbar-sidebar .fideta-navbar-support,
+  .navbar-sidebar .menu__list-item:has(> .fideta-navbar-support) {
+    display: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar .navbar__inner .navbar__brand .navbar__title {
+    display: none;
+  }
+
+  .navbar .navbar__inner .fideta-navbar-account,
+  .navbar .navbar__inner .fideta-navbar-support {
+    padding-inline: 4px;
+  }
+}
+
