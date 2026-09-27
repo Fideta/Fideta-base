@@ -9,34 +9,34 @@ export default function Soutenir() {
       title="Soutenir Fideta"
       description="Soutenez l’indépendance de Fideta et contribuez à la publication de nouvelles analyses scientifiques."
     >
-      {/* HERO */}
-  <header className={styles.hero}>
-  <div className={styles.heroFull}>
-    <div className="container">
-      <div className={styles.heroCenteredLeft}>
-        <h1 className={styles.heroTitle}>Soutenir Fideta</h1>
-
-        <p className={styles.heroLead}>
-          Fideta est un projet indépendant qui décrypte la science des compléments alimentaires
-          pour vous aider à faire des choix plus éclairés.
-        </p>
-
-        <p className={styles.heroText}>
-          Construire et maintenir Fideta demande du temps, de la rigueur scientifique, et un développement technique continu
-          (hébergement, ajout de fiches, amélioration de la recherche, mise à jour des analyses).
-        </p>
-
-        <p className={styles.heroText}>
-          Si Fideta vous est utile, vous pouvez soutenir le projet de plusieurs façons : par une contribution, en suggérant des ingrédients
-          ou des produits à analyser, ou en proposant des améliorations.
-        </p>
-      </div>
-    </div>
-  </div>
-</header>
-
-
-
+      <header className={styles.hero}>
+        <div className="container">
+          <div className={styles.heroCenteredLeft}>
+            <h1 className={styles.heroTitle}>Soutenir Fideta</h1>
+            <p className={styles.heroLead}>
+              Une analyse vous a aidé à y voir plus clair ?
+              Votre soutien aide à publier les prochaines.
+            </p>
+            <p className={styles.heroText}>
+              Je suis Thomas Gassies, docteur en pharmacie et créateur de Fideta.
+              Je consulte les études, j’évalue les preuves et je mets les fiches à jour
+              pour vous aider à faire des choix éclairés.
+            </p>
+            <p className={styles.metaStrong}>
+              Fideta ne reçoit aucun financement des marques de compléments alimentaires.
+            </p>
+            <DonationButtons />
+            <p className={styles.paymentNote}>
+              Contribution ponctuelle, sans abonnement ni compte Fideta obligatoire.
+              Paiement sécurisé par Stripe.
+            </p>
+            <p className={styles.meta}>
+              Cette contribution ne donne pas accès à Fideta Plus et n’ouvre pas droit
+              à une réduction fiscale. Les fiches restent consultables gratuitement.
+            </p>
+          </div>
+        </div>
+      </header>
 
       {/* MAIN */}
       <main className={styles.main}>
@@ -46,21 +46,19 @@ export default function Soutenir() {
             <article className={`${styles.card} ${styles.cardWide}`}>
               <div className={styles.cardHeader}>
                 <span className={styles.icon} aria-hidden="true">💚</span>
-                <h2>Soutenir financièrement le projet</h2>
+                <h2>Ce que votre soutien permet</h2>
               </div>
 
-              <p className={styles.lead}>Les contributions permettent de :</p>
+              <p className={styles.lead}>Votre contribution aide à consacrer du temps à :</p>
               <ul className={styles.list}>
-                <li>financer l’hébergement et le développement du site</li>
-                <li>améliorer les outils d’analyse et de recherche</li>
-                <li>maintenir un contenu indépendant, sans sponsoring</li>
+                <li>rechercher et lire les études sur les ingrédients et les produits</li>
+                <li>rédiger de nouvelles analyses et actualiser les fiches existantes</li>
+                <li>développer et maintenir les outils de consultation du site</li>
               </ul>
 
               <p className={styles.meta}>
-                Choisissez un montant ponctuel ou saisissez librement votre contribution. Aucun contenu n’est réservé aux contributeurs et ce paiement n’ouvre pas droit à une réduction fiscale.
+                Le montant est libre. Votre soutien ne modifie ni la méthode d’évaluation ni les conclusions des fiches.
               </p>
-
-              <DonationButtons />
             </article>
 
             {/* CARD 2 */}
