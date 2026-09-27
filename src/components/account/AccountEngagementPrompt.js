@@ -13,7 +13,8 @@ function isSuppressedPath(pathname) {
     pathname.startsWith('/connexion') ||
     pathname.startsWith('/compte') ||
     pathname.startsWith('/update-password') ||
-    pathname.startsWith('/scan')
+    pathname.startsWith('/scan') ||
+    pathname.startsWith('/soutenir')
   );
 }
 
@@ -39,7 +40,10 @@ export default function AccountEngagementPrompt() {
   useEffect(() => {
     if (typeof window === 'undefined') return undefined;
     if (loading || isLoggedIn) return undefined;
-    if (isSuppressedPath(location.pathname)) return undefined;
+    if (isSuppressedPath(location.pathname)) {
+      setOpen(false);
+      return undefined;
+    }
     if (window.sessionStorage.getItem(SESSION_SEEN_KEY) === '1') return undefined;
     if (wasDismissedRecently()) return undefined;
 
@@ -89,7 +93,7 @@ export default function AccountEngagementPrompt() {
 
   return (
     <AccountSignupPrompt
-      open={open}
+      open={open && !isSuppressedPath(location.pathname)}
       variant="engagement"
       onClose={handleClose}
     />
