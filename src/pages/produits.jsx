@@ -4,6 +4,7 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import { usePluginData } from "@docusaurus/useGlobalData";
 import styles from "./produits.module.css";
+import { normalizeSearch } from "../utils/normalizeSearch";
 
 const ALL_CATEGORIES = [
   "Tous", "Sommeil", "Énergie",
@@ -24,13 +25,13 @@ export default function ProduitsPage() {
 
   // Filtrage + tri
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
+    const q = normalizeSearch(query);
     return (produitsData || [])
       .filter((it) => {
         const inCat = category === "Tous" || (it.categories || []).includes(category);
         if (!inCat) return false;
         if (!q) return true;
-        const hay = `${it.title} ${it.synopsis} ${(it.synonyms || []).join(" ")}`.toLowerCase();
+        const hay = normalizeSearch(`${it.title} ${it.synopsis} ${(it.synonyms || []).join(" ")}`);
         return hay.includes(q);
       })
       .sort((a, b) => (a.title || "").localeCompare(b.title || "", "fr"));

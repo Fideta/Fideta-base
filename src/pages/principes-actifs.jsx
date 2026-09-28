@@ -4,6 +4,7 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import { usePluginData } from "@docusaurus/useGlobalData";
 import styles from "./principes-actifs.module.css";
+import { normalizeSearch } from "../utils/normalizeSearch";
 
 const ALL_CATEGORIES = [
   "Tous", "Vitamines", "Minéraux", "Acides gras", "Plantes",
@@ -21,13 +22,13 @@ export default function PrincipesActifsPage() {
 
   // Filtrage
   const filtered = useMemo(() => {
-    const q = query.trim().toLowerCase();
+    const q = normalizeSearch(query);
     return pluginData
       .filter((it) => {
         const inCat = category === "Tous" || it.categories.includes(category);
         if (!inCat) return false;
         if (!q) return true;
-        const haystack = `${it.title} ${it.synopsis} ${(it.synonyms || []).join(" ")}`.toLowerCase();
+        const haystack = normalizeSearch(`${it.title} ${it.synopsis} ${(it.synonyms || []).join(" ")}`);
         return haystack.includes(q);
       })
       .sort((a, b) => (a.title || "").localeCompare(b.title || "", "fr"));

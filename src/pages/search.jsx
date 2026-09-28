@@ -36,7 +36,7 @@ export default function SearchPage() {
         element: ref.current,
         bundlePath: pagefindPath,   // ← important
         baseUrl,                    // ← important
-        showSubResults: true,
+        showSubResults: false,
         showImages: true,
         debounceTimeoutMs: 250,
         // “pliage” des accents pour les requêtes
@@ -48,7 +48,7 @@ export default function SearchPage() {
           load_more: "Voir plus",
           zero_results: "Aucun résultat",
           one_result: "1 résultat trouvé",
-          many_results: "{count} résultats trouvés",
+          many_results: "[COUNT] résultats trouvés",
           filters_label: "Filtres",
           searching_for: "Recherche de « [SEARCH_TERM] »…",
         },
