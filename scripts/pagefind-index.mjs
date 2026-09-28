@@ -34,7 +34,14 @@ if (htmlFiles.length === 0) {
 
 // Indexation via l’API Node
 const { createIndex } = await import("pagefind");
-const { index } = await createIndex({ forceLanguage: process.env.PAGEFIND_FORCE_LANGUAGE || "fr" });
+const { index } = await createIndex({
+  forceLanguage: process.env.PAGEFIND_FORCE_LANGUAGE || "fr",
+  // N'indexer que le contenu des pages, pas les menus, sommaires ou pieds de page.
+  excludeSelectors: [
+    "header", "nav", "aside", "footer",
+    ".theme-doc-footer", "[class*='tocCollapsible']", "[class*='skipToContent']",
+  ],
+});
 const { page_count, errors } = await index.addDirectory({
   path: buildDir,
   glob: "**/*.html",
