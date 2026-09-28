@@ -218,13 +218,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/forferal_fer_b_complex">Forferal Fer B Complex</Link> Une nouvelle forme sans preuves nouvelles à ce dosage.      
+                        <Link to="/docs/produits/circles_clear">CLEAR (Circles)</Link> Beaucoup de promesses...      
                       </li>
                       <li>
-                        <Link to="/docs/produits/forferal_fer">Forferal Fer</Link> C'est nouveau mais pas forcément mieux.   
+                        <Link to="/docs/produits/forferal_fer_b_complex">Forferal Fer B Complex</Link> Une nouvelle forme sans preuves nouvelles à ce dosage.
                       </li>
                       <li>
-                        <Link to="/docs/produits/mag2_sommeil">Mag 2 Sommeil</Link> Pas trop conseillé.
+                        <Link to="/docs/produits/forferal_fer">Forferal Fer</Link> C'est nouveau mais pas forcément mieux.
                       </li>
                     </ul>
 
