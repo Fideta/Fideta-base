@@ -21,7 +21,7 @@ import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
 <PrincipeHero
   title={"Camomille"}
-  scientificName={"capitules floraux (sommités fleuries)"}
+  scientificName={"Matricaria recutita , Chamomilla recutita"}
   partUsed={"capitules floraux (sommités fleuries)"}
   origin={"Europe et Asie occidentale, aujourd’hui cultivée mondialement"}
   image={"/img/principes/camomille.jpg"}
