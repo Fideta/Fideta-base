@@ -218,13 +218,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/circles_clear">CLEAR (Circles)</Link> Beaucoup de promesses...      
+                        <Link to="/docs/produits/ergymyo_flash">ErgyMyo Flash</Link> Assez clair sur les revendications mais...    
+                      </li>
+                      <li>
+                        <Link to="/docs/produits/circles_clear">CLEAR (Circles)</Link> Beaucoup de promesses...  
                       </li>
                       <li>
                         <Link to="/docs/produits/forferal_fer_b_complex">Forferal Fer B Complex</Link> Une nouvelle forme sans preuves nouvelles à ce dosage.
-                      </li>
-                      <li>
-                        <Link to="/docs/produits/forferal_fer">Forferal Fer</Link> C'est nouveau mais pas forcément mieux.
                       </li>
                     </ul>
 
