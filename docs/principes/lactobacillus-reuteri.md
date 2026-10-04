@@ -108,8 +108,6 @@ La note Fideta est une interprétation critique des données humaines. Elle ne c
 | **Sécurité** | 🟢 **B** | Tolérance généralement bonne chez le sujet sain pour les souches et durées évaluées ; prudence particulière chez les patients fragiles ; événements rares et utilisation indéfinie insuffisamment documentés |
 | **Qualité** | 🟡 **C** | Qualité variable selon le produit ; souche identifiée, quantité par souche, viabilité jusqu’à péremption et concordance avec les essais indispensables |
 
-Les notes de sécurité et de qualité sont des **appréciations générales et qualitatives**, distinctes de la grille de preuve d’efficacité. Elles ne constituent pas une certification de tous les compléments contenant L. reuteri.
-
 ---
 
 ## 📚 Références scientifiques
