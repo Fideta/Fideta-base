@@ -37,14 +37,14 @@ La sécurité est excellente : statut **QPS** signifiant présomption d'inocuit�
 Efficacité **souche-dépendante** :
 
 - **Prématurés :** réduction du risque d’entérocolite nécrosante (EN) avec certaines préparations contenant *B. infantis / B. longum* (souvent multi-souche).  
-- **SII :** la souche **35624** dispose de plusieurs essais et d’une revue systématique montrant une amélioration des symptômes.  
+- **SII :** la souche **35624** dispose de plusieurs essais et d’une revue systématique montrant une amélioration des symptômes mais pas nécessairement à toutes les doses.  
 - **Constipation du sujet âgé :** BB536 → effets modestes, objectif primaire non atteint.  
 - **Axe intestin–cerveau :** NCC3001 → résultats préliminaires positifs mais non répliqués.  
 - **Dépression (souache R0175 en combinaison) :** RCT négatif.  
 - **Immunité, infections ORL, métabolisme :** données insuffisantes ou faibles selon les souches.
 
 **Conclusion :**  
-Sécurité excellente. Efficacité réelle mais confinée à quelques couples **souche + indication**.  
+Sécurité très bonne mais l'usage chez les prématurés ne doit se faire qu'en milieu hospitalier, des infections invasives ayant déjà été documentées. Efficacité réelle mais confinée à quelques couples **souche + indication**.  
 Un produit marqué uniquement “*B. longum*” n’a **aucune preuve interprétable**.
 
 ---
@@ -54,7 +54,7 @@ Un produit marqué uniquement “*B. longum*” n’a **aucune preuve interprét
 | Fonction ciblée | Effet (population / souche) | Niveau | Dose efficace |
 |-----------------|-----------------------------|--------|---------------|
 | Prévention EN (prématurés) | Réduction du risque avec préparations contenant *B. infantis / B. longum* (souvent multi-souche) | 🟢 B — preuves probables (plusieurs RCT + méta-analyses, hétérogènes mais convergentes) | 10⁸–10⁹ UFC/j |
-| SII – Souche 35624 | ↓ douleurs, ↓ ballonnements, ↑ qualité de vie | 🟢 B — plusieurs RCT positives cohérentes + revue systématique | 10⁸–10¹⁰ UFC/j |
+| SII – Souche 35624 | Amélioration possible des douleurs et des symptômes globaux ; résultats variables selon les essais | 🟡 C — données encourageantes, mais efficacité inconstante et transposabilité limitée | Résultats positifs à 10⁸ UFC/j en gélule pendant 4 semaines et à 10¹⁰ bactéries/j dans une boisson lactée pendant 8 semaines. À 10⁹ UFC/j en gélule, un essai n’a pas retrouvé de bénéfice symptomatique significatif. |
 | Constipation sujet âgé – BB536 | Effet clinique non démontré, critère principal négatif ; quelques signaux secondaires peu convaincants | ⚫ F — une RCT correcte mais globalement négative (inefficacité clinique) | 5×10¹⁰ UFC/j |
 | Transit adulte sain – BB536 | Légère amélioration rapportée dans de petites études, non confirmée et méthodologiquement fragile | 🔴 E — données isolées et faibles, pas de preuve convaincante d’un effet réel | 10⁹–10¹⁰ UFC/j |
 | Axe intestin–cerveau – NCC3001 | ↓ scores dépressifs + modifications IRMf chez patients SII avec comorbidité dépressive | 🟡 C — un seul RCT de qualité correcte, résultats encourageants mais non reproduits | ~10¹⁰ UFC/j |
