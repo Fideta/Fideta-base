@@ -218,13 +218,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/ergymyo_flash">ErgyMyo Flash</Link> Assez clair sur les revendications mais...    
+                        <Link to="/docs/produits/luxeol_epaississant">Luxéol Epaississant</Link> Dossier clinique pas très épais...    
                       </li>
                       <li>
-                        <Link to="/docs/produits/circles_clear">CLEAR (Circles)</Link> Beaucoup de promesses...  
+                        <Link to="/docs/produits/biogaia_evo_bebe">Biogaia Evo bébé</Link> Une nouveauté avec peu d'études propres. 
                       </li>
                       <li>
-                        <Link to="/docs/produits/forferal_fer_b_complex">Forferal Fer B Complex</Link> Une nouvelle forme sans preuves nouvelles à ce dosage.
+                        <Link to="/docs/produits/biogaia_gouttes">Biogaia Gouttes</Link> Des preuves solides dans certains usages.
                       </li>
                     </ul>
 
