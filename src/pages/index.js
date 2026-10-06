@@ -218,13 +218,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/luxeol_epaississant">Luxéol Epaississant</Link> Dossier clinique pas très épais...    
+                        <Link to="/docs/produits/symbiosys_alflorex_sii">Symbiosys Alflorex SII</Link> Avec des preuves mais en fait peut-être pas.     
                       </li>
                       <li>
-                        <Link to="/docs/produits/biogaia_evo_bebe">Biogaia Evo bébé</Link> Une nouveauté avec peu d'études propres. 
+                        <Link to="/docs/produits/luxeol_epaississant">Luxéol Epaississant</Link> Dossier clinique pas très épais...   
                       </li>
                       <li>
-                        <Link to="/docs/produits/biogaia_gouttes">Biogaia Gouttes</Link> Des preuves solides dans certains usages.
+                        <Link to="/docs/produits/biogaia_evo_bebe">Biogaia Evo bébé</Link> Une nouveauté avec peu d'études propres.
                       </li>
                     </ul>
 
