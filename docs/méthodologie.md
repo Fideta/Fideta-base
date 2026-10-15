@@ -34,18 +34,33 @@ Fideta attribue à chaque complément une **note globale**, fondée sur :
 
 ### 🔬 Niveaux de preuve scientifique (ingrédients actifs)
 
+Cette échelle mesure le **degré de validation scientifique d’un bénéfice pour un usage précis**, de l’efficacité solidement démontrée à l’absence de soutien clinique exploitable. Elle tient compte de la qualité des études, de leur cohérence, de leur précision et de leur pertinence clinique.
+
 | Note | Description | Critères scientifiques |
 |------|-------------|------------------------|
-| **✅ A — Preuve solide** | Effet démontré | Plusieurs essais cliniques robustes (RCT bien conduites), cohérents entre eux, souvent appuyés par méta-analyses. Forte reproductibilité et biais faibles. |
-| **🟢 B — Preuve probable** | Effet crédible | RCT de bonne qualité mais limitées en nombre, taille ou durée. Résultats globalement positifs et plausibilité biologique forte. Reproductibilité partielle. |
-| **🟡 C — Preuve modérée** | Indices faibles mais plausibles | Au moins une étude humaine **acceptable** (randomisée ou contrôlée correctement) montrant un effet modeste mais cohérent. Résultats encourageants mais puissance ou reproduction insuffisantes. |
-| **🟠 D — Preuve faible** | Indices très fragiles | Données humaines faibles : petites études, non randomisées, méthodologie insuffisante, biais élevés. Un signal léger peut exister mais la fiabilité est faible. |
-| **🔴 E — Pas de preuve convaincante** | Données incomplètes | Quelques études humaines isolées, anciennes ou non reproduites. Trop de lacunes pour suggérer un effet réel. Vide clinique partiel. |
-| **⚫ F — Inefficacité démontrée OU absence de preuve clinique exploitable** | Pas d’effet ou pas de preuve | Plusieurs essais robustes montrent **absence d’effet**, **ou** étude humaine unique mais négative, **ou** aucune étude clinique humaine (seulement in vitro/animal). Les données faibles ou mal faites ne sont **pas considérées comme probantes**. (absence de placebo ou étude publiée dans une revue prédatrice |
-| **☠️ Disqualifié — Danger** | Risque établi | Toxicité démontrée, interactions graves, substance interdite, dose toxique, ou effets indésirables crédiblement imputables à l’ingrédient. |
+| **✅ A — Preuve solide** | Effet démontré | Plusieurs essais cliniques robustes (RCT bien conduites), cohérents entre eux, souvent appuyés par des méta-analyses. Bénéfice cliniquement pertinent, forte reproductibilité et biais faibles. |
+| **🟢 B — Preuve probable** | Effet crédible | RCT de bonne qualité mais limitées en nombre, taille ou durée. Résultats globalement positifs, avec une reproductibilité partielle. La plausibilité biologique renforce l’interprétation, sans remplacer la démonstration clinique. |
+| **🟡 C — Preuve modérée** | Indices faibles mais plausibles | Au moins une étude humaine **acceptable** (randomisée ou contrôlée correctement) montrant un bénéfice, éventuellement modeste. Résultats encourageants mais précision ou reproduction insuffisantes. |
+| **🟠 D — Preuve faible** | Indices très fragiles | Données humaines pertinentes et interprétables, mais fragilisées par de petits effectifs, des biais importants ou des limites méthodologiques. Un signal favorable existe, mais sa fiabilité est très faible. |
+| **🔴 E — Pas de preuve convaincante** | Données incomplètes ou non concluantes | Des données humaines pertinentes et au moins partiellement exploitables existent, mais leur ensemble ne dégage pas de signal favorable suffisamment crédible : résultats imprécis, discordants ou insuffisamment confirmés. L’ancienneté ou l’absence de reproduction ne constituent pas, à elles seules, un motif de classement. |
+| **⚫ F — Inefficacité démontrée OU absence de preuve clinique exploitable** | Pas de bénéfice établi ou pas de preuve exploitable | **Deux situations distinctes :** des études fiables et suffisamment précises permettent d’écarter un bénéfice cliniquement pertinent ; **ou** aucune donnée clinique humaine exploitable ne soutient l’usage évalué : absence d’étude pertinente, données uniquement animales ou in vitro, ou études présentant des défauts majeurs empêchant une interprétation crédible. L’accumulation d’études inexploitables ne constitue pas une preuve. |
+| **☠️ Disqualifié — Danger** | Risque établi ou inacceptable | Toxicité démontrée, interactions graves, substance interdite pour des raisons sanitaires, dose toxique ou effets indésirables graves crédiblement imputables à l’ingrédient. Le classement tient compte de la gravité du risque, des conditions d’utilisation et du bénéfice attendu. |
 
-> ℹ️ **Important** : une mauvaise note ne signifie pas toujours "dangereux", mais peut simplement indiquer **l'absence de bénéfices démontrés**.  
-> La note **☠️ Disqualifié**, en revanche, alerte sur un **risque établi ou inacceptable** pour la santé.
+> ℹ️ **Interprétation des notes**
+>
+> Une mauvaise note ne signifie pas nécessairement « dangereux » : elle peut simplement indiquer **l’absence de bénéfice démontré**.
+>
+> La note **F** distingue, dans le commentaire, **« absence de bénéfice cliniquement pertinent démontrée »** et **« absence de preuve clinique exploitable »**. Ces deux situations ne correspondent pas au même état des connaissances.
+>
+> **Un essai non significatif ne démontre pas automatiquement l’inefficacité.** L’effet estimé et son intervalle de confiance doivent permettre d’apprécier si un bénéfice pertinent reste possible.
+>
+> **L’absence de placebo n’exclut pas automatiquement une étude** : un comparateur actif approprié peut permettre une évaluation valable. En revanche, une simple amélioration avant/après ne suffit généralement pas à établir l’efficacité propre de l’ingrédient.
+>
+> Une publication dans une **revue prédatrice** constitue une alerte majeure sur sa fiabilité. Si les garanties méthodologiques et les données ne permettent pas une vérification crédible, l’étude n’est pas retenue comme preuve exploitable. À l’inverse, la réputation d’une revue ne garantit pas la qualité d’une étude.
+>
+> Les notes s’appliquent à **un usage, une population, une dose et une voie d’administration précis**. Elles ne sont pas automatiquement transposables à d’autres conditions d’utilisation.
+>
+> La note **☠️ Disqualifié** relève d’une évaluation distincte du risque : **l’absence de preuve d’efficacité ou de données de sécurité ne suffit pas, à elle seule, à établir un danger**.
 
 ---
 
