@@ -218,13 +218,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/symbiosys_alflorex_sii">Symbiosys Alflorex SII</Link> Avec des preuves mais en fait peut-être pas.     
+                        <Link to="/docs/produits/hydrelia">Hydrelia</Link> Ce produit pose un problème éthique.     
                       </li>
                       <li>
-                        <Link to="/docs/produits/luxeol_epaississant">Luxéol Epaississant</Link> Dossier clinique pas très épais...   
+                        <Link to="/docs/produits/ergydol">Ergydol</Link> Beaucoup d'ingrédients pour peu de preuves.  
                       </li>
                       <li>
-                        <Link to="/docs/produits/biogaia_evo_bebe">Biogaia Evo bébé</Link> Une nouveauté avec peu d'études propres.
+                        <Link to="/docs/produits/symbiosys_alflorex_sii">Symbiosys Alflorex SII</Link> Avec des preuves mais en fait peut-être pas.  
                       </li>
                     </ul>
 
