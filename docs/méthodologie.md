@@ -105,7 +105,8 @@ Les produits non disqualifiés sont ensuite analysés selon plusieurs critères 
 Chacun de ces critères influence le score final.  
 La **pondération exacte n’est pas rendue publique** pour éviter les stratégies d’optimisation artificielle par les marques.
 
-👉 **Règle importante :** la note attribuée au produit correspond toujours à **l’indication mise en avant par le fabricant (implicite ou explicite)**.  
+👉 **Règle importante :** la note attribuée au produit correspond toujours à **l’indication mise en avant par le fabricant (implicite ou explicite)**.
+
 - Un ingrédient peut être noté **A dans un contexte précis** (ex. carence) mais **F dans un autre** (ex. usage “anti-fatigue”).  
 - Le produit hérite de la note correspondant à l’usage marketing qu’il revendique, et non au meilleur contexte théorique.
 
@@ -139,4 +140,26 @@ Le contenu repose uniquement sur des publications scientifiques, des revues syst
 
 ---
 
+## Usage de l’intelligence artificielle
+
+Fideta utilise des outils d’intelligence artificielle pour assister la recherche documentaire, la synthèse des publications et la rédaction des fiches. Cette assistance permet de consacrer davantage de temps à l’évaluation critique des données et de développer le projet avec des moyens limités.
+
+L’usage de ces outils est désormais encadré dans le domaine de la synthèse scientifique. **Cochrane, notamment, autorise leur utilisation à condition qu’elle soit transparente, supervisée par un être humain et qu’elle ne compromette pas la rigueur méthodologique des analyses.** Voir sa [déclaration de positionnement sur l’utilisation de l’IA dans la synthèse des données probantes](https://france.cochrane.org/news/declaration-de-positionnement-sur-lutilisation-de-lintelligence-artificielle-dans-la-synthese).
+
+**Sur Fideta, l’analyse critique et la responsabilité éditoriale restent celles de l'équipe**. Les références et les données retenues sont vérifiées dans les sources consultées. La pertinence clinique des résultats, les limites des études, les niveaux de preuve et les notes attribuées font l’objet d’une évaluation et d’une validation humaines.
+
+Les outils d’IA peuvent omettre des études, produire des références erronées ou proposer des interprétations inexactes. Leurs réponses ne constituent donc pas des preuves scientifiques et ne garantissent pas l’exhaustivité de la recherche bibliographique. Les conclusions publiées reposent sur les sources vérifiées et citées dans chaque fiche.
+
+---
+
+## Fideta détient-il la vérité absolue ?
+
+**Non.** L’objectivité est un objectif vers lequel on peut tendre, sans pouvoir garantir de l’atteindre. Malgré la méthode, les outils et les vérifications, nous pouvons avoir des biais, oublier des éléments ou faire des erreurs.
+
+Fideta doit donc servir **d’outil de réflexion, pas de réponse incontestable**. Son but est de vous aider à comprendre les données scientifiques et à vous faire un avis éclairé. Gardez un regard critique, y compris sur nos analyses : consultez les références, confrontez-les à d’autres sources et signalez-nous ce qui vous semble discutable. C’est aussi comme cela que Fideta peut progresser.
+
+---
+
 👉 Le but : permettre à chacun — professionnel de santé, patient ou consommateur curieux — de faire des choix **clairs, informés et fondés sur les faits**.
+
+
