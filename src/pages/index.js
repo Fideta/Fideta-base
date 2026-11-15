@@ -218,13 +218,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/hydrelia">Hydrelia</Link> Ce produit pose un problème éthique.     
+                        <Link to="/docs/produits/d3-biane-capsules-1000-ui">D3 Biane Capsules 1000 UI</Link> Ne vaut pas un médicament et pas pour tout le monde.     
+                      </li>
+                      <li>
+                        <Link to="/docs/produits/hydrelia">Hydrelia</Link> Ce produit pose un problème éthique.    
                       </li>
                       <li>
                         <Link to="/docs/produits/ergydol">Ergydol</Link> Beaucoup d'ingrédients pour peu de preuves.  
-                      </li>
-                      <li>
-                        <Link to="/docs/produits/symbiosys_alflorex_sii">Symbiosys Alflorex SII</Link> Avec des preuves mais en fait peut-être pas.  
                       </li>
                     </ul>
 
