@@ -34,11 +34,22 @@ import PrincipeHero from '@site/src/components/fiches/PrincipeHero';
 
 ## Avis global
 
-**La L-théanine présente un signal modeste et incertain sur le stress ponctuel.** Dans une méta-analyse de 2026, l’effet estimé repose en grande partie sur des essais à risque élevé de biais. Après environ quatre semaines de prise quotidienne, les petits essais contre placebo n’ont pas montré de bénéfice convaincant sur le **stress perçu** ou l’**anxiété**. <sup><a href="#ref-1">1</a></sup>, <sup><a href="#ref-2">2</a></sup>, <sup><a href="#ref-3">3</a></sup>
+La L-théanine est un acide aminé caractéristique du thé, étudié comme complément pour ses effets supposés sur le stress, l’anxiété, le sommeil et l’attention.  
+
+**Elle présente un signal modeste et incertain sur le stress ponctuel.** Dans une méta-analyse de 2026, l’effet estimé repose en grande partie sur des essais à risque élevé de biais. Après environ quatre semaines de prise quotidienne, les petits essais contre placebo n’ont pas montré de bénéfice convaincant sur le **stress perçu** ou l’**anxiété**. <sup><a href="#ref-1">1</a></sup>, <sup><a href="#ref-2">2</a></sup>, <sup><a href="#ref-3">3</a></sup>
 
 Pour le **sommeil**, les résultats les plus favorables concernent la qualité perçue. L’effet moyen sur le délai d’endormissement ressenti est très faible. Les préparations et les populations étudiées varient, ce qui laisse incertaines la dose, l’heure de prise et la durée optimales pour la L-théanine seule. <sup><a href="#ref-5">5</a></sup>, <sup><a href="#ref-6">6</a></sup>
 
 Après une prise unique de **200 mg**, un temps de réaction plus court a été observé sur certains tests chez l’adulte sain. L’intérêt de cet effet pour la concentration au travail, pendant les révisions ou dans les activités quotidiennes reste à établir. <sup><a href="#ref-1">1</a></sup>, <sup><a href="#ref-7">7</a></sup>
+
+Aucun bénéfice n’est démontré pour :
+- l’anxiété chronique,  
+- la dépression,  
+- la perte de poids ou le métabolisme,  
+- la cognition **lorsque la L-théanine est prise seule** (l’amélioration attentionnelle observée dans certaines études provient de la synergie caféine + L-théanine, et ne peut être attribuée à la L-théanine isolée).
+
+La sécurité est très bonne : aucun signal hépatique, cardiovasculaire ou rénal aux doses usuelles (50–400 mg/j). Les effets secondaires sont rares et légers.  
+La L-théanine peut donc être considérée comme un **ingrédient sûr**, apportant un **effet calmant léger**, mais **sans efficacité démontrée pour des indications cliniques durables**.
 
 ---
 
