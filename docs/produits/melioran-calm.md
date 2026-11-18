@@ -20,7 +20,9 @@ import ProduitHero from '@site/src/components/fiches/ProduitHero';
 
 ---
 
-## ⚫ Note Fideta · F
+## ⚫ Note Fideta · F – Score : 20/100
+
+**Pertinence clinique très faible**
 
 **Stress répété et retentissement au quotidien · bénéfice non démontré**
 
