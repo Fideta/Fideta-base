@@ -218,13 +218,13 @@ export default function Home() {
 
                     <ul className={styles.latestList}>
                       <li>
-                        <Link to="/docs/produits/melioran-calm">Melioran Calm</Link> Des revendications claires sans preuves fortes.      
+                        <Link to="/docs/produits/melioran-d-biotic">Melioran D-biotic</Link> Alors là on a plutôt des indices que ça ne marche pas.      
                       </li>
                       <li>
-                        <Link to="/docs/produits/d3-biane-capsules-1000-ui">D3 Biane Capsules 1000 UI</Link> Ne vaut pas un médicament et pas pour tout le monde.    
+                        <Link to="/docs/produits/melioran-calm">Melioran Calm</Link> Des revendications claires sans preuves fortes.   
                       </li>
                       <li>
-                        <Link to="/docs/produits/hydrelia">Hydrelia</Link> Ce produit pose un problème éthique.  
+                        <Link to="/docs/produits/d3-biane-capsules-1000-ui">D3 Biane Capsules 1000 UI</Link> Ne vaut pas un médicament et pas pour tout le monde.  
                       </li>
                     </ul>
 
