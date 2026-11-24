@@ -53,7 +53,9 @@
   gap: .75rem;
   padding: .65rem .75rem;
 }
-.result { justify-content: space-between; color: var(--ifm-font-color-base); }
+.result { color: var(--ifm-font-color-base); }
+.title { flex: 1; min-width: 0; overflow-wrap: anywhere; }
+.thumbnail { flex: none; object-fit: contain; }
 .result small { color: var(--ifm-color-emphasis-700); }
 .result:hover, .more:hover, .result:focus-visible, .more:focus-visible {
   background: var(--ifm-color-emphasis-100);

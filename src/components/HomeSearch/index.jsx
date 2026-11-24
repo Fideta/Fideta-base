@@ -14,6 +14,8 @@ function indexItems(items, type) {
     title: item.title,
     slug: item.slug,
     type,
+    image: ['/img/default-product.jpg', '/img/principes/default-principe.jpg'].includes(item.image)
+      ? null : item.image,
     name: normalize(item.title),
     aliases: normalize([item.id, item.synonyms || ''].join(' ')),
     description: normalize(item.synopsis),
@@ -99,7 +101,12 @@ export default function HomeSearch({ ingredients, products }) {
         <nav className={styles.panel} id="home-search-results" ref={panel} aria-label="Suggestions de fiches">
           {matches.map(({ item }) => (
             <Link key={item.slug} className={styles.result} to={item.slug}>
-              <span>{item.title}</span><small>{item.type}</small>
+              <span className={styles.title}>{item.title}</span>
+              <small>{item.type}</small>
+              {item.image && (
+                <img className={styles.thumbnail} src={item.image} alt="" width={32} height={32}
+                  decoding="async" onError={event => { event.currentTarget.hidden = true; }} />
+              )}
             </Link>
           ))}
           {!matches.length && <span className={styles.empty}>Aucune fiche suggérée.</span>}
