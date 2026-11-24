@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { useHistory } from '@docusaurus/router';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -76,6 +77,7 @@ function AnimatedCount({ value, duration = 1200 }) {
 
 export default function Home() {
   const { loading, isLoggedIn } = useAuth();
+  const history = useHistory();
   const searchUrl = useBaseUrl('/search');
   const principesData = usePluginData('principes-frontmatter');
   const produitsPluginData = usePluginData('produits-frontmatter');
@@ -85,6 +87,12 @@ export default function Home() {
 
   const ingredientCount = Array.isArray(principesData) ? principesData.length : 0;
   const productCount = produitsData.length;
+
+  function handleSearch(event) {
+    event.preventDefault();
+    const query = new FormData(event.currentTarget).get('q').trim();
+    if (query) history.push(searchUrl + '?' + new URLSearchParams({ q: query }));
+  }
 
   const orgJsonLd = {
     '@context': 'https://schema.org',
@@ -132,7 +140,7 @@ export default function Home() {
                     science de ce qui ne l’est pas, et vous aider à prendre des décisions éclairées.
                   </p>
 
-                  <form className={styles.homeSearch} action={searchUrl} role="search">
+                  <form className={styles.homeSearch} action={searchUrl} onSubmit={handleSearch} role="search">
                     <input type="search" name="q" aria-label="Rechercher sur Fideta" placeholder="Rechercher un produit, un ingrédient…" required />
                     <button type="submit" aria-label="Lancer la recherche">
                       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
