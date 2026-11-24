@@ -635,7 +635,7 @@
 @media (max-width: 768px) {
   .heroContent h1,
   .heroSubtitle {
-    text-align: justify;
+    text-align: left;
     text-wrap: balance;
   }
 }
