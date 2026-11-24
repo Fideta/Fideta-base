@@ -30,7 +30,7 @@ export default function SearchPage() {
 
     let ui;
     script.onload = () => {
-      if (!window.PagefindUI) return;
+      if (!ref.current || !window.PagefindUI) return;
 
       ui = new window.PagefindUI({
         element: ref.current,
@@ -53,11 +53,14 @@ export default function SearchPage() {
           searching_for: "Recherche de « [SEARCH_TERM] »…",
         },
       });
+      const query = new URLSearchParams(window.location.search).get("q")?.trim();
+      if (query) ui.triggerSearch(query);
     };
 
     document.body.appendChild(script);
 
     return () => {
+      script.onload = null;
       if (ui && typeof ui.destroy === "function") ui.destroy();
       try { document.head.removeChild(link); } catch {}
       try { document.body.removeChild(script); } catch {}

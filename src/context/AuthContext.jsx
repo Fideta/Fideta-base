@@ -26,7 +26,6 @@ export function AuthProvider({ children }) {
 
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(null);
-  const [profile, setProfile] = useState(null);
   const [session, setSession] = useState(null);
 
   useEffect(() => {
@@ -40,7 +39,6 @@ export function AuthProvider({ children }) {
       if (error) {
         console.error('Erreur session :', error.message);
         setUser(null);
-        setProfile(null);
         setLoading(false);
         return;
       }
@@ -66,45 +64,11 @@ export function AuthProvider({ children }) {
     };
   }, [supabase]);
 
-  useEffect(() => {
-    let mounted = true;
-
-    async function loadProfile() {
-      if (!user) {
-        setProfile(null);
-        return;
-      }
-
-      const { data, error } = await supabase
-        .from('profiles')
-        .select('id, plan, created_at')
-        .eq('id', user.id)
-        .single();
-
-      if (!mounted) return;
-
-      if (error) {
-        console.error('Erreur chargement profil :', error.message);
-        setProfile(null);
-        return;
-      }
-
-      setProfile(data);
-    }
-
-    loadProfile();
-
-    return () => {
-      mounted = false;
-    };
-  }, [supabase, user]);
-
   async function refreshAuth() {
     const { data, error } = await supabase.auth.getSession();
 
     if (error) {
       setUser(null);
-      setProfile(null);
       return;
     }
 
@@ -151,10 +115,7 @@ const value = {
   loading,
   session,
   user,
-  profile,
   isLoggedIn: !!user,
-  isPremium: profile?.plan === 'premium',
-  plan: profile?.plan ?? 'free',
   sendLoginCode,
   verifyLoginCode,
   signInWithPassword,

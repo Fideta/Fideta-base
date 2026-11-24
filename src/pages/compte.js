@@ -115,7 +115,7 @@ function FicheThumbnail({ src, alt }) {
 }
 
 export default function ComptePage() {
-  const { supabase, loading, user, plan, isLoggedIn, signOut } = useAuth();
+  const { supabase, loading, user, isLoggedIn, signOut } = useAuth();
   const globalData = useGlobalData();
 
   const homeUrl = useBaseUrl('/');
@@ -316,25 +316,8 @@ export default function ComptePage() {
         {!loading && isLoggedIn && (
           <>
             <SectionCard title="Informations du compte">
-              <div
-                style={{
-                  display: 'grid',
-                  gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
-                  gap: '16px',
-                }}
-              >
-                <div>
-                  <p style={{ marginBottom: '6px', fontWeight: 600 }}>Email</p>
-                  <p style={{ marginBottom: 0 }}>{user?.email}</p>
-                </div>
-
-                <div>
-                  <p style={{ marginBottom: '6px', fontWeight: 600 }}>Statut</p>
-                  <p style={{ marginBottom: 0 }}>
-                    {plan === 'premium' ? 'Premium' : 'Gratuit'}
-                  </p>
-                </div>
-              </div>
+              <p style={{ marginBottom: '6px', fontWeight: 600 }}>Email</p>
+              <p>{user?.email}</p>
 
               <div
                 style={{
@@ -344,11 +327,9 @@ export default function ComptePage() {
                   marginTop: '20px',
                 }}
               >
-                {plan !== 'premium' && (
-                  <Link to={cliniqueUrl} className="button button--primary">
-                    Découvrir Fideta Plus
-                  </Link>
-                )}
+                <Link to={cliniqueUrl} className="button button--primary">
+                  Ouvrir Fideta Plus
+                </Link>
 
                 <button
                   type="button"
