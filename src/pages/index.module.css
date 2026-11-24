@@ -37,7 +37,7 @@
 
 .heroText {
   flex: 0 0 54%;
-  min-width: 420;
+  min-width: 0;
   max-width: none;
   display: flex;
   flex-direction: column;
@@ -59,18 +59,15 @@
 }
 
 .buttons {
+  width: min(100%, calc(600px + clamp(.75rem, 2vw, 3rem)));
   display: flex;
   flex-wrap: wrap;
-  gap: 3rem;
+  gap: clamp(.75rem, 2vw, 3rem);
   justify-content: flex-start;
   margin-top: 1rem;
 }
 
-@media (min-width: 996px) {
-  .buttons {
-    transform: translate(20px, -8px);
-  }
-}
+
 
 @media screen and (min-width: 768px) {
   .buttons {
@@ -83,13 +80,14 @@
   align-items: center !important;
   justify-content: center !important;
   font-size: 1.25rem !important;
-  padding: 1.2rem 2.4rem !important;
+  padding: 1rem clamp(.5rem, 1.5vw, 2.4rem) !important;
   border-radius: 10px !important;
   font-weight: 700 !important;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   transition: all 0.2s ease-in-out;
   text-align: center;
-  flex: 1 1 auto;
+  flex: 1 1 0;
+  min-width: 0;
   max-width: 300px;
 }
 
@@ -546,6 +544,7 @@
   }
 
   .buttons :global(.button) {
+    flex-basis: 100%;
     width: 100%;
     max-width: none;
     font-size: 1.05rem !important;

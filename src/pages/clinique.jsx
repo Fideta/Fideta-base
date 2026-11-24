@@ -3,7 +3,7 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import { usePluginData } from "@docusaurus/useGlobalData";
 import styles from "./clinique.module.css";
-import { useAuth } from "../context/AuthContext";
+import AccountGate from "../components/AccountGate";
 
 const CLINICAL_THEMES = [
   {
@@ -106,813 +106,18 @@ function GradeBadge({ grade, muted = false }) {
   return <div className={`${styles.gradeBadge} ${gradeClass}`}>{grade || "—"}</div>;
 }
 
-function LockedCliniquePreview() {
-  const [activeIndication, setActiveIndication] = useState("endormissement");
-
-  const principesPreviewData = usePluginData("principes-frontmatter");
-  const principles = normalizePluginItems(principesPreviewData);
-
-  const normalizeText = (value) =>
-    (value || "")
-      .normalize("NFD")
-      .replace(/[\u0300-\u036f]/g, "")
-      .replace(/['’]/g, "")
-      .replace(/[^a-zA-Z0-9]+/g, " ")
-      .trim()
-      .toLowerCase();
-
-  const principleImageByTitle = useMemo(() => {
-    const map = new Map();
-
-    principles.forEach((item) => {
-      const normalizedTitle = normalizeText(item.title);
-      if (normalizedTitle) {
-        map.set(normalizedTitle, item.image);
-      }
-    });
-
-    return map;
-  }, [principles]);
-
-  const getPreviewImage = (title) => {
-    return principleImageByTitle.get(normalizeText(title)) || "/img/favicon-192.png";
-  };
-
-  const previewData = {
-    endormissement: {
-      label: "Endormissement",
-      results: [
-        {
-          title: "Mélatonine",
-          synopsis:
-            "Hormone du sommeil, preuves modérées pour réguler l’endormissement.",
-          grade: "A",
-        },
-        {
-          title: "L-théanine",
-          synopsis:
-            "Acide aminé naturellement présent dans le thé, avec effet calmant léger et signaux modestes sur le sommeil.",
-          grade: "C",
-        },
-        {
-          title: "Valériane",
-          synopsis:
-            "Plante sédative, preuves modérées pour améliorer l’endormissement.",
-          grade: "C",
-        },
-      ],
-    },
-    sommeil_qualite: {
-      label: "Qualité du sommeil",
-      results: [
-        {
-          title: "Valériane",
-          synopsis:
-            "Plante sédative, preuves modérées pour améliorer la qualité globale du sommeil.",
-          grade: "C",
-        },
-        {
-          title: "Mélatonine",
-          synopsis:
-            "Effet surtout marqué sur l’endormissement, avec impact possible sur la qualité perçue du sommeil.",
-          grade: "D",
-        },
-        {
-          title: "Verveine citronnée",
-          synopsis:
-            "Données cliniques limitées mais quelques signaux positifs sur le confort nocturne.",
-          grade: "D",
-        },
-      ],
-    },
-    reveils_nocturnes: {
-      label: "Réveils nocturnes",
-      results: [
-        {
-          title: "Valériane",
-          synopsis:
-            "Peut aider certains profils avec maintien du sommeil, selon les formulations.",
-          grade: "C",
-        },
-        {
-          title: "Mélatonine",
-          synopsis: "Absence de preuves afin de maintenir le sommeil.",
-          grade: "F",
-        },
-        {
-          title: "Magnésium",
-          synopsis: "Aucune preuve chez l'être humain dans cette situation.",
-          grade: "F",
-        },
-      ],
-    },
-  };
-
-  const indicationButtons = [
-    { key: "endormissement", label: "Endormissement" },
-    { key: "sommeil_qualite", label: "Qualité du sommeil" },
-    { key: "reveils_nocturnes", label: "Réveils nocturnes" },
-  ];
-
-  const activeBlock = previewData[activeIndication];
-
-  return (
-    <div
-      style={{
-        background: "#ffffff",
-        border: "1px solid #e5ebe5",
-        borderRadius: "24px",
-        padding: "1.25rem",
-        boxShadow: "0 10px 28px rgba(24, 52, 30, 0.06)",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "space-between",
-          gap: "0.8rem",
-          flexWrap: "wrap",
-          marginBottom: "1rem",
-        }}
-      >
-        <div
-          style={{
-            fontSize: "0.82rem",
-            fontWeight: 800,
-            letterSpacing: "0.03em",
-            textTransform: "uppercase",
-            color: "#6c7a6e",
-          }}
-        >
-          Aperçu interactif
-        </div>
-
-        <div
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            padding: "0.35rem 0.7rem",
-            borderRadius: "999px",
-            background: "#edf4ee",
-            color: "#1b5e20",
-            fontWeight: 700,
-            fontSize: "0.86rem",
-          }}
-        >
-          Sommeil
-        </div>
-      </div>
-
-      <div style={{ marginBottom: "1rem" }}>
-        <div className={styles.toolbar}>
-          <div className={styles.searchWrap}>
-            <span className={styles.searchIcon}>🔎</span>
-            <input
-              className={styles.searchInput}
-              value={activeBlock.label}
-              readOnly
-            />
-          </div>
-
-          <div className={styles.modeSwitch}>
-            <button type="button" className={styles.modeBtnActive}>
-              Principes
-            </button>
-            <button type="button" className={styles.modeBtn}>
-              Produits
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <div
-        style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(3, minmax(0, 1fr))",
-          gap: "0.65rem",
-          marginBottom: "1rem",
-        }}
-      >
-        {indicationButtons.map((item) => {
-          const isActive = activeIndication === item.key;
-
-          return (
-            <button
-              key={item.key}
-              type="button"
-              onClick={() => setActiveIndication(item.key)}
-              style={{
-                appearance: "none",
-                border: isActive ? "1px solid #c8d9cb" : "1px solid #d9e3da",
-                background: isActive ? "#eef5ef" : "#ffffff",
-                color: isActive ? "#173f1f" : "#506152",
-                borderRadius: "14px",
-                padding: "0.8rem 0.75rem",
-                fontSize: "0.92rem",
-                fontWeight: isActive ? 800 : 700,
-                cursor: "pointer",
-                transition: "all 0.15s ease",
-                boxShadow: isActive
-                  ? "0 4px 10px rgba(27, 94, 32, 0.06)"
-                  : "none",
-                textAlign: "center",
-                lineHeight: 1.3,
-                minHeight: "56px",
-              }}
-            >
-              {item.label}
-            </button>
-          );
-        })}
-      </div>
-
-      <div className={styles.resultsColumn}>
-        <div className={styles.resultsHeaderCard}>
-          <div className={styles.resultsHeaderLeft}>
-            <div className={styles.filterMenuWrap}>
-              <button
-                type="button"
-                className={styles.filterTrigger}
-                aria-label="Filtrer par grade clinique"
-              >
-                <svg
-                  viewBox="0 0 24 24"
-                  className={styles.filterIcon}
-                  aria-hidden="true"
-                >
-                  <path
-                    d="M4 6h16M7 12h10M10 18h4"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.8"
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </button>
-            </div>
-
-            <div className={styles.resultsHeaderMain}>Nom</div>
-          </div>
-
-          <div className={styles.resultsHeaderGrade}>Grade clinique</div>
-        </div>
-
-        {activeBlock.results.map((item) => (
-          <article
-            key={`${activeIndication}-${item.title}`}
-            className={styles.rowCard}
-            style={{ cursor: "default" }}
-          >
-            <div className={styles.rowMain}>
-              <img
-                src={getPreviewImage(item.title)}
-                alt={item.title}
-                className={styles.thumb}
-                width={56}
-                height={56}
-                loading="lazy"
-              />
-
-              <div className={styles.rowContent}>
-                <div className={styles.rowTop}>
-                  <div>
-                    <h3 className={styles.cardTitle}>{item.title}</h3>
-                  </div>
-                </div>
-
-                <p className={styles.synopsis}>{item.synopsis}</p>
-              </div>
-            </div>
-
-            <div className={styles.rightRail}>
-              <GradeBadge grade={item.grade} />
-            </div>
-          </article>
-        ))}
-
-        <div
-          style={{
-            marginTop: "0.7rem",
-            padding: "0.95rem 1rem",
-            borderRadius: "16px",
-            background: "#f7f9f7",
-            border: "1px solid #ebf0eb",
-            color: "#5d6d60",
-            lineHeight: 1.6,
-            fontSize: "0.95rem",
-          }}
-        >
-          Aperçu simplifié : choisissez une indication du sommeil pour voir 3
-          résultats exemples.
-        </div>
-      </div>
-    </div>
-  );
-}
-
-function LockedCliniqueView() {
-  const { isLoggedIn, user, session } = useAuth();
-  const [checkoutBusy, setCheckoutBusy] = useState(false);
-  const [checkoutError, setCheckoutError] = useState("");
-
-  async function handleStartCheckout() {
-    if (!session?.access_token) {
-      window.location.href = "/connexion";
-      return;
-    }
-
-    setCheckoutBusy(true);
-    setCheckoutError("");
-
-    try {
-      const res = await fetch(
-        "https://jrbaeawbpehqdqsecjon.supabase.co/functions/v1/create-checkout-session",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${session.access_token}`,
-          },
-        }
-      );
-
-      const data = await res.json();
-
-      if (!res.ok) {
-        throw new Error(data?.message || data?.error || "Erreur checkout");
-      }
-
-      if (!data?.url) {
-        throw new Error("Aucune URL de paiement reçue.");
-      }
-
-      window.location.href = data.url;
-    } catch (err) {
-      setCheckoutError(err.message || "Erreur checkout");
-      setCheckoutBusy(false);
-    }
-  }
-
-  return (
-    <div className={styles.pageWrapper}>
-      <section className={styles.hero}>
-        <div className={styles.heroInner}>
-          <h1>Recherche clinique</h1>
-          <p className={styles.subtitle}>
-            La recherche par indication clinique fait partie de Fideta Plus.
-          </p>
-        </div>
-      </section>
-
-      <section
-        style={{
-          maxWidth: "1180px",
-          margin: "0 auto",
-          padding: "1.5rem 1.25rem 2.75rem",
-        }}
-      >
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-            gap: "1.25rem",
-            alignItems: "stretch",
-          }}
-        >
-          <div
-            style={{
-              background: "linear-gradient(180deg, #fbfaf5 0%, #f6f4ea 100%)",
-              border: "1px solid #e2d7b5",
-              borderRadius: "24px",
-              padding: "2rem",
-              boxShadow: "0 14px 34px rgba(76, 69, 42, 0.08)",
-              display: "flex",
-              flexDirection: "column",
-            }}
-          >
-            <div
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.45rem",
-                marginBottom: "1rem",
-                padding: "0.45rem 0.8rem",
-                borderRadius: "999px",
-                background: "#e6ddb7",
-                color: "#38443a",
-                fontWeight: 800,
-                fontSize: "0.92rem",
-                width: "fit-content",
-              }}
-            >
-              Fideta Plus 🔒
-            </div>
-
-            <h2
-              style={{
-                margin: "0 0 1rem",
-                color: "#173f1f",
-                fontSize: "2rem",
-                lineHeight: 1.15,
-              }}
-            >
-              Accès réservé
-            </h2>
-
-            <p
-              style={{
-                fontSize: "1.06rem",
-                lineHeight: 1.75,
-                color: "#3f4a41",
-                marginBottom: "1.25rem",
-                maxWidth: "58ch",
-              }}
-            >
-              La recherche par indication clinique permet d’identifier rapidement
-              les ingrédients et les produits les plus pertinents selon un besoin
-              précis, comme le sommeil, le stress ou la fatigue.
-            </p>
-
-            {isLoggedIn && (
-              <p
-                style={{
-                  fontSize: "0.98rem",
-                  lineHeight: 1.65,
-                  color: "#4a554b",
-                  marginBottom: "1.2rem",
-                }}
-              >
-                Connecté avec <strong>{user?.email}</strong>, mais votre accès
-                actuel ne comprend pas encore cette fonctionnalité.
-              </p>
-            )}
-
-            <div
-              style={{
-                width: "72px",
-                height: "1px",
-                background: "#ddd6bf",
-                margin: "0 0 1.2rem",
-              }}
-            />
-
-            <div
-              style={{
-                display: "grid",
-                gap: "0.7rem",
-                marginBottom: "1.8rem",
-              }}
-            >
-              {[
-                "Recherche par indication clinique",
-                "Repérage plus rapide des ingrédients les plus étayés",
-                "Accès simplifié aux produits pertinents",
-                "Fonctionnalité réservée à Fideta Plus",
-              ].map((item) => (
-                <div
-                  key={item}
-                  style={{
-                    display: "flex",
-                    alignItems: "flex-start",
-                    gap: "0.7rem",
-                    color: "#475247",
-                    lineHeight: 1.6,
-                  }}
-                >
-                  <span
-                    style={{
-                      width: "8px",
-                      height: "8px",
-                      borderRadius: "999px",
-                      background: "#8a6d1f",
-                      marginTop: "0.55rem",
-                      flexShrink: 0,
-                    }}
-                  />
-                  <span>{item}</span>
-                </div>
-              ))}
-            </div>
-
-            <div
-              style={{
-                display: "grid",
-                gap: "0.8rem",
-                maxWidth: "420px",
-                width: "100%",
-                marginTop: "auto",
-                marginLeft: "auto",
-                marginRight: "auto",
-                alignSelf: "center",
-              }}
-            >
-              {!isLoggedIn ? (
-                <>
-                  <Link
-                    to="/connexion"
-                    className={`${styles.lockedCta} ${styles.lockedCtaPrimary}`}
-                  >
-                    Créer un compte gratuit
-                  </Link>
-
-                  <Link
-                    to="/connexion"
-                    className={`${styles.lockedCta} ${styles.lockedCtaSecondary}`}
-                  >
-                    J’ai déjà un compte
-                  </Link>
-
-                  <p
-                    style={{
-                      margin: "0.2rem 0 0",
-                      color: "#66736a",
-                      fontSize: "0.95rem",
-                      lineHeight: 1.6,
-                      textAlign: "center",
-                    }}
-                  >
-                    Le compte gratuit permet d’enregistrer vos fiches favorites
-                    et de retrouver votre historique. Fideta Plus active ensuite
-                    la recherche clinique avancée.
-                  </p>
-                </>
-              ) : (
-                <>
-                  <button
-                    type="button"
-                    onClick={handleStartCheckout}
-                    disabled={checkoutBusy}
-                    className={`${styles.lockedCta} ${styles.lockedCtaPrimary} ${
-                      checkoutBusy ? styles.lockedCtaDisabled : ""
-                    }`}
-                  >
-                    {checkoutBusy ? "Redirection…" : "S’abonner à Fideta Plus"}
-                  </button>
-
-                  <Link
-                    to="/compte"
-                    className={`${styles.lockedCta} ${styles.lockedCtaSecondary}`}
-                  >
-                    Aller à mon compte
-                  </Link>
-
-                  <Link
-                    to="/"
-                    className={`${styles.lockedCta} ${styles.lockedCtaTertiary}`}
-                  >
-                    Revenir à l’accueil
-                  </Link>
-
-                  <p
-                    style={{
-                      margin: "0.2rem 0 0",
-                      color: "#66736a",
-                      fontSize: "0.95rem",
-                      lineHeight: 1.6,
-                      textAlign: "center",
-                    }}
-                  >
-                    Votre compte gratuit est déjà actif. Il ne vous reste qu’à
-                    activer Fideta Plus pour accéder à la recherche clinique.
-                  </p>
-                </>
-              )}
-            </div>
-
-            {checkoutError && (
-              <p
-                style={{
-                  marginTop: "1rem",
-                  color: "crimson",
-                  fontSize: "0.95rem",
-                  lineHeight: 1.5,
-                }}
-              >
-                {checkoutError}
-              </p>
-            )}
-          </div>
-
-          <LockedCliniquePreview />
-        </div>
-      </section>
-    </div>
-  );
-}
-
-
-function getIndicationLabel(indicationKey) {
-  for (const theme of CLINICAL_THEMES) {
-    const found = theme.indications.find((item) => item.key === indicationKey);
-    if (found) return found.label;
-  }
-
-  return "cette indication";
-}
-
-function LockedResultCard({ index, mode, indicationLabel }) {
-  const label = mode === "ingredients" ? "principe actif" : "produit";
-
-  return (
-    <article
-      className={styles.rowCard}
-      style={{
-        cursor: "default",
-        background: "#fbfcfb",
-        borderStyle: "dashed",
-        opacity: 0.92,
-      }}
-    >
-      <div className={styles.rowMain}>
-        <div
-          className={styles.thumb}
-          aria-hidden="true"
-          style={{
-            display: "grid",
-            placeItems: "center",
-            background: "#eef3ef",
-            color: "#49604d",
-            fontSize: "1.15rem",
-            fontWeight: 800,
-            flexShrink: 0,
-          }}
-        >
-          🔒
-        </div>
-
-        <div className={styles.rowContent}>
-          <div className={styles.rowTop}>
-            <div>
-              <h3 className={styles.cardTitle}>
-                {label.charAt(0).toUpperCase() + label.slice(1)} réservé à Fideta Plus
-              </h3>
-            </div>
-          </div>
-
-          <p className={styles.synopsis}>
-            Résultat #{index + 2} du classement clinique pour {indicationLabel}.
-            Passez à Fideta Plus pour afficher le nom, le résumé et le grade.
-          </p>
-        </div>
-      </div>
-
-      <div className={styles.rightRail}>
-        <GradeBadge grade="?" muted />
-      </div>
-    </article>
-  );
-}
-
-function FreemiumUnlockCard({
-  hiddenCount,
-  mode,
-  indicationLabel,
-  isLoggedIn,
-  checkoutBusy,
-  checkoutError,
-  onCheckout,
-}) {
-  const hiddenLabel = mode === "ingredients" ? "résultats principes actifs" : "résultats produits";
-
-  return (
-    <div
-      style={{
-        marginTop: "1rem",
-        padding: "1.1rem",
-        borderRadius: "20px",
-        background: "linear-gradient(180deg, #fbfaf5 0%, #f6f4ea 100%)",
-        border: "1px solid #e2d7b5",
-        boxShadow: "0 10px 24px rgba(76, 69, 42, 0.06)",
-      }}
-    >
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "flex-start",
-          gap: "1rem",
-          flexWrap: "wrap",
-        }}
-      >
-        <div style={{ maxWidth: "62ch" }}>
-          <div
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: "0.4rem",
-              marginBottom: "0.55rem",
-              padding: "0.35rem 0.65rem",
-              borderRadius: "999px",
-              background: "#e6ddb7",
-              color: "#38443a",
-              fontWeight: 800,
-              fontSize: "0.88rem",
-            }}
-          >
-            Fideta Plus 🔒
-          </div>
-
-          <h2
-            style={{
-              margin: "0 0 0.45rem",
-              color: "#173f1f",
-              fontSize: "1.35rem",
-              lineHeight: 1.2,
-            }}
-          >
-            Débloquer les {hiddenCount} autres {hiddenLabel}
-          </h2>
-
-          <p
-            style={{
-              margin: 0,
-              color: "#475247",
-              lineHeight: 1.65,
-              fontSize: "0.98rem",
-            }}
-          >
-            L’aperçu gratuit affiche le premier résultat pour {indicationLabel}.
-            Fideta Plus affiche le classement complet, les filtres par grade,
-            les produits associés et la pagination.
-          </p>
-        </div>
-
-        <div
-          style={{
-            display: "grid",
-            gap: "0.65rem",
-            width: "min(100%, 300px)",
-          }}
-        >
-          {!isLoggedIn ? (
-            <>
-              <Link
-                to="/connexion"
-                className={`${styles.lockedCta} ${styles.lockedCtaPrimary}`}
-              >
-                Créer un compte gratuit
-              </Link>
-
-              <Link
-                to="/connexion"
-                className={`${styles.lockedCta} ${styles.lockedCtaSecondary}`}
-              >
-                J’ai déjà un compte
-              </Link>
-            </>
-          ) : (
-            <button
-              type="button"
-              onClick={onCheckout}
-              disabled={checkoutBusy}
-              className={`${styles.lockedCta} ${styles.lockedCtaPrimary} ${
-                checkoutBusy ? styles.lockedCtaDisabled : ""
-              }`}
-            >
-              {checkoutBusy ? "Redirection…" : "Débloquer avec Fideta Plus"}
-            </button>
-          )}
-        </div>
-      </div>
-
-      {checkoutError && (
-        <p
-          style={{
-            margin: "0.9rem 0 0",
-            color: "crimson",
-            fontSize: "0.95rem",
-            lineHeight: 1.5,
-          }}
-        >
-          {checkoutError}
-        </p>
-      )}
-    </div>
-  );
-}
-
-function CliniqueContent({ isPremium }) {
-  const { isLoggedIn, user, session } = useAuth();
-  const defaultTheme = CLINICAL_THEMES[0] || null;
-  const defaultIndication = defaultTheme?.indications?.[0]?.key || null;
-
+function CliniqueContent() {
   const [mode, setMode] = useState("ingredients");
-  const [themeKey, setThemeKey] = useState(isPremium ? null : defaultTheme?.key || null);
-  const [expandedThemeKey, setExpandedThemeKey] = useState(
-    isPremium ? null : defaultTheme?.key || null
-  );
-  const [indication, setIndication] = useState(isPremium ? null : defaultIndication);
+  const [themeKey, setThemeKey] = useState(null);
+  const [expandedThemeKey, setExpandedThemeKey] = useState(null);
+  const [indication, setIndication] = useState(null);
   const [query, setQuery] = useState("");
   const [page, setPage] = useState(1);
   const [selectedGrades, setSelectedGrades] = useState(ALL_GRADES);
   const [isGradeMenuOpen, setIsGradeMenuOpen] = useState(false);
-  const [checkoutBusy, setCheckoutBusy] = useState(false);
-  const [checkoutError, setCheckoutError] = useState("");
 
   const gradeFilterRef = useRef(null);
   const perPage = 9;
-  const previewLimit = 1;
 
   const principesPluginData = usePluginData("principes-frontmatter");
   const produitsPluginData = usePluginData("produits-frontmatter");
@@ -942,44 +147,6 @@ function CliniqueContent({ isPremium }) {
     };
   }, [isGradeMenuOpen]);
 
-  async function handleStartCheckout() {
-    if (!session?.access_token) {
-      window.location.href = "/connexion";
-      return;
-    }
-
-    setCheckoutBusy(true);
-    setCheckoutError("");
-
-    try {
-      const res = await fetch(
-        "https://jrbaeawbpehqdqsecjon.supabase.co/functions/v1/create-checkout-session",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-            Authorization: `Bearer ${session.access_token}`,
-          },
-        }
-      );
-
-      const data = await res.json();
-
-      if (!res.ok) {
-        throw new Error(data?.message || data?.error || "Erreur checkout");
-      }
-
-      if (!data?.url) {
-        throw new Error("Aucune URL de paiement reçue.");
-      }
-
-      window.location.href = data.url;
-    } catch (err) {
-      setCheckoutError(err.message || "Erreur checkout");
-      setCheckoutBusy(false);
-    }
-  }
-
   const filtered = useMemo(() => {
     if (!indication) return [];
 
@@ -1004,12 +171,6 @@ function CliniqueContent({ isPremium }) {
   const totalPages = Math.ceil(filtered.length / perPage) || 1;
   const start = (page - 1) * perPage;
   const paginated = filtered.slice(start, start + perPage);
-  const visibleResults = isPremium ? paginated : filtered.slice(0, previewLimit);
-  const hiddenCount = !isPremium && indication
-    ? Math.max(filtered.length - visibleResults.length, 0)
-    : 0;
-  const lockedRowsCount = Math.min(hiddenCount, 4);
-  const indicationLabel = getIndicationLabel(indication);
 
   function clearSelection() {
     setThemeKey(null);
@@ -1049,8 +210,6 @@ function CliniqueContent({ isPremium }) {
   }
 
   function toggleGrade(grade) {
-    if (!isPremium) return;
-
     setSelectedGrades((prev) => {
       const next = prev.includes(grade)
         ? prev.filter((g) => g !== grade)
@@ -1061,7 +220,6 @@ function CliniqueContent({ isPremium }) {
   }
 
   function resetAllGrades() {
-    if (!isPremium) return;
     setSelectedGrades(ALL_GRADES);
   }
 
@@ -1071,9 +229,7 @@ function CliniqueContent({ isPremium }) {
         <div className={styles.heroInner}>
           <h1>Recherche clinique</h1>
           <p className={styles.subtitle}>
-            {isPremium
-              ? "Choisissez un type, ouvrez un thème clinique, puis sélectionnez une indication pour classer les principes actifs ou les produits."
-              : "Explorez gratuitement la structure du module clinique. Le premier résultat de chaque indication est visible ; le classement complet est réservé à Fideta Plus."}
+            Choisissez un type, ouvrez un thème clinique, puis sélectionnez une indication pour classer les principes actifs ou les produits.
           </p>
 
           <div className={styles.toolbar}>
@@ -1109,28 +265,6 @@ function CliniqueContent({ isPremium }) {
             </div>
           </div>
 
-          {!isPremium && (
-            <div
-              style={{
-                marginTop: "1rem",
-                padding: "0.9rem 1rem",
-                borderRadius: "18px",
-                background: "rgba(255, 255, 255, 0.72)",
-                border: "1px solid rgba(226, 215, 181, 0.9)",
-                color: "#475247",
-                lineHeight: 1.6,
-                fontSize: "0.98rem",
-              }}
-            >
-              <strong>Aperçu gratuit.</strong> Les thèmes, indications, modes
-              Principes/Produits et le premier résultat restent consultables.
-              Les résultats suivants, les filtres par grade et la pagination
-              sont débloqués avec Fideta Plus.
-              {isLoggedIn && user?.email ? (
-                <span> Vous êtes connecté avec <strong>{user.email}</strong>.</span>
-              ) : null}
-            </div>
-          )}
         </div>
       </section>
 
@@ -1208,11 +342,7 @@ function CliniqueContent({ isPremium }) {
                   aria-label="Filtrer par grade clinique"
                   aria-expanded={isGradeMenuOpen}
                   aria-haspopup="true"
-                  title={
-                    isPremium
-                      ? "Filtrer par grade clinique"
-                      : "Filtres par grade réservés à Fideta Plus"
-                  }
+                  title="Filtrer par grade clinique"
                 >
                   <svg
                     viewBox="0 0 24 24"
@@ -1228,101 +358,56 @@ function CliniqueContent({ isPremium }) {
                     />
                   </svg>
 
-                  {isPremium && selectedGrades.length !== ALL_GRADES.length && (
+                  {selectedGrades.length !== ALL_GRADES.length && (
                     <span className={styles.filterCounter}>
                       {selectedGrades.length}
                     </span>
                   )}
 
-                  {!isPremium && (
-                    <span className={styles.filterCounter}>🔒</span>
-                  )}
                 </button>
 
                 {isGradeMenuOpen && (
                   <div className={styles.filterPopover}>
-                    {isPremium ? (
-                      <>
-                        <div className={styles.filterPopoverHeader}>
-                          <div className={styles.filterPopoverTitle}>
-                            Grades visibles
-                          </div>
-                          <button
-                            type="button"
-                            className={styles.filterPopoverReset}
-                            onClick={resetAllGrades}
-                          >
-                            Tout afficher
-                          </button>
-                        </div>
-
-                        <div className={styles.gradeFilterGrid}>
-                          {ALL_GRADES.map((grade) => {
-                            const isActive = selectedGrades.includes(grade);
-
-                            return (
-                              <button
-                                key={grade}
-                                type="button"
-                                className={`${styles.gradeFilterChip} ${
-                                  isActive ? styles.gradeFilterChipActive : ""
-                                }`}
-                                onClick={() => toggleGrade(grade)}
-                              >
-                                <span className={styles.gradeFilterCheck}>
-                                  {isActive ? "✓" : ""}
-                                </span>
-                                <span
-                                  className={`${styles.gradeFilterSwatch} ${
-                                    styles[`grade${grade}`]
-                                  }`}
-                                >
-                                  {grade}
-                                </span>
-                              </button>
-                            );
-                          })}
-                        </div>
-                      </>
-                    ) : (
-                      <div style={{ maxWidth: "260px" }}>
-                        <div className={styles.filterPopoverTitle}>
-                          Filtres réservés
-                        </div>
-                        <p
-                          style={{
-                            margin: "0.45rem 0 0.85rem",
-                            color: "#58665b",
-                            fontSize: "0.92rem",
-                            lineHeight: 1.55,
-                          }}
-                        >
-                          Les filtres par grade clinique sont inclus dans
-                          Fideta Plus. L’aperçu gratuit affiche le premier
-                          résultat du classement complet.
-                        </p>
-
-                        {!isLoggedIn ? (
-                          <Link
-                            to="/connexion"
-                            className={`${styles.lockedCta} ${styles.lockedCtaPrimary}`}
-                          >
-                            Créer un compte
-                          </Link>
-                        ) : (
-                          <button
-                            type="button"
-                            onClick={handleStartCheckout}
-                            disabled={checkoutBusy}
-                            className={`${styles.lockedCta} ${styles.lockedCtaPrimary} ${
-                              checkoutBusy ? styles.lockedCtaDisabled : ""
-                            }`}
-                          >
-                            {checkoutBusy ? "Redirection…" : "Passer à Fideta Plus"}
-                          </button>
-                        )}
+                    <div className={styles.filterPopoverHeader}>
+                      <div className={styles.filterPopoverTitle}>
+                        Grades visibles
                       </div>
-                    )}
+                      <button
+                        type="button"
+                        className={styles.filterPopoverReset}
+                        onClick={resetAllGrades}
+                      >
+                        Tout afficher
+                      </button>
+                    </div>
+
+                    <div className={styles.gradeFilterGrid}>
+                      {ALL_GRADES.map((grade) => {
+                        const isActive = selectedGrades.includes(grade);
+
+                        return (
+                          <button
+                            key={grade}
+                            type="button"
+                            className={`${styles.gradeFilterChip} ${
+                              isActive ? styles.gradeFilterChipActive : ""
+                            }`}
+                            onClick={() => toggleGrade(grade)}
+                          >
+                            <span className={styles.gradeFilterCheck}>
+                              {isActive ? "✓" : ""}
+                            </span>
+                            <span
+                              className={`${styles.gradeFilterSwatch} ${
+                                styles[`grade${grade}`]
+                              }`}
+                            >
+                              {grade}
+                            </span>
+                          </button>
+                        );
+                      })}
+                    </div>
                   </div>
                 )}
               </div>
@@ -1340,7 +425,7 @@ function CliniqueContent({ isPremium }) {
             </div>
           ) : (
             <>
-              {visibleResults.map((item) => {
+              {paginated.map((item) => {
                 const isProduct = mode === "products";
 
                 return (
@@ -1387,29 +472,7 @@ function CliniqueContent({ isPremium }) {
                 );
               })}
 
-              {!isPremium && hiddenCount > 0 &&
-                Array.from({ length: lockedRowsCount }, (_, index) => (
-                  <LockedResultCard
-                    key={`locked-${mode}-${indication}-${index}`}
-                    index={index}
-                    mode={mode}
-                    indicationLabel={indicationLabel}
-                  />
-                ))}
-
-              {!isPremium && hiddenCount > 0 && (
-                <FreemiumUnlockCard
-                  hiddenCount={hiddenCount}
-                  mode={mode}
-                  indicationLabel={indicationLabel}
-                  isLoggedIn={isLoggedIn}
-                  checkoutBusy={checkoutBusy}
-                  checkoutError={checkoutError}
-                  onCheckout={handleStartCheckout}
-                />
-              )}
-
-              {visibleResults.length === 0 && (
+              {paginated.length === 0 && (
                 <div className={styles.empty}>
                   Aucun résultat. Modifiez la recherche, l’indication ou les
                   grades visibles.
@@ -1420,7 +483,7 @@ function CliniqueContent({ isPremium }) {
         </div>
       </section>
 
-      {isPremium && indication && totalPages > 1 && (
+      {indication && totalPages > 1 && (
         <nav className={styles.pagination} aria-label="Pagination">
           <button
             className={styles.pageBtn}
@@ -1470,14 +533,14 @@ function CliniqueContent({ isPremium }) {
 }
 
 export default function CliniquePage() {
-  const { loading, isPremium } = useAuth();
-
   return (
     <Layout
       title="Recherche clinique"
       description="Explorer les ingrédients et produits par indication clinique"
     >
-      {loading ? null : <CliniqueContent isPremium={isPremium} />}
+      <AccountGate>
+        <CliniqueContent />
+      </AccountGate>
     </Layout>
   );
 }

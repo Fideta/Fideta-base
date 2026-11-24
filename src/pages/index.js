@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import HomeSearch from '../components/HomeSearch';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Head from '@docusaurus/Head';
@@ -74,7 +75,7 @@ function AnimatedCount({ value, duration = 1200 }) {
 }
 
 export default function Home() {
-  const { loading, isPremium } = useAuth();
+  const { loading, isLoggedIn } = useAuth();
   const principesData = usePluginData('principes-frontmatter');
   const produitsPluginData = usePluginData('produits-frontmatter');
   const produitsData = Array.isArray(produitsPluginData)
@@ -93,51 +94,6 @@ export default function Home() {
     sameAs: ['https://www.linkedin.com/company/fideta-app/', 'https://x.com/Fideta_app'],
   };
 
-  function renderPremiumCardContent() {
-    if (loading) {
-      return (
-        <div className={styles.cardBody}>
-          <p className={styles.premiumText}>Chargement de votre accès…</p>
-
-          <div className={styles.cardBodyFooter}>
-            <span className={styles.premiumButton}>Chargement…</span>
-          </div>
-        </div>
-      );
-    }
-
-    if (isPremium) {
-      return (
-        <div className={styles.cardBody}>
-          <p className={styles.premiumText}>
-            Accédez directement à la recherche par indication clinique pour repérer rapidement
-            les ingrédients et produits les plus pertinents.
-          </p>
-
-          <div className={styles.cardBodyFooter}>
-            <Link className="button button--primary" to="/clinique">
-              Explorer les indications
-            </Link>
-          </div>
-        </div>
-      );
-    }
-
-    return (
-      <div className={styles.cardBody}>
-        <p className={styles.premiumText}>
-          Accédez à la recherche par indication clinique pour identifier plus rapidement
-          les ingrédients et produits les plus pertinents selon un besoin précis.
-        </p>
-
-        <div className={styles.cardBodyFooter}>
-          <Link className={styles.premiumButton} to="/clinique">
-            Découvrir Fideta Plus
-          </Link>
-        </div>
-      </div>
-    );
-  }
 
   return (
     <>
@@ -175,6 +131,7 @@ export default function Home() {
                     science de ce qui ne l’est pas, et vous aider à prendre des décisions éclairées.
                   </p>
 
+                  <HomeSearch ingredients={principesData} products={produitsData} />
                   <div className={styles.buttons}>
                     <Link
                       className="button button--primary"
@@ -311,14 +268,21 @@ export default function Home() {
 
                 <div className={`${styles.card} ${styles.premiumCard}`}>
                   <div className={styles.premiumBadge}>
-                    {loading ? 'Fideta Plus' : isPremium ? 'Fideta Plus' : 'Fideta Plus 🔒'}
+                    Fideta Plus
                   </div>
 
                   <div className={styles.cardHeader}>
                     <h3>Recherche par indication</h3>
                   </div>
 
-                  {renderPremiumCardContent()}
+                  <div className={styles.cardBody}>
+                    <p className={styles.premiumText}>Retrouvez les ingrédients et les produits étudiés pour une indication clinique. Accès gratuit avec un compte Fideta.</p>
+                    <div className={styles.cardBodyFooter}>
+                      <Link className={styles.premiumButton} to={loading || isLoggedIn ? '/clinique' : '/connexion?intent=clinique'}>
+                        {loading || isLoggedIn ? 'Explorer les indications' : 'Se connecter à Fideta Plus'}
+                      </Link>
+                    </div>
+                  </div>
                 </div>
               </section>
 

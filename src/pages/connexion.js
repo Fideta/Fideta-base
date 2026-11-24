@@ -10,7 +10,6 @@ export default function ConnexionPage() {
     supabase,
     loading,
     user,
-    plan,
     isLoggedIn,
     sendLoginCode,
     verifyLoginCode,
@@ -21,8 +20,8 @@ export default function ConnexionPage() {
   } = useAuth();
 
   const accountUrl = useBaseUrl('/compte');
-  const updatePasswordPath = useBaseUrl('/update-password');
   const fidetaPlusUrl = useBaseUrl('/clinique');
+  const updatePasswordPath = useBaseUrl('/update-password');
 
   const [mode, setMode] = useState('password');
   const [email, setEmail] = useState('');
@@ -42,19 +41,24 @@ export default function ConnexionPage() {
     const nextIntent = params.get('intent');
     const nextRedirect = params.get('redirect');
 
-    if (nextIntent === 'favorite' || nextIntent === 'engagement') {
+    if (nextIntent === 'clinique') {
+      setIntent('clinique');
+      setMode('otp');
+      setRedirectPath(fidetaPlusUrl);
+    } else if (nextIntent === 'favorite' || nextIntent === 'engagement') {
       setIntent(nextIntent);
       setMode('otp');
     }
 
     if (
+      nextIntent !== 'clinique' &&
       nextRedirect &&
       nextRedirect.startsWith('/') &&
       !nextRedirect.startsWith('//')
     ) {
       setRedirectPath(nextRedirect);
     }
-  }, []);
+  }, [fidetaPlusUrl]);
 
   useEffect(() => {
     if (isLoggedIn) {
@@ -85,7 +89,7 @@ export default function ConnexionPage() {
           } else {
             window.sessionStorage.removeItem('fideta_pending_favorite');
             nextMessage = 'Connexion réussie. Fiche ajoutée à vos favoris.';
-            if (pendingFavorite?.path) {
+            if (intent !== 'clinique' && pendingFavorite?.path) {
               nextRedirectPath = pendingFavorite.path;
             }
           }
@@ -247,9 +251,11 @@ export default function ConnexionPage() {
     ? 'Entrez votre email pour créer un compte gratuit ou vous connecter, puis retrouver cette fiche dans vos favoris.'
     : intent === 'engagement'
       ? 'Entrez votre email pour créer un compte gratuit ou vous connecter. Vous pourrez conserver vos favoris et votre historique.'
-      : 'Connectez-vous par mot de passe ou avec un code envoyé par email.';
+      : intent === 'clinique'
+        ? 'Recevez un code par email pour accéder à Fideta Plus, même lors de votre première connexion.'
+        : 'Connectez-vous par mot de passe ou avec un code envoyé par email.';
 
-  const otpButtonLabel = intent
+  const otpButtonLabel = intent && intent !== 'clinique'
     ? 'Créer mon compte gratuit'
     : 'Recevoir un code';
 
@@ -272,208 +278,6 @@ export default function ConnexionPage() {
           </p>
         </header>
 
-        {!loading && !isLoggedIn && (
-          <div
-            style={{
-              marginBottom: '22px',
-              padding: '26px',
-              borderRadius: '24px',
-              background: '#f3f7f3',
-              border: '1px solid #dbe6db',
-            }}
-          >
-            <div
-              style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fit, minmax(290px, 1fr))',
-                gap: '18px',
-              }}
-            >
-              <div
-                style={{
-                  background: '#ffffff',
-                  border: '1px solid #d8e3d8',
-                  borderRadius: '22px',
-                  padding: '22px',
-                }}
-              >
-                <div
-                  style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    padding: '8px 14px',
-                    borderRadius: '999px',
-                    background: '#e8f1e8',
-                    color: '#2f6f52',
-                    fontWeight: 700,
-                    fontSize: '0.94rem',
-                    marginBottom: '16px',
-                  }}
-                >
-                  Compte gratuit
-                </div>
-
-                <h2
-                  style={{
-                    marginTop: 0,
-                    marginBottom: '10px',
-                    fontSize: '2rem',
-                    lineHeight: 1.05,
-                    color: '#123d2f',
-                  }}
-                >
-                  Organisez vos lectures
-                </h2>
-
-                <p
-                  style={{
-                    marginTop: 0,
-                    marginBottom: '18px',
-                    color: '#5f6d76',
-                    lineHeight: 1.7,
-                    fontSize: '1.02rem',
-                  }}
-                >
-                  Créez un compte gratuit pour retrouver facilement les fiches
-                  qui vous intéressent et continuer votre lecture plus tard.
-                </p>
-
-                <div
-                  style={{
-                    width: '68px',
-                    height: '1px',
-                    background: '#d7dfd7',
-                    marginBottom: '18px',
-                  }}
-                />
-
-                <div
-                  style={{
-                    display: 'grid',
-                    gap: '12px',
-                    color: '#475660',
-                    lineHeight: 1.55,
-                  }}
-                >
-                  <p style={{ margin: 0 }}>• Enregistrez vos fiches favorites</p>
-                  <p style={{ margin: 0 }}>
-                    • Retrouvez votre historique de consultation
-                  </p>
-                  <p style={{ margin: 0 }}>
-                    • Accédez à votre espace personnel
-                  </p>
-                </div>
-              </div>
-
-              <div
-                style={{
-                  background: '#f8f4eb',
-                  border: '1px solid #dfd1a4',
-                  borderRadius: '22px',
-                  padding: '22px',
-                }}
-              >
-                <div
-                  style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    padding: '8px 14px',
-                    borderRadius: '999px',
-                    background: '#e7d8a8',
-                    color: '#23322b',
-                    fontWeight: 700,
-                    fontSize: '0.94rem',
-                    marginBottom: '16px',
-                  }}
-                >
-                  Fideta Plus 🔒
-                </div>
-
-                <h2
-                  style={{
-                    marginTop: 0,
-                    marginBottom: '10px',
-                    fontSize: '2rem',
-                    lineHeight: 1.05,
-                    color: '#123d2f',
-                  }}
-                >
-                  Accès avancé
-                </h2>
-
-                <p
-                  style={{
-                    marginTop: 0,
-                    marginBottom: '18px',
-                    color: '#5f6d76',
-                    lineHeight: 1.7,
-                    fontSize: '1.02rem',
-                  }}
-                >
-                  La recherche clinique par indication fait partie de Fideta
-                  Plus.
-                </p>
-
-                <div
-                  style={{
-                    width: '68px',
-                    height: '1px',
-                    background: '#d9ceb1',
-                    marginBottom: '18px',
-                  }}
-                />
-
-                <div
-                  style={{
-                    display: 'grid',
-                    gap: '12px',
-                    color: '#475660',
-                    lineHeight: 1.55,
-                    marginBottom: '20px',
-                  }}
-                >
-                  <p style={{ margin: 0 }}>
-                    • Recherche par indication clinique
-                  </p>
-                  <p style={{ margin: 0 }}>
-                    • Classement scientifique des ingrédients
-                  </p>
-                  <p style={{ margin: 0 }}>
-                    • Repérage plus rapide des produits pertinents
-                  </p>
-                </div>
-
-                <Link
-                  to={fidetaPlusUrl}
-                  style={{
-                    display: 'inline-flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    padding: '11px 16px',
-                    borderRadius: '12px',
-                    background: '#123d2f',
-                    color: '#ffffff',
-                    textDecoration: 'none',
-                    fontWeight: 700,
-                  }}
-                >
-                  Découvrir Fideta Plus
-                </Link>
-              </div>
-            </div>
-
-            <p
-              style={{
-                marginTop: '18px',
-                marginBottom: 0,
-                color: '#7a8691',
-                fontSize: '0.98rem',
-              }}
-            >
-              Les fiches de base restent consultables sans compte.
-            </p>
-          </div>
-        )}
 
         <div
           className="card padding--lg"
@@ -743,10 +547,6 @@ export default function ConnexionPage() {
               </p>
               <p>
                 <strong>Email :</strong> {user?.email}
-              </p>
-              <p>
-                <strong>Statut :</strong>{' '}
-                {plan === 'premium' ? 'Premium' : 'Gratuit'}
               </p>
 
               <div style={{ display: 'flex', gap: '12px', flexWrap: 'wrap' }}>
