@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { useHistory } from '@docusaurus/router';
-import useBaseUrl from '@docusaurus/useBaseUrl';
+import HomeSearch from '../components/HomeSearch';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import Head from '@docusaurus/Head';
@@ -77,8 +76,6 @@ function AnimatedCount({ value, duration = 1200 }) {
 
 export default function Home() {
   const { loading, isLoggedIn } = useAuth();
-  const history = useHistory();
-  const searchUrl = useBaseUrl('/search');
   const principesData = usePluginData('principes-frontmatter');
   const produitsPluginData = usePluginData('produits-frontmatter');
   const produitsData = Array.isArray(produitsPluginData)
@@ -87,12 +84,6 @@ export default function Home() {
 
   const ingredientCount = Array.isArray(principesData) ? principesData.length : 0;
   const productCount = produitsData.length;
-
-  function handleSearch(event) {
-    event.preventDefault();
-    const query = new FormData(event.currentTarget).get('q').trim();
-    if (query) history.push(searchUrl + '?' + new URLSearchParams({ q: query }));
-  }
 
   const orgJsonLd = {
     '@context': 'https://schema.org',
@@ -140,14 +131,7 @@ export default function Home() {
                     science de ce qui ne l’est pas, et vous aider à prendre des décisions éclairées.
                   </p>
 
-                  <form className={styles.homeSearch} action={searchUrl} onSubmit={handleSearch} role="search">
-                    <input type="search" name="q" aria-label="Rechercher sur Fideta" placeholder="Rechercher un produit, un ingrédient…" required />
-                    <button type="submit" aria-label="Lancer la recherche">
-                      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
-                        <circle cx="10" cy="10" r="6.5" /><path d="m15 15 6 6" />
-                      </svg>
-                    </button>
-                  </form>
+                  <HomeSearch ingredients={principesData} products={produitsData} />
                   <div className={styles.buttons}>
                     <Link
                       className="button button--primary"

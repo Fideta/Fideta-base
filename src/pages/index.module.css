@@ -730,36 +730,3 @@
     text-align: center;
   }
 }
-
-.homeSearch {
-  display: flex;
-  width: min(100%, calc(600px + clamp(.75rem, 2vw, 3rem)));
-  align-items: stretch;
-  background: white;
-  border: 1px solid #7b9680;
-  border-radius: 10px;
-  overflow: hidden;
-  margin-bottom: .75rem;
-}
-.homeSearch:focus-within { outline: 2px solid #246639; outline-offset: 2px; }
-.homeSearch input {
-  flex: 1;
-  min-width: 0;
-  padding: .65rem .9rem;
-  font: inherit;
-  font-size: 1rem;
-  border: 0;
-  background: white;
-  color: #203b27;
-}
-.homeSearch button {
-  display: grid;
-  place-items: center;
-  min-width: 46px;
-  min-height: 44px;
-  background: #246639;
-  color: white;
-  border: 0;
-  cursor: pointer;
-}
-.homeSearch button:focus-visible { outline: 2px solid white; outline-offset: -4px; }
